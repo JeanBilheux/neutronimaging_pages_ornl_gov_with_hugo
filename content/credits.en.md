@@ -1,28 +1,43 @@
 ---
-title: Credits
+title: Contacts
 disableToc: true
 ---
 
-## Contributors
+![Hassina Bilheux](/images/contacts/hassina.jpg)
 
-Thanks to them <i class="fa fa-heart"></i> for make Open Source Software a better place !
+ * **Hassina Bilheux** - Instrument Scientist
+ * Expertise: HFIR and SNS imaging beam lines
+ * <i class='fa fa-envelope-open'></i> bilheuxhn@ornl.gov
+ * <i class='fa fa-phone'></i> (865) 384 - 9630
 
-{{% ghcontributors "https://api.github.com/repos/matcornic/hugo-theme-learn/contributors?per_page=100" %}}
+<hr>
+![Lou Santodonato](/images/contacts/lou.png)
 
-And a special thanks to [@vjeantet](https://github.com/vjeantet) for his work on [docdock](https://github.com/vjeantet/hugo-theme-docdock), a fork of hugo-theme-learn. v2.0.0 of this theme is inspired by his work.
+ * **Lou Santodonato** - Instrument Scientist
+ * Expertise: HFIR imaging beam line
+ * <i class='fa fa-envelope-open'></i> santodonatol@ornl.gov
+ * <i class='fa fa-phone'></i> (865) 719 - 0656
 
-## Packages and libraries
-* [mermaid](https://knsv.github.io/mermaid) - generation of diagram and flowchart from text in a similar manner as markdown
-* [font awesome](http://fontawesome.io/) - the iconic font and CSS framework
-* [jQuery](https://jquery.com) - The Write Less, Do More, JavaScript Library
-* [lunr](https://lunrjs.com) - Lunr enables you to provide a great search experience without the need for external, server-side, search services...
-* [horsey](https://bevacqua.github.io/horsey/) - Progressive and customizable autocomplete component
-* [clipboard.js](https://zenorocha.github.io/clipboard.js) - copy text to clipboard
-* [highlight.js](https://highlightjs.org) - Javascript syntax highlighter
-* [modernizr](https://modernizr.com) - A JavaScript toolkit that allows web developers to use new CSS3 and HTML5 features while maintaining a fine level of control over browsers that don't support
+<hr>
+![Jean Bilheux](/images/contacts/jean.png)
 
-## Tooling
+ * **Jean Bilheux** - Computer Scientist
+ * Expertise: Software
+ * <i class='fa fa-envelope-open'></i> bilheuxjm@ornl.gov
+ * <i class='fa fa-phone'></i> (865) 406 - 1704
 
-* [Netlify](https://www.netlify.com) - Continuous deployement and hosting of this documentation
-* [Hugo](https://gohugo.io/)
+<hr>
+![Shawn](/images/contacts/shawn.png)
+
+ * **Yuxuan Zhang (Shawn)** - Postdoctorate
+ * Expertise: Resonance Imaging
+ * <i class='fa fa-envelope-open'></i> zhangy6@ornl.gov
+
+<hr>
+
+ * **Indu Dihman** - Postdoctorate
+ * Expertise: Polarization Imaging
+ * <i class='fa fa-envelope-open'></i> dhimani@ornl.gov
+
+
 

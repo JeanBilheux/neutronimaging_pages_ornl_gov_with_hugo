@@ -1,8 +1,8 @@
 ---
 title: Prepare Venue
-weight: 5
-pre: "<b>1. </b>"
+weight: 9
 chapter: true
+pre: "<b>1. </b>"
 ---
 
 ### Prepare your experiment
