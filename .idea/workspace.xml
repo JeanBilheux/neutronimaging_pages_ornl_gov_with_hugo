@@ -2,28 +2,56 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f2909ce-3d75-492d-a5d4-0dc990d52b0d" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/content/github.en.md" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/config.toml" afterPath="$PROJECT_DIR$/config.toml" />
-      <change beforePath="$PROJECT_DIR$/content/basics/_index.en.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/content/basics/_index.fr.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/content/basics/configuration/_index.en.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/content/basics/configuration/_index.fr.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/content/basics/installation/_index.en.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/content/basics/installation/_index.fr.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/content/basics/installation/images/chapter.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/content/basics/prepare_venue/_index.en.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/content/basics/prepare_venue/_index.fr.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/content/basics/requirements/_index.en.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/content/basics/requirements/_index.fr.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/content/basics/requirements/images/magic.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/content/basics/style-customization/_index.en.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/content/basics/style-customization/_index.fr.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/content/basics/style-customization/images/blue-variant.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/content/basics/style-customization/images/green-variant.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/content/basics/style-customization/images/red-variant.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/content/credits.en.md" afterPath="$PROJECT_DIR$/content/credits.en.md" />
-      <change beforePath="$PROJECT_DIR$/content/prepare_venue/_index.en.md" afterPath="$PROJECT_DIR$/content/prepare_venue/_index.en.md" />
-      <change beforePath="$PROJECT_DIR$/content/prepare_venue/configuration/_index.en.md" afterPath="$PROJECT_DIR$/content/prepare_venue/configuration/_index.en.md" />
+      <change beforePath="$PROJECT_DIR$/content/github.fr.md" afterPath="$PROJECT_DIR$/content/github.fr.md" />
+      <change beforePath="$PROJECT_DIR$/content/shortcodes/_index.en.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/content/shortcodes/_index.fr.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/content/shortcodes/attachments.en.files/BachGavotteShort.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/content/shortcodes/attachments.en.files/Carroll_AliceAuPaysDesMerveilles.pdf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/content/shortcodes/attachments.en.files/adivorciarsetoca00cape.pdf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/content/shortcodes/attachments.en.files/hugo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/content/shortcodes/attachments.en.files/movieselectricsheep-flock-244-32500-2.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/content/shortcodes/attachments.en.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/content/shortcodes/attachments.fr.files/BachGavotteShort.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/content/shortcodes/attachments.fr.files/Carroll_AliceAuPaysDesMerveilles.pdf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/content/shortcodes/attachments.fr.files/adivorciarsetoca00cape.pdf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/content/shortcodes/attachments.fr.files/hugo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/content/shortcodes/attachments.fr.files/movieselectricsheep-flock-244-32500-2.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/content/shortcodes/attachments.fr.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/content/shortcodes/button.en.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/content/shortcodes/button.fr.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/content/shortcodes/children/_index.en.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/content/shortcodes/children/_index.fr.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/content/shortcodes/children/children-1/_index.en.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/content/shortcodes/children/children-1/_index.fr.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/content/shortcodes/children/children-1/children-1-1/_index.en.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/content/shortcodes/children/children-1/children-1-1/_index.fr.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/content/shortcodes/children/children-1/children-1-1/children-1-1-1/_index.en.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/content/shortcodes/children/children-1/children-1-1/children-1-1-1/_index.fr.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/content/shortcodes/children/children-1/children-1-1/children-1-1-1/children-1-1-1-1/_index.en.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/content/shortcodes/children/children-1/children-1-1/children-1-1-1/children-1-1-1-1/_index.fr.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/content/shortcodes/children/children-1/children-1-1/children-1-1-1/children-1-1-1-1/children-1-1-1-1-1/_index.en.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/content/shortcodes/children/children-1/children-1-1/children-1-1-1/children-1-1-1-1/children-1-1-1-1-1/_index.fr.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/content/shortcodes/children/children-2/_index.en.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/content/shortcodes/children/children-2/_index.fr.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/content/shortcodes/children/children-2/test3.en.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/content/shortcodes/children/children-2/test3.fr.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/content/shortcodes/children/children-3/_index.en.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/content/shortcodes/children/children-3/_index.fr.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/content/shortcodes/children/children-4/_index.en.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/content/shortcodes/children/children-4/_index.fr.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/content/shortcodes/children/test.en.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/content/shortcodes/children/test.fr.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/content/shortcodes/expand.en.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/content/shortcodes/expand.fr.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/content/shortcodes/mermaid.en.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/content/shortcodes/mermaid.fr.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/content/shortcodes/notice.en.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/content/shortcodes/notice.fr.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/content/shortcodes/siteparam.en.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/content/shortcodes/siteparam.fr.md" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,96 +61,18 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="_index.en.md" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/content/prepare_venue/_index.en.md">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="30">
-                  <caret line="2" column="9" lean-forward="true" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="_index.en.md" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/content/prepare_venue/configuration/_index.en.md">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="30">
-                  <caret line="2" column="15" lean-forward="false" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="config.toml" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/config.toml">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="406">
-                  <caret line="48" column="10" lean-forward="true" selection-start-line="48" selection-start-column="10" selection-end-line="48" selection-end-column="10" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="credits.en.md" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/content/credits.en.md">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="645">
-                  <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="credits.fr.md" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/content/credits.fr.md">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="135">
-                  <caret line="9" column="75" lean-forward="false" selection-start-line="9" selection-start-column="75" selection-end-line="9" selection-end-column="75" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="_index.en.md" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/content/prepare_venue/access/_index.en.md">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="15">
-                  <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="_index.en.md" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/content/cont/_index.en.md">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="180">
-                  <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="_index.en.md" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/content/cont/_index.en.md">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="180">
-                  <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="_index.en.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/content/_index.en.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -161,6 +111,8 @@
         <option value="$PROJECT_DIR$/content/prepare_venue/access/_index.en.md" />
         <option value="$PROJECT_DIR$/content/prepare_venue/configuration/_index.en.md" />
         <option value="$PROJECT_DIR$/config.toml" />
+        <option value="$PROJECT_DIR$/content/faq/_index.en.md" />
+        <option value="$PROJECT_DIR$/content/faq/_index.fr.md" />
       </list>
     </option>
   </component>
@@ -207,24 +159,6 @@
               <item name="neutronimaging_pages_ornl_gov_with_hugo" type="b2602c69:ProjectViewProjectNode" />
               <item name="neutronimaging_pages_ornl_gov_with_hugo" type="462c0819:PsiDirectoryNode" />
               <item name="content" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="neutronimaging_pages_ornl_gov_with_hugo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="neutronimaging_pages_ornl_gov_with_hugo" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="neutronimaging_pages_ornl_gov_with_hugo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="neutronimaging_pages_ornl_gov_with_hugo" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="neutronimaging_pages_ornl_gov_with_hugo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="neutronimaging_pages_ornl_gov_with_hugo" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="contacts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -277,13 +211,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="16" y="23" width="1830" height="1356" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2786753" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2786753" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23098435" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -310,22 +245,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/content/prepare_your_venue/introduction/_index.en.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="37" lean-forward="false" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/prepare_your_venue/installation/_index.en.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="27" lean-forward="true" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/content/prepare_your_venue/proposal_confirmation/_index.en.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -346,14 +265,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/github.en.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -445,14 +356,6 @@
     <entry file="file://$PROJECT_DIR$/content/shortcodes/attachments.en.files/hugo.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/_index.en.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/hugo-theme-learn/images/screenshot.png">
@@ -602,14 +505,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/cont/_index.en.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/content/prepare_venue/access/_index.en.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -629,7 +524,47 @@
     <entry file="file://$PROJECT_DIR$/content/credits.en.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="645">
-          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/prepare_venue/_index.en.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/github.en.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/faq/_index.en.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="33" lean-forward="false" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/faq/_index.fr.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.toml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="26" lean-forward="true" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -642,18 +577,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/prepare_venue/_index.en.md">
+    <entry file="file://$PROJECT_DIR$/content/cont/_index.en.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="9" lean-forward="true" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+        <state relative-caret-position="45">
+          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.toml">
+    <entry file="file://$PROJECT_DIR$/content/_index.en.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="48" column="10" lean-forward="true" selection-start-line="48" selection-start-column="10" selection-end-line="48" selection-end-column="10" />
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>

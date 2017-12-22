@@ -3,15 +3,15 @@ title: Github Repositories
 disableToc: true
 ---
 
-Our gloal is to only develop open source tools. You will find here a list of the major
-repositories hosting our programs
+Notre but est de developer tous nos programes en logiciels libre. Cette page propose une
+liste des principaux outils que nous offrons.
 
- * jupyter notebooks used in the analysis of the data [python_notebooks](https://github.com/neutronimaging/python_notebooks)
- * python library used for normalization [neunorm](https://github.com/scikit-beam/NeuNorm)
- * Imaging Resonance python library [imagingReso](https://github.com/ornlneutronimaging/ImagingReso)
- * iBeatles for Bragg Edge fitting [iBeatles](https://github.com/ornlneutronimaging/iBeatles)
- * set of jupyter widgets [ipywe](https://github.com/scikit-beam/ipywe)
- * Root analysis library [RootPlantProcessing](https://github.com/ornlneutronimaging/RootPlantProcessing)
+ * jupyter notebooks destines a l'analyse des donnees [python_notebooks](https://github.com/neutronimaging/python_notebooks)
+ * librairie python utilisees pour la normalisation des images [neunorm](https://github.com/scikit-beam/NeuNorm)
+ * librairie python pour l'etude des resonances d'images[imagingReso](https://github.com/ornlneutronimaging/ImagingReso)
+ * iBeatles pour l'analyse des pics de Bragg Edge [iBeatles](https://github.com/ornlneutronimaging/iBeatles)
+ * jeu d'outils interactifs pour jupyter notebooks [ipywe](https://github.com/scikit-beam/ipywe)
+ * libraire python d'analyse de racines de plantes [RootPlantProcessing](https://github.com/ornlneutronimaging/RootPlantProcessing)
 
 
 
