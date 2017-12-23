@@ -13,6 +13,7 @@ defaultContentLanguageInSubdir= true
   description = "ORNL Neutron Imaging for Users Home Page"
   author = "Jean Bilheux"
   showVisitedLinks = true
+  themeVariant = "blue"
 
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
@@ -38,8 +39,6 @@ name = "<i class='fa fa-user-circle'></i> Contacts"
 url = "credits"
 weight = 30
 
-
-
 [Languages.fr]
 title = "Site pour les usagers de la ligne de faisceau d'imagerie d'ORNL"
 weight = 2
@@ -57,6 +56,27 @@ url = "/showcase"
 weight = 11
 
 [[Languages.fr.menu.shortcuts]]
+name = "<i class='fa fa-bullhorn'></i> Contactes"
+url = "credits"
+weight = 30
+
+[Languages.es]
+title = "web site para los pequinos de la imaga"
+weight = 2
+languageName = "Spanish"
+
+[[Languages.es.menu.shortcuts]]
+name = "<i class='fa fa-github'></i> Repos. Github"
+identifier = "ds"
+url = "github"
+weight = 10
+
+[[Languages.es.menu.shortcuts]]
+name = "<i class='fa fa-camera'></i> Vitrine"
+url = "/showcase"
+weight = 11
+
+[[Languages.es.menu.shortcuts]]
 name = "<i class='fa fa-bullhorn'></i> Contactes"
 url = "credits"
 weight = 30
