@@ -5,12 +5,9 @@ pre: "<b>3. </b>"
 weight: 15
 ---
 
-Hugo uses Markdown for its simple content format. However, there are a lot of things that Markdown doesn’t support well. You could use pure HTML to expand possibilities.
+{{%expand "Question FAQ #1?" %}}Answer will go here.{{% /expand%}}
 
-But this happens to be a bad idea. Everyone uses Markdown because it's pure and simple to read even non-rendered. You should avoid HTML to keep it as simple as possible.
+{{%expand "Question FAQ #2?" %}}Answer will go here.{{% /expand%}}
 
-To avoid this limitations, Hugo created [shortcodes](https://gohugo.io/extras/shortcodes/). A shortcode is a simple snippet inside a page.
+{{%expand "Question FAQ #3?" %}}Answer will go here.{{% /expand%}}
 
-**Hugo-theme-learn** provides multiple shortcodes on top of existing ones.
-
-{{%children style="h2" description="true" %}}
