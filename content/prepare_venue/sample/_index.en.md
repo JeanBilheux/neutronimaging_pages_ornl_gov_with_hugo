@@ -1,7 +1,7 @@
 ---
-date: 2016-04-09T16:50:16+02:00
 title: Sample Handling
-weight: 20
+weight: 4
+disableToc: true
 ---
 
 ### Sample Shipping and/or Handling at HFIR
