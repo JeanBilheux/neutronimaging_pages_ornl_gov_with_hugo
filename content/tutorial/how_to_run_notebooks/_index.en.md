@@ -1,19 +1,26 @@
 ---
-title: Start the python notebooks
-weight: 3
+title: Run a jupyter notebook
+weight: 4
 ---
 
-We provide a set of jupyter python notebooks. Those provide many advantages:
+<h1 id='top'></a></h1>
+Our jupyter python notebooks are very straighforward to use but there are just a few **key points** you need to know.
 
-  * rapid implementation for your special needs
-  * ease of use
-  * easy to modify if you need to
-  * use of python language (widely used in the scientific world)
-  * nothing to install for you as we take care of this for you when you use your analysis computer
+ * <a href='#notebook_layout'>notebook layout</a>
+ * <a href='#run_the_notebook'>run the notebook</a>
+ * <a href='#modify_the_notebook'>modify the notebook</a>
 
-To start the jupyter notebook, just **double click** the **Start Jupyter** icon in your desktop and be patient as the
-python server starts a firefox browser with the right python environment and move to the rigth folder, for you!
+<h1 id='notebook_layout'></h1>
+### Notebook layout
 
-<img src='/tutorial/how_to_run_notebooks/images/notebook_0.png' />
+<a href='#top'>TOP</a>
 
-<img src='/tutorial/how_to_run_notebooks/images/notebook_1.png' />
+<h1 id='run_the_notebook'></h1>
+### Run the notebook
+
+<a href='#top'>TOP</a>
+
+<h1 id='modify_the_notebook'></h1>
+### Modify the notebook
+
+<a href='#top'>TOP</a>
