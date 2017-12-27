@@ -11,7 +11,7 @@ This will require that you complete 2 steps:
  * <a href='#reach_data'>Step 2: reach your data</a>
 
 <h2 id='create_account'>
-## Step 1. Request access to our computers
+## <a href='#top' class='fa fa-arrow-up'></a> Step 1. Request access to our computers
 
 **1.** Create an XCAMS account
 
@@ -25,7 +25,7 @@ You can request access to your data by visiting this page [https://neutronsr.us/
 
 <a href='#top'>TOP</a>
 <h2 id='reach_data'></h2>
-## Step 2. Reach your data
+## <a href='#top' class='fa fa-arrow-up'></a> Step 2. Reach your data
 
 If the goal is to bring your data to your computer for local visualization and analysis -**not recommended due to the size of the data
 and the tools we offer via our analysis computer** - the easiest way is to use [FileZilla](https://sourceforge.net/projects/filezilla).
@@ -53,4 +53,4 @@ You can now browse to your data by following the structure **/HFIR/CG1D/IPTS-XXX
 
 <img src='/tutorial/how_to_access_data/images/filezilla_browse.png' />
 
-<a href='#top'>TOP</a>
+<a href='#top' class='fa fa-arrow-up'></a>

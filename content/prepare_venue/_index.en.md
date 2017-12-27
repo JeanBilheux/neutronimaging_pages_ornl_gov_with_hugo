@@ -1,6 +1,6 @@
 ---
 title: Prepare Your Venue
-weight: 9
+weight: 1
 chapter: true
 pre: "<b>1. </b>"
 ---
