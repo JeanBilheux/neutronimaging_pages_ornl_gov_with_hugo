@@ -18,7 +18,7 @@
 	"title": "Proposal Confirmation",
 	"tags": [],
 	"description": "",
-	"content": "To be completed only by the Principal Investigator (PI) of the experiment at least 3 weeks before beam time.\n You can access your proposal using the IPTS\n Confirmed samples (adding any new samples, and including composition)?\n Confirmed need for lab space?\n Confirmed experiment team that will be present at beam time (add any new members)?\n Confirm experiment equipment and/or sample environment?\n"
+	"content": "To be completed only by the Principal Investigator (PI) of the experiment at least 3 weeks before beam time.\n You can access your proposal using the IPTS page\n Confirmed samples (adding any new samples, and including composition)?\n Confirmed need for lab space?\n Confirmed experiment team that will be present at beam time (add any new members)?\n Confirm experiment equipment and/or sample environment?\n"
 },
 {
 	"uri": "/en/tutorial/how_to_access_computer/",
@@ -77,6 +77,13 @@
 	"content": "  Question FAQ #1?   Answer will go here.     Question FAQ #2?   Answer will go here.  \n  Question FAQ #3?   Answer will go here.  \n"
 },
 {
+	"uri": "/en/links/",
+	"title": "Links",
+	"tags": [],
+	"description": "",
+	"content": "  ORNL User Program Guide   User Program Guide.     Neutron Imaging Facility Official Web Page   Neutron Imaging Facility Official Web Page.  \n  Neutrons (SNS/HFIR) Web Page   https://neutrons.ornl.gov/  \n  ORNL Web Page   https://www.ornl.gov/  \n"
+},
+{
 	"uri": "/en/categories/",
 	"title": "Categories",
 	"tags": [],
@@ -88,7 +95,7 @@
 	"title": "Contacts",
 	"tags": [],
 	"description": "",
-	"content": "           Hassina Bilheux - Instrument ScientistExpertise: HFIR and SNS imaging beam lines bilheuxhn@ornl.gov (865) 384 - 9630    Lou Santodonato - Instrument ScientistExpertise: HFIR imaging beam line santodonatol@ornl.gov (865) 719 - 0656     Jean Bilheux - Computer ScientistExpertise: Software bilheuxjm@ornl.gov (865) 406 - 1704    Yuxuan Zhang (Shawn) - PostdoctorateExpertise: Resonance Imaging zhangy6@ornl.gov    Indu Dihman - PostdoctorateExpertise: Polarization Imaging dhimani@ornl.gov    Brianne Beers - Graduate Student    "
+	"content": "           Hassina Bilheux - Instrument ScientistExpertise: HFIR and SNS imaging beam lines bilheuxhn@ornl.gov (865) 384 - 9630    Lou Santodonato - Instrument ScientistExpertise: HFIR imaging beam line santodonatol@ornl.gov (865) 719 - 0656     Jean Bilheux - Computer ScientistExpertise: Software bilheuxjm@ornl.gov (865) 406 - 1704    Yuxuan Zhang (Shawn) - PostdoctorateExpertise: Resonance Imaging zhangy6@ornl.gov    Indu Dihman - PostdoctorateExpertise: Polarization Imaging dhimani@ornl.gov    Paris Cornwell - Scientific Associate  cornwellpa@ornl.gov    Brianne Beers - Graduate Student    "
 },
 {
 	"uri": "/en/github/",
@@ -102,14 +109,14 @@
 	"title": "Neutron Imaging",
 	"tags": [],
 	"description": "",
-	"content": " Neutron Imaging for Users Home Page Introduction here (Hassina)\nWe recommend that you discuss your experiment with the instrument team several weeks before your beam time.\n Main features  Prepare your venue Automatic Search Multilingual mode Unlimited menu levels Automatic next/prev buttons to navigate through menu entries Image resizing, shadow\u0026hellip; Attachments files List child pages Mermaid diagram (flowchart, sequence, gantt) Customizable look and feel and themes variants Buttons, Tip/Note/Info/Warning boxes, Expand  Contribute to this documentation Feel free to update this content, just click the Edit this page link displayed on top right of each page, and pullrequest it\nYour modification will be deployed automatically when merged.\n Documentation website This current documentation has been statically generated with Hugo with a simple command : hugo -t hugo-theme-learn \u0026ndash; source code is available here at GitHub\nAutomatically published and hosted thanks to Netlify. Read more about Automated HUGO deployments with Netlify\n "
+	"content": " Neutron Imaging for Users Home Page Introduction here (Hassina)\nWe recommend that you discuss your experiment with the instrument team several weeks before your beam time.\n Main features  Prepare your venue: Everything you will need to do before coming to our laboratory. How to: various short tutorials such as how to access your data, connect to the computers, etc. Frequently Asked Questions: answers to the most frequent questions we got from our users. Links: various links that you may find useful.  "
 },
 {
 	"uri": "/en/showcase/",
-	"title": "Showcase",
+	"title": "Showcases",
 	"tags": [],
 	"description": "",
-	"content": " TAT by OVH "
+	"content": ""
 },
 {
 	"uri": "/en/tags/",

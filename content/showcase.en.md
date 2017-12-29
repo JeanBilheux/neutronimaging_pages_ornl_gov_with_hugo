@@ -1,7 +1,7 @@
 ---
-title: Showcases
+title: Showcase
+disableToc: true
+slug: Showcase
 ---
-
-
 
 
