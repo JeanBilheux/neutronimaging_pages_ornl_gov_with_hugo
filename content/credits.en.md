@@ -11,6 +11,7 @@ disableToc: true
 | <h2 id='jean_bilheux'></h2> ![Jean Bilheux](/images/contacts/jean.png) | <ul><li>**Jean Bilheux** - Computer Scientist</li><li>Expertise: Software</li><li><i class='fa fa-envelope-open'></i> bilheuxjm@ornl.gov</li><li><i class='fa fa-phone'></i> (865) 406 - 1704</li><ul> |
 | ![Shawn](/images/contacts/shawn.png) | <ul><li>**Yuxuan Zhang (Shawn)** - Postdoctorate</li><li>Expertise: Resonance Imaging</li><li><i class='fa fa-envelope-open'></i> zhangy6@ornl.gov</li></ul> |
 | | <ul><li>**Indu Dihman** - Postdoctorate</li><li>Expertise: Polarization Imaging</li><li><i class='fa fa-envelope-open'></i> dhimani@ornl.gov</li></ul> |
+| ![Paris Cornwell](/images/contacts/paris.png) | <ul><li>**Paris Cornwell** - Scientific Associate </li><li><i class='fa fa-envelope-open'></i> cornwellpa@ornl.gov</li></ul>  |
 | ![Brianne Beers](/images/contacts/brianne.png) | <ul><li>**Brianne Beers** - Graduate Student</li></ul> |
 
 

@@ -3,489 +3,239 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://neutronimaging-dev.pages.ornl.gov/fr/cont/pages/</loc>
+    <loc>/fr/tutorial/how_to_access_data/</loc>
     <lastmod>2016-04-09T16:50:16+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://neutronimaging-dev.pages.ornl.gov/en/cont/pages/"
+                href="/en/tutorial/how_to_access_data/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://neutronimaging-dev.pages.ornl.gov/fr/cont/pages/"
+                href="/fr/tutorial/how_to_access_data/"
                 />
   </url>
   
   <url>
-    <loc>https://neutronimaging-dev.pages.ornl.gov/fr/basics/</loc>
+    <loc>/fr/prepare_venue/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://neutronimaging-dev.pages.ornl.gov/en/basics/"
+                href="/en/prepare_venue/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/prepare_venue/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://neutronimaging-dev.pages.ornl.gov/fr/basics/"
+                href="/fr/prepare_venue/"
                 />
   </url>
   
   <url>
-    <loc>https://neutronimaging-dev.pages.ornl.gov/fr/cont/archetypes/</loc>
+    <loc>/fr/tutorial/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://neutronimaging-dev.pages.ornl.gov/en/cont/archetypes/"
+                href="/en/tutorial/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://neutronimaging-dev.pages.ornl.gov/fr/cont/archetypes/"
+                href="/fr/tutorial/"
                 />
   </url>
   
   <url>
-    <loc>https://neutronimaging-dev.pages.ornl.gov/fr/cont/</loc>
+    <loc>/fr/prepare_venue/proposal_confirmation/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/prepare_venue/proposal_confirmation/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/prepare_venue/proposal_confirmation/"
+                />
+  </url>
+  
+  <url>
+    <loc>/fr/faq/</loc>
     <lastmod>2016-04-09T16:50:16+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://neutronimaging-dev.pages.ornl.gov/en/cont/"
+                href="/en/faq/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/faq/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://neutronimaging-dev.pages.ornl.gov/fr/cont/"
+                href="/fr/faq/"
                 />
   </url>
   
   <url>
-    <loc>https://neutronimaging-dev.pages.ornl.gov/fr/basics/requirements/</loc>
+    <loc>/fr/prepare_venue/access/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://neutronimaging-dev.pages.ornl.gov/en/basics/requirements/"
+                href="/en/prepare_venue/access/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://neutronimaging-dev.pages.ornl.gov/fr/basics/requirements/"
+                href="/fr/prepare_venue/access/"
                 />
   </url>
   
   <url>
-    <loc>https://neutronimaging-dev.pages.ornl.gov/fr/shortcodes/</loc>
+    <loc>/fr/prepare_venue/sample/</loc>
     <lastmod>2016-04-09T16:50:16+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://neutronimaging-dev.pages.ornl.gov/en/shortcodes/"
+                href="/en/prepare_venue/sample/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://neutronimaging-dev.pages.ornl.gov/fr/shortcodes/"
+                href="/fr/prepare_venue/sample/"
                 />
   </url>
   
   <url>
-    <loc>https://neutronimaging-dev.pages.ornl.gov/fr/cont/markdown/</loc>
+    <loc>/fr/prepare_venue/safety/</loc>
     <lastmod>2016-04-09T16:50:16+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://neutronimaging-dev.pages.ornl.gov/en/cont/markdown/"
+                href="/en/prepare_venue/safety/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://neutronimaging-dev.pages.ornl.gov/fr/cont/markdown/"
+                href="/fr/prepare_venue/safety/"
                 />
   </url>
   
   <url>
-    <loc>https://neutronimaging-dev.pages.ornl.gov/fr/basics/installation/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://neutronimaging-dev.pages.ornl.gov/en/basics/installation/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://neutronimaging-dev.pages.ornl.gov/fr/basics/installation/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://neutronimaging-dev.pages.ornl.gov/fr/basics/configuration/</loc>
-    <lastmod>2016-04-09T16:50:16+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://neutronimaging-dev.pages.ornl.gov/en/basics/configuration/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://neutronimaging-dev.pages.ornl.gov/fr/basics/configuration/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://neutronimaging-dev.pages.ornl.gov/fr/basics/style-customization/</loc>
-    <lastmod>2016-04-09T16:50:16+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://neutronimaging-dev.pages.ornl.gov/en/basics/style-customization/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://neutronimaging-dev.pages.ornl.gov/fr/basics/style-customization/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://neutronimaging-dev.pages.ornl.gov/fr/cont/menushortcuts/</loc>
-    <lastmod>2016-04-09T16:50:16+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://neutronimaging-dev.pages.ornl.gov/en/cont/menushortcuts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://neutronimaging-dev.pages.ornl.gov/fr/cont/menushortcuts/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://neutronimaging-dev.pages.ornl.gov/fr/cont/i18n/</loc>
-    <lastmod>2016-04-09T16:50:16+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://neutronimaging-dev.pages.ornl.gov/en/cont/i18n/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://neutronimaging-dev.pages.ornl.gov/fr/cont/i18n/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://neutronimaging-dev.pages.ornl.gov/fr/shortcodes/attachments/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://neutronimaging-dev.pages.ornl.gov/en/shortcodes/attachments/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://neutronimaging-dev.pages.ornl.gov/fr/shortcodes/attachments/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://neutronimaging-dev.pages.ornl.gov/fr/shortcodes/button/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://neutronimaging-dev.pages.ornl.gov/en/shortcodes/button/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://neutronimaging-dev.pages.ornl.gov/fr/shortcodes/button/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://neutronimaging-dev.pages.ornl.gov/fr/categories/</loc>
+    <loc>/fr/categories/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://neutronimaging-dev.pages.ornl.gov/en/categories/"
+                href="/en/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://neutronimaging-dev.pages.ornl.gov/fr/categories/"
+                href="/fr/categories/"
                 />
   </url>
   
   <url>
-    <loc>https://neutronimaging-dev.pages.ornl.gov/fr/shortcodes/children/</loc>
+    <loc>/fr/credits/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://neutronimaging-dev.pages.ornl.gov/en/shortcodes/children/"
+                href="/en/credits/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/credits/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://neutronimaging-dev.pages.ornl.gov/fr/shortcodes/children/"
+                href="/fr/credits/"
                 />
   </url>
   
   <url>
-    <loc>https://neutronimaging-dev.pages.ornl.gov/fr/credits/</loc>
+    <loc>/fr/github/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://neutronimaging-dev.pages.ornl.gov/en/credits/"
+                href="/en/github/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/github/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://neutronimaging-dev.pages.ornl.gov/fr/credits/"
+                href="/fr/github/"
                 />
   </url>
   
   <url>
-    <loc>https://neutronimaging-dev.pages.ornl.gov/fr/shortcodes/expand/</loc>
+    <loc>/fr/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://neutronimaging-dev.pages.ornl.gov/en/shortcodes/expand/"
+                href="/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://neutronimaging-dev.pages.ornl.gov/fr/shortcodes/expand/"
+                href="/fr/"
                 />
   </url>
   
   <url>
-    <loc>https://neutronimaging-dev.pages.ornl.gov/fr/</loc>
-    <lastmod>2016-04-09T16:50:16+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://neutronimaging-dev.pages.ornl.gov/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://neutronimaging-dev.pages.ornl.gov/fr/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://neutronimaging-dev.pages.ornl.gov/fr/shortcodes/mermaid/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://neutronimaging-dev.pages.ornl.gov/en/shortcodes/mermaid/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://neutronimaging-dev.pages.ornl.gov/fr/shortcodes/mermaid/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://neutronimaging-dev.pages.ornl.gov/fr/shortcodes/notice/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://neutronimaging-dev.pages.ornl.gov/en/shortcodes/notice/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://neutronimaging-dev.pages.ornl.gov/fr/shortcodes/notice/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://neutronimaging-dev.pages.ornl.gov/fr/shortcodes/siteparam/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://neutronimaging-dev.pages.ornl.gov/en/shortcodes/siteparam/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://neutronimaging-dev.pages.ornl.gov/fr/shortcodes/siteparam/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://neutronimaging-dev.pages.ornl.gov/fr/tags/</loc>
+    <loc>/fr/tags/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://neutronimaging-dev.pages.ornl.gov/en/tags/"
+                href="/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://neutronimaging-dev.pages.ornl.gov/fr/tags/"
+                href="/fr/tags/"
                 />
   </url>
   
   <url>
-    <loc>https://neutronimaging-dev.pages.ornl.gov/fr/vitrine/</loc>
+    <loc>/fr/vitrine/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://neutronimaging-dev.pages.ornl.gov/en/showcase/"
+                href="/en/showcase/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://neutronimaging-dev.pages.ornl.gov/fr/vitrine/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://neutronimaging-dev.pages.ornl.gov/fr/shortcodes/children/children-1/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://neutronimaging-dev.pages.ornl.gov/en/shortcodes/children/children-1/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://neutronimaging-dev.pages.ornl.gov/fr/shortcodes/children/children-1/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://neutronimaging-dev.pages.ornl.gov/fr/shortcodes/children/children-1/children-1-1/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://neutronimaging-dev.pages.ornl.gov/en/shortcodes/children/children-1/children-1-1/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://neutronimaging-dev.pages.ornl.gov/fr/shortcodes/children/children-1/children-1-1/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://neutronimaging-dev.pages.ornl.gov/fr/shortcodes/children/children-1/children-1-1/children-1-1-1/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://neutronimaging-dev.pages.ornl.gov/en/shortcodes/children/children-1/children-1-1/children-1-1-1/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://neutronimaging-dev.pages.ornl.gov/fr/shortcodes/children/children-1/children-1-1/children-1-1-1/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://neutronimaging-dev.pages.ornl.gov/fr/shortcodes/children/children-1/children-1-1/children-1-1-1/children-1-1-1-1/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://neutronimaging-dev.pages.ornl.gov/en/shortcodes/children/children-1/children-1-1/children-1-1-1/children-1-1-1-1/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://neutronimaging-dev.pages.ornl.gov/fr/shortcodes/children/children-1/children-1-1/children-1-1-1/children-1-1-1-1/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://neutronimaging-dev.pages.ornl.gov/fr/shortcodes/children/children-1/children-1-1/children-1-1-1/children-1-1-1-1/children-1-1-1-1-1/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://neutronimaging-dev.pages.ornl.gov/en/shortcodes/children/children-1/children-1-1/children-1-1-1/children-1-1-1-1/children-1-1-1-1-1/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://neutronimaging-dev.pages.ornl.gov/fr/shortcodes/children/children-1/children-1-1/children-1-1-1/children-1-1-1-1/children-1-1-1-1-1/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://neutronimaging-dev.pages.ornl.gov/fr/shortcodes/children/children-2/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://neutronimaging-dev.pages.ornl.gov/en/shortcodes/children/children-2/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://neutronimaging-dev.pages.ornl.gov/fr/shortcodes/children/children-2/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://neutronimaging-dev.pages.ornl.gov/fr/shortcodes/children/children-3/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://neutronimaging-dev.pages.ornl.gov/en/shortcodes/children/children-3/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://neutronimaging-dev.pages.ornl.gov/fr/shortcodes/children/children-3/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://neutronimaging-dev.pages.ornl.gov/fr/shortcodes/children/children-4/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://neutronimaging-dev.pages.ornl.gov/en/shortcodes/children/children-4/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://neutronimaging-dev.pages.ornl.gov/fr/shortcodes/children/children-4/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://neutronimaging-dev.pages.ornl.gov/fr/shortcodes/children/test/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://neutronimaging-dev.pages.ornl.gov/en/shortcodes/children/test/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://neutronimaging-dev.pages.ornl.gov/fr/shortcodes/children/test/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://neutronimaging-dev.pages.ornl.gov/fr/shortcodes/children/children-2/test3/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://neutronimaging-dev.pages.ornl.gov/en/shortcodes/children/children-2/test3/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://neutronimaging-dev.pages.ornl.gov/fr/shortcodes/children/children-2/test3/"
+                href="/fr/vitrine/"
                 />
   </url>
   
