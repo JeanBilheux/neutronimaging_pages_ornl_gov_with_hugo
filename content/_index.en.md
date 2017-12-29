@@ -17,3 +17,4 @@ Everything you will need to do before coming to our laboratory.
 access your data, connect to the computers, etc.
 * [Frequently Asked Questions]({{%relref "/faq/_index.md#activate-search" %}}): answers to the most frequent questions we
 got from our users.
+* [Links]({{%relref "/links/_index.md#activate-search" %}}): various links that you may find useful.
