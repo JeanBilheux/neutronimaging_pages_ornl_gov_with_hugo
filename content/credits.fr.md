@@ -1,28 +1,17 @@
 ---
-title: Crédits
+title: Contacts
 disableToc: true
 ---
 
-## Contributeurs
+|  |  |
+| ------ | ----------- |
+| <h2 id='hassina_bilheux'></h2> ![Hassina Bilheux](/images/contacts/hassina.jpg) | <ul><li>**Hassina Bilheux** - Scientifique de l'Instrument</li><li>Spécialité: lignes de faisceau a HFIR et au SNS</li><li><i class='fa fa-envelope-open'></i> bilheuxhn@ornl.gov</li><li><i class='fa fa-mobile'></i> (865) 384 - 9630</li><li><i class='fa fa-phone'></i> (865) 574 - 0241</li></ul> |
+| ![Lou Santodonato](/images/contacts/lou.png) | <ul><li>**Lou Santodonato** - Scientifique de l'Instrument</li><li>Spécialité: ligne de faisceau a HFIR</li><li><i class='fa fa-envelope-open'></i> santodonatol@ornl.gov</li><li><i class='fa fa-mobile'></i> (865) 719 - 0656</li><li> <i class='fa fa-phone'> (865) 574 - 4641</li></ul> |
+| <h2 id='jean_bilheux'></h2> ![Jean Bilheux](/images/contacts/jean.png) | <ul><li>**Jean Bilheux** - Programmeur Scientifique</li><li>Spécialité: Programmation</li><li><i class='fa fa-envelope-open'></i> bilheuxjm@ornl.gov</li><li><i class='fa fa-mobile'></i> (865) 406 - 1704</li><li><i class='fa fa-phone'></i> (865) 574 - 4637</li><li><i class='fa fa-external-link'></i> <a href='http://jbilheux.com'>jbilheux.com</a></li><li><i class='fa fa-github'></i> <a href='https://github.com/jeanbilheux'>github.com/jeanbilheux</a></li>    <ul> |
+| ![Shawn](/images/contacts/shawn.png) | <ul><li>**Yuxuan Zhang (Shawn)** - Postdoctorate</li><li>Spécialité: l'Imagerie de Résonance</li><li><i class='fa fa-envelope-open'></i> zhangy6@ornl.gov</li></ul> |
+| | <ul><li>**Indu Dihman** - Postdoctorate</li><li>Spécialité: l'Imagerie de Polarisation</li><li><i class='fa fa-envelope-open'></i> dhimani@ornl.gov</li><li><i class='fa fa-mobile'></i> (865) 607 - 0911</li></ul> |
+| ![Paris Cornwell](/images/contacts/paris.png) | <ul><li>**Paris Cornwell** - Associé Scientifique </li><li><i class='fa fa-envelope-open'></i> cornwellpa@ornl.gov</li><li><i class='fa fa-mobile'></i> (865) 257 - 1127</li><li><i class='fa fa-phone'></i> (865) 574 - 2122</li></ul>  |
+| ![Brianne Beers](/images/contacts/brianne.png) | <ul><li>**Brianne Beers** - Thésarde</li></ul> |
 
-Merci à eux <i class="fa fa-heart"></i> de rendre le monde Open Source meilleur  !
 
-{{% ghcontributors "https://api.github.com/repos/matcornic/hugo-theme-learn/contributors?per_page=100" %}}
-
-Et un grand merci à [@vjeantet](https://github.com/vjeantet) pour son travail sur [docdock](https://github.com/vjeantet/hugo-theme-docdock), un fork de _hugo-theme-learn_. La v2.0.0 du thème est en grande partie inspirée de son travail.
-
-## Packages et librairies
-* [mermaid](https://knsv.github.io/mermaid) - géneration de diagrames et graphiques à partir de texte similaire à Markdown
-* [font awesome](http://fontawesome.io/) - Le framework de polices iconiques
-* [jQuery](https://jquery.com) - La plus connue des librairies Javascript
-* [lunr](https://lunrjs.com) - Lunr fournit des fonctions de recherche sans service externe
-* [horsey](https://bevacqua.github.io/horsey/) - Autocomplétion de composants (utiliser pour les suggestions de recherche)
-* [clipboard.js](https://zenorocha.github.io/clipboard.js) - Copier le texte dans le presse-papier
-* [highlight.js](https://highlightjs.org) - Mise en valeur de syntaxes
-* [modernizr](https://modernizr.com) - Une boite à outil Javascript qui permet aux développeurs d'utiliser les dernières fonctionnalités de CSS et HTML5, même sur de vieux navigateurs.
-
-## Outils
-
-* [Netlify](https://www.netlify.com) - Déploiement continue et hébergement de cette documentation
-* [Hugo](https://gohugo.io/)
 

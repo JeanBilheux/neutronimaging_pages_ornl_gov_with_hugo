@@ -11,3 +11,5 @@ Afin de preparer votre sejour a la ligne de faisceau, nous vous recommendons de 
 trouverez dans les differents sous-menus de **Preparer Votre Sejour**.
 
 Et n'hesitez pas a telecharger la version [pdf](/images/prepare_venue/mypdf.pdf).
+
+<img src='/images/prepare_venue/check_list_logo.png' />
