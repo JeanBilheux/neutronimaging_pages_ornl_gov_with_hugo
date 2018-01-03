@@ -13,3 +13,4 @@ In order to optimize your experiment time, we recommend you to go through the
 Feel free to print out the [pdf](/images/prepare_venue/mypdf.pdf) version
 and check out the items one by one.
 
+<img src='/images/prepare_venue/check_list_logo.png' />

@@ -6,7 +6,7 @@ disableToc: true
 
 
 {{% notice info %}}
-This must be completed by **all** participants to the experiment **before first day** of experiment.
+This must be completed by **all** participants to the experiment **before the first day** of experiment.
 {{% /notice %}}
 
 <i class='fa fa-square-o'></i> Received training e-mail from user office (neutronusers@ornl.gov)?

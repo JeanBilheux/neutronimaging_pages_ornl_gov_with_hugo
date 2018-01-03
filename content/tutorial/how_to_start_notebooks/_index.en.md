@@ -18,7 +18,11 @@ python server starts a firefox browser with the right python environment and mov
 
 <img src='/tutorial/how_to_start_notebooks/images/notebook_1.png' />
 
-To start a notebook, just **double click** any of the **.ipynb** file (*normalization.ipynb* in this tutorial).
+To start a notebook, just **click** any of the **.ipynb** file (*normalization.ipynb* in this tutorial).
 
 <img src='/tutorial/how_to_start_notebooks/images/notebook_2.png' />
 
+{{% notice tip %}} First thing we recommend at this point is to make a copy of this notebook. This way, update of the notebooks will
+not overwrite your work.
+<img src='/tutorial/how_to_start_notebooks/images/make_a_copy.png' />
+{{% /notice %}}

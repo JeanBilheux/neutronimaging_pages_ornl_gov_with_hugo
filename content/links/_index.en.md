@@ -5,6 +5,8 @@ pre: "<b>3. </b>"
 weight: 15
 ---
 
+## Utilities
+
 {{%expand "ORNL User Program Guide" %}}
 <a href='https://neutrons.ornl.gov/users'>User Program Guide</a>.
 <img src='/links/images/links_1.png' />
@@ -25,3 +27,19 @@ weight: 15
 <img src='/links/images/links_4.png' />
 {{% /expand%}}
 
+## Tools
+
+{{%expand "Calculate Transmission and Scattering Power" %}}
+<a href='https://webapps.frm2.tum.de/intranet/neutroncalc/'>https://webapps.frm2.tum.de/intranet/neutroncalc/</a>
+<img src='/links/images/neutroncalc.png' />
+{{% /expand%}}
+
+{{%expand "Neutron Transmission Calculator" %}}
+<a href='http://apps.jcns.fz-juelich.de/toolbox/nXsection.php'>http://apps.jcns.fz-juelich.de/toolbox/nXsection.php</a>
+<img src='/links/images/nxsection.png' />
+{{% /expand%}}
+
+{{%expand "Neutron Scattering Lengths and Cross Sections" %}}
+<a href='https://www.ncnr.nist.gov/resources/n-lengths/'>https://www.ncnr.nist.gov/resources/n-lengths/</a>
+<img src='/links/images/nlengths.png' />
+{{% /expand%}}

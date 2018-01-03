@@ -2,112 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f2909ce-3d75-492d-a5d4-0dc990d52b0d" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/content/links/images/neutroncalc.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/content/links/images/nlengths.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/content/links/images/nxsection.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/content/tutorial/how_to_start_notebooks/images/make_a_copy.png" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/content/credits.en.md" afterPath="$PROJECT_DIR$/content/credits.en.md" />
-      <change beforePath="$PROJECT_DIR$/content/github.en.md" afterPath="$PROJECT_DIR$/content/github.en.md" />
+      <change beforePath="$PROJECT_DIR$/content/_index.en.md" afterPath="$PROJECT_DIR$/content/_index.en.md" />
+      <change beforePath="$PROJECT_DIR$/content/links/_index.en.md" afterPath="$PROJECT_DIR$/content/links/_index.en.md" />
+      <change beforePath="$PROJECT_DIR$/content/prepare_venue/_index.en.md" afterPath="$PROJECT_DIR$/content/prepare_venue/_index.en.md" />
+      <change beforePath="$PROJECT_DIR$/content/prepare_venue/access/_index.en.md" afterPath="$PROJECT_DIR$/content/prepare_venue/access/_index.en.md" />
+      <change beforePath="$PROJECT_DIR$/content/prepare_venue/proposal_confirmation/_index.en.md" afterPath="$PROJECT_DIR$/content/prepare_venue/proposal_confirmation/_index.en.md" />
+      <change beforePath="$PROJECT_DIR$/content/prepare_venue/safety/_index.en.md" afterPath="$PROJECT_DIR$/content/prepare_venue/safety/_index.en.md" />
+      <change beforePath="$PROJECT_DIR$/content/prepare_venue/sample/_index.en.md" afterPath="$PROJECT_DIR$/content/prepare_venue/sample/_index.en.md" />
       <change beforePath="$PROJECT_DIR$/content/showcase.en.md" afterPath="$PROJECT_DIR$/content/showcase.en.md" />
-      <change beforePath="$PROJECT_DIR$/public/en/404.html" afterPath="$PROJECT_DIR$/public/en/404.html" />
-      <change beforePath="$PROJECT_DIR$/public/en/basics/configuration/index.html" afterPath="$PROJECT_DIR$/public/en/basics/configuration/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/en/basics/index.html" afterPath="$PROJECT_DIR$/public/en/basics/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/en/basics/installation/index.html" afterPath="$PROJECT_DIR$/public/en/basics/installation/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/en/basics/requirements/index.html" afterPath="$PROJECT_DIR$/public/en/basics/requirements/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/en/basics/style-customization/index.html" afterPath="$PROJECT_DIR$/public/en/basics/style-customization/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/en/cont/archetypes/index.html" afterPath="$PROJECT_DIR$/public/en/cont/archetypes/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/en/cont/i18n/index.html" afterPath="$PROJECT_DIR$/public/en/cont/i18n/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/en/cont/index.html" afterPath="$PROJECT_DIR$/public/en/cont/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/en/cont/markdown/index.html" afterPath="$PROJECT_DIR$/public/en/cont/markdown/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/en/cont/menushortcuts/index.html" afterPath="$PROJECT_DIR$/public/en/cont/menushortcuts/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/en/cont/pages/index.html" afterPath="$PROJECT_DIR$/public/en/cont/pages/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/en/credits/index.html" afterPath="$PROJECT_DIR$/public/en/credits/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/en/faq/index.html" afterPath="$PROJECT_DIR$/public/en/faq/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/en/github/index.html" afterPath="$PROJECT_DIR$/public/en/github/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/en/index.html" afterPath="$PROJECT_DIR$/public/en/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/en/index.json" afterPath="$PROJECT_DIR$/public/en/index.json" />
-      <change beforePath="$PROJECT_DIR$/public/en/index.xml" afterPath="$PROJECT_DIR$/public/en/index.xml" />
-      <change beforePath="$PROJECT_DIR$/public/en/links/index.html" afterPath="$PROJECT_DIR$/public/en/links/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/en/prepare_venue/access/index.html" afterPath="$PROJECT_DIR$/public/en/prepare_venue/access/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/en/prepare_venue/index.html" afterPath="$PROJECT_DIR$/public/en/prepare_venue/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/en/prepare_venue/proposal_confirmation/index.html" afterPath="$PROJECT_DIR$/public/en/prepare_venue/proposal_confirmation/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/en/prepare_venue/safety/index.html" afterPath="$PROJECT_DIR$/public/en/prepare_venue/safety/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/en/prepare_venue/sample/index.html" afterPath="$PROJECT_DIR$/public/en/prepare_venue/sample/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/en/shortcodes/attachments/index.html" afterPath="$PROJECT_DIR$/public/en/shortcodes/attachments/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/en/shortcodes/button/index.html" afterPath="$PROJECT_DIR$/public/en/shortcodes/button/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/en/shortcodes/children/children-1/children-1-1/children-1-1-1/children-1-1-1-1/children-1-1-1-1-1/index.html" afterPath="$PROJECT_DIR$/public/en/shortcodes/children/children-1/children-1-1/children-1-1-1/children-1-1-1-1/children-1-1-1-1-1/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/en/shortcodes/children/children-1/children-1-1/children-1-1-1/children-1-1-1-1/index.html" afterPath="$PROJECT_DIR$/public/en/shortcodes/children/children-1/children-1-1/children-1-1-1/children-1-1-1-1/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/en/shortcodes/children/children-1/children-1-1/children-1-1-1/index.html" afterPath="$PROJECT_DIR$/public/en/shortcodes/children/children-1/children-1-1/children-1-1-1/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/en/shortcodes/children/children-1/children-1-1/index.html" afterPath="$PROJECT_DIR$/public/en/shortcodes/children/children-1/children-1-1/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/en/shortcodes/children/children-1/index.html" afterPath="$PROJECT_DIR$/public/en/shortcodes/children/children-1/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/en/shortcodes/children/children-2/index.html" afterPath="$PROJECT_DIR$/public/en/shortcodes/children/children-2/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/en/shortcodes/children/children-2/test3/index.html" afterPath="$PROJECT_DIR$/public/en/shortcodes/children/children-2/test3/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/en/shortcodes/children/children-3/index.html" afterPath="$PROJECT_DIR$/public/en/shortcodes/children/children-3/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/en/shortcodes/children/children-4/index.html" afterPath="$PROJECT_DIR$/public/en/shortcodes/children/children-4/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/en/shortcodes/children/index.html" afterPath="$PROJECT_DIR$/public/en/shortcodes/children/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/en/shortcodes/children/test/index.html" afterPath="$PROJECT_DIR$/public/en/shortcodes/children/test/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/en/shortcodes/expand/index.html" afterPath="$PROJECT_DIR$/public/en/shortcodes/expand/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/en/shortcodes/index.html" afterPath="$PROJECT_DIR$/public/en/shortcodes/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/en/shortcodes/mermaid/index.html" afterPath="$PROJECT_DIR$/public/en/shortcodes/mermaid/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/en/shortcodes/notice/index.html" afterPath="$PROJECT_DIR$/public/en/shortcodes/notice/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/en/shortcodes/siteparam/index.html" afterPath="$PROJECT_DIR$/public/en/shortcodes/siteparam/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/en/showcase/index.html" afterPath="$PROJECT_DIR$/public/en/showcase/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/en/sitemap.xml" afterPath="$PROJECT_DIR$/public/en/sitemap.xml" />
-      <change beforePath="$PROJECT_DIR$/public/en/tutorial/how_to_access_computer/index.html" afterPath="$PROJECT_DIR$/public/en/tutorial/how_to_access_computer/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/en/tutorial/how_to_access_data/index.html" afterPath="$PROJECT_DIR$/public/en/tutorial/how_to_access_data/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/en/tutorial/how_to_run_notebooks/index.html" afterPath="$PROJECT_DIR$/public/en/tutorial/how_to_run_notebooks/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/en/tutorial/how_to_start_notebooks/index.html" afterPath="$PROJECT_DIR$/public/en/tutorial/how_to_start_notebooks/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/en/tutorial/index.html" afterPath="$PROJECT_DIR$/public/en/tutorial/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/es/404.html" afterPath="$PROJECT_DIR$/public/es/404.html" />
-      <change beforePath="$PROJECT_DIR$/public/es/credits/index.html" afterPath="$PROJECT_DIR$/public/es/credits/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/es/faq/index.html" afterPath="$PROJECT_DIR$/public/es/faq/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/es/github/index.html" afterPath="$PROJECT_DIR$/public/es/github/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/es/index.html" afterPath="$PROJECT_DIR$/public/es/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/es/prepare_venue/index.html" afterPath="$PROJECT_DIR$/public/es/prepare_venue/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/fr/404.html" afterPath="$PROJECT_DIR$/public/fr/404.html" />
-      <change beforePath="$PROJECT_DIR$/public/fr/basics/configuration/index.html" afterPath="$PROJECT_DIR$/public/fr/basics/configuration/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/fr/basics/index.html" afterPath="$PROJECT_DIR$/public/fr/basics/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/fr/basics/installation/index.html" afterPath="$PROJECT_DIR$/public/fr/basics/installation/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/fr/basics/requirements/index.html" afterPath="$PROJECT_DIR$/public/fr/basics/requirements/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/fr/basics/style-customization/index.html" afterPath="$PROJECT_DIR$/public/fr/basics/style-customization/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/fr/cont/archetypes/index.html" afterPath="$PROJECT_DIR$/public/fr/cont/archetypes/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/fr/cont/i18n/index.html" afterPath="$PROJECT_DIR$/public/fr/cont/i18n/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/fr/cont/index.html" afterPath="$PROJECT_DIR$/public/fr/cont/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/fr/cont/markdown/index.html" afterPath="$PROJECT_DIR$/public/fr/cont/markdown/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/fr/cont/menushortcuts/index.html" afterPath="$PROJECT_DIR$/public/fr/cont/menushortcuts/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/fr/cont/pages/index.html" afterPath="$PROJECT_DIR$/public/fr/cont/pages/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/fr/credits/index.html" afterPath="$PROJECT_DIR$/public/fr/credits/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/fr/faq/index.html" afterPath="$PROJECT_DIR$/public/fr/faq/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/fr/github/index.html" afterPath="$PROJECT_DIR$/public/fr/github/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/fr/index.html" afterPath="$PROJECT_DIR$/public/fr/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/fr/index.json" afterPath="$PROJECT_DIR$/public/fr/index.json" />
-      <change beforePath="$PROJECT_DIR$/public/fr/prepare_venue/access/index.html" afterPath="$PROJECT_DIR$/public/fr/prepare_venue/access/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/fr/prepare_venue/index.html" afterPath="$PROJECT_DIR$/public/fr/prepare_venue/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/fr/prepare_venue/proposal_confirmation/index.html" afterPath="$PROJECT_DIR$/public/fr/prepare_venue/proposal_confirmation/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/fr/prepare_venue/safety/index.html" afterPath="$PROJECT_DIR$/public/fr/prepare_venue/safety/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/fr/prepare_venue/sample/index.html" afterPath="$PROJECT_DIR$/public/fr/prepare_venue/sample/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/fr/shortcodes/attachments/index.html" afterPath="$PROJECT_DIR$/public/fr/shortcodes/attachments/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/fr/shortcodes/button/index.html" afterPath="$PROJECT_DIR$/public/fr/shortcodes/button/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/fr/shortcodes/children/children-1/children-1-1/children-1-1-1/children-1-1-1-1/children-1-1-1-1-1/index.html" afterPath="$PROJECT_DIR$/public/fr/shortcodes/children/children-1/children-1-1/children-1-1-1/children-1-1-1-1/children-1-1-1-1-1/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/fr/shortcodes/children/children-1/children-1-1/children-1-1-1/children-1-1-1-1/index.html" afterPath="$PROJECT_DIR$/public/fr/shortcodes/children/children-1/children-1-1/children-1-1-1/children-1-1-1-1/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/fr/shortcodes/children/children-1/children-1-1/children-1-1-1/index.html" afterPath="$PROJECT_DIR$/public/fr/shortcodes/children/children-1/children-1-1/children-1-1-1/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/fr/shortcodes/children/children-1/children-1-1/index.html" afterPath="$PROJECT_DIR$/public/fr/shortcodes/children/children-1/children-1-1/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/fr/shortcodes/children/children-1/index.html" afterPath="$PROJECT_DIR$/public/fr/shortcodes/children/children-1/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/fr/shortcodes/children/children-2/index.html" afterPath="$PROJECT_DIR$/public/fr/shortcodes/children/children-2/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/fr/shortcodes/children/children-2/test3/index.html" afterPath="$PROJECT_DIR$/public/fr/shortcodes/children/children-2/test3/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/fr/shortcodes/children/children-3/index.html" afterPath="$PROJECT_DIR$/public/fr/shortcodes/children/children-3/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/fr/shortcodes/children/children-4/index.html" afterPath="$PROJECT_DIR$/public/fr/shortcodes/children/children-4/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/fr/shortcodes/children/index.html" afterPath="$PROJECT_DIR$/public/fr/shortcodes/children/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/fr/shortcodes/children/test/index.html" afterPath="$PROJECT_DIR$/public/fr/shortcodes/children/test/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/fr/shortcodes/expand/index.html" afterPath="$PROJECT_DIR$/public/fr/shortcodes/expand/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/fr/shortcodes/index.html" afterPath="$PROJECT_DIR$/public/fr/shortcodes/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/fr/shortcodes/mermaid/index.html" afterPath="$PROJECT_DIR$/public/fr/shortcodes/mermaid/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/fr/shortcodes/notice/index.html" afterPath="$PROJECT_DIR$/public/fr/shortcodes/notice/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/fr/shortcodes/siteparam/index.html" afterPath="$PROJECT_DIR$/public/fr/shortcodes/siteparam/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/fr/tutorial/how_to_access_data/index.html" afterPath="$PROJECT_DIR$/public/fr/tutorial/how_to_access_data/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/fr/tutorial/index.html" afterPath="$PROJECT_DIR$/public/fr/tutorial/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/fr/vitrine/index.html" afterPath="$PROJECT_DIR$/public/fr/vitrine/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/sitemap.xml" afterPath="$PROJECT_DIR$/public/sitemap.xml" />
-      <change beforePath="$PROJECT_DIR$/public/tutorial/how_to_start_notebooks/images/notebook_0.png" afterPath="$PROJECT_DIR$/public/tutorial/how_to_start_notebooks/images/notebook_0.png" />
-      <change beforePath="$PROJECT_DIR$/public/tutorial/how_to_start_notebooks/images/notebook_1.png" afterPath="$PROJECT_DIR$/public/tutorial/how_to_start_notebooks/images/notebook_1.png" />
-      <change beforePath="$PROJECT_DIR$/public/tutorial/how_to_start_notebooks/images/notebook_2.png" afterPath="$PROJECT_DIR$/public/tutorial/how_to_start_notebooks/images/notebook_2.png" />
+      <change beforePath="$PROJECT_DIR$/content/showcase.fr.md" afterPath="$PROJECT_DIR$/content/showcase.fr.md" />
+      <change beforePath="$PROJECT_DIR$/content/tutorial/_index.en.md" afterPath="$PROJECT_DIR$/content/tutorial/_index.en.md" />
+      <change beforePath="$PROJECT_DIR$/content/tutorial/how_to_start_notebooks/_index.en.md" afterPath="$PROJECT_DIR$/content/tutorial/how_to_start_notebooks/_index.en.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -118,21 +28,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/en/index.html">
+      <file leaf-file-name="_index.en.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content/tutorial/how_to_start_notebooks/_index.en.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="425" column="43" lean-forward="false" selection-start-line="425" selection-start-column="43" selection-end-line="425" selection-end-column="43" />
+            <state relative-caret-position="420">
+              <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/en/credits/index.html">
+      <file leaf-file-name="_index.en.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content/prepare_venue/_index.en.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="305" column="0" lean-forward="true" selection-start-line="305" selection-start-column="0" selection-end-line="305" selection-end-column="0" />
+            <state relative-caret-position="225">
+              <caret line="15" column="54" lean-forward="false" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_index.en.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content/prepare_venue/safety/_index.en.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="30" lean-forward="false" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_index.en.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/content/prepare_venue/proposal_confirmation/_index.en.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -205,36 +135,36 @@
         <option value="$PROJECT_DIR$/static/css/my_html.css" />
         <option value="$PROJECT_DIR$/content/prepare_venue/test_html/my_html.en.html" />
         <option value="$PROJECT_DIR$/content/prepare_venue/test_html/sandbox.en.html" />
-        <option value="$PROJECT_DIR$/content/prepare_venue/access/_index.en.md" />
-        <option value="$PROJECT_DIR$/content/prepare_venue/safety/_index.en.md" />
-        <option value="$PROJECT_DIR$/content/prepare_venue/sample/_index.en.md" />
         <option value="$PROJECT_DIR$/content/prepare_venue/_index.es.md" />
         <option value="$PROJECT_DIR$/content/prepare_venue/_index.fr.md" />
         <option value="$PROJECT_DIR$/content/cont/_index.en.md" />
         <option value="$PROJECT_DIR$/content/tutorial/how_to_analyze_data/_index.en.md" />
         <option value="$PROJECT_DIR$/content/tutorial/how_to_access_computer/_index.en.md" />
         <option value="$PROJECT_DIR$/content/tutorial/how_to_access_data/_index.en.md" />
-        <option value="$PROJECT_DIR$/content/prepare_venue/_index.en.md" />
         <option value="$PROJECT_DIR$/content/tutorial/how_to_run_notebooks/_index.en.md" />
         <option value="$PROJECT_DIR$/content/_index.en.html" />
-        <option value="$PROJECT_DIR$/content/links/_index.en.md" />
-        <option value="$PROJECT_DIR$/content/showcase.fr.md" />
-        <option value="$PROJECT_DIR$/content/prepare_venue/proposal_confirmation/_index.en.md" />
-        <option value="$PROJECT_DIR$/content/_index.en.md" />
         <option value="$PROJECT_DIR$/layouts/partials/menu-footer.html" />
         <option value="$PROJECT_DIR$/content/showcases/showcase_1.html" />
         <option value="$PROJECT_DIR$/content/showcase.en.html" />
         <option value="$PROJECT_DIR$/content/sandbox/index.en.html" />
-        <option value="$PROJECT_DIR$/content/tutorial/_index.en.md" />
         <option value="$PROJECT_DIR$/content/tutorial/_index.fr.md" />
-        <option value="$PROJECT_DIR$/content/tutorial/how_to_start_notebooks/_index.en.md" />
         <option value="$PROJECT_DIR$/content/credits.en.md" />
         <option value="$PROJECT_DIR$/content/github.en.md" />
-        <option value="$PROJECT_DIR$/content/showcase.en.md" />
         <option value="$PROJECT_DIR$/public/en/github/index.html" />
         <option value="$PROJECT_DIR$/public/en/showcase/index.html" />
         <option value="$PROJECT_DIR$/public/en/index.html" />
         <option value="$PROJECT_DIR$/public/en/credits/index.html" />
+        <option value="$PROJECT_DIR$/content/_index.en.md" />
+        <option value="$PROJECT_DIR$/content/prepare_venue/access/_index.en.md" />
+        <option value="$PROJECT_DIR$/content/prepare_venue/sample/_index.en.md" />
+        <option value="$PROJECT_DIR$/content/tutorial/how_to_start_notebooks/_index.en.md" />
+        <option value="$PROJECT_DIR$/content/links/_index.en.md" />
+        <option value="$PROJECT_DIR$/content/tutorial/_index.en.md" />
+        <option value="$PROJECT_DIR$/content/showcase.en.md" />
+        <option value="$PROJECT_DIR$/content/showcase.fr.md" />
+        <option value="$PROJECT_DIR$/content/prepare_venue/_index.en.md" />
+        <option value="$PROJECT_DIR$/content/prepare_venue/safety/_index.en.md" />
+        <option value="$PROJECT_DIR$/content/prepare_venue/proposal_confirmation/_index.en.md" />
       </list>
     </option>
   </component>
@@ -280,45 +210,29 @@
             <path>
               <item name="neutronimaging_pages_ornl_gov_with_hugo" type="b2602c69:ProjectViewProjectNode" />
               <item name="neutronimaging_pages_ornl_gov_with_hugo" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+              <item name="prepare_venue" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="neutronimaging_pages_ornl_gov_with_hugo" type="b2602c69:ProjectViewProjectNode" />
               <item name="neutronimaging_pages_ornl_gov_with_hugo" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+              <item name="prepare_venue" type="462c0819:PsiDirectoryNode" />
+              <item name="proposal_confirmation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="neutronimaging_pages_ornl_gov_with_hugo" type="b2602c69:ProjectViewProjectNode" />
               <item name="neutronimaging_pages_ornl_gov_with_hugo" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="en" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+              <item name="prepare_venue" type="462c0819:PsiDirectoryNode" />
+              <item name="safety" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="neutronimaging_pages_ornl_gov_with_hugo" type="b2602c69:ProjectViewProjectNode" />
               <item name="neutronimaging_pages_ornl_gov_with_hugo" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="en" type="462c0819:PsiDirectoryNode" />
-              <item name="credits" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="neutronimaging_pages_ornl_gov_with_hugo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="neutronimaging_pages_ornl_gov_with_hugo" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="en" type="462c0819:PsiDirectoryNode" />
-              <item name="github" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="neutronimaging_pages_ornl_gov_with_hugo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="neutronimaging_pages_ornl_gov_with_hugo" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="en" type="462c0819:PsiDirectoryNode" />
-              <item name="showcase" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="neutronimaging_pages_ornl_gov_with_hugo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="neutronimaging_pages_ornl_gov_with_hugo" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="tutorial" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+              <item name="prepare_venue" type="462c0819:PsiDirectoryNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="neutronimaging_pages_ornl_gov_with_hugo" type="b2602c69:ProjectViewProjectNode" />
@@ -341,6 +255,20 @@
               <item name="neutronimaging_pages_ornl_gov_with_hugo" type="b2602c69:ProjectViewProjectNode" />
               <item name="neutronimaging_pages_ornl_gov_with_hugo" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="prepare_venue" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="neutronimaging_pages_ornl_gov_with_hugo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="neutronimaging_pages_ornl_gov_with_hugo" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="tutorial" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="neutronimaging_pages_ornl_gov_with_hugo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="neutronimaging_pages_ornl_gov_with_hugo" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -358,11 +286,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/images/tutorial" />
+      <recent name="$PROJECT_DIR$/content/links/images" />
+      <recent name="$PROJECT_DIR$/content/tutorial/how_to_start_notebooks/images" />
       <recent name="$PROJECT_DIR$/static/js" />
       <recent name="$PROJECT_DIR$/static/css" />
-      <recent name="$PROJECT_DIR$/content/links/images" />
-      <recent name="$PROJECT_DIR$/content/tutorial/how_to_run_notebooks/images" />
-      <recent name="$PROJECT_DIR$/static/images/contacts" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/static/images/sandbox" />
@@ -445,48 +373,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/content/tutorial/how_to_run_notebooks/images/notebook_2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/tutorial/how_to_access_computer/_index.en.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/credits.fr.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/credits.es.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/tutorial/how_to_access_data/_index.en.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/tutorial/how_to_run_notebooks/images/widget_pyqt_1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/content/tutorial/how_to_run_notebooks/images/widget_3.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -515,42 +401,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/_index.es.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="39" lean-forward="false" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/content/faq/_index.en.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/tutorial/how_to_run_notebooks/_index.en.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/links/_index.en.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="57" lean-forward="true" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/prepare_venue/proposal_confirmation/_index.en.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -627,39 +481,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/showcase.fr.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/images/sandbox/black-15-trans.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/prepare_venue/_index.en.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/content/sandbox/index.en.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="699">
           <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/tutorial/_index.en.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -685,14 +515,6 @@
     <entry file="file://$PROJECT_DIR$/content/tutorial/how_to_start_notebooks/images/notebook_1.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/tutorial/how_to_start_notebooks/_index.en.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/layouts/partials/menu-footer.html_old">
@@ -743,14 +565,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/_index.en.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="49" lean-forward="false" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/content/credits.en.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -771,14 +585,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-344">
           <caret line="8" column="36" lean-forward="false" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/showcase.en.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -807,6 +613,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/en/tutorial/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="396" column="10" lean-forward="false" selection-start-line="396" selection-start-column="10" selection-end-line="396" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/en/prepare_venue/access/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="407" column="9" lean-forward="false" selection-start-line="407" selection-start-column="9" selection-end-line="407" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/en/credits/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="302" column="10" lean-forward="false" selection-start-line="302" selection-start-column="10" selection-end-line="302" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/en/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
@@ -815,10 +645,114 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/en/credits/index.html">
+    <entry file="file://$PROJECT_DIR$/content/tutorial/how_to_run_notebooks/_index.en.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="305" column="0" lean-forward="true" selection-start-line="305" selection-start-column="0" selection-end-line="305" selection-end-column="0" />
+        <state relative-caret-position="630">
+          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/_index.es.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="92" lean-forward="false" selection-start-line="8" selection-start-column="92" selection-end-line="8" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/_index.fr.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/prepare_venue/access/_index.en.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="78" lean-forward="false" selection-start-line="8" selection-start-column="78" selection-end-line="8" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/prepare_venue/sample/_index.en.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/_index.en.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/showcase.fr.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/showcase.en.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/tutorial/_index.en.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/links/_index.en.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/tutorial/how_to_start_notebooks/_index.en.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/prepare_venue/_index.en.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="54" lean-forward="false" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/prepare_venue/safety/_index.en.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="30" lean-forward="false" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/prepare_venue/proposal_confirmation/_index.en.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -11,6 +11,12 @@ Your samples **must** be confirmed in [IPTS](https://extidp.ornl.gov/idp/SSO.sam
 
 ![Sample shippment address](/images/prepare_venue/parcel.png)
 
+    Neutron Sciences User Sample IPTS #XXXX
+    Oak Ridge National Laboratory / HFIR Site
+    Bldg 7972 DP1
+    Oak Ridge, TN, 37831
+    USA
+
 ![Cover letter (optional)](/images/prepare_venue/letter.png)
 
 If you prefer to bring your samples, please go first to the **Sample Management Desk** located in the Cold Guide Hall

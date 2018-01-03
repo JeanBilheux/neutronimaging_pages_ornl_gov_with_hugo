@@ -6,8 +6,8 @@ title: "Neutron Imaging"
 
 Introduction here (Hassina)
 
-{{% notice tip %}}We recommend that you discuss your experiment with the instrument team several weeks before your
-beam time. {{% /notice %}}
+{{% notice tip %}}We recommend that you discuss your experiment with the instrument team as soon as you receive approval
+of your beam time. {{% /notice %}}
 
 ## Main features
 
