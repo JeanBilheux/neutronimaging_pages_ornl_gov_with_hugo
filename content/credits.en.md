@@ -1,6 +1,5 @@
 ---
 title: Contacts
-disableToc: true
 ---
 
 

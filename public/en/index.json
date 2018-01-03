@@ -36,7 +36,7 @@
 },
 {
 	"uri": "/en/tutorial/",
-	"title": "How to ...",
+	"title": "How To",
 	"tags": [],
 	"description": "",
 	"content": "You will find here various step by step tutorial showing you how to access your data, our analysis computer, run the analysis software, etc.\n"
@@ -95,7 +95,7 @@
 	"title": "Contacts",
 	"tags": [],
 	"description": "",
-	"content": "           Hassina Bilheux - Instrument ScientistExpertise: HFIR and SNS imaging beam lines bilheuxhn@ornl.gov (865) 384 - 9630    Lou Santodonato - Instrument ScientistExpertise: HFIR imaging beam line santodonatol@ornl.gov (865) 719 - 0656     Jean Bilheux - Computer ScientistExpertise: Software bilheuxjm@ornl.gov (865) 406 - 1704    Yuxuan Zhang (Shawn) - PostdoctorateExpertise: Resonance Imaging zhangy6@ornl.gov    Indu Dihman - PostdoctorateExpertise: Polarization Imaging dhimani@ornl.gov    Paris Cornwell - Scientific Associate  cornwellpa@ornl.gov    Brianne Beers - Graduate Student    "
+	"content": "           Hassina Bilheux - Instrument ScientistExpertise: HFIR and SNS imaging beam lines bilheuxhn@ornl.gov (865) 384 - 9630 (865) 574 - 0241    Lou Santodonato - Instrument ScientistExpertise: HFIR imaging beam line santodonatol@ornl.gov (865) 719 - 0656 (865) 574 - 4641     Jean Bilheux - Computer ScientistExpertise: Software bilheuxjm@ornl.gov (865) 406 - 1704 (865) 574 - 4637 jbilheux.com github.com/jeanbilheux     Yuxuan Zhang (Shawn) - PostdoctorateExpertise: Resonance Imaging zhangy6@ornl.gov    Indu Dihman - PostdoctorateExpertise: Polarization Imaging dhimani@ornl.gov (865) 607 - 0911    Paris Cornwell - Scientific Associate  cornwellpa@ornl.gov (865) 257 - 1127 (865) 574 - 2122    Brianne Beers - Graduate Student    "
 },
 {
 	"uri": "/en/github/",
@@ -113,10 +113,10 @@
 },
 {
 	"uri": "/en/showcase/",
-	"title": "Showcases",
+	"title": "Showcase",
 	"tags": [],
 	"description": "",
-	"content": ""
+	"content": "test at 2:08PM\n"
 },
 {
 	"uri": "/en/tags/",

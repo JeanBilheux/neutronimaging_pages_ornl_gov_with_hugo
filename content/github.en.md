@@ -1,6 +1,5 @@
 ---
 title: Github Repositories
-disableToc: true
 ---
 
 Our gloal is to only develop open source tools. You will find here a list of the major
