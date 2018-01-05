@@ -5,7 +5,7 @@ pre: "<b>3. </b>"
 weight: 15
 ---
 
-## Utilities
+## Laboratory Utilities
 
 {{%expand "ORNL User Program Guide" %}}
 <a href='https://neutrons.ornl.gov/users'>User Program Guide</a>.
@@ -27,7 +27,7 @@ weight: 15
 <img src='/links/images/links_4.png' />
 {{% /expand%}}
 
-## Tools
+## Analysis Tools
 
 {{%expand "Calculate Transmission and Scattering Power" %}}
 <a href='https://webapps.frm2.tum.de/intranet/neutroncalc/'>https://webapps.frm2.tum.de/intranet/neutroncalc/</a>

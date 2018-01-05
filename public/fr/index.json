@@ -25,7 +25,7 @@
 	"title": "Prérequis",
 	"tags": [],
 	"description": "",
-	"content": "Grâce à la simplicité d\u0026rsquo;Hugo, cette page est vide car il n\u0026rsquo;y a quasi pas de prérequis pour utiliser le thème.\nTéléchargez la dernière version du binaire Hugo (\u0026gt; 0.25) pour votre Système d\u0026rsquo;exploitation (Windows, Linux, Mac) : et c\u0026rsquo;est tout !\n"
+	"content": "Cette check-list doit etre complétée par le chercheur principal de l\u0026rsquo;expèrience au moins 3 semaines avant votre temps de faisceau.\n Vous pouvez accéder aux données de votre expèrience sur le site suivant IPTS page\n Avoir confirmé vos echantillons (ajouter de nouveau echantillons, avoir definis la composition des échantillons)?\n Avoir confirmé l\u0026rsquo;utilisation d\u0026rsquo;un laboratoire si necessaire?\n Avoir confirmé le nom des membres de l\u0026rsquo;equipe qui seront present pendant l\u0026rsquo;expèrience (et ajouter d\u0026rsquo;eventuelles nouvelles personnes)?\n Avoir confirmé l\u0026rsquo;équipement et/ou le materiel rattaché a l\u0026rsquo;échantillon?\n"
 },
 {
 	"uri": "/fr/faq/",
@@ -53,7 +53,7 @@
 	"title": "Preparer Votre Visite",
 	"tags": [],
 	"description": "",
-	"content": " Preparer votre visite a ORNL description here\n"
+	"content": "Cette list doit etre complete par the chercheur principal de l\u0026rsquo;experience.\n  Provided all safety documentation for user provided equipment immediately?\n Shipped/delivered all user provided equipment at least 2 weeks prior to beam time for electrical and safety inspection?\n Answered all safety related questions through IPTS?\n Ensured that sample environment requested equipment is available and compatible with experiment/beam line?\n Written a Job Hazard Analysis (JHA) for hands on work at HFIR?\n"
 },
 {
 	"uri": "/fr/categories/",
@@ -64,10 +64,10 @@
 },
 {
 	"uri": "/fr/credits/",
-	"title": "Crédits",
+	"title": "Contacts",
 	"tags": [],
 	"description": "",
-	"content": " Contributeurs Merci à eux  de rendre le monde Open Source meilleur !\n.ghContributors{ display:flex; flex-flow: wrap; align-content: flex-start } .ghContributors  div{ width: 50% ; display: inline-flex; margin-bottom: 5px; } .ghContributors  div label{ padding-left: 4px ; } .ghContributors  div span{ font-size: x-small; padding-left: 4px ; }   @matcornic 115 commits   @lierdakil 16 commits   @gwleclerc 13 commits   @Xipas 5 commits   @mreithub 3 commits   @Thiht 3 commits   @lfalin 2 commits   @MrMoio 1 commits   @giuliov 1 commits   @haitch 1 commits   @tanzaho 1 commits   @JohnBlood 1 commits   @kamilchm 1 commits   @sykesm 1 commits   @ripienaar 1 commits   @EnigmaCurry 1 commits   @kamar535 1 commits   Et un grand merci à @vjeantet pour son travail sur docdock, un fork de hugo-theme-learn. La v2.0.0 du thème est en grande partie inspirée de son travail.\nPackages et librairies  mermaid - géneration de diagrames et graphiques à partir de texte similaire à Markdown font awesome - Le framework de polices iconiques jQuery - La plus connue des librairies Javascript lunr - Lunr fournit des fonctions de recherche sans service externe horsey - Autocomplétion de composants (utiliser pour les suggestions de recherche) clipboard.js - Copier le texte dans le presse-papier highlight.js - Mise en valeur de syntaxes modernizr - Une boite à outil Javascript qui permet aux développeurs d\u0026rsquo;utiliser les dernières fonctionnalités de CSS et HTML5, même sur de vieux navigateurs.  Outils  Netlify - Déploiement continue et hébergement de cette documentation Hugo  "
+	"content": "           Hassina Bilheux - Scientifique de l\u0026rsquo;InstrumentSpécialité: lignes de faisceau a HFIR et au SNS bilheuxhn@ornl.gov (865) 384 - 9630 (865) 574 - 0241    Lou Santodonato - Scientifique de l\u0026rsquo;InstrumentSpécialité: ligne de faisceau a HFIR santodonatol@ornl.gov (865) 719 - 0656 (865) 574 - 4641     Jean Bilheux - Programmeur ScientifiqueSpécialité: Programmation bilheuxjm@ornl.gov (865) 406 - 1704 (865) 574 - 4637 jbilheux.com github.com/jeanbilheux     Jiao Lin - Programmeur ScientifiqueExpertise: Reconstruction en 3D et visualisation linjiao@ornl.gov (626) 200 - 5247 (626) 200 - 5247     Yuxuan Zhang (Shawn) - PostdoctorateSpécialité: l\u0026rsquo;Imagerie de Résonance zhangy6@ornl.gov    Indu Dihman - PostdoctorateSpécialité: l\u0026rsquo;Imagerie de Polarisation dhimani@ornl.gov (865) 607 - 0911    Paris Cornwell - Associé Scientifique  cornwellpa@ornl.gov (865) 257 - 1127 (865) 574 - 2122    Brianne Beers - Thésarde    "
 },
 {
 	"uri": "/fr/github/",

@@ -20,7 +20,7 @@ Your samples **must** be confirmed in [IPTS](https://extidp.ornl.gov/idp/SSO.sam
 ![Cover letter (optional)](/images/prepare_venue/letter.png)
 
 If you prefer to bring your samples, please go first to the **Sample Management Desk** located in the Cold Guide Hall
-and work with **Kristin Nevius** or **Brian** to have all your samples labeled with an item Barcode before
+and work with **Kristin Nevius** to have all your samples labeled with an item Barcode before
 proceeding to the beamline.
 
 

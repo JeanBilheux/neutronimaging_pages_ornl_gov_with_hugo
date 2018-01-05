@@ -11,13 +11,12 @@
     
     
     <item>
-      <title>Crédits</title>
+      <title>Contacts</title>
       <link>/fr/credits/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/fr/credits/</guid>
-      <description>Contributeurs Merci à eux  de rendre le monde Open Source meilleur !
-.ghContributors{ display:flex; flex-flow: wrap; align-content: flex-start } .ghContributors  div{ width: 50% ; display: inline-flex; margin-bottom: 5px; } .ghContributors  div label{ padding-left: 4px ; } .ghContributors  div span{ font-size: x-small; padding-left: 4px ; }   @matcornic 115 commits   @lierdakil 16 commits   @gwleclerc 13 commits   @Xipas 5 commits   @mreithub 3 commits   @Thiht 3 commits   @lfalin 2 commits   @MrMoio 1 commits   @giuliov 1 commits   @haitch 1 commits   @tanzaho 1 commits   @JohnBlood 1 commits   @kamilchm 1 commits   @sykesm 1 commits   @ripienaar 1 commits   @EnigmaCurry 1 commits   @kamar535 1 commits   Et un grand merci à @vjeantet pour son travail sur docdock, un fork de hugo-theme-learn.</description>
+      <description>Hassina Bilheux - Scientifique de l&amp;rsquo;InstrumentSpécialité: lignes de faisceau a HFIR et au SNS bilheuxhn@ornl.gov (865) 384 - 9630 (865) 574 - 0241    Lou Santodonato - Scientifique de l&amp;rsquo;InstrumentSpécialité: ligne de faisceau a HFIR santodonatol@ornl.gov (865) 719 - 0656 (865) 574 - 4641     Jean Bilheux - Programmeur ScientifiqueSpécialité: Programmation bilheuxjm@ornl.gov (865) 406 - 1704 (865) 574 - 4637 jbilheux.</description>
     </item>
     
     <item>

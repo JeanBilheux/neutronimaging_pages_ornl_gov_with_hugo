@@ -18,7 +18,7 @@
 	"title": "Proposal Confirmation",
 	"tags": [],
 	"description": "",
-	"content": "To be completed only by the Principal Investigator (PI) of the experiment at least 3 weeks before beam time.\n You can access your proposal using the IPTS page\n Confirmed samples (adding any new samples, and including composition)?\n Confirmed need for lab space?\n Confirmed experiment team that will be present at beam time (add any new members)?\n Confirm experiment equipment and/or sample environment?\n"
+	"content": "To be completed only by the Principal Investigator (PI) of the experiment at least 3 weeks before beam time.\n You can access your proposal using the IPTS page\n Confirmed samples (adding any new samples, and including composition)?\n Confirmed need for lab space?\n Confirmed experiment team that will be present at beam time (add any new members)?\n Confirmed experiment equipment and/or sample environment?\n"
 },
 {
 	"uri": "/en/tutorial/how_to_access_computer/",
@@ -32,28 +32,28 @@
 	"title": "Engineering &amp; Equipment Safety",
 	"tags": [],
 	"description": "",
-	"content": "To be completed only by the Principal Investigator (PI) of the experiment\n  Provided all safety documentation for user provided equipment immediately?\n Shipped/delivered all user provided equipment at least 2 weeks prior to beam time for electrical and safety inspection?\n Answered all safety related questions through IPTS?\n Ensured that sample environment requested equipment is available and compatible with experiment/beam line?\n Written a JHA for hands on work at HFIR?\n"
+	"content": "To be completed only by the Principal Investigator (PI) of the experiment\n  Provided all safety documentation for user provided equipment immediately?\n Shipped/delivered all user provided equipment at least 2 weeks prior to beam time for electrical and safety inspection?\n Answered all safety related questions through IPTS?\n Ensured that sample environment requested equipment is available and compatible with experiment/beam line?\n Written a Job Hazard Analysis (JHA) for hands on work at HFIR?\n"
 },
 {
 	"uri": "/en/tutorial/",
 	"title": "How To",
 	"tags": [],
 	"description": "",
-	"content": "You will find here various step by step tutorial showing you how to access your data, our analysis computer, run the analysis software, etc.\n"
+	"content": "You will find here various step by step tutorial showing you:\n how to access your data how to use our analysis computer how to run the analysis software etc.  "
 },
 {
 	"uri": "/en/prepare_venue/access/",
 	"title": "Access",
 	"tags": [],
 	"description": "",
-	"content": "This must be completed by all participants to the experiment before first day of experiment.\n  Received training e-mail from user office (neutronusers@ornl.gov)?\n Completed online training if assigned? ORNL training website\n Scheduled onsite training and tour for HFIR access?\n Followed attached procedure to access CG-1D data?\n Followed attached procedure to access CG-1D analysis computer?\n"
+	"content": "This must be completed by all participants to the experiment before the first day of experiment.\n  Received training e-mail from user office (neutronusers@ornl.gov)?\n Completed online training if assigned? ORNL training website\n Scheduled onsite training and tour for HFIR access?\n Followed attached procedure to access CG-1D data?\n Followed attached procedure to access CG-1D analysis computer?\n"
 },
 {
 	"uri": "/en/tutorial/how_to_start_notebooks/",
 	"title": "Start the python notebooks",
 	"tags": [],
 	"description": "",
-	"content": "We provide a set of jupyter python notebooks. Those provide many advantages:\n rapid implementation for your special needs ease of use easy to modify if you need to use of python language (widely used in the scientific world) nothing to install for you as we take care of this for you when you use your analysis computer  To start the jupyter notebook, just double click the Start Jupyter icon in your desktop and be patient as the python server starts a firefox browser with the right python environment and move to the rigth folder, for you!\nTo start a notebook, just double click any of the .ipynb file (normalization.ipynb in this tutorial).\n"
+	"content": "We provide a set of jupyter python notebooks. Those provide many advantages:\n rapid implementation for your special needs ease of use easy to modify if you need to use of python language (widely used in the scientific world) nothing to install for you as we take care of this for you when you use your analysis computer  To start the jupyter notebook, just double click the Start Jupyter icon in your desktop and be patient as the python server starts a firefox browser with the right python environment and move to the rigth folder, for you!\nTo start a notebook, just click any of the .ipynb file (normalization.ipynb in this tutorial).\nFirst thing we recommend at this point is to make a copy of this notebook. This way, update of the notebooks will not overwrite your work.  "
 },
 {
 	"uri": "/en/tutorial/how_to_run_notebooks/",
@@ -67,21 +67,21 @@
 	"title": "Sample Handling",
 	"tags": [],
 	"description": "",
-	"content": " Sample Shipping and/or Handling at HFIR Your samples must be confirmed in IPTS before shipping.\nIf you prefer to bring your samples, please go first to the Sample Management Desk located in the Cold Guide Hall and work with Kristin Nevius or Brian to have all your samples labeled with an item Barcode before proceeding to the beamline.\n"
+	"content": " Sample Shipping and/or Handling at HFIR Your samples must be confirmed in IPTS before shipping.\nNeutron Sciences User Sample IPTS #XXXX Oak Ridge National Laboratory / HFIR Site Bldg 7972 DP1 Oak Ridge, TN, 37831 USA  If you prefer to bring your samples, please go first to the Sample Management Desk located in the Cold Guide Hall and work with Kristin Nevius to have all your samples labeled with an item Barcode before proceeding to the beamline.\n"
 },
 {
 	"uri": "/en/faq/",
 	"title": "Frequently Asked Questions",
 	"tags": [],
 	"description": "",
-	"content": "  Question FAQ #1?   Answer will go here.     Question FAQ #2?   Answer will go here.  \n  Question FAQ #3?   Answer will go here.  \n"
+	"content": " Before Your Venue   Question FAQ #1?   Answer will go here.   During your Experiment   Question FAQ #1?   Answer will go here.  \nData Analysis   How can I get help analyzing my data?   Just contact Jean Bilheux to discuss your needs.\nBy going over your experiment together, Jean will show you how to run the current tools and will develop customed python notebooks if needed.\n \n  What are those \u0026#39;jupyter notebooks\u0026#39;?   The jupyter notebook developed by jupyter are an easy way to run python code using only a browser. By accessing our analysis computer, you won\u0026rsquo;t have anythign to install. Refer to our How To page to learn how to do that.\n \n"
 },
 {
 	"uri": "/en/links/",
 	"title": "Links",
 	"tags": [],
 	"description": "",
-	"content": "  ORNL User Program Guide   User Program Guide.     Neutron Imaging Facility Official Web Page   Neutron Imaging Facility Official Web Page.  \n  Neutrons (SNS/HFIR) Web Page   https://neutrons.ornl.gov/  \n  ORNL Web Page   https://www.ornl.gov/  \n"
+	"content": " Laboratory Utilities   ORNL User Program Guide   User Program Guide.     Neutron Imaging Facility Official Web Page   Neutron Imaging Facility Official Web Page.  \n  Neutrons (SNS/HFIR) Web Page   https://neutrons.ornl.gov/  \n  ORNL Web Page   https://www.ornl.gov/  \nAnalysis Tools   Calculate Transmission and Scattering Power   https://webapps.frm2.tum.de/intranet/neutroncalc/  \n  Neutron Transmission Calculator   http://apps.jcns.fz-juelich.de/toolbox/nXsection.php  \n  Neutron Scattering Lengths and Cross Sections   https://www.ncnr.nist.gov/resources/n-lengths/  \n"
 },
 {
 	"uri": "/en/categories/",
@@ -95,7 +95,7 @@
 	"title": "Contacts",
 	"tags": [],
 	"description": "",
-	"content": "           Hassina Bilheux - Instrument ScientistExpertise: HFIR and SNS imaging beam lines bilheuxhn@ornl.gov (865) 384 - 9630 (865) 574 - 0241    Lou Santodonato - Instrument ScientistExpertise: HFIR imaging beam line santodonatol@ornl.gov (865) 719 - 0656 (865) 574 - 4641     Jean Bilheux - Computer ScientistExpertise: Software bilheuxjm@ornl.gov (865) 406 - 1704 (865) 574 - 4637 jbilheux.com github.com/jeanbilheux     Yuxuan Zhang (Shawn) - PostdoctorateExpertise: Resonance Imaging zhangy6@ornl.gov    Indu Dihman - PostdoctorateExpertise: Polarization Imaging dhimani@ornl.gov (865) 607 - 0911    Paris Cornwell - Scientific Associate  cornwellpa@ornl.gov (865) 257 - 1127 (865) 574 - 2122    Brianne Beers - Graduate Student    "
+	"content": "           Hassina Bilheux - Instrument ScientistExpertise: HFIR and SNS imaging beam lines bilheuxhn@ornl.gov (865) 384 - 9630 (865) 574 - 0241    Lou Santodonato - Instrument ScientistExpertise: HFIR imaging beam line santodonatol@ornl.gov (865) 719 - 0656 (865) 574 - 4641     Jean Bilheux - Computer ScientistExpertise: Python Notebooks and Data Analysis bilheuxjm@ornl.gov (865) 406 - 1704 (865) 574 - 4637 jbilheux.com github.com/jeanbilheux     Jiao Lin - Computer ScientistExpertise: 3D Reconstruction and visualization linjiao@ornl.gov (626) 200 - 5247 (626) 200 - 5247     Yuxuan Zhang (Shawn) - PostdoctorateExpertise: Resonance Imaging zhangy6@ornl.gov    Indu Dihman - PostdoctorateExpertise: Polarization Imaging dhimani@ornl.gov (865) 607 - 0911    Paris Cornwell - Scientific Associate  cornwellpa@ornl.gov (865) 257 - 1127 (865) 574 - 2122    Brianne Beers - Graduate Student    "
 },
 {
 	"uri": "/en/github/",
@@ -109,14 +109,14 @@
 	"title": "Neutron Imaging",
 	"tags": [],
 	"description": "",
-	"content": " Neutron Imaging for Users Home Page Introduction here (Hassina)\nWe recommend that you discuss your experiment with the instrument team several weeks before your beam time.\n Main features  Prepare your venue: Everything you will need to do before coming to our laboratory. How to: various short tutorials such as how to access your data, connect to the computers, etc. Frequently Asked Questions: answers to the most frequent questions we got from our users. Links: various links that you may find useful.  "
+	"content": " Neutron Imaging for Users Home Page Introduction here (Hassina)\nWe recommend that you discuss your experiment with the instrument team as soon as you receive approval of your beam time.\n Main features  Prepare your venue: Everything you will need to do before coming to our laboratory. How to: various short tutorials such as how to access your data, connect to the computers, etc. Frequently Asked Questions: answers to the most frequent questions we got from our users. Links: various links that you may find useful.  "
 },
 {
 	"uri": "/en/showcase/",
 	"title": "Showcase",
 	"tags": [],
 	"description": "",
-	"content": "test at 2:08PM\n"
+	"content": ""
 },
 {
 	"uri": "/en/tags/",
