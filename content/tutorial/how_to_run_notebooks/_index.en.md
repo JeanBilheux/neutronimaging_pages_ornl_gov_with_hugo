@@ -23,6 +23,28 @@ Our jupyter python notebooks are very straighforward to use but there are just a
 The notebooks must be run from **top** to **bottom**. Place the cursor in the first cell and either click the
 <li class='fa fa-step-forward'></li> icon, or by using the keyboard shortcut **SHIFT + ENTER**.
 
+This is showing a busy notebook with the background cell green and the full circle at the top right corner of the notebook.
+
+<img src='/tutorial/how_to_run_notebooks/images/busy_notebook.png' />
+
+#### Folder Navigation
+
+At least one time per notebook, you will need to select a folder or one or more files. This widget will look like this
+<img src='/tutorial/how_to_run_notebooks/images/file_folder_browser.png' />
+
+The UI is pretty self explanatory but you just need to know that:
+
+ * In the file/folder listing widget
+
+    * *.* means refresh of the current location
+    * *..* means moving up one directory, or folder.
+
+ * The file or folder will be really selected only once you have clicked the **Select**
+button at the bottom right corner.
+
+ * To select more than one file (when this option is available), **CLICK** first file then **SHIFT + CLICK**
+ the last one. Or **ALT + CLICK** to individually select each file.
+
 #### Output and widgets
 
 The cell is then executed and depending on the contain of this one, you may see or not an output to the cell.

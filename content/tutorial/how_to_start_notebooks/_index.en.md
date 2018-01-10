@@ -14,6 +14,11 @@ We provide a set of jupyter python notebooks. Those provide many advantages:
 To start the jupyter notebook, just **double click** the **Start Jupyter** icon in your desktop and be patient as the
 python server starts a firefox browser with the right python environment and move to the rigth folder, for you!
 
+{{% notice info %}}
+Getting the browser up and running with the notebooks page display takes around 10 to 20 seconds.
+{{% /notice %}}
+
+
 <img src='/tutorial/how_to_start_notebooks/images/notebook_0.png' />
 
 <img src='/tutorial/how_to_start_notebooks/images/notebook_1.png' />

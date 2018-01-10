@@ -53,4 +53,10 @@ You can now browse to your data by following the structure **/HFIR/CG1D/IPTS-XXX
 
 <img src='/tutorial/how_to_access_data/images/filezilla_browse.png' />
 
+If you get lost in the file system, here is a typical map of the file structure.
+
+<img src='/tutorial/how_to_access_data/images/file_structure.png' />
+
+
+
 <a href='#top' class='fa fa-arrow-up'></a>
