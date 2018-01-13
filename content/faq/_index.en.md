@@ -7,10 +7,11 @@ weight: 15
 
 ## Before Your Venue
 
+#### Proposal
+
 {{%expand "How do I submit a proposal?" %}}Answer will go here.{{% /expand%}}
 {{%expand "When will I know my proposal has been accepted?" %}}Answer will go here.{{% /expand%}}
 {{%expand "My proposal has been rejected, what to do next?" %}}Answer will go here.{{% /expand%}}
-
 
 ## During your Experiment
 
