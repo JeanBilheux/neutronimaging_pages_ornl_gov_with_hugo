@@ -70,11 +70,18 @@
 	"content": " Sample Shipping and/or Handling at HFIR Your samples must be confirmed in IPTS before shipping.\nNeutron Sciences User Sample IPTS #XXXX Oak Ridge National Laboratory / HFIR Site Bldg 7972 DP1 Oak Ridge, TN, 37831 USA  If you prefer to bring your samples, please go first to the Sample Management Desk located in the Cold Guide Hall and work with Kristin Nevius to have all your samples labeled with an item Barcode before proceeding to the beamline.\n"
 },
 {
+	"uri": "/en/tutorial/how_to_run_imars3d/",
+	"title": "CT reconstruction",
+	"tags": [],
+	"description": "",
+	"content": "This tutorial explains how to use SNS jupyter notebook site to perform CT reconstruction.\nYou will find this tutorial here\n"
+},
+{
 	"uri": "/en/faq/",
 	"title": "Frequently Asked Questions",
 	"tags": [],
 	"description": "",
-	"content": " Before Your Venue   Question FAQ #1?   Answer will go here.   During your Experiment   Question FAQ #1?   Answer will go here.  \nData Analysis   How can I get help analyzing my data?   Just contact Jean Bilheux to discuss your needs.\nBy going over your experiment together, Jean will show you how to run the current tools and will develop customed python notebooks if needed.\n \n  What are those \u0026#39;jupyter notebooks\u0026#39;?   The jupyter notebook developed by jupyter are an easy way to run python code using only a browser. By accessing our analysis computer, you won\u0026rsquo;t have anythign to install. Refer to our How To page to learn how to do that.\n \n"
+	"content": " Before Your Venue Proposal {{%expand \u0026ldquo;How do I submit a proposal?\u0026rdquo; %}}Answer will go here.{{% /expand%}} {{%expand \u0026ldquo;When will I know my proposal has been accepted?\u0026rdquo; %}}Answer will go here.{{% /expand%}} {{%expand \u0026ldquo;My proposal has been rejected, what to do next?\u0026rdquo; %}}Answer will go here.{{% /expand%}}\nSamples {{%expand \u0026ldquo;Can I bring my samples?\u0026rdquo; %}}answer here{{% /expand%}} {{%expand \u0026ldquo;Can I leave with my samples?\u0026rdquo; %}}answer here{{% /expand%}}\nDuring your Experiment {{%expand \u0026ldquo;Where can I stay?\u0026rdquo; %}}Answer will go here.{{% /expand%}}\nData Analysis {{%expand \u0026ldquo;How can I get help analyzing my data?\u0026rdquo; %}}Just contact Jean Bilheux to discuss your needs.\nBy going over your experiment together, Jean will show you how to run the current tools and will develop customed python notebooks if needed.{{% /expand%}} {{%expand \u0026ldquo;What are those \u0026lsquo;jupyter notebooks\u0026rsquo;?\u0026rdquo; %}} The jupyter notebook developed by jupyter are an easy way to run python code using only a browser. By accessing our analysis computer, you won\u0026rsquo;t have anythign to install. Refer to our How To page to learn how to do that. {{% /expand%}} {{%expand \u0026ldquo;Where are my data and how can I access them?\u0026rdquo; %}} The following tutorial will show you where are you data and how you can access them. Just go to How To \u0026gt; Access your data{{% /expand}}\n"
 },
 {
 	"uri": "/en/links/",
@@ -95,7 +102,7 @@
 	"title": "Contacts",
 	"tags": [],
 	"description": "",
-	"content": "           Hassina Bilheux - Instrument ScientistExpertise: HFIR and SNS imaging beam lines bilheuxhn@ornl.gov (865) 384 - 9630 (865) 574 - 0241    Lou Santodonato - Instrument ScientistExpertise: HFIR imaging beam line santodonatol@ornl.gov (865) 719 - 0656 (865) 574 - 4641     Jean Bilheux - Computer ScientistExpertise: Python Notebooks and Data Analysis bilheuxjm@ornl.gov (865) 406 - 1704 (865) 574 - 4637 jbilheux.com jeanbilheux.pages.ornl.gov github.com/jeanbilheux     Jiao Lin - Computer ScientistExpertise: 3D Reconstruction and visualization linjiao@ornl.gov (626) 200 - 5247 (626) 200 - 5247     Yuxuan Zhang (Shawn) - PostdoctorateExpertise: Resonance Imaging zhangy6@ornl.gov    Indu Dihman - PostdoctorateExpertise: Polarization Imaging dhimani@ornl.gov (865) 607 - 0911    Paris Cornwell - Scientific Associate  cornwellpa@ornl.gov (865) 257 - 1127 (865) 574 - 2122    Brianne Beers - Graduate Student    "
+	"content": "           Hassina Bilheux - Instrument ScientistExpertise: HFIR and SNS imaging beam lines bilheuxhn@ornl.gov (865) 384 - 9630 (865) 574 - 0241    Lou Santodonato - Instrument ScientistExpertise: HFIR imaging beam line santodonatol@ornl.gov (865) 719 - 0656 (865) 574 - 4641     Jean Bilheux - Computer ScientistExpertise: Python Notebooks and Data Analysis bilheuxjm@ornl.gov (865) 406 - 1704 (865) 574 - 4637 jbilheux.com jeanbilheux.pages.ornl.gov github.com/jeanbilheux      Jiao Lin - Computer ScientistExpertise: 3D Reconstruction and visualization linjiao@ornl.gov (626) 200 - 5247 (626) 200 - 5247     Yuxuan Zhang (Shawn) - PostdoctorateExpertise: Resonance Imaging zhangy6@ornl.gov    Paris Cornwell - Scientific Associate  cornwellpa@ornl.gov (865) 257 - 1127 (865) 574 - 2122    Brianne Beers - Graduate Student    "
 },
 {
 	"uri": "/en/github/",
@@ -109,7 +116,7 @@
 	"title": "Neutron Imaging",
 	"tags": [],
 	"description": "",
-	"content": " Neutron Imaging for Users Home Page Introduction here (Hassina)\nWe recommend that you discuss your experiment with the instrument team as soon as you receive approval of your beam time.\n Main features  Prepare your venue: Everything you will need to do before coming to our laboratory. How to: various short tutorials such as how to access your data, connect to the computers, etc. Frequently Asked Questions: answers to the most frequent questions we got from our users. Links: various links that you may find useful.  "
+	"content": " Neutron Imaging for Users Home Page  You are planning on submitting a proposal to our Neutron Imaging beam lines but do not know where to start. Your beam time has been granted but you do not know what to do next or who to contact. Your experiment beam time is over but do not know how to analyze the data, or even reach your data. If you have any doubt about what to do before, during and after your beam time, then you came to the right place!  This web site will answer any of the questions you may have. And if it does not, will let you know who to contact to get those answers.\nWelcome to our Imaging Web Page!\nWe recommend that you discuss your experiment with the instrument team as soon as you receive approval of your beam time.\n Main features  Prepare your venue: Everything you will need to do before coming to our laboratory. How to: short tutorials such as how to access your data, connect to the computers, etc. Frequently Asked Questions: answers to the most frequent questions we got from our users. Links: handy links.  "
 },
 {
 	"uri": "/en/showcase/",
