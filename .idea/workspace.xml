@@ -3,113 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1f2909ce-3d75-492d-a5d4-0dc990d52b0d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/content/faq/_index.en.md" afterPath="$PROJECT_DIR$/content/faq/_index.en.md" />
-      <change beforePath="$PROJECT_DIR$/public/css/auto-complete.css" afterPath="$PROJECT_DIR$/public/css/auto-complete.css" />
-      <change beforePath="$PROJECT_DIR$/public/css/featherlight.min.css" afterPath="$PROJECT_DIR$/public/css/featherlight.min.css" />
-      <change beforePath="$PROJECT_DIR$/public/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/public/css/font-awesome.min.css" />
-      <change beforePath="$PROJECT_DIR$/public/css/hugo-theme.css" afterPath="$PROJECT_DIR$/public/css/hugo-theme.css" />
-      <change beforePath="$PROJECT_DIR$/public/css/hybrid.css" afterPath="$PROJECT_DIR$/public/css/hybrid.css" />
-      <change beforePath="$PROJECT_DIR$/public/css/nucleus.css" afterPath="$PROJECT_DIR$/public/css/nucleus.css" />
-      <change beforePath="$PROJECT_DIR$/public/css/perfect-scrollbar.min.css" afterPath="$PROJECT_DIR$/public/css/perfect-scrollbar.min.css" />
-      <change beforePath="$PROJECT_DIR$/public/css/theme-blue.css" afterPath="$PROJECT_DIR$/public/css/theme-blue.css" />
-      <change beforePath="$PROJECT_DIR$/public/css/theme-green.css" afterPath="$PROJECT_DIR$/public/css/theme-green.css" />
-      <change beforePath="$PROJECT_DIR$/public/css/theme-red.css" afterPath="$PROJECT_DIR$/public/css/theme-red.css" />
-      <change beforePath="$PROJECT_DIR$/public/css/theme.css" afterPath="$PROJECT_DIR$/public/css/theme.css" />
-      <change beforePath="$PROJECT_DIR$/public/en/404.html" afterPath="$PROJECT_DIR$/public/en/404.html" />
-      <change beforePath="$PROJECT_DIR$/public/en/credits/index.html" afterPath="$PROJECT_DIR$/public/en/credits/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/en/faq/index.html" afterPath="$PROJECT_DIR$/public/en/faq/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/en/github/index.html" afterPath="$PROJECT_DIR$/public/en/github/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/en/index.html" afterPath="$PROJECT_DIR$/public/en/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/en/index.json" afterPath="$PROJECT_DIR$/public/en/index.json" />
-      <change beforePath="$PROJECT_DIR$/public/en/links/index.html" afterPath="$PROJECT_DIR$/public/en/links/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/en/prepare_venue/access/index.html" afterPath="$PROJECT_DIR$/public/en/prepare_venue/access/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/en/prepare_venue/index.html" afterPath="$PROJECT_DIR$/public/en/prepare_venue/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/en/prepare_venue/proposal_confirmation/index.html" afterPath="$PROJECT_DIR$/public/en/prepare_venue/proposal_confirmation/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/en/prepare_venue/safety/index.html" afterPath="$PROJECT_DIR$/public/en/prepare_venue/safety/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/en/prepare_venue/sample/index.html" afterPath="$PROJECT_DIR$/public/en/prepare_venue/sample/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/en/showcase/index.html" afterPath="$PROJECT_DIR$/public/en/showcase/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/en/sitemap.xml" afterPath="$PROJECT_DIR$/public/en/sitemap.xml" />
-      <change beforePath="$PROJECT_DIR$/public/en/tutorial/how_to_access_computer/index.html" afterPath="$PROJECT_DIR$/public/en/tutorial/how_to_access_computer/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/en/tutorial/how_to_access_data/index.html" afterPath="$PROJECT_DIR$/public/en/tutorial/how_to_access_data/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/en/tutorial/how_to_run_notebooks/index.html" afterPath="$PROJECT_DIR$/public/en/tutorial/how_to_run_notebooks/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/en/tutorial/how_to_start_notebooks/index.html" afterPath="$PROJECT_DIR$/public/en/tutorial/how_to_start_notebooks/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/en/tutorial/index.html" afterPath="$PROJECT_DIR$/public/en/tutorial/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/es/404.html" afterPath="$PROJECT_DIR$/public/es/404.html" />
-      <change beforePath="$PROJECT_DIR$/public/es/credits/index.html" afterPath="$PROJECT_DIR$/public/es/credits/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/es/faq/index.html" afterPath="$PROJECT_DIR$/public/es/faq/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/es/github/index.html" afterPath="$PROJECT_DIR$/public/es/github/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/es/index.html" afterPath="$PROJECT_DIR$/public/es/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/es/index.json" afterPath="$PROJECT_DIR$/public/es/index.json" />
-      <change beforePath="$PROJECT_DIR$/public/es/prepare_venue/index.html" afterPath="$PROJECT_DIR$/public/es/prepare_venue/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/FontAwesome.otf" afterPath="$PROJECT_DIR$/public/fonts/FontAwesome.otf" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/Inconsolata.eot" afterPath="$PROJECT_DIR$/public/fonts/Inconsolata.eot" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/Inconsolata.svg" afterPath="$PROJECT_DIR$/public/fonts/Inconsolata.svg" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/Inconsolata.ttf" afterPath="$PROJECT_DIR$/public/fonts/Inconsolata.ttf" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/Inconsolata.woff" afterPath="$PROJECT_DIR$/public/fonts/Inconsolata.woff" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/Novecentosanswide-Normal-webfont.eot" afterPath="$PROJECT_DIR$/public/fonts/Novecentosanswide-Normal-webfont.eot" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/Novecentosanswide-Normal-webfont.svg" afterPath="$PROJECT_DIR$/public/fonts/Novecentosanswide-Normal-webfont.svg" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/Novecentosanswide-Normal-webfont.ttf" afterPath="$PROJECT_DIR$/public/fonts/Novecentosanswide-Normal-webfont.ttf" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/Novecentosanswide-Normal-webfont.woff" afterPath="$PROJECT_DIR$/public/fonts/Novecentosanswide-Normal-webfont.woff" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/Novecentosanswide-Normal-webfont.woff2" afterPath="$PROJECT_DIR$/public/fonts/Novecentosanswide-Normal-webfont.woff2" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/Novecentosanswide-UltraLight-webfont.eot" afterPath="$PROJECT_DIR$/public/fonts/Novecentosanswide-UltraLight-webfont.eot" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/Novecentosanswide-UltraLight-webfont.svg" afterPath="$PROJECT_DIR$/public/fonts/Novecentosanswide-UltraLight-webfont.svg" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/Novecentosanswide-UltraLight-webfont.ttf" afterPath="$PROJECT_DIR$/public/fonts/Novecentosanswide-UltraLight-webfont.ttf" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/Novecentosanswide-UltraLight-webfont.woff" afterPath="$PROJECT_DIR$/public/fonts/Novecentosanswide-UltraLight-webfont.woff" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/Novecentosanswide-UltraLight-webfont.woff2" afterPath="$PROJECT_DIR$/public/fonts/Novecentosanswide-UltraLight-webfont.woff2" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/Work_Sans_200.eot" afterPath="$PROJECT_DIR$/public/fonts/Work_Sans_200.eot" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/Work_Sans_200.svg" afterPath="$PROJECT_DIR$/public/fonts/Work_Sans_200.svg" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/Work_Sans_200.ttf" afterPath="$PROJECT_DIR$/public/fonts/Work_Sans_200.ttf" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/Work_Sans_200.woff" afterPath="$PROJECT_DIR$/public/fonts/Work_Sans_200.woff" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/Work_Sans_200.woff2" afterPath="$PROJECT_DIR$/public/fonts/Work_Sans_200.woff2" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/Work_Sans_300.eot" afterPath="$PROJECT_DIR$/public/fonts/Work_Sans_300.eot" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/Work_Sans_300.svg" afterPath="$PROJECT_DIR$/public/fonts/Work_Sans_300.svg" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/Work_Sans_300.ttf" afterPath="$PROJECT_DIR$/public/fonts/Work_Sans_300.ttf" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/Work_Sans_300.woff" afterPath="$PROJECT_DIR$/public/fonts/Work_Sans_300.woff" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/Work_Sans_300.woff2" afterPath="$PROJECT_DIR$/public/fonts/Work_Sans_300.woff2" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/Work_Sans_500.eot" afterPath="$PROJECT_DIR$/public/fonts/Work_Sans_500.eot" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/Work_Sans_500.svg" afterPath="$PROJECT_DIR$/public/fonts/Work_Sans_500.svg" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/Work_Sans_500.ttf" afterPath="$PROJECT_DIR$/public/fonts/Work_Sans_500.ttf" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/Work_Sans_500.woff" afterPath="$PROJECT_DIR$/public/fonts/Work_Sans_500.woff" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/Work_Sans_500.woff2" afterPath="$PROJECT_DIR$/public/fonts/Work_Sans_500.woff2" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.eot" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.svg" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.ttf" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.woff" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.woff2" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.woff2" />
-      <change beforePath="$PROJECT_DIR$/public/fr/404.html" afterPath="$PROJECT_DIR$/public/fr/404.html" />
-      <change beforePath="$PROJECT_DIR$/public/fr/credits/index.html" afterPath="$PROJECT_DIR$/public/fr/credits/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/fr/faq/index.html" afterPath="$PROJECT_DIR$/public/fr/faq/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/fr/github/index.html" afterPath="$PROJECT_DIR$/public/fr/github/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/fr/index.html" afterPath="$PROJECT_DIR$/public/fr/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/fr/index.json" afterPath="$PROJECT_DIR$/public/fr/index.json" />
-      <change beforePath="$PROJECT_DIR$/public/fr/prepare_venue/access/index.html" afterPath="$PROJECT_DIR$/public/fr/prepare_venue/access/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/fr/prepare_venue/index.html" afterPath="$PROJECT_DIR$/public/fr/prepare_venue/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/fr/prepare_venue/proposal_confirmation/index.html" afterPath="$PROJECT_DIR$/public/fr/prepare_venue/proposal_confirmation/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/fr/prepare_venue/safety/index.html" afterPath="$PROJECT_DIR$/public/fr/prepare_venue/safety/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/fr/prepare_venue/sample/index.html" afterPath="$PROJECT_DIR$/public/fr/prepare_venue/sample/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/fr/tutorial/how_to_access_data/index.html" afterPath="$PROJECT_DIR$/public/fr/tutorial/how_to_access_data/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/fr/tutorial/index.html" afterPath="$PROJECT_DIR$/public/fr/tutorial/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/fr/vitrine/index.html" afterPath="$PROJECT_DIR$/public/fr/vitrine/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/images/clippy.svg" afterPath="$PROJECT_DIR$/public/images/clippy.svg" />
-      <change beforePath="$PROJECT_DIR$/public/images/gopher-404.jpg" afterPath="$PROJECT_DIR$/public/images/gopher-404.jpg" />
-      <change beforePath="$PROJECT_DIR$/public/js/auto-complete.js" afterPath="$PROJECT_DIR$/public/js/auto-complete.js" />
-      <change beforePath="$PROJECT_DIR$/public/js/clipboard.min.js" afterPath="$PROJECT_DIR$/public/js/clipboard.min.js" />
-      <change beforePath="$PROJECT_DIR$/public/js/featherlight.min.js" afterPath="$PROJECT_DIR$/public/js/featherlight.min.js" />
-      <change beforePath="$PROJECT_DIR$/public/js/highlight.pack.js" afterPath="$PROJECT_DIR$/public/js/highlight.pack.js" />
-      <change beforePath="$PROJECT_DIR$/public/js/html5shiv-printshiv.min.js" afterPath="$PROJECT_DIR$/public/js/html5shiv-printshiv.min.js" />
-      <change beforePath="$PROJECT_DIR$/public/js/hugo-learn.js" afterPath="$PROJECT_DIR$/public/js/hugo-learn.js" />
-      <change beforePath="$PROJECT_DIR$/public/js/jquery-2.x.min.js" afterPath="$PROJECT_DIR$/public/js/jquery-2.x.min.js" />
-      <change beforePath="$PROJECT_DIR$/public/js/learn.js" afterPath="$PROJECT_DIR$/public/js/learn.js" />
-      <change beforePath="$PROJECT_DIR$/public/js/lunr.min.js" afterPath="$PROJECT_DIR$/public/js/lunr.min.js" />
-      <change beforePath="$PROJECT_DIR$/public/js/modernizr.custom.71422.js" afterPath="$PROJECT_DIR$/public/js/modernizr.custom.71422.js" />
-      <change beforePath="$PROJECT_DIR$/public/js/perfect-scrollbar.jquery.min.js" afterPath="$PROJECT_DIR$/public/js/perfect-scrollbar.jquery.min.js" />
-      <change beforePath="$PROJECT_DIR$/public/js/perfect-scrollbar.min.js" afterPath="$PROJECT_DIR$/public/js/perfect-scrollbar.min.js" />
-      <change beforePath="$PROJECT_DIR$/public/js/search.js" afterPath="$PROJECT_DIR$/public/js/search.js" />
-      <change beforePath="$PROJECT_DIR$/public/mermaid/mermaid.css" afterPath="$PROJECT_DIR$/public/mermaid/mermaid.css" />
-      <change beforePath="$PROJECT_DIR$/public/mermaid/mermaid.dark.css" afterPath="$PROJECT_DIR$/public/mermaid/mermaid.dark.css" />
-      <change beforePath="$PROJECT_DIR$/public/mermaid/mermaid.forest.css" afterPath="$PROJECT_DIR$/public/mermaid/mermaid.forest.css" />
-      <change beforePath="$PROJECT_DIR$/public/mermaid/mermaid.js" afterPath="$PROJECT_DIR$/public/mermaid/mermaid.js" />
-      <change beforePath="$PROJECT_DIR$/public/sitemap.xml" afterPath="$PROJECT_DIR$/public/sitemap.xml" />
       <change beforePath="$PROJECT_DIR$/themes/hugo-theme-learn" afterPath="$PROJECT_DIR$/themes/hugo-theme-learn" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -120,55 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="_index.en.md" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/content/faq/_index.en.md">
-              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-                <state split_layout="FIRST">
-                  <first_editor relative-caret-position="593">
-                    <caret line="55" column="12" lean-forward="false" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="12" />
-                    <folding />
-                  </first_editor>
-                  <second_editor />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="_index.en.md" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/content/links/_index.en.md">
-              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-                <state split_layout="FIRST">
-                  <first_editor relative-caret-position="0">
-                    <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                    <folding />
-                  </first_editor>
-                  <second_editor />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="_index.en.md" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/content/links/_index.en.md">
-              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-                <state split_layout="FIRST">
-                  <first_editor relative-caret-position="300">
-                    <caret line="20" column="30" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="44" selection-end-column="14" />
-                    <folding />
-                  </first_editor>
-                  <second_editor />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -298,6 +143,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -332,8 +179,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -387,7 +232,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="22" y="23" width="1860" height="1173" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21968462" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
@@ -396,7 +240,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2940631" sideWeight="0.5" order="19" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2940631" sideWeight="0.5" order="19" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
@@ -658,7 +502,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="330">
             <caret line="22" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -666,7 +509,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="97" lean-forward="false" selection-start-line="17" selection-start-column="97" selection-end-line="17" selection-end-column="97" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -675,7 +517,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="15">
             <caret line="1" column="24" lean-forward="true" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -686,7 +527,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="165">
             <caret line="11" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -702,7 +542,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="255">
             <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -718,7 +557,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="255">
             <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -726,7 +564,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -735,10 +572,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding>
-              <marker date="1514427739000" expanded="true" signature="2744:2816" ph="+++&#10;title = &quot;Démarrage...e&#10;+++" />
-              <marker date="1514427739000" expanded="true" signature="2834:2915" ph="h1: ## Démarrage" />
-            </folding>
           </first_editor>
           <second_editor />
         </state>
@@ -748,7 +581,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -756,7 +588,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="11" lean-forward="true" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -764,7 +595,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -773,7 +603,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="390">
             <caret line="26" column="9" lean-forward="false" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -781,7 +610,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="34" lean-forward="false" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -790,7 +618,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -801,7 +628,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -812,7 +638,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -820,23 +645,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="36" column="69" lean-forward="false" selection-start-line="36" selection-start-column="69" selection-end-line="36" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/links/_index.en.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -845,7 +653,6 @@
         <state split_layout="FIRST">
           <first_editor relative-caret-position="593">
             <caret line="55" column="12" lean-forward="false" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="12" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -853,7 +660,21 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/links/_index.en.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="300">
+            <caret line="20" column="30" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="44" selection-end-column="14" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
