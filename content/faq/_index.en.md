@@ -12,11 +12,9 @@ weight: 15
 {{%expand "How do I submit a proposal?" %}}
 Answer will go here.
 {{% /expand%}}
-
 {{%expand "When will I know my proposal has been accepted?" %}}
 Answer will go here.
 {{% /expand%}}
-
 {{%expand "My proposal has been rejected, what to do next?" %}}
 Answer will go here.
 {{% /expand%}}
@@ -26,7 +24,6 @@ Answer will go here.
 {{%expand "Can I bring my samples?" %}}
 answer here
 {{% /expand%}}
-
 {{%expand "Can I leave with my samples?" %}}
 answer here
 {{% /expand%}}
@@ -44,17 +41,14 @@ your needs.
 By going over your experiment together, Jean will show you how to run the current tools and will develop customed python
 notebooks if needed.
 {{% /expand%}}
-
 {{%expand "What are those 'jupyter notebooks'?" %}}
 The *jupyter notebook* developed by [jupyter](http://jupyter.org/) are an easy way to run python code using only a browser.
 By accessing our analysis computer, you won't have anythign to install. Refer to our [How To](/en/tutorial/) page to
 learn how to do that.
 {{% /expand%}}
-
 {{%expand "Where are my data and how can I access them?" %}}
 The following tutorial will show you where are you data and how you can access them. Just go to [How To > Access your data](/en/tutorial/how_to_access_data/)
 {{% /expand%}}
-
 {{%expand "I get a firefox error message when trying to start the jupyter notebooks on the analysis machine." %}}
 After double clicking the **start jupyter** icon, I get an **Firefox** error message telling me that I have another
 Firefox window opened. 
@@ -72,8 +66,9 @@ and click the **Fix Firefox**!
 <img src='/faq/images/firefox4.png' />
 <img src='/faq/images/firefox5.png' />
 
-
 This should fix your issue and you should be able to start the jupyter notebooks now.
-
-
+{{% /expand%}}
+{{%expand "Where do I find ImageJ (or Fiji) on the analysis computer?" %}}
+Just follow the following path to find and start ImageJ.
+<img src='/faq/images/imagej.png' />
 {{% /expand%}}

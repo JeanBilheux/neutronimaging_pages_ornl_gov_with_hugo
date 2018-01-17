@@ -35,3 +35,7 @@ access your data, connect to the computers, etc.
 * [Frequently Asked Questions]({{%relref "/faq/_index.md#activate-search" %}}): answers to the most frequent questions 
 we got from our users.
 * [Links]({{%relref "/links/_index.md#activate-search" %}}): handy links.
+
+{{% notice info %}}We would like to thank the contribution from our users in the implementation of this web site, and 
+always **welcome your comments** to make it even better (contact <a href="/en/credits#jean_bilheux">Jean Bilheux</a>).
+{{% /notice %}}
