@@ -54,3 +54,26 @@ learn how to do that.
 {{%expand "Where are my data and how can I access them?" %}}
 The following tutorial will show you where are you data and how you can access them. Just go to [How To > Access your data](/en/tutorial/how_to_access_data/)
 {{% /expand%}}
+
+{{%expand "I get a firefox error message when trying to start the jupyter notebooks on the analysis machine." %}}
+After double clicking the **start jupyter** icon, I get an **Firefox** error message telling me that I have another
+Firefox window opened. 
+
+The short way to fix that is by starting the **Help me** application.
+
+<img src='/faq/images/firefox2.png' />
+
+Then go to the **Desperate Actions**
+
+<img src='/faq/images/firefox3.png' />
+
+and click the **Fix Firefox**!
+
+<img src='/faq/images/firefox4.png' />
+<img src='/faq/images/firefox5.png' />
+
+
+This should fix your issue and you should be able to start the jupyter notebooks now.
+
+
+{{% /expand%}}
