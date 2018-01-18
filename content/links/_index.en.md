@@ -38,6 +38,10 @@ weight: 15
 <a href='https://www.ncnr.nist.gov/resources/n-lengths/'>https://www.ncnr.nist.gov/resources/n-lengths/</a>
 <img src='/links/images/nlengths.png' />
 {{% /expand%}}
+{{%expand "Neutron Activation and Scattering Calculator" %}}
+<a href='https://ncnr.nist.gov/resources/activation/'>ncnr.nist.gov/resources/activation/</a>
+<img src='/links/images/ncnr_nist.png' />
+{{% /expand%}}
 
 ## References
 
