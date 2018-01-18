@@ -38,4 +38,9 @@ we got from our users.
 
 {{% notice info %}}We would like to thank the contribution from our users in the implementation of this web site, and 
 always **welcome your comments** to make it even better (contact <a href="/en/credits#jean_bilheux">Jean Bilheux</a>).
+
 {{% /notice %}}
+
+<hr>
+
+<i class='fa fa-copyright'></i> Credit for web site logo goes here

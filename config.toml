@@ -30,7 +30,7 @@ url = "github"
 weight = 11
 
 [[Languages.en.menu.shortcuts]]
-name = "<i class='fa fa-camera'></i> Showcases"
+name = "<i class='fa fa-camera'></i> What We Do"
 url = "/showcase"
 weight = 12
 
@@ -51,7 +51,7 @@ url = "github"
 weight = 10
 
 [[Languages.fr.menu.shortcuts]]
-name = "<i class='fa fa-camera'></i> Vitrine"
+name = "<i class='fa fa-camera'></i> Que Faisons-nous"
 url = "/showcase"
 weight = 11
 
@@ -72,7 +72,7 @@ url = "github"
 weight = 10
 
 [[Languages.es.menu.shortcuts]]
-name = "<i class='fa fa-camera'></i> Vitrine"
+name = "<i class='fa fa-camera'></i> Que Hacemos "
 url = "/showcase"
 weight = 11
 

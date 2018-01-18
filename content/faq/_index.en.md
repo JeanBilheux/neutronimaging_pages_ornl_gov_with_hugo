@@ -31,7 +31,8 @@ answer here
 ## During your Experiment
 
 {{%expand "Where can I stay?" %}}
-Answer will go here.
+A few options are available off-site and on-site. Check the <a href='https://neutrons.ornl.gov/users/daily-living#stay'>
+neutron.ornl.gov users page</a> for more infos.
 {{% /expand%}}
 
 ## Data Analysis
@@ -71,4 +72,12 @@ This should fix your issue and you should be able to start the jupyter notebooks
 {{%expand "Where do I find ImageJ (or Fiji) on the analysis computer?" %}}
 Just follow the following path to find and start ImageJ.
 <img src='/faq/images/imagej.png' />
+If you need to learn how to use ImageJ, check their <a href='https://imagej.nih.gov/ij/docs/examples/index.html'>tutorial
+web site</a>
 {{% /expand%}}
+{{%expand "How to cite our work?" %}}
+<ul>
+<li>Use of CG1D beam line</li>
+<li>iMars3D</li>
+<li>iBeatles</li>
+</ul>

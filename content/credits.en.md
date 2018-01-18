@@ -13,5 +13,10 @@ title: Contacts
 | ![Paris Cornwell](/images/contacts/paris.png) | <ul><li>**Paris Cornwell** - Scientific Associate </li><li><i class='fa fa-envelope-open'></i> cornwellpa@ornl.gov</li><li><i class='fa fa-mobile'></i> (865) 257 - 1127</li><li><i class='fa fa-phone'></i> (865) 574 - 2122</li></ul>  |
 | ![Brianne Beers](/images/contacts/brianne.png) | <ul><li>**Brianne Beers** - Graduate Student</li></ul> |
 
+### Past Team Members
 
-
+<ul>
+<li>Gian Song</li>
+<li>Sophie Voisin</li>
+<li>Lakeisha Walker</li>
+</ul>
