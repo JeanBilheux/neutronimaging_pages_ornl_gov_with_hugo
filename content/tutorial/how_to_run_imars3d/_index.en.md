@@ -1,5 +1,5 @@
 ---
-title: CT reconstruction
+title: Do a CT reconstruction
 weight: 5
 ---
 
