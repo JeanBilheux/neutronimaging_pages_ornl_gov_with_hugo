@@ -11,8 +11,8 @@ We provide a set of jupyter python notebooks. Those provide many advantages:
   * use of python language (widely used in the scientific world)
   * nothing to install for you as we take care of this for you when you use your analysis computer
 
-To start the jupyter notebook, just **double click** the **Start Jupyter** icon in your desktop and be patient as the
-python server starts a firefox browser with the right python environment and move to the rigth folder, for you!
+To launch the jupyter notebooks, navigate to **Applications > Analysis > Jupyter**. Be patient as the
+python server starts a firefox browser with the right python environment and move to the right folder, for you!
 
 {{% notice info %}}
 Getting the browser up and running with the notebooks page display takes around 10 to 20 seconds.
