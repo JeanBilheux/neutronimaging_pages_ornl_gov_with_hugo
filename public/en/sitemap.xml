@@ -122,6 +122,10 @@
   </url>
   
   <url>
+    <loc>/en/tutorial/how_to_other/</loc>
+  </url>
+  
+  <url>
     <loc>/en/faq/</loc>
     <lastmod>2016-04-09T16:50:16+02:00</lastmod>
     <xhtml:link
@@ -224,20 +228,6 @@
   </url>
   
   <url>
-    <loc>/en/showcase/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="/fr/vitrine/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/showcase/"
-                />
-  </url>
-  
-  <url>
     <loc>/en/tags/</loc>
     <priority>0</priority>
     <xhtml:link
@@ -254,6 +244,20 @@
                 rel="alternate"
                 hreflang="en"
                 href="/en/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/showcase/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/vitrine/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/showcase/"
                 />
   </url>
   
