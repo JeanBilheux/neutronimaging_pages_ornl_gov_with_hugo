@@ -24,6 +24,7 @@ title = "Documentation for Hugo Learn Theme"
 weight = 1
 languageName = "English"
 
+
 [[Languages.en.menu.shortcuts]]
 name = "<i class='fa fa-github'></i> Github Repos"
 url = "github"
@@ -33,6 +34,11 @@ weight = 11
 name = "<i class='fa fa-camera'></i> Photo Gallery"
 url = "/showcase"
 weight = 12
+
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fa fa-book'></i> Publications"
+url = "https://neutrons.ornl.gov/imaging/publications"
+weight = 13
 
 [[Languages.en.menu.shortcuts]]
 name = "<i class='fa fa-user-circle'></i> Contacts"
