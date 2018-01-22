@@ -30,7 +30,7 @@ url = "github"
 weight = 11
 
 [[Languages.en.menu.shortcuts]]
-name = "<i class='fa fa-camera'></i> What We Do"
+name = "<i class='fa fa-camera'></i> Photo Gallery"
 url = "/showcase"
 weight = 12
 

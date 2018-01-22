@@ -1,8 +1,8 @@
 ---
 title: How To
-weight: 2
+weight: 3
 chapter: true
-pre: "<b>2. </b>"
+pre: "<b>3. </b>"
 ---
 
 You will find here various step by step tutorial showing you:

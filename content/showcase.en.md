@@ -1,5 +1,5 @@
 ---
-title: What We Do
+title: Gallery
 slug: Showcase
 ---
 
