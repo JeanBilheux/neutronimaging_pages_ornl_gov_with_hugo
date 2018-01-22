@@ -81,3 +81,13 @@ web site</a>
 <li>iMars3D</li>
 <li>iBeatles</li>
 </ul>
+{{% /expand%}}
+
+## Work With Us
+
+{{%expand "Visiting Researcher Program"%}}
+<a href='http://swc.ornl.gov/visiting'>Link here</a>
+{{%/expand%}}
+{{%expand "Minority Serving Institutions Partnership Program" %}}
+<a href='https://orise.orau.gov/msipp/'>Link here</a>
+{{%/expand%}}
