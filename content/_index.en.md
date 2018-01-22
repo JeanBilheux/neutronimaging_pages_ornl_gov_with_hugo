@@ -33,4 +33,4 @@ web site, and always **welcome your comments** to improve it (contact
 
 <hr>
 
-<i class='fa fa-copyright'></i> Credit for web site logo goes here
+<i class='fa fa-copyright'></i> Web site logo: Ryzewski K., Herringer S., Bilheux H.Z., Walker L., Sheldon B., Voisin S., Bilheux J., Finocchiaro V., Neutron imaging of archaeological bronzes at the Oak Ridge National Laboratory Physics Procedia, 43, 343-351 (2013).
