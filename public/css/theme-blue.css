@@ -8,7 +8,8 @@
     --MAIN-ANCHOR-color: #1C90F3; /* color of anchors on titles */
 
     --MENU-HEADER-BG-color:#1C90F3; /* Background color of menu header */
-    --MENU-HEADER-BORDER-color:#33a1ff; /*Color of menu header border */ 
+    --MENU-HEADER-BG-color:#fff; /* Background color of menu header */
+    --MENU-HEADER-BORDER-color:#33a1ff; /*Color of menu header border */
 
     --MENU-SEARCH-BG-color:#167ad0; /* Search field background color (by default borders + icons) */
     --MENU-SEARCH-BOX-color: #33a1ff; /* Override search field border color */
@@ -102,3 +103,21 @@ a:hover {
     border-color: var(--MENU-SECTION-HR-color);
 }
 
+#bottom_links a {
+    color: #fff;
+    vertical-align: middle;
+}
+
+#bottom_links {
+    font-size: 15px;
+    padding-left: 20rem;
+    height: 50px;
+
+    background: #acbcc2;
+    color: #ffffff;
+    text-align: center;
+  }
+
+#bottom_links span#bottom_ornl_statement {
+    color: black
+}

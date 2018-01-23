@@ -105,8 +105,23 @@
   </url>
   
   <url>
-    <loc>/en/publications/</loc>
-    <lastmod>2018-01-21T16:50:16+02:00</lastmod>
+    <loc>/en/faq/</loc>
+    <lastmod>2016-04-09T16:50:16+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/faq/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/faq/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/faq/"
+                />
   </url>
   
   <url>
@@ -128,32 +143,12 @@
   </url>
   
   <url>
-    <loc>/en/faq/</loc>
+    <loc>/en/links/</loc>
     <lastmod>2016-04-09T16:50:16+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/es/faq/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="/fr/faq/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/faq/"
-                />
   </url>
   
   <url>
     <loc>/en/tutorial/how_to_run_imars3d/</loc>
-  </url>
-  
-  <url>
-    <loc>/en/links/</loc>
-    <lastmod>2016-04-09T16:50:16+02:00</lastmod>
   </url>
   
   <url>
