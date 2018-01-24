@@ -25,7 +25,7 @@
 	"title": "Capabilities",
 	"tags": [],
 	"description": "",
-	"content": " Imaging Facilities   CG-1D radiography/tomography with cold neutron spectrum.    VENUS time-of-flight radiography/tomography with epithermal to cold neutrons spectra.   Xray CT complementary uCT capabilities   "
+	"content": " Imaging Facilities   CG-1D radiography/tomography with cold neutron spectrum.    VENUS time-of-flight radiography/tomography with epithermal to cold neutrons spectra.   Xray CT complementary microCT capabilities   Technical Infos     Resolution: 1 micron ultimate resolution with 1mm field-of-view  Resolution: 65 microns with 50mm field-of-view  160 kV max  50mm or less sample size      "
 },
 {
 	"uri": "/en/tutorial/how_to_access_computer/",
