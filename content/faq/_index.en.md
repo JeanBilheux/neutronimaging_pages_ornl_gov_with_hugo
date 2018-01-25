@@ -93,6 +93,28 @@ web site</a>
 <li>iBeatles</li>
 </ul>
 {{% /expand%}}
+{{%expand "Metadata of the images and their meaning" %}}
+You can retrieve the metadata of your TIFF images using:
+<ul>
+ <li><a href='https://oncat.ornl.gov/#/'>ONCat</a></li>
+ <li>the jupyter notebook **list_tiff_metadata.ipynb**. Check [How To > Start the python notebooks](/en/tutorial/how_to_start_notebooks)</li>
+</ul>
+
+<table>
+<tr><td><strong>Tag Name</td><td><strong>Description</td></tr>
+<tr><td>ImageWidth</td><td>The number of columns in the image</td></tr>
+<tr><td>ImageHeight</td><td>The number of rows in the image</td></tr>
+<tr><td>BitsPerSample</td><td>The number of bits per component (ie. 16-bits or 32-bits for each greyscale pixel in our case)</td></tr>
+<tr><td>SampleFormat</td><td>Specifies how to interpret each data sample in a pixel (1 = unsigned integer)</td></tr>
+<tr><td>SamplesPerPixel</td><td>The number of components per pixel (1 in our case, which is grey scale)</td></tr>
+<tr><td>Compression</td><td>1 = None</td></tr>
+<tr><td>PhotometricInterpretation</td><td>1 = Min is black</td></tr>
+<tr><td>MakeStr</td><td>The detector manufacture (eg. 'Andor' or 'SBIG')</td></tr>
+<tr><td>ModelStr</td><td>The detector model number</td></tr>
+<tr><td>SoftwareStr</td><td>EPICS areaDetector</td></tr>
+</table>
+
+{{% /expand %}}
 
 ## Work With Us
 
