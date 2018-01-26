@@ -28,7 +28,15 @@ You can request access to your data by visiting this page [https://neutronsr.us/
 ## <a href='#top' class='fa fa-arrow-up'></a> Step 2. Reach your data
 
 If the goal is to bring your data to your computer for local visualization and analysis -**not recommended due to the size of the data
-and the tools we offer via our analysis computer** - the easiest way is to use [FileZilla](https://sourceforge.net/projects/filezilla).
+and the tools we offer via our analysis computer** - you can either use:
+
+<ul>
+  <li><a href='#filezilla'>FileZilla</a></li>
+  <li><a href='#cyberduck'>Cyberduck</a></li>
+</ul>
+
+<h2 id='filezilla'></h2>
+### Using FileZilla
 
 **1.** Install [FileZilla](https://sourceforge.net/projects/filezilla).
 
@@ -52,6 +60,50 @@ Enter the information as followed:
 You can now browse to your data by following the structure **/HFIR/CG1D/IPTS-XXXX**
 
 <img src='/tutorial/how_to_access_data/images/filezilla_browse.png' />
+
+**3.** Import Data
+
+If you want to copy your data to your local computer, simply **DRAG** and **DROP** the folder of interest into your
+*Desktop* display on the left side of the window.
+
+<img src='/tutorial/how_to_access_data/images/filezilla_export.gif' />
+
+
+
+<h2 id='cyberduck'></h2>
+### Using Cyberduck
+
+**1.** Install [Cyberduck](https://cyberduck.io/).
+
+**2.** Create and configure a new bookmark
+
+<img src='/tutorial/how_to_access_data/images/cyberduck_bookmark.png' />
+
+Enter the information as followed:
+
+ * *SFTP (SSH File Transfer Protocol)*
+ * **Server**: *analysis.sns.gov*
+ * **Port**: *22*
+ * **Username**: *\<your xcams>*
+ * **Password**: *\<your password>*
+ * **SSH Private Key**: *None*
+
+ Click **Connect**
+
+<img src='/tutorial/how_to_access_data/images/cyberduck_configure.png' />
+
+You can now browse to your data by following the structure **/HFIR/CG1D/IPTS-XXXX**
+
+<img src='/tutorial/how_to_access_data/images/cyberduck_browse.png' />
+
+**3.** Import Data
+
+If you want to copy your data to your local computer, simply **DRAG** and **DROP** the folder of interest into your
+*Desktop*.
+
+<img src='/tutorial/how_to_access_data/images/cyberduck_export.gif' />
+
+### File Structure
 
 If you get lost in the file system, here is a typical map of the file structure.
 
