@@ -11,6 +11,9 @@ weight: 5
 <a href='https://neutrons.ornl.gov/users'>User Program Guide</a>.
 <img src='/links/images/links_1.png' />
 {{% /expand%}}
+{{%expand "Submit a proposal" %}}
+Go to the <a href='https://snsapp1.sns.ornl.gov/xprod/f?p=100'>Proposal System</a>.
+{{% /expand %}}
 {{%expand "Neutron Imaging Facility Official Web Page" %}}
 <a href='https://neutrons.ornl.gov/imaging'>Neutron Imaging Facility Official Web Page</a>.
 <img src='/links/images/links_2.png' />

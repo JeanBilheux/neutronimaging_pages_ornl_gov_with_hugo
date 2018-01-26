@@ -10,7 +10,10 @@ weight: 4
 #### Proposal
 
 {{%expand "How do I submit a proposal?" %}}
-Answer will go here.
+<ul>
+<li>To learn more about submitting a proposal for beam time, go to <a href='https://neutrons.ornl.gov/users'>neutrons.ornl.gov/users</a>.</li>
+<li>To submit your proposal, go to the <a href='https://snsapp1.sns.ornl.gov/xprod/f?p=100'>proposal system</a>.</li>
+</ul>
 {{% /expand%}}
 {{%expand "When will I know my proposal has been accepted?" %}}
 Answer will go here.
