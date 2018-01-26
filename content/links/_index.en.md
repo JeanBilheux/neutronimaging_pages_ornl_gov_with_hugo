@@ -27,11 +27,6 @@ Go to the <a href='https://snsapp1.sns.ornl.gov/xprod/f?p=100'>Proposal System</
 <img src='/links/images/links_4.png' />
 {{% /expand%}}
 
-## Direct Links
-<ul>
-<li><a href='https://oncat.ornl.gov/#/'>ONCat -> https://oncat.ornl.gov/#/ </a></li>
-</ul>
-
 ## Analysis Tools
 
 {{%expand "Calculate Transmission and Scattering Power" %}}
@@ -61,3 +56,8 @@ Go to the <a href='https://snsapp1.sns.ornl.gov/xprod/f?p=100'>Proposal System</
 <a href='https://www.isnr.de/'>International Society for Neutron Radiology</a>
 <img src='/links/images/isnr.png' />
 {{% /expand%}}
+
+## Shortcuts
+<ul>
+<li><a href='https://oncat.ornl.gov/#/'>ONCat -> https://oncat.ornl.gov/#/ </a></li>
+</ul>
