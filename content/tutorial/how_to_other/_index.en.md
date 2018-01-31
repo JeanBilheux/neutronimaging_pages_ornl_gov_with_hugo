@@ -1,6 +1,6 @@
 ---
 title: ... More
-weight: 6
+weight: 7
 ---
 
 {{%expand "How can I create a movie from a sequence of images?" %}}

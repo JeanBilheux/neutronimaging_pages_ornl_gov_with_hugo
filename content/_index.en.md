@@ -4,7 +4,7 @@ title: "Neutron Imaging"
 
 # User Home Page
 
-### Welcome to the ORNL Neutorn Imaging Website!
+### Welcome to the ORNL Neutron Imaging Website!
 
 <img src='/images/temp/call_for_proposal_2018_1.png' />
 <ul>

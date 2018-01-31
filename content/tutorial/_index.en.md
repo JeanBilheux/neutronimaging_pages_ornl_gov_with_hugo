@@ -1,5 +1,5 @@
 ---
-title: How To
+title: Tutorials
 weight: 3
 chapter: true
 pre: "<b>3. </b>"
