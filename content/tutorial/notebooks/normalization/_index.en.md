@@ -1,6 +1,6 @@
 ---
 title: Normalization Tutorial
-weight: 1
+weight: 19
 ---
 
 **Notebook name**: normalization.ipynb
