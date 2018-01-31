@@ -50,8 +50,16 @@
   </url>
   
   <url>
+    <loc>/en/tutorial/notebooks/bin_images/</loc>
+  </url>
+  
+  <url>
     <loc>/en/capabilities/</loc>
     <lastmod>2018-01-21T16:50:16+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/en/tutorial/notebooks/calculate_water_intake_profile/</loc>
   </url>
   
   <url>
@@ -87,6 +95,14 @@
   </url>
   
   <url>
+    <loc>/en/tutorial/notebooks/combine_folders/</loc>
+  </url>
+  
+  <url>
+    <loc>/en/tutorial/how_to_start_notebooks/</loc>
+  </url>
+  
+  <url>
     <loc>/en/tutorial/</loc>
     <xhtml:link
                 rel="alternate"
@@ -98,10 +114,6 @@
                 hreflang="en"
                 href="/en/tutorial/"
                 />
-  </url>
-  
-  <url>
-    <loc>/en/tutorial/how_to_start_notebooks/</loc>
   </url>
   
   <url>
@@ -122,6 +134,10 @@
                 hreflang="en"
                 href="/en/faq/"
                 />
+  </url>
+  
+  <url>
+    <loc>/en/tutorial/notebooks/combine_images/</loc>
   </url>
   
   <url>
@@ -148,7 +164,19 @@
   </url>
   
   <url>
+    <loc>/en/tutorial/notebooks/create_list_of_file_name_vs_time_stamp/</loc>
+  </url>
+  
+  <url>
     <loc>/en/tutorial/how_to_run_imars3d/</loc>
+  </url>
+  
+  <url>
+    <loc>/en/tutorial/notebooks/deal_files/</loc>
+  </url>
+  
+  <url>
+    <loc>/en/tutorial/notebooks/</loc>
   </url>
   
   <url>
@@ -156,17 +184,101 @@
   </url>
   
   <url>
+    <loc>/en/tutorial/notebooks/display_and_export_images_with_metadata_profile/</loc>
+  </url>
+  
+  <url>
+    <loc>/en/tutorial/notebooks/display_and_export_images_with_timestamp/</loc>
+  </url>
+  
+  <url>
+    <loc>/en/tutorial/notebooks/display_counts_of_region_vs_stack/</loc>
+  </url>
+  
+  <url>
+    <loc>/en/tutorial/notebooks/display_integrated_stack_of_images/</loc>
+  </url>
+  
+  <url>
+    <loc>/en/tutorial/notebooks/file_name_and_metadata_vs_time_stamp/</loc>
+  </url>
+  
+  <url>
+    <loc>/en/tutorial/notebooks/fix_images/</loc>
+  </url>
+  
+  <url>
+    <loc>/en/tutorial/notebooks/fix_images_with_negative_pixels/</loc>
+  </url>
+  
+  <url>
+    <loc>/en/tutorial/notebooks/format_filename_index/</loc>
+  </url>
+  
+  <url>
+    <loc>/en/tutorial/notebooks/from_dsc_time_info_to_ascii_file_vs_time/</loc>
+  </url>
+  
+  <url>
+    <loc>/en/tutorial/notebooks/linear_profile/</loc>
+  </url>
+  
+  <url>
+    <loc>/en/tutorial/notebooks/list_tiff_metadata/</loc>
+  </url>
+  
+  <url>
+    <loc>/en/tutorial/notebooks/locate_pixels/</loc>
+  </url>
+  
+  <url>
+    <loc>/en/tutorial/notebooks/normalization/</loc>
+  </url>
+  
+  <url>
+    <loc>/en/tutorial/notebooks/normalization_by_first_image/</loc>
+  </url>
+  
+  <url>
+    <loc>/en/tutorial/notebooks/normalization_by_range_of_images/</loc>
+  </url>
+  
+  <url>
+    <loc>/en/tutorial/notebooks/profile_vs_file_index/</loc>
+  </url>
+  
+  <url>
+    <loc>/en/tutorial/notebooks/radial_profile/</loc>
+  </url>
+  
+  <url>
+    <loc>/en/tutorial/notebooks/resonance_imaging_experiment_vs_theory/</loc>
+  </url>
+  
+  <url>
+    <loc>/en/tutorial/notebooks/rotate_and_crop_images/</loc>
+  </url>
+  
+  <url>
+    <loc>/en/tutorial/notebooks/template_ui/</loc>
+  </url>
+  
+  <url>
+    <loc>/en/tutorial/notebooks/welcome/</loc>
+  </url>
+  
+  <url>
     <loc>/en/categories/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
-                href="/es/categories/"
+                hreflang="fr"
+                href="/fr/categories/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="fr"
-                href="/fr/categories/"
+                hreflang="es"
+                href="/es/categories/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -251,13 +363,13 @@
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
-                href="/es/tags/"
+                hreflang="fr"
+                href="/fr/tags/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="fr"
-                href="/fr/tags/"
+                hreflang="es"
+                href="/es/tags/"
                 />
     <xhtml:link
                 rel="alternate"
