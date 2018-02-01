@@ -46,7 +46,7 @@
 	"title": "Connect to our computer",
 	"tags": [],
 	"description": "",
-	"content": " For any personal tutorial, demonstration or request, please contact Jean Bilheux.\nIn order to analyze or visualize your data, please follow the following recipe.\nConnect to our analysis computer Using your favorite browser, go to https://cg1d-analysis2.ornl.gov\nEnter your XCAMS and your password and hit Login\nThe first time you log in, you will be presented the following display\njust click OK to finish up logging in.\nAnd if it is not the first time, you will probably see a black screen. Just click anywhere within the window to activate the screensaver log in.\nEnter your password and click Unlock.\nYou are now connected to our analysis computer.\n"
+	"content": " For any personal tutorial, demonstration or request, please contact Jean Bilheux.\nIn order to analyze or visualize your data, please follow the following recipe.\nConnect to our analysis computer Using your favorite browser, go to https://analysis.ornl.gov\nEnter your XCAMS and your password and hit Login\nThe first time you log in, you will be presented the following display\njust click OK to finish up logging in.\nAnd if it is not the first time, you will probably see a black screen. Just click anywhere within the window to activate the screensaver log in.\nEnter your password and click Unlock.\nYou are now connected to our analysis computer.\n"
 },
 {
 	"uri": "/en/prepare_venue/safety/",
