@@ -9,8 +9,9 @@ In order to analyze or visualize your data, please follow the following recipe.
 
 ## Connect to our analysis computer
 
-Using your favorite browser, go to [https://cg1d-analysis2.ornl.gov](https://cg1d-analysis2.ornl.gov)
+Using your favorite browser, go to [https://analysis.ornl.gov](https://analysis.ornl.gov)
 
+<img src='/tutorial/how_to_access_computer/images/launch_session.png' />
 <img src='/tutorial/how_to_access_computer/images/analysis_1.png' />
 
 Enter your **XCAMS** and your **password** and hit **Login**
