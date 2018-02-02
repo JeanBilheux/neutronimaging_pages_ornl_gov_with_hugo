@@ -1,0 +1,50 @@
+[
+{
+	"uri": "/es/prepare_venue/",
+	"title": "Prepare Su Lugar",
+	"tags": [],
+	"description": "",
+	"content": "Para optimizar su tiempo de experimento, le recomendamos que revise el verifique listas de este menú Prepare Venue.\nSiéntase libre de imprimir la pdf versión y mira los artículos uno por uno.\n"
+},
+{
+	"uri": "/es/faq/",
+	"title": "Frequently Asked Questions",
+	"tags": [],
+	"description": "",
+	"content": "Hugo uses Markdown for its simple content format. However, there are a lot of things that Markdown doesn’t support well. You could use pure HTML to expand possibilities.\nBut this happens to be a bad idea. Everyone uses Markdown because it\u0026rsquo;s pure and simple to read even non-rendered. You should avoid HTML to keep it as simple as possible.\nTo avoid this limitations, Hugo created shortcodes. A shortcode is a simple snippet inside a page.\nHugo-theme-learn provides multiple shortcodes on top of existing ones.\n "
+},
+{
+	"uri": "/es/categories/",
+	"title": "Categories",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/es/credits/",
+	"title": "Contactos",
+	"tags": [],
+	"description": "",
+	"content": "           Hassina Bilheux - Instrumento científicoEspecialidad: líneas de haz de HFIR y de SNS bilheuxhn@ornl.gov (865) 384 - 9630 (865) 574 - 0241    Lou Santodonato - Instrumento científicoEspecialidad: líneas de haz de HFIR santodonatol@ornl.gov (865) 719 - 0656 (865) 574 - 4641     Jean Bilheux - Científico de la ComputaciónEspecialidad: Programmation bilheuxjm@ornl.gov (865) 406 - 1704 (865) 574 - 4637 jbilheux.com github.com/jeanbilheux      Jiao Lin - Científico de la ComputaciónEspecialidad: Reconstrucción 3D y visualización linjiao@ornl.gov (626) 200 - 5247 (626) 200 - 5247     Yuxuan Zhang (Shawn) - PostdoctorateEspecialidad: Imágenes de Resonancia zhangy6@ornl.gov    Paris Cornwell - Asociado Científico  cornwellpa@ornl.gov (865) 257 - 1127 (865) 574 - 2122    Brianne Beers - Estudiante Graduado     "
+},
+{
+	"uri": "/es/github/",
+	"title": "Github Repositories",
+	"tags": [],
+	"description": "",
+	"content": "Our gloal is to only develop open source tools. You will find here a list of the major repositories hosting our programs\n jupyter notebooks used in the analysis of the data python_notebooks python library used for normalization neunorm Imaging Resonance python library imagingReso iBeatles for Bragg Edge fitting iBeatles set of jupyter widgets ipywe Root analysis library RootPlantProcessing  "
+},
+{
+	"uri": "/es/",
+	"title": "Neutron Imaging",
+	"tags": [],
+	"description": "",
+	"content": " Neutron Imaging for Users Home Page Introduction here (Hassina)\nWe recommend that you discuss your experiment with the instrument team several weeks before your beam time.\n Main features  Prepare your venue Automatic Search Multilingual mode Unlimited menu levels Automatic next/prev buttons to navigate through menu entries Image resizing, shadow\u0026hellip; Attachments files List child pages Mermaid diagram (flowchart, sequence, gantt) Customizable look and feel and themes variants Buttons, Tip/Note/Info/Warning boxes, Expand  Contribute to this documentation Feel free to update this content, just click the Edit this page link displayed on top right of each page, and pullrequest it\nYour modification will be deployed automatically when merged.\n Documentation website This current documentation has been statically generated with Hugo with a simple command : hugo -t hugo-theme-learn \u0026ndash; source code is available here at GitHub\nAutomatically published and hosted thanks to Netlify. Read more about Automated HUGO deployments with Netlify\n "
+},
+{
+	"uri": "/es/tags/",
+	"title": "Tags",
+	"tags": [],
+	"description": "",
+	"content": ""
+}]
