@@ -1,6 +1,6 @@
 ---
 title: Notebooks Tutorials
-weight: 6
+weight: 250
 ---
 
 <ul>

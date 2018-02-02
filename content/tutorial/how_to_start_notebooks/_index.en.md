@@ -1,6 +1,6 @@
 ---
 title: Start the python notebooks
-weight: 3
+weight: 230
 ---
 
 We provide a set of jupyter python notebooks. Those provide many advantages:

@@ -1,6 +1,6 @@
 ---
 title: Tutorials
-weight: 3
+weight: 200
 chapter: true
 pre: "<b>3. </b>"
 ---

@@ -1,6 +1,6 @@
 ---
 title: Connect to our computer
-weight: 2
+weight: 220
 ---
 
 For any personal tutorial, demonstration or request, please contact [Jean Bilheux](/en/credits#jean_bilheux).

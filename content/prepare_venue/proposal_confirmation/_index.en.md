@@ -1,6 +1,6 @@
 ---
 title: Proposal Confirmation
-weight: 1
+weight: 10
 disableToc: true
 ---
 

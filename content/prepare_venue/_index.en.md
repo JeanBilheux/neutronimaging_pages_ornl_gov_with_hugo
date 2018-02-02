@@ -1,6 +1,6 @@
 ---
 title: Before your Arrival
-weight: 1
+weight: 40
 chapter: true
 pre: "<b>1. </b>"
 ---

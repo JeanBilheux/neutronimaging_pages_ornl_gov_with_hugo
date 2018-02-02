@@ -1,6 +1,6 @@
 ---
 title: Engineering & Equipment Safety
-weight: 2
+weight: 20
 disableToc: true
 ---
 

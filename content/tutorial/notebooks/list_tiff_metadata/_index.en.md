@@ -1,6 +1,5 @@
 ---
-title: list_tiff_metadata Tutorial
-weight: 17
+title: List TIFF Metadata Tutorial
 ---
 
 **Notebook name**: list_tiff_metadata.ipynb

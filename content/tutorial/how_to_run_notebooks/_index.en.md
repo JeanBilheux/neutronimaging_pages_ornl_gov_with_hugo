@@ -1,6 +1,6 @@
 ---
 title: Run a jupyter notebook
-weight: 4
+weight: 240
 ---
 
 <h1 id='top'></a></h1>

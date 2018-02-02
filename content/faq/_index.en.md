@@ -2,7 +2,7 @@
 date: 2016-04-09T16:50:16+02:00
 title: Frequently Asked Questions
 pre: "<b>4. </b>"
-weight: 4
+weight: 300
 ---
 
 ## Before Your Venue

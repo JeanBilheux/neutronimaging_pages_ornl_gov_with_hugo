@@ -1,6 +1,5 @@
 ---
 title: Welcome Tutorial
-weight: 27
 ---
 
 **Notebook name**: Welcome.ipynb
