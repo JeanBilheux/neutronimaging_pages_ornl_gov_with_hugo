@@ -10,22 +10,22 @@
     <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 <link rel="icon" href="/images/favicon.png" type="image/x-icon" />
 
-    <title>Run a jupyter notebook :: Documentation for Hugo Learn Theme</title>
+    <title>TOPAZ config file generator :: Documentation for Hugo Learn Theme</title>
     
     
-    <link href="/css/nucleus.css?1518036481" rel="stylesheet">
-    <link href="/css/font-awesome.min.css?1518036481" rel="stylesheet">
-    <link href="/css/hybrid.css?1518036481" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1518036481" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1518036481" rel="stylesheet">
-    <link href="/css/auto-complete.css?1518036481" rel="stylesheet">
-    <link href="/css/theme.css?1518036481" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1518036481" rel="stylesheet">
+    <link href="/css/nucleus.css?1518036482" rel="stylesheet">
+    <link href="/css/font-awesome.min.css?1518036482" rel="stylesheet">
+    <link href="/css/hybrid.css?1518036482" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1518036482" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1518036482" rel="stylesheet">
+    <link href="/css/auto-complete.css?1518036482" rel="stylesheet">
+    <link href="/css/theme.css?1518036482" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1518036482" rel="stylesheet">
     
-      <link href="/css/theme-blue.css?1518036481" rel="stylesheet">
+      <link href="/css/theme-blue.css?1518036482" rel="stylesheet">
     
 
-    <script src="/js/jquery-2.x.min.js?1518036481"></script>
+    <script src="/js/jquery-2.x.min.js?1518036482"></script>
     
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left{ 
@@ -35,7 +35,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/en/tutorial/how_to_run_notebooks/">
+  <body class="" data-url="/en/tutorial/notebooks/topaz_config_generator/">
     <nav id="sidebar" class="showVisitedLinks">
 
 
@@ -60,14 +60,14 @@
     <span data-search-clear=""><i class="fa fa-close"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1518036481"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1518036481"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1518036482"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1518036482"></script>
 <script type="text/javascript">
     
         var baseurl = "\/en";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1518036481"></script>
+<script type="text/javascript" src="/js/search.js?1518036482"></script>
 
     
   </div>
@@ -407,8 +407,8 @@
   
     
     <li data-nav-id="/en/tutorial/how_to_run_notebooks/" title="Run a jupyter notebook" class="dd-item 
-        parent
-        active
+        
+        
         
         ">
       <a href="/en/tutorial/how_to_run_notebooks/">
@@ -433,7 +433,7 @@
   
     
     <li data-nav-id="/en/tutorial/notebooks/" title="Notebooks Tutorials" class="dd-item 
-        
+        parent
         
         
         ">
@@ -1112,8 +1112,8 @@
   
     
     <li data-nav-id="/en/tutorial/notebooks/topaz_config_generator/" title="TOPAZ config file generator" class="dd-item 
-        
-        
+        parent
+        active
         
         ">
       <a href="/en/tutorial/notebooks/topaz_config_generator/">
@@ -1294,7 +1294,7 @@
                   
                     
                     
-                      <option id="en" value="/en/tutorial/how_to_run_notebooks/" selected>English</option>
+                      <option id="en" value="/en/tutorial/notebooks/topaz_config_generator/" selected>English</option>
                     
                   
               
@@ -1366,7 +1366,13 @@
             
           
           
-            <a href='/en/'>Neutron Imaging</a> > <a href='/en/tutorial/'>Tutorials</a> > Run a jupyter notebook
+            
+            
+          
+          
+            <a href='/en/'>Neutron Imaging</a> > <a href='/en/tutorial/'>Tutorials</a> > <a href='/en/tutorial/notebooks/'>Notebooks Tutorials</a> > TOPAZ config file generator
+          
+         
           
          
           
@@ -1382,17 +1388,14 @@
 <ul>
 <li>
 <ul>
-<li>
-<ul>
-<li><a href="#a-href-top-class-fa-fa-arrow-up-a-notebook-layout"><a href='#top' class='fa fa-arrow-up'></a> Notebook layout</a></li>
-<li><a href="#a-href-top-class-fa-fa-arrow-up-a-run-the-notebook"><a href='#top' class='fa fa-arrow-up'></a> Run the notebook</a>
-<ul>
-<li><a href="#execute-cells">Execute cells</a></li>
-<li><a href="#folder-navigation">Folder Navigation</a></li>
-<li><a href="#output-and-widgets">Output and widgets</a></li>
-</ul></li>
-<li><a href="#a-href-top-class-fa-fa-arrow-up-a-modify-the-notebook"><a href='#top' class='fa fa-arrow-up'></a> Modify the notebook</a></li>
-</ul></li>
+<li><a href="#start-the-notebook">Start the Notebook</a></li>
+<li><a href="#first-time-look">First Time Look</a></li>
+<li><a href="#define-ipts">Define IPTS</a></li>
+<li><a href="#run-all-cells-at-once">Run All Cells at Once</a></li>
+<li><a href="#file-or-folder-selection-tool">File or Folder Selection Tool</a></li>
+<li><a href="#widget-interaction">Widget Interaction</a></li>
+<li><a href="#advanced-options">Advanced Options</a></li>
+<li><a href="#create-config-file">Create Config File</a></li>
 </ul></li>
 </ul>
 </nav>
@@ -1407,7 +1410,7 @@
         
         <div id="body-inner">
           
-            <h1>Run a jupyter notebook</h1>
+            <h1>TOPAZ config file generator</h1>
           
 
         
@@ -1415,74 +1418,66 @@
 
 
 
-<p><h1 id='top'></a></h1>
-Our jupyter python notebooks are very straighforward to use but there are just a few <strong>key points</strong> you need to know.</p>
+<p><strong>Notebook name</strong>: TOPAZ_config_generator.ipynb</p>
+
+<h2 id="start-the-notebook">Start the Notebook</h2>
+
+<p>If you need help to access this notebook, check the <a href="/en/tutorial/how_to_start_notebooks">How To &gt; Start the python notebooks</a> tutorial.</p>
+
+<h2 id="first-time-look">First Time Look</h2>
+
+<p>If you are using the notebook for the first time, it should look like this</p>
+
+<p><img src='/tutorial/notebooks/topaz_config_generator/images/notebook_first_time.png' /></p>
+
+<h2 id="define-ipts">Define IPTS</h2>
+
+<p>Starting from the top <strong>SHIFT + ENTER</strong> the cells in order to run them. The 4th cell will ask you to select the
+<strong>IPTS</strong> of your experiment.</p>
+
+<p><img src='/tutorial/notebooks/topaz_config_generator/images/select_ipts.gif' /></p>
+
+<h2 id="run-all-cells-at-once">Run All Cells at Once</h2>
+
+<p>Select the <strong>next cell</strong> and click <strong>Cell &gt; Run All Below</strong>.</p>
+
+<p><img src='/tutorial/notebooks/topaz_config_generator/images/notebook_run_all_cells.gif' /></p>
+
+<h2 id="file-or-folder-selection-tool">File or Folder Selection Tool</h2>
+
+<p>In order to select a file or a folder you need to know the following:</p>
 
 <ul>
-<li><a href='#notebook_layout'>notebook layout</a></li>
-<li><a href='#run_the_notebook'>run the notebook</a></li>
-<li><a href='#modify_the_notebook'>modify the notebook</a></li>
+<li>one dot (<strong>.</strong>) means current folder</li>
+<li>2 dots (<strong>..</strong>) means above folder</li>
+<li>click <strong>select</strong> to validate your file or folder selection</li>
+<li>selection made will be display above the selection tool
+<img src='/tutorial/notebooks/topaz_config_generator/images/file_selection.gif' /></li>
 </ul>
 
-<p><h1 id='notebook_layout'></h1></p>
+<h2 id="widget-interaction">Widget Interaction</h2>
 
-<h3 id="a-href-top-class-fa-fa-arrow-up-a-notebook-layout"><a href='#top' class='fa fa-arrow-up'></a> Notebook layout</h3>
+<p>You will find that some of the widgets display depends on your input in other widgets. This has been
+implemented to help you in your choice of parameters.</p>
 
-<p><img src='/tutorial/how_to_run_notebooks/images/notebook_legend.png' /></p>
+<p><img src='/tutorial/notebooks/topaz_config_generator/images/widgets_interaction.gif' /></p>
 
-<p><h1 id='run_the_notebook'></h1></p>
+<h2 id="advanced-options">Advanced Options</h2>
 
-<h3 id="a-href-top-class-fa-fa-arrow-up-a-run-the-notebook"><a href='#top' class='fa fa-arrow-up'></a> Run the notebook</h3>
+<p>Instrument scientists and super users can have access to advanced options by entering a pasword in the <strong>Advanced
+Options</strong> cell.</p>
 
-<h4 id="execute-cells">Execute cells</h4>
+<p><img src='/tutorial/notebooks/topaz_config_generator/images/advanced_users.gif' /></p>
 
-<p>The notebooks must be run from <strong>top</strong> to <strong>bottom</strong>. Place the cursor in the first cell and either click the
-<li class='fa fa-step-forward'></li> icon, or by using the keyboard shortcut <strong>SHIFT + ENTER</strong>.</p>
+<h2 id="create-config-file">Create Config File</h2>
 
-<p>This is showing a busy notebook with the background cell green and the full circle at the top right corner of the notebook.</p>
+<p>And finally, re-run the last cell <strong>Export the Config File</strong> in order to produce the config file. If any information
+is missing, a text will show you what is missing. Just click on this link to quickly jump to the widgets in the
+notebook.</p>
 
-<p><img src='/tutorial/how_to_run_notebooks/images/busy_notebook.png' /></p>
+<p><img src='/tutorial/notebooks/topaz_config_generator/images/create_config.gif' /></p>
 
-<h4 id="folder-navigation">Folder Navigation</h4>
-
-<p>At least one time per notebook, you will need to select a folder or one or more files. This widget will look like this
-<img src='/tutorial/how_to_run_notebooks/images/file_folder_browser.png' /></p>
-
-<p>The UI is pretty self explanatory but you just need to know that:</p>
-
-<ul>
-<li><p>In the file/folder listing widget</p>
-
-<ul>
-<li><em>.</em> means refresh of the current location</li>
-<li><em>..</em> means moving up one directory, or folder.</li>
-</ul></li>
-
-<li><p>The file or folder will be really selected only once you have clicked the <strong>Select</strong>
-button at the bottom right corner.</p></li>
-
-<li><p>To select more than one file (when this option is available), <strong>CLICK</strong> first file then <strong>SHIFT + CLICK</strong>
-the last one. Or <strong>ALT + CLICK</strong> to individually select each file.</p></li>
-</ul>
-
-<h4 id="output-and-widgets">Output and widgets</h4>
-
-<p>The cell is then executed and depending on the contain of this one, you may see or not an output to the cell.
-The output is always displayed just below the cell ran. In some of our notebooks you will see <strong>widgets</strong> that you will
-need to interact with. Here are a few examples of widgets you may encounter in your notebook.</p>
-
-<p><img src='/tutorial/how_to_run_notebooks/images/widget_1.png' />
-<img src='/tutorial/how_to_run_notebooks/images/widget_2.png' /></p>
-
-<p>In some notebooks, the output may even show up in the back of the notebook (the default cell output will give you a
-message that let you know where to look). Those outside widgets are more complex user interface such as the one shown
-here.</p>
-
-<p><img src='/tutorial/how_to_run_notebooks/images/widget_3.png' /></p>
-
-<p><h1 id='modify_the_notebook'></h1></p>
-
-<h3 id="a-href-top-class-fa-fa-arrow-up-a-modify-the-notebook"><a href='#top' class='fa fa-arrow-up'></a> Modify the notebook</h3>
+<p>If nothing is missing, the full path to the config file created will be displayed!</p>
 
 
 <footer class=" footline" >
@@ -1720,7 +1715,6 @@ here.</p>
             
                 
                     
-                    
                 
                 
 
@@ -1737,8 +1731,6 @@ here.</p>
             
                 
                     
-                        
-                        
                     
                 
                 
@@ -1755,21 +1747,8 @@ here.</p>
             
                 
                     
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
                         
-            
-            
-                
+                        
                     
                 
                 
@@ -2171,6 +2150,26 @@ here.</p>
             
                 
                     
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
                 
                 
 
@@ -2243,10 +2242,10 @@ here.</p>
 
 
         
-            <a class="nav nav-prev" href="/en/tutorial/how_to_start_notebooks/" title="Start the python notebooks"> <i class="fa fa-chevron-left"></i></a>
+            <a class="nav nav-prev" href="/en/tutorial/notebooks/rotate_and_crop_images/" title="Rotate and Crop Images Tutorial"> <i class="fa fa-chevron-left"></i></a>
         
         
-            <a class="nav nav-next" href="/en/tutorial/notebooks/" title="Notebooks Tutorials" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+            <a class="nav nav-next" href="/en/tutorial/notebooks/template_ui/" title="Template UI Builder Tutorial" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
         
     </div>
 
@@ -2255,20 +2254,20 @@ here.</p>
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1518036481"></script>
-    <script src="/js/perfect-scrollbar.min.js?1518036481"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1518036481"></script>
-    <script src="/js/jquery.sticky.js?1518036481"></script>
-    <script src="/js/featherlight.min.js?1518036481"></script>
-    <script src="/js/html5shiv-printshiv.min.js?1518036481"></script>
-    <script src="/js/highlight.pack.js?1518036481"></script>
+    <script src="/js/clipboard.min.js?1518036482"></script>
+    <script src="/js/perfect-scrollbar.min.js?1518036482"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1518036482"></script>
+    <script src="/js/jquery.sticky.js?1518036482"></script>
+    <script src="/js/featherlight.min.js?1518036482"></script>
+    <script src="/js/html5shiv-printshiv.min.js?1518036482"></script>
+    <script src="/js/highlight.pack.js?1518036482"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom.71422.js?1518036481"></script>
-    <script src="/js/learn.js?1518036481"></script>
-    <script src="/js/hugo-learn.js?1518036481"></script>
+    <script src="/js/modernizr.custom.71422.js?1518036482"></script>
+    <script src="/js/learn.js?1518036482"></script>
+    <script src="/js/hugo-learn.js?1518036482"></script>
 
-    <link href="/mermaid/mermaid.css?1518036481" type="text/css" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1518036481"></script>
+    <link href="/mermaid/mermaid.css?1518036482" type="text/css" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1518036482"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>

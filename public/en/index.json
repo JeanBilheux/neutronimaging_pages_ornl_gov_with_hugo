@@ -109,7 +109,7 @@
 	"title": "Links",
 	"tags": [],
 	"description": "",
-	"content": " Laboratory Utilities   ORNL User Program Guide   User Program Guide.     Submit a proposal   Go to the Proposal System.\n    Neutron Imaging Facility Official Web Page   Neutron Imaging Facility Official Web Page.     Neutrons (SNS/HFIR) Web Page   https://neutrons.ornl.gov/     ORNL Web Page   https://www.ornl.gov/  \nAnalysis Tools   Calculate Transmission and Scattering Power   https://webapps.frm2.tum.de/intranet/neutroncalc/     Neutron Transmission Calculator   http://apps.jcns.fz-juelich.de/toolbox/nXsection.php     Neutron Scattering Lengths and Cross Sections   https://www.ncnr.nist.gov/resources/n-lengths/     Neutron Activation and Scattering Calculator   ncnr.nist.gov/resources/activation/  \nReferences   Standard Guide for Thermal Neutron Radiography of Materials   ASTM Guide for Thermal Neutron Radiography.     International Society for Neutron Radiology (ISNR)   International Society for Neutron Radiology  \nShortcuts  ONCat - https://oncat.ornl.gov/#/   "
+	"content": " Laboratory Utilities   ORNL User Program Guide   User Program Guide.     Submit a proposal   Go to the Proposal System.\n    Neutron Imaging Facility Official Web Page   Neutron Imaging Facility Official Web Page.     Neutrons (SNS/HFIR) Web Page   https://neutrons.ornl.gov/     ORNL Web Page   https://www.ornl.gov/  \nAnalysis Tools   Sample Activation Calculators   https://sac.ornl.gov/     Calculate Transmission and Scattering Power   https://webapps.frm2.tum.de/intranet/neutroncalc/     Neutron Transmission Calculator   http://apps.jcns.fz-juelich.de/toolbox/nXsection.php     Neutron Scattering Lengths and Cross Sections   https://www.ncnr.nist.gov/resources/n-lengths/     Neutron Activation and Scattering Calculator   ncnr.nist.gov/resources/activation/  \nReferences   Standard Guide for Thermal Neutron Radiography of Materials   ASTM Guide for Thermal Neutron Radiography.     International Society for Neutron Radiology (ISNR)   International Society for Neutron Radiology  \nShortcuts  ONCat - https://oncat.ornl.gov/#/   "
 },
 {
 	"uri": "/en/tutorial/notebooks/calculate_water_intake_profile/",
@@ -320,6 +320,13 @@
 	"tags": [],
 	"description": "",
 	"content": "Notebook name: rotate_and_crop_images.ipynb\n"
+},
+{
+	"uri": "/en/tutorial/notebooks/topaz_config_generator/",
+	"title": "TOPAZ config file generator",
+	"tags": [],
+	"description": "",
+	"content": " Notebook name: TOPAZ_config_generator.ipynb\nStart the Notebook If you need help to access this notebook, check the How To \u0026gt; Start the python notebooks tutorial.\nFirst Time Look If you are using the notebook for the first time, it should look like this\nDefine IPTS Starting from the top SHIFT + ENTER the cells in order to run them. The 4th cell will ask you to select the IPTS of your experiment.\nRun All Cells at Once Select the next cell and click Cell \u0026gt; Run All Below.\nFile or Folder Selection Tool In order to select a file or a folder you need to know the following:\n one dot (.) means current folder 2 dots (..) means above folder click select to validate your file or folder selection selection made will be display above the selection tool   Widget Interaction You will find that some of the widgets display depends on your input in other widgets. This has been implemented to help you in your choice of parameters.\nAdvanced Options Instrument scientists and super users can have access to advanced options by entering a pasword in the Advanced Options cell.\nCreate Config File And finally, re-run the last cell Export the Config File in order to produce the config file. If any information is missing, a text will show you what is missing. Just click on this link to quickly jump to the widgets in the notebook.\nIf nothing is missing, the full path to the config file created will be displayed!\n"
 },
 {
 	"uri": "/en/tags/",
