@@ -1,0 +1,99 @@
+[
+{
+	"uri": "/fr/tutorial/how_to_access_data/",
+	"title": "Organisation des pages",
+	"tags": [],
+	"description": "",
+	"content": " Dans Hugo, les pages sont le coeur de votre site. Une fois configurées, les pages sont la valeur ajoutée de votre site de documentation.\nDossiers Organisez votre site comment n\u0026rsquo;importe quel autre projet Hugo. Typiquement, vous allez avoir un dossier content avec vos pages.\ncontent ├── niveau-un │ ├── niveau-deux │ │ ├── niveau-trois │ │ │ ├── niveau-quatre │ │ │ │ ├── _index.md \u0026lt;-- /niveau-un/niveau-deux/niveau-trois/niveau-quatre │ │ │ │ ├── page-4-a.md \u0026lt;-- /niveau-un/niveau-deux/niveau-trois/niveau-quatre/page-4-a │ │ │ │ ├── page-4-b.md \u0026lt;-- /niveau-un/niveau-deux/niveau-trois/niveau-quatre/page-4-b │ │ │ │ └── page-4-c.md \u0026lt;-- /niveau-un/niveau-deux/niveau-trois/niveau-quatre/page-4-c │ │ │ ├── _index.md \u0026lt;-- /niveau-un/niveau-deux/niveau-trois │ │ │ ├── page-3-a.md \u0026lt;-- /niveau-un/niveau-deux/niveau-trois/page-3-a │ │ │ ├── page-3-b.md \u0026lt;-- /niveau-un/niveau-deux/niveau-trois/page-3-b │ │ │ └── page-3-c.md \u0026lt;-- /niveau-un/niveau-deux/niveau-trois/page-3-c │ │ ├── _index.md \u0026lt;-- /niveau-un/niveau-deux │ │ ├── page-2-a.md \u0026lt;-- /niveau-un/niveau-deux/page-2-a │ │ ├── page-2-b.md \u0026lt;-- /niveau-un/niveau-deux/page-2-b │ │ └── page-2-c.md \u0026lt;-- /niveau-un/niveau-deux/page-2-c │ ├── _index.md \u0026lt;-- /niveau-un │ ├── page-1-a.md \u0026lt;-- /niveau-un/page-1-a │ ├── page-1-b.md \u0026lt;-- /niveau-un/page-1-b │ └── page-1-c.md \u0026lt;-- /niveau-un/page-1-c ├── _index.md \u0026lt;-- / └── premiere-page.md \u0026lt;-- /premiere-page  Le fichier _index.md est obligatoire dans chaque dossier, c\u0026rsquo;est en quelques rotes votre page d\u0026rsquo;accueil pour le dossier.\n Types Hugo-theme-learn définit deux types de pages. Défaut et Chapitre. Les deux sont utilisables à n\u0026rsquo;importe quel niveau du site, la seule différence est dans l\u0026rsquo;affichage.\nUn Chapitre affiche une page vouée à être une introduction pour un ensemble de pages filles. Habituellement, il va seulement contenir un titre et un résumé de la section. Vous pouvez définir n\u0026rsquo;importe quel contenu HTML comme préfixe de l\u0026rsquo;entrée du menu. Dans l\u0026rsquo;exemple ci-dessous, c\u0026rsquo;est juste un nombre mais vous pourriez utiliser une icône.\n+++ title = \u0026quot;Démarrage\u0026quot; weight = 5 pre = \u0026quot;\u0026lt;b\u0026gt;1. \u0026lt;/b\u0026gt;\u0026quot; chapter = true +++ ### Chapitre 1 # Démarrage Découvrez comment utiliser ce thème Hugo et apprenez en les concepts  Pour dire à Hugo-theme-learn de considérer la page comme un chapitre, configure chapter=true dans le Front Matter de la page.\nUne page Défaut est n\u0026rsquo;importe quelle autre page.\n+++ title = \u0026quot;Installation\u0026quot; weight = 15 +++ The following steps are here to help you initialize your new website. If you don't know Hugo at all, we strongly suggest you to train by following this [great documentation for beginners](https://gohugo.io/overview/quickstart/). ## Create your project Hugo provides a `new` command to create a new website. ``` hugo new site \u0026lt;new_project\u0026gt; ```  Hugo-theme-learn fournit des archétypes pour vous aider à créer ce type de pages.\nConfiguration des Front Matter Chaque page Hugo doit définir un Front Matter dans le format yaml, toml ou json.\nHugo-theme-learn utilise les paramètres suivant en plus de ceux définis par Hugo:\n+++ # Le Sommaire (table of content = toc) est activé par défaut. Modifier ce paramètre à true pour le désactiver. # Note: Le sommaire est toujours désactivé pour les chapitres disableToc = \u0026quot;false\u0026quot; # Le titre de la page dans le menu sera préfixé par ce contentu HTML pre = \u0026quot;\u0026quot; # Le titre de la page dans le menu sera suffixé par ce contentu HTML post = \u0026quot;\u0026quot; # Modifier le type de la page pour changer l'affichage chapter = false # Cache la page du menu hidden = false # Nom de la personne qui a modifié la page. Quand configuré, sera affiché dans le pied de page. LastModifierDisplayName = \u0026quot;\u0026quot; # Email de la personne qui a modifié la page. Quand configuré, sera affiché dans le pied de page. LastModifierEmail = \u0026quot;\u0026quot; +++  Ajouter une icône à une entrée du menu Dans le Front Matter, ajouter un paramètre pre pour insérer du code HTML qui s\u0026rsquo;affichera avant le label du menu. L\u0026rsquo;exemple ci-dessous utilise l\u0026rsquo;icône de Github.\n+++ title = \u0026quot;Repo Github\u0026quot; pre = \u0026quot;\u0026lt;i class='fa fa-github'\u0026gt;\u0026lt;/i\u0026gt; \u0026quot; +++  Ordonner les entrées dans le menu Hugo permet de modifier facilement l\u0026rsquo;ordre des menu.\nLa manière la plus simple est de configurer le paramètre weight avec un nombre.\n+++ title = \u0026quot;Ma page\u0026quot; weight = 5 +++  Page d\u0026rsquo;accueil Pour configurer votre page d\u0026rsquo;accueil, vous avez trois choix:\n Créer une page _index.md dans le dossier content et remplissez le fichier avec du contenu Markdown Créer une page index.html dans le dossier static et remplissez le fichier avec du contenu HTML Configurez votre serveur pour automatiquement rediriger la page d\u0026rsquo;accueil vers l\u0026rsquo;une de vos pages.  "
+},
+{
+	"uri": "/fr/prepare_venue/",
+	"title": "Preparer Votre Sejour",
+	"tags": [],
+	"description": "",
+	"content": " Preparer votre experience Afin de preparer votre sejour a la ligne de faisceau, nous vous recommendons de suivre la check list que vous trouverez dans les differents sous-menus de Preparer Votre Sejour.\nEt n\u0026rsquo;hesitez pas a telecharger la version pdf.\n"
+},
+{
+	"uri": "/fr/tutorial/",
+	"title": "Comment Faire Pour ...",
+	"tags": [],
+	"description": "",
+	"content": " Chapitre 2 Contenu Découvrez comment créer et organiser votre contenu facilement et intuitivement.\n"
+},
+{
+	"uri": "/fr/prepare_venue/proposal_confirmation/",
+	"title": "Prérequis",
+	"tags": [],
+	"description": "",
+	"content": "Cette check-list doit etre complétée par le chercheur principal de l\u0026rsquo;expèrience au moins 3 semaines avant votre temps de faisceau.\n Vous pouvez accéder aux données de votre expèrience sur le site suivant IPTS page\n Avoir confirmé vos echantillons (ajouter de nouveau echantillons, avoir definis la composition des échantillons)?\n Avoir confirmé l\u0026rsquo;utilisation d\u0026rsquo;un laboratoire si necessaire?\n Avoir confirmé le nom des membres de l\u0026rsquo;equipe qui seront present pendant l\u0026rsquo;expèrience (et ajouter d\u0026rsquo;eventuelles nouvelles personnes)?\n Avoir confirmé l\u0026rsquo;équipement et/ou le materiel rattaché a l\u0026rsquo;échantillon?\n"
+},
+{
+	"uri": "/fr/faq/",
+	"title": "Questions Frequemment Demandees",
+	"tags": [],
+	"description": "",
+	"content": "Hugo utilise Markdown pour son format simple. Cependant, il y a beaucoup de chose que Markdown ne supporte pas bien. On pourrait utiliser du HTML pur pour améliorer les capacité du Markdown.\nMais c\u0026rsquo;est probablement une mauvaise idée. Tout le monde utilise le Markdown parce que c\u0026rsquo;est pur et simple à lire même lorsqu\u0026rsquo;il est affiché en texte brut. Vous devez éviter le HTML autant que possible pour garder le contenu simple.\nCependant, pour éviter les limitations, Hugo a créé les shortcodes. Un shortcode est un bout de code (snippet) dans une page.\nHugo-theme-learn fournit de multiple shortcodes en plus de ceux existant.\n "
+},
+{
+	"uri": "/fr/prepare_venue/access/",
+	"title": "Installation",
+	"tags": [],
+	"description": "",
+	"content": " Les étapes suivantes sont là pour vous aider à initialiser votre site. Si vous ne connaissez pas du tout Hugo, il est fortement conseillé de vous entrainer en suivant ce super tuto pour débutants.\nCréer votre projet Hugo fournit une commande new pour créer un nouveau site.\nhugo new site \u0026lt;new_project\u0026gt;  Installer le thème Installer le thème Hugo-theme-learn en suivant cette documentation\nLe repo du thème est : https://github.com/matcornic/hugo-theme-learn.git\nSinon, vous pouvez télécharger le thème sous forme d\u0026rsquo;un fichier .zip et extrayez le dans votre dossier de thèmes.\nConfiguration simple Lorsque vous générez votre site, vous pouvez définir un thème en utilisant l\u0026rsquo;option --theme. Il est conseillé de modifier votre fichier de configuration config.toml and définir votre thème par défaut. En passant, ajoutez les prérequis à l\u0026rsquo;utilisation de la fonctionnalité de recherche.\n# Modifiez le thème pour qu'il soit utilisé par défaut à chaque génération de site. theme = \u0026quot;hugo-theme-learn\u0026quot; # Pour la fonctionnalité de recherche [outputs] home = [ \u0026quot;HTML\u0026quot;, \u0026quot;RSS\u0026quot;, \u0026quot;JSON\u0026quot;]  Créer votre première page chapitre Les chapitres sont des pages contenant d\u0026rsquo;autre pages filles. Elles ont un affichage spécial et contiennent habituellement juste un nom de chapitre, le titre et un résumé de la section.\n### Chapitre 1 # Démarrage Découvrez comment utiliser ce thème Hugo et apprenez en les concepts  s\u0026rsquo;affiche comme\nHugo-theme-learn fournit des archétypes pour créer des squelettes pour votre site. Commencez par créer votre premier chapitre avec la commande suivante:\nhugo new --kind chapter basics/_index.md  En ouvrant le fichier généré, vous devriez voir la propriété chapter=true en haut, paramètre quit définit que le page est un chapitre.\nCréer votre première page Puis, créez votre premier page dans le chapitre précédent. Pour ce faire, il existe deux possibilités :\nhugo new basics/first-content.md hugo new basics/second-content/_index.md  N\u0026rsquo;hésitez pas à éditer ces fichiers en ajoutant des exemple de contenu et en remplaçant le paramètre title au début du fichier.\nLancer le site localement Lancez la commande suivante :\nhugo serve  Se rendre sur http://localhost:1313\nVous devriez voir trois choses:\n Vous avez un menu Basics à gauche, qui contient deux sous-menu avec des noms égal au paramètre title des fichiers précédemment générés. La page d\u0026rsquo;accueil vous explique comment la modifier. Suivez les instructions. Avec la commande hugo serve, la page se rafraichit automatiquement à chaque fois que vous sauvegardez. Super !  Générez le site Quand votre site est prêt à être déployé, lancez la commande suivante:\nhugo  Un dossier public a été généré. Il contient tout le contenu statique et les ressources nécessaires pour votre site. Votre site peut maintenant être déployé en utilisant n\u0026rsquo;importe quel serveur !\nCe site peut être automatiquement publié et hébergé avec Netlify (Plus d\u0026rsquo;infos). Sinon, vous pouvez utiliser les Github pages\n "
+},
+{
+	"uri": "/fr/prepare_venue/sample/",
+	"title": "Configuration",
+	"tags": [],
+	"description": "",
+	"content": " Paramètres globaux du site En plus de la configuration globale d\u0026rsquo;Hugo, Hugo-theme-learn vous permet de définir les paramètres suivant dans votre fichier config.toml (ci-dessous sont affichées les valeurs par défaut).\nNotez que certains de ces paramètres sont expliqués en détails dans d\u0026rsquo;autres sections de cette documentation.\n[params] # L'URL préfixe pour éditer la page courante. Ce paramètre affichera un bouton \u0026quot;Modifier cette page\u0026quot; on haut de de chacune des pages. # Pratique pour donner les possibilité à vos utilisateurs de créer une merge request pour votre doc. # Allez voir le fichier config.toml de cette documentation pour avoir un exemple. editURL = \u0026quot;\u0026quot; # Autheur du site, est utilisé dans les informations meta author = \u0026quot;\u0026quot; # Description du site, est utilisé dans les informations meta description = \u0026quot;\u0026quot; # Affiche une icône lorsque la page a été visitée showVisitedLinks = false # Désactive la fonction de recherche. Une valeur à true cache la barre de recherche. disableSearch = false # Par défaut, le cache Javascript et CSS est automatiquement vidé lorsqu'une nouvelle version du site est générée. # Utilisez ce paramètre lorsque vous voulez désactiver ce comportement (c'est parfois incompatible avec certains proxys) disableAssetsBusting = false # Utilisez ce paramètre pour désactiver le bouton copy-to-clipboard pour le code formatté sur une ligne. disableInlineCopyToClipBoard = false # Un titre est défini par défaut lorsque vous utilisez un raccourci dans le menu. Utilisez ce paramètre pour le cacher. disableShortcutsTitle = false # Quand vous utilisez un site multi-langue, utilisez ce paramètre pour désactiver le bouton de changement de langue. disableLanguageSwitchingButton = false # Ordonne les sections dans menu par poids (\u0026quot;weight\u0026quot;) ou titre (\u0026quot;title\u0026quot;). Défaut à \u0026quot;weight\u0026quot; ordersectionsby = \u0026quot;weight\u0026quot; # Utilisez ce paramètre pour modifier le schéma de couleur du site. Les valeurs par défaut sont \u0026quot;red\u0026quot;, \u0026quot;blue\u0026quot;, \u0026quot;green\u0026quot;. themeVariant = \u0026quot;\u0026quot;  Activer la recherche Si ce n\u0026rsquo;est pas déjà présent, ajoutez les lignes suivantes dans le fichier config.toml.\n[outputs] home = [ \u0026quot;HTML\u0026quot;, \u0026quot;RSS\u0026quot;, \u0026quot;JSON\u0026quot;]  Le thème Learn utilise les dernières amélioraions d\u0026rsquo;Hugo pour générer un fichier d\u0026rsquo;index JSON, prêt à être consommé par le moteur de recherche lunr.js.\n Hugo génère lunrjs index.json à la racine du dossier public. Quand vous générez le site avec hugo server, Hugo génère le fichier en mémoire, il n\u0026rsquo;est donc pas disponible sur le disque.\n "
+},
+{
+	"uri": "/fr/prepare_venue/safety/",
+	"title": "Preparer Votre Visite",
+	"tags": [],
+	"description": "",
+	"content": "Cette list doit etre complete par the chercheur principal de l\u0026rsquo;experience.\n  Provided all safety documentation for user provided equipment immediately?\n Shipped/delivered all user provided equipment at least 2 weeks prior to beam time for electrical and safety inspection?\n Answered all safety related questions through IPTS?\n Ensured that sample environment requested equipment is available and compatible with experiment/beam line?\n Written a Job Hazard Analysis (JHA) for hands on work at HFIR?\n"
+},
+{
+	"uri": "/fr/categories/",
+	"title": "Categories",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/fr/credits/",
+	"title": "Contacts",
+	"tags": [],
+	"description": "",
+	"content": "           Hassina Bilheux - Scientifique de l\u0026rsquo;InstrumentSpécialité: lignes de faisceau a HFIR et au SNS bilheuxhn@ornl.gov (865) 384 - 9630 (865) 574 - 0241    Lou Santodonato - Scientifique de l\u0026rsquo;InstrumentSpécialité: ligne de faisceau a HFIR santodonatol@ornl.gov (865) 719 - 0656 (865) 574 - 4641     Jean Bilheux - Programmeur ScientifiqueSpécialité: Programmation bilheuxjm@ornl.gov (865) 406 - 1704 (865) 574 - 4637 jbilheux.com github.com/jeanbilheux      Jiao Lin - Programmeur ScientifiqueExpertise: Reconstruction en 3D et visualisation linjiao@ornl.gov (626) 200 - 5247 (626) 200 - 5247     Yuxuan Zhang (Shawn) - PostdoctorateSpécialité: l\u0026rsquo;Imagerie de Résonance zhangy6@ornl.gov    Paris Cornwell - Associé Scientifique  cornwellpa@ornl.gov (865) 257 - 1127 (865) 574 - 2122    Brianne Beers - Thésarde    "
+},
+{
+	"uri": "/fr/github/",
+	"title": "Github Repositories",
+	"tags": [],
+	"description": "",
+	"content": "Notre but est de developer tous nos programes en logiciels libre. Cette page propose une liste des principaux outils que nous offrons.\n jupyter notebooks destines a l\u0026rsquo;analyse des donnees python_notebooks librairie python utilisees pour la normalisation des images neunorm librairie python pour l\u0026rsquo;etude des resonances d\u0026rsquo;imagesimagingReso iBeatles pour l\u0026rsquo;analyse des pics de Bragg Edge iBeatles jeu d\u0026rsquo;outils interactifs pour jupyter notebooks ipywe libraire python d\u0026rsquo;analyse de racines de plantes RootPlantProcessing  "
+},
+{
+	"uri": "/fr/",
+	"title": "Learn Theme for Hugo",
+	"tags": [],
+	"description": "",
+	"content": " Thème Hugo learn Hugo-theme-learn est un thème pour Hugo, un générateur de site statique, rapide et modern, écrit en Go. Tandis que Hugo est souvent utilisé pour des blogs, ce thème multi-langue est entièrement conçu pour la documentation.\nCe thème est un portage partiel du thème Learn de Grav, un CMS modern écrit en PHP.\nLe thème Learn fonctionne grâce à la structure de page aborescentes pour organiser le contenu: tous les contenus sont des pages qui appartiennent à d\u0026rsquo;autres pages. [Plus d\u0026rsquo;infos]()\n Fonctionnalités principales  Recherche automatique Mode multi-langue Nombre de niveau infini dans le menu Boutons suivant/précédent automatiquement générés pour naviguer entre les items du menu Taille d\u0026rsquo;image, ombres\u0026hellip; Fichiers joints Lister les pages filles Diagrammes Mermaid (flowchart, sequence, gantt) Style configurable and variantes de couleurs Boutons, Messages Astuce/Note/Info/Attention, Expand  Contribuer à cette documentation N\u0026rsquo;hésitez pas à mettre à jour ce contenu en cliquant sur le lien Modifier cette page en haut de chaque page, et créer la Pull Request associée.\nVotre modification sera déployée automatiquement quand elle sera mergée.\n Site de documentation Cette documentation statique a été générée avec Hugo avec une simple commande : hugo -t hugo-theme-learn \u0026ndash; le code source est disponible sur Github\nLe site est auomatiquement publié et hébergé par Netlify. Plus d\u0026rsquo;infos sur le déploiement de site Hugo avec Netlify(En anglais)\n "
+},
+{
+	"uri": "/fr/tags/",
+	"title": "Tags",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/fr/vitrine/",
+	"title": "Vitrine",
+	"tags": [],
+	"description": "",
+	"content": ""
+}]
