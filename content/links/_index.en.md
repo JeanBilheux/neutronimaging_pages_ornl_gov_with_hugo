@@ -29,6 +29,10 @@ Go to the <a href='https://snsapp1.sns.ornl.gov/xprod/f?p=100'>Proposal System</
 
 ## Analysis Tools
 
+{{%expand "Sample Activation Calculators" %}}
+<a href='https://sac.ornl.gov/'>https://sac.ornl.gov/</a>
+<img src='/links/images/sample_activation_calculators.png' />
+{{% /expand%}}
 {{%expand "Calculate Transmission and Scattering Power" %}}
 <a href='https://webapps.frm2.tum.de/intranet/neutroncalc/'>https://webapps.frm2.tum.de/intranet/neutroncalc/</a>
 <img src='/links/images/neutroncalc.png' />
