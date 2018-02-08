@@ -1,5 +1,6 @@
 ---
-title: Display Images and Metadata Tutorial
+title: Display Images and Metadata
+post: " <i class='fa fa-battery-empty'></i>"
 ---
 
 **Notebook name**: display_and_export_images_with_metadata.ipynb

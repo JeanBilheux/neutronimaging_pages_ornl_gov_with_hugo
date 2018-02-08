@@ -1,5 +1,6 @@
 ---
-title: Combine Images Tutorial
+title: Combine Images
+post: " <i class='fa fa-battery-empty'></i>"
 ---
 
 **Notebook name**: combine_images.ipynb

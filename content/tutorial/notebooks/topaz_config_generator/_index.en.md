@@ -1,12 +1,13 @@
 ---
 title: TOPAZ config file generator
+post: "<i class='fa fa-battery-full'></i> "
 ---
 
 **Notebook name**: TOPAZ_config_generator.ipynb
 
 ## Start the Notebook
 
-If you need help to access this notebook, check the [How To > Start the python notebooks](/en/tutorial/how_to_start_notebooks) tutorial.
+If you need help accessing this notebook, check the [How To > Start the python notebooks](/en/tutorial/how_to_start_notebooks) tutorial.
 
 ## First Time Look
 

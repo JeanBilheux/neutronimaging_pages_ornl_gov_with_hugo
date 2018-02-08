@@ -1,5 +1,6 @@
 ---
-title: Template UI Builder Tutorial
+title: Template UI Builder
+post: "<i class='fa fa-battery-empty'></i> "
 ---
 
 **Notebook name**: template_ui.ipynb

@@ -1,5 +1,6 @@
 ---
-title: List TIFF Metadata Tutorial
+title: List TIFF Metadata
+post: " <i class='fa fa-battery-empty'></i>"
 ---
 
 **Notebook name**: list_tiff_metadata.ipynb

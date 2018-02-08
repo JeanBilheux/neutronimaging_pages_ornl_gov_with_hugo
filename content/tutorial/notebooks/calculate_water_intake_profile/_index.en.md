@@ -1,5 +1,6 @@
 ---
-title: Calculate Water Intake Tutorial
+title: Calculate Water Intake
+post: " <i class='fa fa-battery-empty'></i>"
 ---
 
 **Notebook name**: calculate_water_intake.ipynb

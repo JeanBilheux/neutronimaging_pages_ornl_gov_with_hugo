@@ -37,7 +37,7 @@ weight = 12
 
 [[Languages.en.menu.shortcuts]]
 name = "<i class='fa fa-book'></i> Publications"
-url = "https://neutrons.ornl.gov/imaging/publications"
+url = "https://neutronimaging-publications.pages.ornl.gov"
 weight = 13
 
 [[Languages.en.menu.shortcuts]]
