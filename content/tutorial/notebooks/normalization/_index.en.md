@@ -33,3 +33,57 @@ Run the first two cells by doing either:
  * select **Cell > Run Cells and Select Below**
 
 <img src='/tutorial/notebooks/normalization/images/select_ipts.gif' />
+
+{{% notice info %}}
+Make sure you execute **one cell at a time**. Always wait for the **busy icon** to be done before running the next cell.
+The following screenshot shows the 2 ways you will know a notebook is still busy excecuting a cell.
+<img src='/tutorial/how_to_run_notebooks/images/busy_notebook.png' />
+{{% /notice %}}
+
+## loading the Images
+
+You need to provide the list of **samples**, **OB** and **DF** (if needed). To do so, just **SHIFT + ENTER** the
+following cell to display a *selection tool wizard*.
+
+<img src='/tutorial/notebooks/normalization/images/loading_images_1.gif' />
+
+The dialogbox will start listing the files from the IPTS folder you selected in the first cell. Feel free to navigate
+to find your data set.
+
+{{% notice info %}}
+Check the [file selection tool tutorial]({{%relref "/tutorial/how_to_run_notebooks/_index.md#folder_navigation" %}})
+to learn how to use the file selector tool.
+<img src='/tutorial/how_to_run_notebooks/images/file_folder_browser.png' />
+{{% /notice %}}
+
+* Select your **sample images**
+* click **Next Step>>**
+* Select your **OB images**
+* click **Next Step>>**
+* **OPTIONAL** Select your **DF images**
+* click **Next Step>>** to let the program load all your images.
+
+<img src='/tutorial/notebooks/normalization/images/loading_images_2.gif' />
+
+## Preview Data
+
+**Run** the next few cells to make sure you loading the right data set.
+
+<img src='/tutorial/notebooks/normalization/images/preview_images.gif' />
+
+## Select Background Region
+
+**SHIFT + ENTER** to run the cell. A new User Interface (UI) will come to life. If you can not see the UI, check
+behind the notebook window.
+
+<img src='/tutorial/notebooks/normalization/images/roi_selection_1.gif' />
+
+Just click **OK** if you do not want to select any region of interest (ROI).
+
+If you want to provide one, or more, ROI, click **+** on the
+right of the GUI and move/resize the ROI using the mouse, or the table values.
+
+<img src='/tutorial/notebooks/normalization/images/roi_selection_2.gif' />
+
+
+

@@ -27,6 +27,7 @@ This is showing a busy notebook with the background cell green and the full circ
 
 <img src='/tutorial/how_to_run_notebooks/images/busy_notebook.png' />
 
+<h2 id='folder_navigation'></h2>
 #### Folder Navigation
 
 At least one time per notebook, you will need to select a folder or one or more files. This widget will look like this
