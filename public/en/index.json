@@ -95,7 +95,7 @@
 	"title": "Notebooks Tutorials",
 	"tags": [],
 	"description": "",
-	"content": " bin_images  calculate_water_intake_profile  combine_folders  combine_images  create_list_of_file_name_vs_time_stamp  deal_files  display_and_export_images_with_metadata_profile  display_and_export_images_with_timestamp  display_counts_of_region_vs_stack  display_integrated_stack_of_images  file_name_and_metadata_vs_time_stamp  fix_images  fix_images_with_negative_pixels  format_filename_index  from_dsc_time_info_to_ascii_file_vs_time  ipts_18813  linear_profile  list_tiff_metadata  locate_pixels  normalization  normalization_by_first_image  normalization_by_range_of_images  profile_vs_file_index  radial_profile  resonance_imaging_experiment_vs_theory  rotate_and_crop_images  template_ui  topaz_config_generator  Welcome \n"
+	"content": " bin_images  calculate_water_intake_profile  combine_folders  combine_images  create_list_of_file_name_vs_time_stamp  deal_files  display_and_export_images_with_metadata_profile  display_and_export_images_with_timestamp  display_counts_of_region_vs_stack  display_integrated_stack_of_images  file_name_and_metadata_vs_time_stamp  fix_images  fix_images_with_negative_pixels  format_filename_index  from_dsc_time_info_to_ascii_file_vs_time  ipts_18813  linear_profile  list_tiff_metadata  locate_pixels  normalization  normalization_by_first_image  normalization_by_range_of_images  profile_vs_file_index  radial_profile  resonance_imaging_experiment_vs_theory  rotate_and_crop_images  template_ui  topaz_config_generator  Welcome \nTools Select IPTS \n"
 },
 {
 	"uri": "/en/faq/",
@@ -326,7 +326,7 @@
 	"title": "Select IPTS",
 	"tags": [],
 	"description": "",
-	"content": ""
+	"content": " The select IPTS tool that you will find at the top of most of the notebooks allows you to quickly select your IPTS. This information will then be used by the program to quickly jump to that IPTS. Any file or folder selection will starts from this IPTS project, this way you won\u0026rsquo;t have to look around to find your data.\nEnter IPTS Use the top text box to specify your IPTS number. As you enter the number, the program check if the IPTS exists or not. A message will be displayed on the right side informing you if the file exist or not.\nIf the IPTS can be located, the second widget (list of IPTS) will automatically jump to that folder.\nSelect IPTS The second widget list all the IPTS found for your instrument (Imaging by default). Just select your IPTS.\nHELP Button Brings a new window in your browser with this help page.\nLive Demo "
 },
 {
 	"uri": "/en/tutorial/notebooks/topaz_config_generator/",
