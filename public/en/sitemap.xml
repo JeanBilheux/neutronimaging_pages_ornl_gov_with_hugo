@@ -323,10 +323,6 @@
   </url>
   
   <url>
-    <loc>/en/tutorial/notebooks/normalization_by_first_image/</loc>
-  </url>
-  
-  <url>
     <loc>/en/tutorial/notebooks/normalization_by_range_of_images/</loc>
   </url>
   
@@ -380,6 +376,10 @@
   
   <url>
     <loc>/en/tutorial/notebooks/template_ui/</loc>
+  </url>
+  
+  <url>
+    <loc>/en/tutorial/notebooks/water_intake_profile_calculator/</loc>
   </url>
   
   <url>
