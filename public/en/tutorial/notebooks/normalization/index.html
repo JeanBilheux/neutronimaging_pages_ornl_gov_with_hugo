@@ -13,19 +13,19 @@
     <title>Normalization :: Documentation for Hugo Learn Theme</title>
     
     
-    <link href="/css/nucleus.css?1518120166" rel="stylesheet">
-    <link href="/css/font-awesome.min.css?1518120166" rel="stylesheet">
-    <link href="/css/hybrid.css?1518120166" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1518120166" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1518120166" rel="stylesheet">
-    <link href="/css/auto-complete.css?1518120166" rel="stylesheet">
-    <link href="/css/theme.css?1518120166" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1518120166" rel="stylesheet">
+    <link href="/css/nucleus.css?1518184936" rel="stylesheet">
+    <link href="/css/font-awesome.min.css?1518184936" rel="stylesheet">
+    <link href="/css/hybrid.css?1518184936" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1518184936" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1518184936" rel="stylesheet">
+    <link href="/css/auto-complete.css?1518184936" rel="stylesheet">
+    <link href="/css/theme.css?1518184936" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1518184936" rel="stylesheet">
     
-      <link href="/css/theme-blue.css?1518120166" rel="stylesheet">
+      <link href="/css/theme-blue.css?1518184936" rel="stylesheet">
     
 
-    <script src="/js/jquery-2.x.min.js?1518120166"></script>
+    <script src="/js/jquery-2.x.min.js?1518184936"></script>
     
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left{ 
@@ -60,14 +60,14 @@
     <span data-search-clear=""><i class="fa fa-close"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1518120166"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1518120166"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1518184936"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1518184936"></script>
 <script type="text/javascript">
     
         var baseurl = "\/en";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1518120166"></script>
+<script type="text/javascript" src="/js/search.js?1518184936"></script>
 
     
   </div>
@@ -1394,6 +1394,12 @@
 <ul>
 <li><a href="#select-your-ipts">Select your IPTS</a></li>
 </ul></li>
+<li><a href="#loading-the-images">loading the Images</a></li>
+<li><a href="#preview-data">Preview Data</a></li>
+<li><a href="#select-background-region">Select Background Region</a></li>
+<li><a href="#recapitulation">Recapitulation</a></li>
+<li><a href="#normalization">Normalization</a></li>
+<li><a href="#export">Export</a></li>
 </ul></li>
 </ul>
 </nav>
@@ -1450,6 +1456,78 @@ notebooks</a> tutorial.</p>
 </ul>
 
 <p><img src='/tutorial/notebooks/normalization/images/select_ipts.gif' /></p>
+
+<div class="notices info" ><p>Make sure you execute <strong>one cell at a time</strong>. Always wait for the <strong>busy icon</strong> to be done before running the next cell.
+The following screenshot shows the 2 ways you will know a notebook is still busy excecuting a cell.
+<img src='/tutorial/how_to_run_notebooks/images/busy_notebook.png' /></p>
+</div>
+
+
+<h2 id="loading-the-images">loading the Images</h2>
+
+<p>You need to provide the list of <strong>samples</strong>, <strong>OB</strong> and <strong>DF</strong> (if needed). To do so, just <strong>SHIFT + ENTER</strong> the
+following cell to display a <em>selection tool wizard</em>.</p>
+
+<p><img src='/tutorial/notebooks/normalization/images/loading_images_1.gif' /></p>
+
+<p>The dialogbox will start listing the files from the IPTS folder you selected in the first cell. Feel free to navigate
+to find your data set.</p>
+
+<div class="notices info" ><p>Check the <a href="/en/tutorial/how_to_run_notebooks/#folder_navigation">file selection tool tutorial</a>
+to learn how to use the file selector tool.
+<img src='/tutorial/how_to_run_notebooks/images/file_folder_browser.png' /></p>
+</div>
+
+
+<ul>
+<li>Select your <strong>sample images</strong></li>
+<li>click <strong>Next Step&gt;&gt;</strong></li>
+<li>Select your <strong>OB images</strong></li>
+<li>click <strong>Next Step&gt;&gt;</strong></li>
+<li><strong>OPTIONAL</strong> Select your <strong>DF images</strong></li>
+<li>click <strong>Next Step&gt;&gt;</strong> to let the program load all your images.</li>
+</ul>
+
+<p><img src='/tutorial/notebooks/normalization/images/loading_images_2.gif' /></p>
+
+<h2 id="preview-data">Preview Data</h2>
+
+<p><strong>Run</strong> the next few cells to make sure you loading the right data set.</p>
+
+<p><img src='/tutorial/notebooks/normalization/images/preview_images.gif' /></p>
+
+<h2 id="select-background-region">Select Background Region</h2>
+
+<p><strong>SHIFT + ENTER</strong> to run the cell. A new User Interface (UI) will come to life. If you can not see the UI, check
+behind the notebook window.</p>
+
+<p><img src='/tutorial/notebooks/normalization/images/roi_selection_1.gif' /></p>
+
+<p>Just click <strong>OK</strong> if you do not want to select any region of interest (ROI).</p>
+
+<p>If you want to provide one, or more, ROI, click <strong>+</strong> on the
+right of the GUI and move/resize the ROI using the mouse, or the table values.</p>
+
+<p><img src='/tutorial/notebooks/normalization/images/roi_selection_2.gif' /></p>
+
+<h2 id="recapitulation">Recapitulation</h2>
+
+<p>Running the recapitulation cell will display a summary of the files you selected. This allow to quickly</p>
+
+<p><img src='/tutorial/notebooks/normalization/images/recapitulation.png' /></p>
+
+<h2 id="normalization">Normalization</h2>
+
+<p>This cell runs the normalization and let you know the progress of the calculation via a progress bar.</p>
+
+<p><img src='/tutorial/notebooks/normalization/images/normalization.png' /></p>
+
+<h2 id="export">Export</h2>
+
+<p>Select where you want to output the normalized data, then run the following cell. Once the output folder selected,
+a folder name after the input data folder is created and will contain all the normalized data.</p>
+
+<p><img src='/tutorial/notebooks/normalization/images/export.png' /></p>
 
 
 <footer class=" footline" >
@@ -2226,20 +2304,20 @@ notebooks</a> tutorial.</p>
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1518120166"></script>
-    <script src="/js/perfect-scrollbar.min.js?1518120166"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1518120166"></script>
-    <script src="/js/jquery.sticky.js?1518120166"></script>
-    <script src="/js/featherlight.min.js?1518120166"></script>
-    <script src="/js/html5shiv-printshiv.min.js?1518120166"></script>
-    <script src="/js/highlight.pack.js?1518120166"></script>
+    <script src="/js/clipboard.min.js?1518184936"></script>
+    <script src="/js/perfect-scrollbar.min.js?1518184936"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1518184936"></script>
+    <script src="/js/jquery.sticky.js?1518184936"></script>
+    <script src="/js/featherlight.min.js?1518184936"></script>
+    <script src="/js/html5shiv-printshiv.min.js?1518184936"></script>
+    <script src="/js/highlight.pack.js?1518184936"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom.71422.js?1518120166"></script>
-    <script src="/js/learn.js?1518120166"></script>
-    <script src="/js/hugo-learn.js?1518120166"></script>
+    <script src="/js/modernizr.custom.71422.js?1518184936"></script>
+    <script src="/js/learn.js?1518184936"></script>
+    <script src="/js/hugo-learn.js?1518184936"></script>
 
-    <link href="/mermaid/mermaid.css?1518120166" type="text/css" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1518120166"></script>
+    <link href="/mermaid/mermaid.css?1518184936" type="text/css" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1518184936"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
