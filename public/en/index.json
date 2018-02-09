@@ -322,6 +322,13 @@
 	"content": "Notebook name: rotate_and_crop_images.ipynb\n"
 },
 {
+	"uri": "/en/tutorial/notebooks/select_ipts/",
+	"title": "Select IPTS",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
 	"uri": "/en/tutorial/notebooks/topaz_config_generator/",
 	"title": "TOPAZ config file generator",
 	"tags": [],

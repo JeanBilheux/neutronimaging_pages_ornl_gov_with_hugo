@@ -3,7 +3,6 @@ title: Notebooks Tutorials
 weight: 250
 ---
 
-<ul>
 <li>[bin_images]({{%relref "/tutorial/notebooks/bin_images/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
 <li>[calculate_water_intake_profile]({{%relref "/tutorial/notebooks/calculate_water_intake_profile/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
 <li>[combine_folders]({{%relref "/tutorial/notebooks/combine_folders/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
@@ -33,3 +32,7 @@ weight: 250
 <li>[template_ui]({{%relref "/tutorial/notebooks/template_ui/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
 <li>[topaz_config_generator]({{%relref "/tutorial/notebooks/topaz_config_generator/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i></li>
 <li>[Welcome]({{%relref "/tutorial/notebooks/welcome/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
+
+## Tools
+
+<li>[Select IPTS]({{%relref "/tutorial/notebooks/select_ipts/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i></li>
