@@ -85,5 +85,23 @@ right of the GUI and move/resize the ROI using the mouse, or the table values.
 
 <img src='/tutorial/notebooks/normalization/images/roi_selection_2.gif' />
 
+## Recapitulation
+
+Running the recapitulation cell will display a summary of the files you selected. This allow to quickly
+
+<img src='/tutorial/notebooks/normalization/images/recapitulation.png' />
+
+## Normalization
+
+This cell runs the normalization and let you know the progress of the calculation via a progress bar.
+
+<img src='/tutorial/notebooks/normalization/images/normalization.png' />
+
+## Export
+
+Select where you want to output the normalized data, then run the following cell. Once the output folder selected,
+a folder name after the input data folder is created and will contain all the normalized data.
+
+<img src='/tutorial/notebooks/normalization/images/export.png' />
 
 
