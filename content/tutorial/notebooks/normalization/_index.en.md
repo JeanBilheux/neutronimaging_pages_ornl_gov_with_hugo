@@ -26,21 +26,9 @@ notebooks](/en/tutorial/how_to_start_notebooks) tutorial.
 
 ### Select your IPTS
 
-Run the first two cells by doing either:
+Check the full tutorial [here]({{%relref "/tutorial/notebooks/select_ipts/_index.md#activate-search" %}})</i>
 
- * **SHIFT + ENTER** on your keyboard
- * click <i class='fa fa-step-forward'></i>
- * select **Cell > Run Cells and Select Below**
-
-<img src='/tutorial/notebooks/normalization/images/select_ipts.gif' />
-
-{{% notice info %}}
-Make sure you execute **one cell at a time**. Always wait for the **busy icon** to be done before running the next cell.
-The following screenshot shows the 2 ways you will know a notebook is still busy excecuting a cell.
-<img src='/tutorial/how_to_run_notebooks/images/busy_notebook.png' />
-{{% /notice %}}
-
-## loading the Images
+### loading the Images
 
 You need to provide the list of **samples**, **OB** and **DF** (if needed). To do so, just **SHIFT + ENTER** the
 following cell to display a *selection tool wizard*.
@@ -65,13 +53,13 @@ to learn how to use the file selector tool.
 
 <img src='/tutorial/notebooks/normalization/images/loading_images_2.gif' />
 
-## Preview Data
+### Preview Data
 
 **Run** the next few cells to make sure you loading the right data set.
 
 <img src='/tutorial/notebooks/normalization/images/preview_images.gif' />
 
-## Select Background Region
+### Select Background Region
 
 **SHIFT + ENTER** to run the cell. A new User Interface (UI) will come to life. If you can not see the UI, check
 behind the notebook window.
@@ -85,19 +73,19 @@ right of the GUI and move/resize the ROI using the mouse, or the table values.
 
 <img src='/tutorial/notebooks/normalization/images/roi_selection_2.gif' />
 
-## Recapitulation
+### Recapitulation
 
 Running the recapitulation cell will display a summary of the files you selected. This allow to quickly
 
 <img src='/tutorial/notebooks/normalization/images/recapitulation.png' />
 
-## Normalization
+### Normalization
 
 This cell runs the normalization and let you know the progress of the calculation via a progress bar.
 
 <img src='/tutorial/notebooks/normalization/images/normalization.png' />
 
-## Export
+### Export
 
 Select where you want to output the normalized data, then run the following cell. Once the output folder selected,
 a folder name after the input data folder is created and will contain all the normalized data.
