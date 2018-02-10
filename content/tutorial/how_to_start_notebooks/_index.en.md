@@ -18,7 +18,6 @@ python server starts a firefox browser with the right python environment and mov
 Getting the browser up and running with the notebooks page display takes around 10 to 20 seconds.
 {{% /notice %}}
 
-
 <img src='/tutorial/how_to_start_notebooks/images/notebook_0.png' />
 
 <img src='/tutorial/how_to_start_notebooks/images/notebook_1.png' />
@@ -30,4 +29,10 @@ To start a notebook, just **click** any of the **.ipynb** file (*normalization.i
 {{% notice tip %}} First thing we recommend at this point is to make a copy of this notebook. This way, update of the notebooks will
 not overwrite your work.
 <img src='/tutorial/how_to_start_notebooks/images/make_a_copy.png' />
+{{% /notice %}}
+
+{{% notice info %}} 
+Make sure you do not close the terminal window that you can find behind the browser as killing it will terminate
+your notebook sesssion.
+<img src='/tutorial/how_to_start_notebooks/images/grey_window.png' />
 {{% /notice %}}
