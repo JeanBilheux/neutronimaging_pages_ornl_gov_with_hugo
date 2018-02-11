@@ -35,5 +35,5 @@ weight: 250
 
 ## Tools
 
-<li>[File Selector]({{%relref "/tutorial/notebooks/file_selector/_index.md#activate-search" %}}) <i class='fa fa-battery-1'></i></li>
+<li>[File Selector]({{%relref "/tutorial/notebooks/file_selector/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i></li>
 <li>[Select IPTS]({{%relref "/tutorial/notebooks/select_ipts/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i></li>

@@ -1,6 +1,6 @@
 ---
 title: File Selector 
-post: "<i class='fa fa-battery-1'></i> "
+post: "<i class='fa fa-battery-full'></i> "
 ---
 
 ## Description
