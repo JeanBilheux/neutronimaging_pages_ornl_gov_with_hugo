@@ -61,5 +61,7 @@ here.
 
 <img src='/tutorial/how_to_run_notebooks/images/widget_3.png' />
 
+<img src='/tutorial/how_to_run_notebooks/images/do_not_rerun_modified_cell.gif' />
+
 <h1 id='modify_the_notebook'></h1>
 ### <a href='#top' class='fa fa-arrow-up'></a> Modify the notebook
