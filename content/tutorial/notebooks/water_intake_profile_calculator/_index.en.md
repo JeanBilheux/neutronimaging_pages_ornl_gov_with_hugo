@@ -36,6 +36,8 @@ Select the images you want to process using the **File Selector**
 Need help using the **File Selector**, check this
 {{% /notice %}}
 
+<h2 id='select_profile'></h2>
+### Select Profile
 
  
 <img src='/images/work_in_progress.png' />

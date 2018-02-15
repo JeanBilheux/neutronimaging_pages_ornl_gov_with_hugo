@@ -74,7 +74,7 @@
 	"title": "Connect to our computer",
 	"tags": [],
 	"description": "",
-	"content": " For any personal tutorial, demonstration or request, please contact Jean Bilheux.\nIn order to analyze or visualize your data, please follow the following recipe.\nConnect to our analysis computer Using your favorite browser, go to https://analysis.ornl.gov\nEnter your XCAMS and your password and hit Login\nThe first time you log in, you will be presented the following display\njust click OK to finish up logging in.\nAnd if it is not the first time, you will probably see a black screen. Just click anywhere within the window to activate the screensaver log in.\nEnter your password and click Unlock.\nYou are now connected to our analysis computer.\n"
+	"content": " For any personal tutorial, demonstration or request, please contact Jean Bilheux.\nIn order to analyze or visualize your data, please follow the following recipe.\nConnect to our analysis computer Using your favorite browser, go to https://analysis.sns.gov\nEnter your XCAMS and your password and hit Login\nThe first time you log in, you will be presented the following display\njust click OK to finish up logging in.\nAnd if it is not the first time, you will probably see a black screen. Just click anywhere within the window to activate the screensaver log in.\nEnter your password and click Unlock.\nYou are now connected to our analysis computer.\n"
 },
 {
 	"uri": "/en/tutorial/how_to_start_notebooks/",
@@ -354,7 +354,7 @@
 	"title": "Water Intake Profile Calculator",
 	"tags": [],
 	"description": "",
-	"content": " Notebook name: water_intake_profile_calculator.ipynb\nDescription This notebook will calculate the water intake profile vs time of a sample.\nHere are the steps (bold for user input/manipulation) * select the normalized images * images sorted by time * region of interest seleted * profile of counts vs vertical-pixel calculated (select integrated algorithm: mean/median/sum) * water intake profile vs file index or vs time * export profiles\nStart the notebook If you need help accessing this notebook, check the How To \u0026gt; Start the python notebooks tutorial.\nSelect your IPTS Check the full tutorial here\nSelect Images to Process Select the images you want to process using the File Selector\nNeed help using the File Selector, check this\n "
+	"content": " Notebook name: water_intake_profile_calculator.ipynb\nDescription This notebook will calculate the water intake profile vs time of a sample.\nHere are the steps (bold for user input/manipulation) * select the normalized images * images sorted by time * region of interest seleted * profile of counts vs vertical-pixel calculated (select integrated algorithm: mean/median/sum) * water intake profile vs file index or vs time * export profiles\nStart the notebook If you need help accessing this notebook, check the How To \u0026gt; Start the python notebooks tutorial.\nSelect your IPTS Check the full tutorial here\nSelect Images to Process Select the images you want to process using the File Selector\nNeed help using the File Selector, check this\n \nSelect Profile "
 },
 {
 	"uri": "/en/tutorial/notebooks/welcome/",
