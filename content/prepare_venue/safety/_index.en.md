@@ -5,7 +5,7 @@ disableToc: true
 ---
 
 {{% notice info %}}
-To be completed **only by the Principal Investigator** (PI) of the experiment
+To be completed **by the Principal Investigator** (PI) of the experiment
 {{% /notice %}}
 
 <i class='fa fa-square-o'></i> Provided all safety documentation for user provided equipment **immediately**?

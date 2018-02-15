@@ -25,7 +25,7 @@ approval of your beam time. {{% /notice %}}
 
 ## Main features
 
-* [Prepare your venue]({{%relref "/prepare_venue/_index.md#activate-search" %}}):
+* [Prepare your arrival]({{%relref "/prepare_venue/_index.md#activate-search" %}}):
 Everything you will need to do before coming to our laboratory.
 * [Capabilities]({{%relref "/capabilities/_index.md#activate-search" %}}): list of imaging instruments available.
 * [How to]({{%relref "/tutorial/_index.md#activate-search" %}}): short tutorials such as how to

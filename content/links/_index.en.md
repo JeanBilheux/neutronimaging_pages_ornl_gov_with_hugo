@@ -26,6 +26,10 @@ Go to the <a href='https://snsapp1.sns.ornl.gov/xprod/f?p=100'>Proposal System</
 <a href='https://www.ornl.gov/'>https://www.ornl.gov/</a>
 <img src='/links/images/links_4.png' />
 {{% /expand%}}
+{{%expand "ORNL guess portal" %}}
+<a href='https://user.ornl.gov'>https://user.ornl.gov</a>
+<img src='/links/images/guess_portal.png' />
+{{% /expand%}}
 
 ## Analysis Tools
 

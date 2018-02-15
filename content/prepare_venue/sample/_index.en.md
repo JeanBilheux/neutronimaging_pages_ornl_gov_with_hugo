@@ -1,5 +1,5 @@
 ---
-title: Sample Handling
+title: Sample Shipping
 weight: 4
 disableToc: true
 ---
