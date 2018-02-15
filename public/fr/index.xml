@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Learn Theme for Hugo on Site pour les usagers de la ligne de faisceau d&#39;imagerie d&#39;ORNL</title>
+    <link>/fr/</link>
+    <description>Recent content in Learn Theme for Hugo on Site pour les usagers de la ligne de faisceau d&#39;imagerie d&#39;ORNL</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    
+	<atom:link href="/fr/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Contacts</title>
+      <link>/fr/credits/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/credits/</guid>
+      <description>Hassina Bilheux - Scientifique de l&amp;rsquo;InstrumentSpécialité: lignes de faisceau a HFIR et au SNS bilheuxhn@ornl.gov (865) 384 - 9630 (865) 574 - 0241    Lou Santodonato - Scientifique de l&amp;rsquo;InstrumentSpécialité: ligne de faisceau a HFIR santodonatol@ornl.gov (865) 719 - 0656 (865) 574 - 4641     Jean Bilheux - Programmeur ScientifiqueSpécialité: Programmation bilheuxjm@ornl.gov (865) 406 - 1704 (865) 574 - 4637 jbilheux.</description>
+    </item>
+    
+    <item>
+      <title>Github Repositories</title>
+      <link>/fr/github/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/github/</guid>
+      <description>Notre but est de developer tous nos programes en logiciels libre. Cette page propose une liste des principaux outils que nous offrons.
+ jupyter notebooks destines a l&amp;rsquo;analyse des donnees python_notebooks librairie python utilisees pour la normalisation des images neunorm librairie python pour l&amp;rsquo;etude des resonances d&amp;rsquo;imagesimagingReso iBeatles pour l&amp;rsquo;analyse des pics de Bragg Edge iBeatles jeu d&amp;rsquo;outils interactifs pour jupyter notebooks ipywe libraire python d&amp;rsquo;analyse de racines de plantes RootPlantProcessing  </description>
+    </item>
+    
+    <item>
+      <title>Vitrine</title>
+      <link>/fr/vitrine/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/vitrine/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

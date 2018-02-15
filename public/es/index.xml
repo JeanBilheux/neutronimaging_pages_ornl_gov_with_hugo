@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Neutron Imaging on web site para los pequinos de la imaga</title>
+    <link>/es/</link>
+    <description>Recent content in Neutron Imaging on web site para los pequinos de la imaga</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    
+	<atom:link href="/es/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Contactos</title>
+      <link>/es/credits/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/credits/</guid>
+      <description>Hassina Bilheux - Instrumento científicoEspecialidad: líneas de haz de HFIR y de SNS bilheuxhn@ornl.gov (865) 384 - 9630 (865) 574 - 0241    Lou Santodonato - Instrumento científicoEspecialidad: líneas de haz de HFIR santodonatol@ornl.gov (865) 719 - 0656 (865) 574 - 4641     Jean Bilheux - Científico de la ComputaciónEspecialidad: Programmation bilheuxjm@ornl.gov (865) 406 - 1704 (865) 574 - 4637 jbilheux.</description>
+    </item>
+    
+    <item>
+      <title>Github Repositories</title>
+      <link>/es/github/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/github/</guid>
+      <description>Our gloal is to only develop open source tools. You will find here a list of the major repositories hosting our programs
+ jupyter notebooks used in the analysis of the data python_notebooks python library used for normalization neunorm Imaging Resonance python library imagingReso iBeatles for Bragg Edge fitting iBeatles set of jupyter widgets ipywe Root analysis library RootPlantProcessing  </description>
+    </item>
+    
+  </channel>
+</rss>

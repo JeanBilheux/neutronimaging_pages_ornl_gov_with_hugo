@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/en/prepare_venue/sample/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/prepare_venue/sample/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/prepare_venue/sample/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/tutorial/how_to_run_imars3d/</loc>
+  </url>
+  
+  <url>
+    <loc>/en/tutorial/how_to_other/</loc>
+  </url>
+  
+  <url>
+    <loc>/en/prepare_venue/proposal_confirmation/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/prepare_venue/proposal_confirmation/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/prepare_venue/proposal_confirmation/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/prepare_venue/safety/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/prepare_venue/safety/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/prepare_venue/safety/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/prepare_venue/access/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/prepare_venue/access/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/prepare_venue/access/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/prepare_venue/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/prepare_venue/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/prepare_venue/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/prepare_venue/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/capabilities/</loc>
+    <lastmod>2018-01-21T16:50:16+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/en/tutorial/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/tutorial/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tutorial/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/tutorial/how_to_access_data/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/tutorial/how_to_access_data/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tutorial/how_to_access_data/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/tutorial/how_to_access_computer/</loc>
+  </url>
+  
+  <url>
+    <loc>/en/tutorial/how_to_start_notebooks/</loc>
+  </url>
+  
+  <url>
+    <loc>/en/tutorial/how_to_run_notebooks/</loc>
+  </url>
+  
+  <url>
+    <loc>/en/tutorial/notebooks/</loc>
+  </url>
+  
+  <url>
+    <loc>/en/faq/</loc>
+    <lastmod>2016-04-09T16:50:16+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/faq/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/faq/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/faq/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/links/</loc>
+    <lastmod>2016-04-09T16:50:16+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/en/tutorial/notebooks/calculate_water_intake_profile/</loc>
+  </url>
+  
+  <url>
+    <loc>/en/categories/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/tutorial/notebooks/combine_folders/</loc>
+  </url>
+  
+  <url>
+    <loc>/en/tutorial/notebooks/combine_images/</loc>
+  </url>
+  
+  <url>
+    <loc>/en/credits/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/credits/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/credits/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/credits/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/tutorial/notebooks/create_list_of_file_name_vs_time_stamp/</loc>
+  </url>
+  
+  <url>
+    <loc>/en/tutorial/notebooks/deal_files/</loc>
+  </url>
+  
+  <url>
+    <loc>/en/tutorial/notebooks/display_counts_of_region_vs_stack/</loc>
+  </url>
+  
+  <url>
+    <loc>/en/tutorial/notebooks/display_and_export_images_with_metadata_profile/</loc>
+  </url>
+  
+  <url>
+    <loc>/en/tutorial/notebooks/display_integrated_stack_of_images/</loc>
+  </url>
+  
+  <url>
+    <loc>/en/tutorial/notebooks/display_and_export_images_with_timestamp/</loc>
+  </url>
+  
+  <url>
+    <loc>/en/tutorial/notebooks/file_name_and_metadata_vs_time_stamp/</loc>
+  </url>
+  
+  <url>
+    <loc>/en/tutorial/notebooks/file_selector/</loc>
+  </url>
+  
+  <url>
+    <loc>/en/tutorial/notebooks/fix_images/</loc>
+  </url>
+  
+  <url>
+    <loc>/en/tutorial/notebooks/fix_images_with_negative_pixels/</loc>
+  </url>
+  
+  <url>
+    <loc>/en/tutorial/notebooks/format_filename_index/</loc>
+  </url>
+  
+  <url>
+    <loc>/en/tutorial/notebooks/from_dsc_time_info_to_ascii_file_vs_time/</loc>
+  </url>
+  
+  <url>
+    <loc>/en/showcase/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/vitrine/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/showcase/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/github/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/github/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/github/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/github/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/tutorial/notebooks/linear_profile/</loc>
+  </url>
+  
+  <url>
+    <loc>/en/tutorial/notebooks/list_tiff_metadata/</loc>
+  </url>
+  
+  <url>
+    <loc>/en/tutorial/notebooks/locate_pixels/</loc>
+  </url>
+  
+  <url>
+    <loc>/en/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/tutorial/notebooks/normalization/</loc>
+  </url>
+  
+  <url>
+    <loc>/en/tutorial/notebooks/normalization_by_range_of_images/</loc>
+  </url>
+  
+  <url>
+    <loc>/en/tutorial/notebooks/profile_vs_file_index/</loc>
+  </url>
+  
+  <url>
+    <loc>/en/tutorial/notebooks/radial_profile/</loc>
+  </url>
+  
+  <url>
+    <loc>/en/tutorial/notebooks/bin_images/</loc>
+  </url>
+  
+  <url>
+    <loc>/en/tutorial/notebooks/resonance_imaging_experiment_vs_theory/</loc>
+  </url>
+  
+  <url>
+    <loc>/en/tutorial/notebooks/rotate_and_crop_images/</loc>
+  </url>
+  
+  <url>
+    <loc>/en/tutorial/notebooks/select_ipts/</loc>
+  </url>
+  
+  <url>
+    <loc>/en/tutorial/notebooks/topaz_config_generator/</loc>
+  </url>
+  
+  <url>
+    <loc>/en/tags/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/tutorial/notebooks/template_ui/</loc>
+  </url>
+  
+  <url>
+    <loc>/en/tutorial/notebooks/water_intake_profile_calculator/</loc>
+  </url>
+  
+  <url>
+    <loc>/en/tutorial/notebooks/welcome/</loc>
+  </url>
+  
+</urlset>
