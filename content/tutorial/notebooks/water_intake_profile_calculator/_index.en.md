@@ -39,5 +39,6 @@ Need help using the **File Selector**, check this
 <h2 id='select_profile'></h2>
 ### Select Profile
 
- 
 <img src='/images/work_in_progress.png' />
+
+<img src='/tutorial/notebooks/water_intake_profile_calculator/images/water_inake.mp4' />
