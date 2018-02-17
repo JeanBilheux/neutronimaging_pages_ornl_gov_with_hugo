@@ -40,5 +40,6 @@ Need help using the **File Selector**, check this
 ### Select Profile
 
 <img src='/tutorial/notebooks/water_intake_profile_calculator/images/water_intake.gif' />
+<img src='/tutorial/notebooks/water_intake_profile_calculator/images/water_intake_part2.gif' />
 
 <img src='/images/work_in_progress.png' />
