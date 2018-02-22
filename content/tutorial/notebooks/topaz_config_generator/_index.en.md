@@ -1,6 +1,6 @@
 ---
 title: TOPAZ config file generator
-post: "<i class='fa fa-battery-full'></i> "
+post: "<i class='fa fa-battery-2'></i> "
 ---
 
 **Notebook name**: TOPAZ_config_generator.ipynb
