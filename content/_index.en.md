@@ -6,7 +6,6 @@ title: "Neutron Imaging"
 
 ### Welcome to the ORNL Neutron Imaging Website!
 
-<img src='/images/temp/call_for_proposal_2018_1.png' />
 <ul>
 <li>To learn more about submitting a proposal for beam time, go to <a href='https://neutrons.ornl.gov/users'>neutrons.ornl.gov/users</a>.</li>
 <li>To submit your proposal, go to the <a href='https://snsapp1.sns.ornl.gov/xprod/f?p=100'>proposal system</a>.</li>
