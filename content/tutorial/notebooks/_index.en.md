@@ -29,7 +29,7 @@ weight: 250
 <li>[resonance_imaging_experiment_vs_theory]({{%relref "/tutorial/notebooks/resonance_imaging_experiment_vs_theory/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
 <li>[rotate_and_crop_images]({{%relref "/tutorial/notebooks/rotate_and_crop_images/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
 <li>[template_ui]({{%relref "/tutorial/notebooks/template_ui/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
-<li>[topaz_config_generator]({{%relref "/tutorial/notebooks/topaz_config_generator/_index.md#activate-search" %}}) <i class='fa fa-battery-2'></i></li>
+<li>[topaz_config_generator]({{%relref "/tutorial/notebooks/topaz_config_generator/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i></li>
 <li>[water_intake_profile_calculator]({{%relref "/tutorial/notebooks/water_intake_profile_calculator/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i></li>
 <li>[Welcome]({{%relref "/tutorial/notebooks/welcome/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
 
