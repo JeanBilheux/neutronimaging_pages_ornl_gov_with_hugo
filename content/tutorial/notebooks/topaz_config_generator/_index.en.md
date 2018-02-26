@@ -61,3 +61,21 @@ notebook.
 <img src='/tutorial/notebooks/topaz_config_generator/images/create_config.gif' />
 
 If nothing is missing, the full path to the config file created will be displayed!
+
+## Run Reduction
+
+The next cell will build up the command line you will need to copy/paste into a **terminal**. To do so
+
+ * Copy the command line **green text** using **Right click + Copy ...**
+ * click the **terminal icon** at the top of the desktop
+ * **Paste** the text
+ * hit **ENTER**
+
+<img src='/tutorial/notebooks/topaz_config_generator/images/run_reduction_manually.gif' />
+
+
+
+
+
+
+
