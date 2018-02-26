@@ -76,6 +76,7 @@ profile algorithms available
  * median
 
 The profile is calculated using the following method:
+
  * retrieve the region you defined in the top left image
  * using the profile algorithm you selected, will integrate over the x-axis of the ROI
  * display the profile vs the y-pixels.
@@ -87,6 +88,11 @@ possible to display this one using a real dimension (mm). To do so, just click t
 check box and define the dimension of the pixel.
 
 <img src='/tutorial/notebooks/water_intake_profile_calculator/images/pixel_size.gif' />
+
+#### Water Intake Algorithm
+
+If you wonder how the program calculates the pixel corresponding to the "front" of the profile signal. Check this
+[PDF this document](/tutorial/notebooks/water_intake_profile_calculator/images/water_intake_calculation.pdf)
 
 #### Export Results
 
