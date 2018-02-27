@@ -81,13 +81,20 @@ The profile is calculated using the following method:
  * using the profile algorithm you selected, will integrate over the x-axis of the ROI
  * display the profile vs the y-pixels.
 
-#### pixel or dimension
+#### Using Pixel or Size Reference
 
 By default the water intake profile display the position of the "wave" as a pixel number vs the time. But it's also
 possible to display this one using a real dimension (mm). To do so, just click the **water intake y_axis -> distance**
 check box and define the dimension of the pixel.
 
 <img src='/tutorial/notebooks/water_intake_profile_calculator/images/pixel_size.gif' />
+
+#### Integration Direction
+
+In the new version of the application, it is now possible to specify the direction of integration of the profiles.
+Select either **y_axis** or **x_axis** to change this direction.
+
+<img src='/tutorial/notebooks/water_intake_profile_calculator/images/integration_direction.gif' />
 
 #### Water Intake Algorithm
 
