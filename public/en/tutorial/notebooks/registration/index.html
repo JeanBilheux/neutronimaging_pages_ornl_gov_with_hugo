@@ -10,7 +10,7 @@
     <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 <link rel="icon" href="/images/favicon.png" type="image/x-icon" />
 
-    <title>TOPAZ config file generator :: Documentation for Hugo Learn Theme</title>
+    <title>Registration :: Documentation for Hugo Learn Theme</title>
     
     
     <link href="/css/nucleus.css?1519851751" rel="stylesheet">
@@ -35,7 +35,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/en/tutorial/notebooks/topaz_config_generator/">
+  <body class="" data-url="/en/tutorial/notebooks/registration/">
     <nav id="sidebar" class="showVisitedLinks">
 
 
@@ -1060,8 +1060,8 @@
   
     
     <li data-nav-id="/en/tutorial/notebooks/registration/" title="Registration" class="dd-item 
-        
-        
+        parent
+        active
         
         ">
       <a href="/en/tutorial/notebooks/registration/">
@@ -1164,8 +1164,8 @@
   
     
     <li data-nav-id="/en/tutorial/notebooks/topaz_config_generator/" title="TOPAZ config file generator" class="dd-item 
-        parent
-        active
+        
+        
         
         ">
       <a href="/en/tutorial/notebooks/topaz_config_generator/">
@@ -1368,7 +1368,7 @@
                   
                     
                     
-                      <option id="en" value="/en/tutorial/notebooks/topaz_config_generator/" selected>English</option>
+                      <option id="en" value="/en/tutorial/notebooks/registration/" selected>English</option>
                     
                   
               
@@ -1444,7 +1444,7 @@
             
           
           
-            <a href='/en/'>Neutron Imaging</a> > <a href='/en/tutorial/'>Tutorials</a> > <a href='/en/tutorial/notebooks/'>Notebooks Tutorials</a> > TOPAZ config file generator
+            <a href='/en/'>Neutron Imaging</a> > <a href='/en/tutorial/'>Tutorials</a> > <a href='/en/tutorial/notebooks/'>Notebooks Tutorials</a> > Registration
           
          
           
@@ -1458,22 +1458,7 @@
                 
                     <div class="progress">
     <div class="wrapper">
-<nav id="TableOfContents">
-<ul>
-<li>
-<ul>
-<li><a href="#start-the-notebook">Start the Notebook</a></li>
-<li><a href="#first-time-look">First Time Look</a></li>
-<li><a href="#define-ipts">Define IPTS</a></li>
-<li><a href="#run-all-cells-at-once">Run All Cells at Once</a></li>
-<li><a href="#file-or-folder-selection-tool">File or Folder Selection Tool</a></li>
-<li><a href="#widget-interaction">Widget Interaction</a></li>
-<li><a href="#advanced-options">Advanced Options</a></li>
-<li><a href="#create-config-file">Create Config File</a></li>
-<li><a href="#run-reduction">Run Reduction</a></li>
-</ul></li>
-</ul>
-</nav>
+
     </div>
 </div>
 
@@ -1485,87 +1470,15 @@
         
         <div id="body-inner">
           
-            <h1>TOPAZ config file generator</h1>
+            <h1>Registration</h1>
           
 
         
 
 
+<p><strong>Notebook name</strong>: registration.ipynb</p>
 
-
-<p><strong>Notebook name</strong>: TOPAZ_config_generator.ipynb</p>
-
-<h2 id="start-the-notebook">Start the Notebook</h2>
-
-<p>If you need help accessing this notebook, check the <a href="/en/tutorial/how_to_start_notebooks">How To &gt; Start the python notebooks</a> tutorial.</p>
-
-<h2 id="first-time-look">First Time Look</h2>
-
-<p>If you are using the notebook for the first time, it should look like this</p>
-
-<p><img src='/tutorial/notebooks/topaz_config_generator/images/notebook_first_time.png' /></p>
-
-<h2 id="define-ipts">Define IPTS</h2>
-
-<p>Starting from the top <strong>SHIFT + ENTER</strong> the cells in order to run them. The 4th cell will ask you to select the
-<strong>IPTS</strong> of your experiment.</p>
-
-<p><img src='/tutorial/notebooks/topaz_config_generator/images/select_ipts.gif' /></p>
-
-<h2 id="run-all-cells-at-once">Run All Cells at Once</h2>
-
-<p>Select the <strong>next cell</strong> and click <strong>Cell &gt; Run All Below</strong>.</p>
-
-<p><img src='/tutorial/notebooks/topaz_config_generator/images/notebook_run_all_cells.gif' /></p>
-
-<h2 id="file-or-folder-selection-tool">File or Folder Selection Tool</h2>
-
-<p>In order to select a file or a folder you need to know the following:</p>
-
-<ul>
-<li>one dot (<strong>.</strong>) means current folder</li>
-<li>2 dots (<strong>..</strong>) means above folder</li>
-<li>click <strong>select</strong> to validate your file or folder selection</li>
-<li>selection made will be display above the selection tool
-<img src='/tutorial/notebooks/topaz_config_generator/images/file_selection.gif' /></li>
-</ul>
-
-<h2 id="widget-interaction">Widget Interaction</h2>
-
-<p>You will find that some of the widgets display depends on your input in other widgets. This has been
-implemented to help you in your choice of parameters.</p>
-
-<p><img src='/tutorial/notebooks/topaz_config_generator/images/widgets_interaction.gif' /></p>
-
-<h2 id="advanced-options">Advanced Options</h2>
-
-<p>Instrument scientists and super users can have access to advanced options by entering a pasword in the <strong>Advanced
-Options</strong> cell.</p>
-
-<p><img src='/tutorial/notebooks/topaz_config_generator/images/advanced_users.gif' /></p>
-
-<h2 id="create-config-file">Create Config File</h2>
-
-<p>And finally, re-run the last cell <strong>Export the Config File</strong> in order to produce the config file. If any information
-is missing, a text will show you what is missing. Just click on this link to quickly jump to the widgets in the
-notebook.</p>
-
-<p><img src='/tutorial/notebooks/topaz_config_generator/images/create_config.gif' /></p>
-
-<p>If nothing is missing, the full path to the config file created will be displayed!</p>
-
-<h2 id="run-reduction">Run Reduction</h2>
-
-<p>The next cell will build up the command line you will need to copy/paste into a <strong>terminal</strong>. To do so</p>
-
-<ul>
-<li>Copy the command line <strong>green text</strong> using <strong>Right click + Copy &hellip;</strong></li>
-<li>click the <strong>terminal icon</strong> at the top of the desktop</li>
-<li><strong>Paste</strong> the text</li>
-<li>hit <strong>ENTER</strong></li>
-</ul>
-
-<p><img src='/tutorial/notebooks/topaz_config_generator/images/run_reduction_manually.gif' /></p>
+<p><img src='/images/comingsoon.png' /></p>
 
 
 <footer class=" footline" >
@@ -2206,6 +2119,58 @@ notebook.</p>
             
                 
                     
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
                 
                 
 
@@ -2270,58 +2235,6 @@ notebook.</p>
             
                 
                     
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                        
-                        
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
                 
                 
 
@@ -2378,10 +2291,10 @@ notebook.</p>
 
 
         
-            <a class="nav nav-prev" href="/en/tutorial/notebooks/select_ipts/" title="Select IPTS"> <i class="fa fa-chevron-left"></i></a>
+            <a class="nav nav-prev" href="/en/tutorial/notebooks/bin_images/" title="Rebin Images"> <i class="fa fa-chevron-left"></i></a>
         
         
-            <a class="nav nav-next" href="/en/tutorial/notebooks/template_ui/" title="Template UI Builder" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+            <a class="nav nav-next" href="/en/tutorial/notebooks/resonance_imaging_experiment_vs_theory/" title="Resonance Imaging Experiment vs Theory" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
         
     </div>
 
