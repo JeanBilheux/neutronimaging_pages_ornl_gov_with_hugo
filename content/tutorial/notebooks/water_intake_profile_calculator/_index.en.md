@@ -111,4 +111,27 @@ You can export the following data
 
 <img src='/tutorial/notebooks/water_intake_profile_calculator/images/export_files.png' />
 
+{{% notice tip %}}
+**For Advanced Users**. keep reading!
+{{% /notice%}}
+
+#### Want to Work on the Data in the Notebook?
+
+
+If you want to play yourself with the data loaded, you can easily access all the data and metadata loaded
+
+```python
+list_of_data = o_gui.dict_data['list_data']
+```
+<img src='/tutorial/notebooks/water_intake_profile_calculator/images/list_data.png' />
+
+```python
+list_of_files = o_gui.dict_data['list_images']
+```
+<img src='/tutorial/notebooks/water_intake_profile_calculator/images/list_files.png' />
+
+```python
+list_of_time_stamp = o_gui.dict_data['list_time_stamp']
+list_of_time_stamp_user_format = o_gui.dict_data['list_time_stamp_user_format']
+```
 
