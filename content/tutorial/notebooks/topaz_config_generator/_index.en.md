@@ -22,6 +22,13 @@ Starting from the top **SHIFT + ENTER** the cells in order to run them. The 4th 
 
 <img src='/tutorial/notebooks/topaz_config_generator/images/select_ipts.gif' />
 
+## Initialize Parameters Using Config File (Optional)
+
+In case you want to initialize the content of all the widgets by a config file you created in the past, you can
+simply select that config file.
+
+<img src='/tutorial/notebooks/topaz_config_generator/images/load_config.gif' />
+
 ## Run All Cells at Once
 
 Select the **next cell** and click **Cell > Run All Below**.
@@ -61,6 +68,12 @@ notebook.
 <img src='/tutorial/notebooks/topaz_config_generator/images/create_config.gif' />
 
 If nothing is missing, the full path to the config file created will be displayed!
+
+{{% notice info %}}
+For advanced users who entered the **instrument password**, they will have a preview of the config file when
+creating the configuration file.
+<img src='/tutorial/notebooks/topaz_config_generator/images/config_output_for_advanced_users.png' />
+{{% /notice %}}
 
 ## Run Reduction
 
