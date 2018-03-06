@@ -23,7 +23,6 @@ weight: 250
 <li>[list_tiff_metadata]({{%relref "/tutorial/notebooks/list_tiff_metadata/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
 <li>[locate_pixels]({{%relref "/tutorial/notebooks/locate_pixels/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
 <li>[normalization]({{%relref "/tutorial/notebooks/normalization/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i></li>
-<li>[normalization_by_range_of_images]({{%relref "/tutorial/notebooks/normalization_by_range_of_images/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
 <li>[profile_vs_file_index]({{%relref "/tutorial/notebooks/profile_vs_file_index/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
 <li>[radial_profile]({{%relref "/tutorial/notebooks/radial_profile/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
 <li>[registration]({{%relref "/tutorial/notebooks/registration/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
@@ -32,7 +31,6 @@ weight: 250
 <li>[template_ui]({{%relref "/tutorial/notebooks/template_ui/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
 <li>[topaz_config_generator]({{%relref "/tutorial/notebooks/topaz_config_generator/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> <i class='fa fa-bell'></i></li>
 <li>[water_intake_profile_calculator]({{%relref "/tutorial/notebooks/water_intake_profile_calculator/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> <i class='fa fa-bell'></i></li>
-<li>[Welcome]({{%relref "/tutorial/notebooks/welcome/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
 
 ## Tools
 
