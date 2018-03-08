@@ -1,6 +1,6 @@
 ---
-title: Registration
-post: " <i class='fa fa-battery-empty'></i>"
+title: Frederick IPTS
+post: " <i class='fa fa-battery-2'></i>"
 ---
 
 **Notebook name**: frederick_ipts.ipynb
@@ -40,8 +40,16 @@ Here is what those file names look like
 The program will then re-group the files by time stamp first and then by T and P
 parameters.
 
+This process may take some times as the program is loading all the data and calculating
+the groups.
+
+<img src='/tutorial/notebooks/frederick_ipts/images/select_files_process.png' />
 
 ### Display Images
 
+By running the **display images** cell, a UI pops up that will allow you to
+browse your data using the groups extracted from the previous step.
 
-<img src='/images/comingsoon.png' />
+<img src='/tutorial/notebooks/frederick_ipts/images/preview_of_frederick_ui.gif' />
+
+<img src='/images/morecomingsoon.png' />
