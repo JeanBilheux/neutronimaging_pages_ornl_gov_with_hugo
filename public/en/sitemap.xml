@@ -168,13 +168,13 @@
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
-                hreflang="fr"
-                href="/fr/categories/"
+                hreflang="es"
+                href="/es/categories/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
-                href="/es/categories/"
+                hreflang="fr"
+                href="/fr/categories/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -327,11 +327,11 @@
   </url>
   
   <url>
-    <loc>/en/tutorial/notebooks/normalization/</loc>
+    <loc>/en/tutorial/notebooks/normalization_batch/</loc>
   </url>
   
   <url>
-    <loc>/en/tutorial/notebooks/normalization_batch/</loc>
+    <loc>/en/tutorial/notebooks/normalization_live/</loc>
   </url>
   
   <url>
@@ -371,13 +371,13 @@
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
-                hreflang="fr"
-                href="/fr/tags/"
+                hreflang="es"
+                href="/es/tags/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
-                href="/es/tags/"
+                hreflang="fr"
+                href="/fr/tags/"
                 />
     <xhtml:link
                 rel="alternate"
