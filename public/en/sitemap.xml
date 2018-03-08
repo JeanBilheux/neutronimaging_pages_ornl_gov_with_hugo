@@ -327,7 +327,7 @@
   </url>
   
   <url>
-    <loc>/en/tutorial/notebooks/normalization_by_range_of_images/</loc>
+    <loc>/en/tutorial/notebooks/normalization_batch/</loc>
   </url>
   
   <url>
@@ -388,10 +388,6 @@
   
   <url>
     <loc>/en/tutorial/notebooks/water_intake_profile_calculator/</loc>
-  </url>
-  
-  <url>
-    <loc>/en/tutorial/notebooks/welcome/</loc>
   </url>
   
 </urlset>
