@@ -17,6 +17,7 @@ weight: 250
 <li>[fix_images]({{%relref "/tutorial/notebooks/fix_images/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
 <li>[fix_images_with_negative_pixels]({{%relref "/tutorial/notebooks/fix_images_with_negative_pixels/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
 <li>[format_filename_index]({{%relref "/tutorial/notebooks/format_filename_index/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
+<li>[frederick_ipts]({{%relref "/tutorial/notebooks/frederick_ipts/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
 <li>[from_dsc_time_info_to_ascii_file_vs_time]({{%relref "/tutorial/notebooks/from_dsc_time_info_to_ascii_file_vs_time/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
 <li>[ipts_18813]({{%relref "/tutorial/notebooks/ipts_18813/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
 <li>[linear_profile]({{%relref "/tutorial/notebooks/linear_profile/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
