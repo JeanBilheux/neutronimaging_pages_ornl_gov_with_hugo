@@ -277,6 +277,10 @@
   </url>
   
   <url>
+    <loc>/en/tutorial/notebooks/gamma_filtering_tool/</loc>
+  </url>
+  
+  <url>
     <loc>/en/github/</loc>
     <xhtml:link
                 rel="alternate"

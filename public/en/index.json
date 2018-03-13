@@ -95,7 +95,7 @@
 	"title": "Notebooks Tutorials",
 	"tags": [],
 	"description": "",
-	"content": " bin_images  calculate_water_intake_profile  combine_folders  combine_images  create_list_of_file_name_vs_time_stamp  deal_files  display_and_export_images_with_metadata_profile  display_and_export_images_with_timestamp  display_counts_of_region_vs_stack  display_integrated_stack_of_images  file_name_and_metadata_vs_time_stamp  fix_images  fix_images_with_negative_pixels  format_filename_index  frederick_ipts   from_dsc_time_info_to_ascii_file_vs_time  ipts_18813  linear_profile  list_tiff_metadata  locate_pixels  normalization_live   normalization_batch   profile_vs_file_index  radial_profile  registration  resonance_imaging_experiment_vs_theory  rotate_and_crop_images  template_ui  topaz_config_generator  water_intake_profile_calculator \nTools File Selector  Select IPTS \n Recently updated\n"
+	"content": " bin_images  calculate_water_intake_profile  combine_folders  combine_images  create_list_of_file_name_vs_time_stamp  deal_files  display_and_export_images_with_metadata_profile  display_and_export_images_with_timestamp  display_counts_of_region_vs_stack  display_integrated_stack_of_images  file_name_and_metadata_vs_time_stamp  fix_images  fix_images_with_negative_pixels  format_filename_index  frederick_ipts   from_dsc_time_info_to_ascii_file_vs_time  ipts_18813  gamma_filtering_tool   linear_profile  list_tiff_metadata  locate_pixels  normalization_live   normalization_batch   profile_vs_file_index  radial_profile  registration  resonance_imaging_experiment_vs_theory  rotate_and_crop_images  template_ui  topaz_config_generator  water_intake_profile_calculator \nTools File Selector  Select IPTS \n Recently updated\n"
 },
 {
 	"uri": "/en/faq/",
@@ -243,6 +243,13 @@
 	"tags": [],
 	"description": "",
 	"content": ""
+},
+{
+	"uri": "/en/tutorial/notebooks/gamma_filtering_tool/",
+	"title": "Gamma Filtering Tool",
+	"tags": [],
+	"description": "",
+	"content": " Notebook name: gamma_filtering_tool.ipynb\nDescription This notebook will allow you to compare data loaded without any correction against data loaded with gamma filtering on. You will be able to change the gamma filtering coefficient to optimize the cleaning of the gammas without dammaging the images.\nStart the notebook If you need help accessing this notebook, check the How To \u0026gt; Start the python notebooks tutorial.\nHow to Use It? Select your IPTS Check the full tutorial here\nSelect Images Simply select all the images you want to work on.\nCheck the file selection tool tutorial to learn how to use the file selector tool.  Display Images Mouse Infos / Zoom and Pan Moving the mouse over the raw or filtered image will give you its value in the status bar (bottom left) of the UI. Also any zoom or pan transformation in one of the image will be reproduced in the other image.\nChanging the filtering coefficient After changing the gamma filtering coefficient and hitting ENTER, the entire stack of data will be reloaded using the new filter coefficient. The table will show you the new percentage and number of pixels cleaned. The gamma filtered plot will be refreshed to display the new cleaned selected image.\nFeel free to move the plot around and resize them!  "
 },
 {
 	"uri": "/en/github/",
