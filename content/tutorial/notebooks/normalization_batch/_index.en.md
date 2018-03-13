@@ -39,7 +39,7 @@ The dialogbox will start listing the files from the IPTS folder you selected in 
 to find your data set.
 
 {{% notice info %}}
-Check the [file selection tool tutorial]({{%relref "/tutorial/how_to_run_notebooks/_index.md#folder_navigation" %}})
+Check the [file selection tool tutorial]({{%relref "/tutorial/notebooks/select_ipts/_index.md#activate-search" %}})
 to learn how to use the file selector tool.
 <img src='/tutorial/how_to_run_notebooks/images/file_folder_browser.png' />
 {{% /notice %}}
