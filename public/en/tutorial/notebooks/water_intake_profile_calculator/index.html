@@ -13,19 +13,19 @@
     <title>Water Intake Profile Calculator :: Documentation for Hugo Learn Theme</title>
     
     
-    <link href="/css/nucleus.css?1520951561" rel="stylesheet">
-    <link href="/css/font-awesome.min.css?1520951561" rel="stylesheet">
-    <link href="/css/hybrid.css?1520951561" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1520951561" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1520951561" rel="stylesheet">
-    <link href="/css/auto-complete.css?1520951561" rel="stylesheet">
-    <link href="/css/theme.css?1520951561" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1520951561" rel="stylesheet">
+    <link href="/css/nucleus.css?1521046754" rel="stylesheet">
+    <link href="/css/font-awesome.min.css?1521046754" rel="stylesheet">
+    <link href="/css/hybrid.css?1521046754" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1521046754" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1521046754" rel="stylesheet">
+    <link href="/css/auto-complete.css?1521046754" rel="stylesheet">
+    <link href="/css/theme.css?1521046754" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1521046754" rel="stylesheet">
     
-      <link href="/css/theme-blue.css?1520951561" rel="stylesheet">
+      <link href="/css/theme-blue.css?1521046754" rel="stylesheet">
     
 
-    <script src="/js/jquery-2.x.min.js?1520951561"></script>
+    <script src="/js/jquery-2.x.min.js?1521046754"></script>
     
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left{ 
@@ -60,14 +60,14 @@
     <span data-search-clear=""><i class="fa fa-close"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1520951561"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1520951561"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1521046754"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1521046754"></script>
 <script type="text/javascript">
     
         var baseurl = "\/en";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1520951561"></script>
+<script type="text/javascript" src="/js/search.js?1521046754"></script>
 
     
   </div>
@@ -1500,7 +1500,15 @@
 <li><a href="#profile-algorithm">Profile Algorithm</a></li>
 <li><a href="#using-pixel-or-size-reference">Using Pixel or Size Reference</a></li>
 <li><a href="#integration-direction">Integration Direction</a></li>
-<li><a href="#water-intake-algorithm">Water Intake Algorithm</a></li>
+<li><a href="#water-intake-algorithms">Water Intake Algorithms</a>
+<ul>
+<li><a href="#sliding-average"><strong>Sliding Average</strong></a></li>
+<li><a href="#error-function-fitting"><strong>Error Function Fitting</strong></a></li>
+<li><a href="#change-point"><strong>Change Point</strong></a></li>
+</ul></li>
+</ul></li>
+<li><a href="#live-demo">Live Demo</a>
+<ul>
 <li><a href="#export-results">Export Results</a></li>
 <li><a href="#want-to-work-on-the-data-in-the-notebook">Want to Work on the Data in the Notebook?</a></li>
 </ul></li>
@@ -1532,6 +1540,13 @@
 <h2 id="description">Description</h2>
 
 <p>This notebook will calculate the water intake profile vs time of a sample.</p>
+
+<div class="notices info" ><p>This application is still under heavy development. The look of the UI will differ from the screenshot you
+can see in this tutorial and features are added on a regular basis. The tutorial will be fully rewrite once the development
+is done.
+<img src='/tutorial/notebooks/water_intake_profile_calculator/images/new_ui.png' /></p>
+</div>
+
 
 <p>Here are the steps (<strong>bold</strong> for user input/manipulation)</p>
 
@@ -1632,10 +1647,27 @@ Select either <strong>y_axis</strong> or <strong>x_axis</strong> to change this 
 
 <p><img src='/tutorial/notebooks/water_intake_profile_calculator/images/integration_direction.gif' /></p>
 
-<h4 id="water-intake-algorithm">Water Intake Algorithm</h4>
+<h4 id="water-intake-algorithms">Water Intake Algorithms</h4>
 
-<p>If you wonder how the program calculates the pixel corresponding to the &ldquo;front&rdquo; of the profile signal. Check this
-<a href="/tutorial/notebooks/water_intake_profile_calculator/images/water_intake_calculation.pdf">PDF this document</a></p>
+<p>It&rsquo;s possible to chose between 2 different algorithms to calculate the &ldquo;wave&rdquo; front position.</p>
+
+<h5 id="sliding-average"><strong>Sliding Average</strong></h5>
+
+<p>This method is fully demonstrated in this <a href="/tutorial/notebooks/water_intake_profile_calculator/images/water_intake_calculation.pdf">PDF document</a></p>
+
+<h5 id="error-function-fitting"><strong>Error Function Fitting</strong></h5>
+
+<p>The signal is fitted using a modified version of the error function as shown here</p>
+
+<p><img src='/tutorial/notebooks/water_intake_profile_calculator/images/error_function.png' /></p>
+
+<h5 id="change-point"><strong>Change Point</strong></h5>
+
+<p><img src='/images/coming_soon.png' /></p>
+
+<h3 id="live-demo">Live Demo</h3>
+
+<p><img src='/tutorial/notebooks/water_intake_profile_calculator/images/live_demo.gif' /></p>
 
 <h4 id="export-results">Export Results</h4>
 
@@ -2510,20 +2542,20 @@ list_of_time_stamp_user_format = o_gui.dict_data['list_time_stamp_user_format']
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1520951561"></script>
-    <script src="/js/perfect-scrollbar.min.js?1520951561"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1520951561"></script>
-    <script src="/js/jquery.sticky.js?1520951561"></script>
-    <script src="/js/featherlight.min.js?1520951561"></script>
-    <script src="/js/html5shiv-printshiv.min.js?1520951561"></script>
-    <script src="/js/highlight.pack.js?1520951561"></script>
+    <script src="/js/clipboard.min.js?1521046754"></script>
+    <script src="/js/perfect-scrollbar.min.js?1521046754"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1521046754"></script>
+    <script src="/js/jquery.sticky.js?1521046754"></script>
+    <script src="/js/featherlight.min.js?1521046754"></script>
+    <script src="/js/html5shiv-printshiv.min.js?1521046754"></script>
+    <script src="/js/highlight.pack.js?1521046754"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom.71422.js?1520951561"></script>
-    <script src="/js/learn.js?1520951561"></script>
-    <script src="/js/hugo-learn.js?1520951561"></script>
+    <script src="/js/modernizr.custom.71422.js?1521046754"></script>
+    <script src="/js/learn.js?1521046754"></script>
+    <script src="/js/hugo-learn.js?1521046754"></script>
 
-    <link href="/mermaid/mermaid.css?1520951561" type="text/css" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1520951561"></script>
+    <link href="/mermaid/mermaid.css?1521046754" type="text/css" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1521046754"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
