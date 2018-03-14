@@ -9,6 +9,13 @@ post: "<i class='fa fa-battery-full'></i> "
 
 This notebook will calculate the water intake profile vs time of a sample.
 
+{{% notice info %}}
+This application is still under heavy development. The look of the UI will differ from the screenshot you
+can see in this tutorial and features are added on a regular basis. The tutorial will be fully rewrite once the development
+is done.
+<img src='/tutorial/notebooks/water_intake_profile_calculator/images/new_ui.png' />
+{{% /notice %}}
+
 Here are the steps (**bold** for user input/manipulation)
 
  * **select the normalized images**
@@ -96,10 +103,27 @@ Select either **y_axis** or **x_axis** to change this direction.
 
 <img src='/tutorial/notebooks/water_intake_profile_calculator/images/integration_direction.gif' />
 
-#### Water Intake Algorithm
+#### Water Intake Algorithms
 
-If you wonder how the program calculates the pixel corresponding to the "front" of the profile signal. Check this
-[PDF this document](/tutorial/notebooks/water_intake_profile_calculator/images/water_intake_calculation.pdf)
+It's possible to chose between 2 different algorithms to calculate the "wave" front position.
+
+##### **Sliding Average**
+
+This method is fully demonstrated in this [PDF document](/tutorial/notebooks/water_intake_profile_calculator/images/water_intake_calculation.pdf)
+
+##### **Error Function Fitting**
+
+The signal is fitted using a modified version of the error function as shown here
+
+<img src='/tutorial/notebooks/water_intake_profile_calculator/images/error_function.png' />
+
+##### **Change Point**
+
+<img src='/images/coming_soon.png' />
+
+### Live Demo
+
+<img src='/tutorial/notebooks/water_intake_profile_calculator/images/live_demo.gif' />
 
 #### Export Results
 
