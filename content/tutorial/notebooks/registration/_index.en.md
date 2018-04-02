@@ -1,6 +1,6 @@
 ---
 title: Registration
-post: " <i class='fa fa-battery-empty'></i>"
+post: " <i class='fa fa-battery-2'></i>"
 ---
 
 **Notebook name**: registration.ipynb
@@ -56,7 +56,6 @@ reference by clicking **Auto Registration**
 
 If you choose to manually align the images (except the reference image), click the **Manual Registration**
 button. Then move manually the images selected using the **manual registration tool widgets**. 
-
 
 <img src='/images/work_in_progress.png' />
 
