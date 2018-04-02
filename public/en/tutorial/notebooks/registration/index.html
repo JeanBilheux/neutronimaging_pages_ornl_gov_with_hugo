@@ -13,19 +13,19 @@
     <title>Registration :: Documentation for Hugo Learn Theme</title>
     
     
-    <link href="/css/nucleus.css?1522169146" rel="stylesheet">
-    <link href="/css/font-awesome.min.css?1522169146" rel="stylesheet">
-    <link href="/css/hybrid.css?1522169146" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1522169146" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1522169146" rel="stylesheet">
-    <link href="/css/auto-complete.css?1522169146" rel="stylesheet">
-    <link href="/css/theme.css?1522169146" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1522169146" rel="stylesheet">
+    <link href="/css/nucleus.css?1522687188" rel="stylesheet">
+    <link href="/css/font-awesome.min.css?1522687188" rel="stylesheet">
+    <link href="/css/hybrid.css?1522687188" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1522687188" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1522687188" rel="stylesheet">
+    <link href="/css/auto-complete.css?1522687188" rel="stylesheet">
+    <link href="/css/theme.css?1522687188" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1522687188" rel="stylesheet">
     
-      <link href="/css/theme-blue.css?1522169146" rel="stylesheet">
+      <link href="/css/theme-blue.css?1522687188" rel="stylesheet">
     
 
-    <script src="/js/jquery-2.x.min.js?1522169146"></script>
+    <script src="/js/jquery-2.x.min.js?1522687188"></script>
     
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left{ 
@@ -60,14 +60,14 @@
     <span data-search-clear=""><i class="fa fa-close"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1522169146"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1522169146"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1522687188"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1522687188"></script>
 <script type="text/javascript">
     
         var baseurl = "\/en";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1522169146"></script>
+<script type="text/javascript" src="/js/search.js?1522687188"></script>
 
     
   </div>
@@ -1117,7 +1117,7 @@
         
         ">
       <a href="/en/tutorial/notebooks/registration/">
-          Registration <i class='fa fa-battery-empty'></i>
+          Registration <i class='fa fa-battery-full'></i>
           
             <i class="fa fa-check read-icon"></i>
           
@@ -1361,7 +1361,7 @@
         <ul>
           
               <li class="" role=""> 
-                  <a class="padding" href="en/showcase"><i class='fa fa-camera'></i> Photo Gallery</a>
+                  <a class="padding" href="/en/showcase"><i class='fa fa-camera'></i> Photo Gallery</a>
               </li>
           
               <li class="" role=""> 
@@ -1369,7 +1369,7 @@
               </li>
           
               <li class="" role=""> 
-                  <a class="padding" href="en/credits"><i class='fa fa-user-circle'></i> Contacts</a>
+                  <a class="padding" href="/en/credits"><i class='fa fa-user-circle'></i> Contacts</a>
               </li>
           
         </ul>
@@ -1484,7 +1484,30 @@
                 
                     <div class="progress">
     <div class="wrapper">
-
+<nav id="TableOfContents">
+<ul>
+<li><a href="#description">Description</a></li>
+<li><a href="#start-the-notebook">Start the notebook</a>
+<ul>
+<li><a href="#select-your-ipts">Select your IPTS</a></li>
+<li><a href="#select-images-to-process">Select Images to Process</a></li>
+<li><a href="#registration-ui">Registration UI</a></li>
+<li><a href="#auto-registration">Auto Registration</a></li>
+<li><a href="#manual-registration">Manual Registration</a></li>
+<li><a href="#tools-to-help-you">Tools to Help You</a>
+<ul>
+<li><a href="#profile">Profile</a></li>
+<li><a href="#opacity-slider">Opacity Slider</a>
+<ul>
+<li><a href="#selection-vs-reference-image">Selection vs Reference Image</a></li>
+<li><a href="#images-selected">Images Selected</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#export">Export</a></li>
+<li><a href="#advanced-users">Advanced users</a></li>
+</ul></li>
+</ul>
+</nav>
     </div>
 </div>
 
@@ -1502,9 +1525,164 @@
         
 
 
+
+
 <p><strong>Notebook name</strong>: registration.ipynb</p>
 
-<p><img src='/images/comingsoon.png' /></p>
+<h1 id="description">Description</h1>
+
+<p>This notebook will allow the registration (alignment) of a set of images using a reference image of
+your choice.</p>
+
+<p>Here are the steps (<strong>bold</strong> for user input/manipulation)</p>
+
+<ul>
+<li><strong>Select the stack of images</strong></li>
+<li>launch application</li>
+<li>Perform Auto alignment</li>
+<li>and/or</li>
+<li>Align images manually</li>
+<li>use profile to help in the alignment and sliders to check images overlap</li>
+</ul>
+
+<h1 id="start-the-notebook">Start the notebook</h1>
+
+<p>If you need help accessing this notebook, check the <a href="/en/tutorial/how_to_start_notebooks">How To &gt; Start the python
+notebooks</a> tutorial.</p>
+
+<h2 id="select-your-ipts">Select your IPTS</h2>
+
+<div class="notices info" ><p>Need help using the <a href="/en/tutorial/notebooks/select_ipts/#activate-search">IPTS selector</a>?</p>
+</div>
+
+
+<h2 id="select-images-to-process">Select Images to Process</h2>
+
+<p>Select the images you want to process using the <strong>File Selector</strong>. Once you <strong>click</strong> the <strong>Select</strong> button, the time
+stamp and the images will be automatically loaded. Wait for the progress bar to be done.</p>
+
+<p><img src='/tutorial/notebooks/water_intake_profile_calculator/images/select_files.gif' /></p>
+
+<div class="notices info" ><p>Need help using the <a href="/en/tutorial/notebooks/file_selector/#activate-search">File Selector</a>?</p>
+</div>
+
+
+<h2 id="registration-ui">Registration UI</h2>
+
+<p><img src='/tutorial/notebooks/registration/images/description_of_ui.png' /></p>
+
+<h2 id="auto-registration">Auto Registration</h2>
+
+<p>Let the program perform auto-registration of all the images selected using the default first image as a
+reference by clicking <strong>Auto Registration</strong></p>
+
+<p><img src='/tutorial/notebooks/registration/images/auto_registration.gif' /></p>
+
+<h2 id="manual-registration">Manual Registration</h2>
+
+<p>If you choose to manually align the images (except the reference image), click the <strong>Manual Registration</strong>
+button. Then move manually the images selected using the <strong>manual registration tool widgets</strong>.</p>
+
+<p><img src='/tutorial/notebooks/registration/images/manual_registration.gif' /></p>
+
+<h2 id="tools-to-help-you">Tools to Help You</h2>
+
+<h3 id="profile">Profile</h3>
+
+<p>You can display the profile of the image selected and of the reference image to help align the images.</p>
+
+<p>Simply move the edge of the profile lines. The profile of all the images selected (+ reference image) will be
+displayed.</p>
+
+<p><img src='/tutorial/notebooks/registration/images/profile.gif' /></p>
+
+<h3 id="opacity-slider">Opacity Slider</h3>
+
+<p>The UI provides two types of <strong>opacity sliders</strong>.</p>
+
+<ul>
+<li>Selection vs Reference Image</li>
+<li>Images Selected</li>
+</ul>
+
+<h4 id="selection-vs-reference-image">Selection vs Reference Image</h4>
+
+<p>This slider will show up whenever at least one file, other than the reference image, is selected in the
+ table (bottom of UI).</p>
+
+<ul>
+<li>When the cursor is at the top of the slider, the <strong>mean</strong> of all the images selected
+is displayed (100% of selection is displayed)</li>
+<li>When the cursor is at the bottom of the slider, only the reference image is displayed (0% of selection
+is displayed)</li>
+<li>All other position will display a <em>x%</em> of the selected images and then <em>(1-x)%</em> of the reference image.
+<br /></li>
+</ul>
+
+<p><img src='/tutorial/notebooks/registration/images/reference_selection_slider.gif' /></p>
+
+<h4 id="images-selected">Images Selected</h4>
+
+<p>Whenever at least two images are selected (other than reference image), a checkbox labeled <strong>all</strong> and <br />
+ a slider will show up on the left of the UI.</p>
+
+<p>By default all the images selected are display (mean of all images). But if you uncheck the <strong>all</strong>
+ checkbox, then you can gradually display the imagess from the first one to the last one.</p>
+
+<p>This slider will allow to go from the first image selected to the second by increasing
+ the opacity of the first one, and decreasing the opacity of the second one. Once only the second image
+ is display, keep moving the cursor will bring to display the third image and the second image will vanish.</p>
+
+<p>The goal of this slider is to gradually display the images one by one.</p>
+
+<div class="notices info" ><p>The right slider to display current image vs reference image is always available.</p>
+</div>
+
+
+<p><img src='/tutorial/notebooks/registration/images/images_selected_slider.gif' /></p>
+
+<h2 id="export">Export</h2>
+
+<p>By clicking the <strong>Export &hellip;</strong> button (bottom right) you will export the images registered into a folder you select.</p>
+
+<h2 id="advanced-users">Advanced users</h2>
+
+<p>All the data registered can be access from the python notebook</p>
+
+<pre><code class="language-python"> &gt;&gt;&gt; data_registered = o_registration.data_dict
+ &gt;&gt;&gt; print(np.shape(data_registered['data']))
+(8, 2048, 2048)
+</code></pre>
+
+<p>you can also reach the list of file names and their metadata</p>
+
+<pre><code class="language-python">&gt;&gt;&gt; import pprint
+&gt;&gt;&gt; pprint.pprint(data_registered['file_name'])
+['/Volumes/my_book_thunderbolt_duo/IPTS/IPTS-19921-Charles/02/im0000.tif',
+ '/Volumes/my_book_thunderbolt_duo/IPTS/IPTS-19921-Charles/02/im0031.tif',
+ '/Volumes/my_book_thunderbolt_duo/IPTS/IPTS-19921-Charles/02/im0032.tif',
+ '/Volumes/my_book_thunderbolt_duo/IPTS/IPTS-19921-Charles/02/im0033.tif',
+ '/Volumes/my_book_thunderbolt_duo/IPTS/IPTS-19921-Charles/02/im0034.tif',
+ '/Volumes/my_book_thunderbolt_duo/IPTS/IPTS-19921-Charles/02/im0035.tif',
+ '/Volumes/my_book_thunderbolt_duo/IPTS/IPTS-19921-Charles/02/im0036.tif',
+ '/Volumes/my_book_thunderbolt_duo/IPTS/IPTS-19921-Charles/02/im0037.tif']
+&gt;&gt;&gt; pprint.pprint(data_registered['metadata'][0])
+{256: 2048,
+ 257: 2048,
+ 258: (16,),
+ 259: 1,
+ 262: 1,
+ 270: 'slope = 2.13626E-05 \roffset = 0.00000E+00\r',
+ 273: (8,),
+ 277: 1,
+ 278: 2048,
+ 279: (8388608,),
+ 282: 10.0,
+ 283: 10.0,
+ 296: 3,
+ 320: (0,),
+ 339: (1,)}
+</code></pre>
 
 
 <footer class=" footline" >
@@ -2345,20 +2523,20 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1522169146"></script>
-    <script src="/js/perfect-scrollbar.min.js?1522169146"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1522169146"></script>
-    <script src="/js/jquery.sticky.js?1522169146"></script>
-    <script src="/js/featherlight.min.js?1522169146"></script>
-    <script src="/js/html5shiv-printshiv.min.js?1522169146"></script>
-    <script src="/js/highlight.pack.js?1522169146"></script>
+    <script src="/js/clipboard.min.js?1522687188"></script>
+    <script src="/js/perfect-scrollbar.min.js?1522687188"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1522687188"></script>
+    <script src="/js/jquery.sticky.js?1522687188"></script>
+    <script src="/js/featherlight.min.js?1522687188"></script>
+    <script src="/js/html5shiv-printshiv.min.js?1522687188"></script>
+    <script src="/js/highlight.pack.js?1522687188"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom.71422.js?1522169146"></script>
-    <script src="/js/learn.js?1522169146"></script>
-    <script src="/js/hugo-learn.js?1522169146"></script>
+    <script src="/js/modernizr.custom.71422.js?1522687188"></script>
+    <script src="/js/learn.js?1522687188"></script>
+    <script src="/js/hugo-learn.js?1522687188"></script>
 
-    <link href="/mermaid/mermaid.css?1522169146" type="text/css" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1522169146"></script>
+    <link href="/mermaid/mermaid.css?1522687188" type="text/css" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1522687188"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
@@ -2383,3 +2561,4 @@
 
   </body>
 </html>
+
