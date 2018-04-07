@@ -1,0 +1,379 @@
+[
+{
+	"uri": "/en/prepare_venue/sample/",
+	"title": "Sample Shipping",
+	"tags": [],
+	"description": "",
+	"content": " Sample Shipping and/or Handling at HFIR Your samples must be confirmed in IPTS before shipping.\nNeutron Sciences User Sample IPTS #XXXX Oak Ridge National Laboratory / HFIR Site Bldg 7972 DP1 Oak Ridge, TN, 37831 USA  If you prefer to bring your samples, please go first to the Sample Management Desk located in the Cold Guide Hall and work with Kristin Nevius to have all your samples labeled with an item Barcode before proceeding to the beamline.\n"
+},
+{
+	"uri": "/en/tutorial/how_to_run_imars3d/",
+	"title": "Do a CT reconstruction",
+	"tags": [],
+	"description": "",
+	"content": "This tutorial explains how to use SNS jupyter notebook site to perform CT reconstruction.\nYou will find this tutorial here\n"
+},
+{
+	"uri": "/en/tutorial/how_to_other/",
+	"title": "More ...",
+	"tags": [],
+	"description": "",
+	"content": "  How can I create a movie from a sequence of images?   A full tutorial showing you step by step how to create a movie using ImageJ is available at this post.\n  "
+},
+{
+	"uri": "/en/prepare_venue/proposal_confirmation/",
+	"title": "Proposal Confirmation",
+	"tags": [],
+	"description": "",
+	"content": "To be completed by the Principal Investigator (PI) of the experiment at least 3 weeks before beam time.\n You can access your proposal using the IPTS page\n Confirmed samples (adding any new samples, and including composition)?\n Confirmed need for lab space?\n Confirmed experiment team that will be present at beam time (add any new members)?\n Confirmed experiment equipment and/or sample environment?\n"
+},
+{
+	"uri": "/en/prepare_venue/safety/",
+	"title": "Engineering &amp; Equipment Safety",
+	"tags": [],
+	"description": "",
+	"content": "To be completed by the Principal Investigator (PI) of the experiment\n  Provided all safety documentation for user provided equipment immediately?\n Shipped/delivered all user provided equipment at least 2 weeks prior to beam time for electrical and safety inspection?\n Answered all safety related questions through IPTS?\n Ensured that sample environment requested equipment is available and compatible with experiment/beam line?\n Written a Job Hazard Analysis (JHA) for hands on work at HFIR?\n"
+},
+{
+	"uri": "/en/prepare_venue/access/",
+	"title": "Access",
+	"tags": [],
+	"description": "",
+	"content": "This must be completed by all participants to the experiment before the first day of experiment.\n  Received training e-mail from user office (neutronusers@ornl.gov)?\n Completed online training if assigned? ORNL guess portal\n Scheduled onsite training and tour for HFIR access?\n Followed attached procedure to access CG-1D data?\n Followed attached procedure to access CG-1D analysis computer?\n"
+},
+{
+	"uri": "/en/prepare_venue/",
+	"title": "Before your Arrival",
+	"tags": [],
+	"description": "",
+	"content": " Prepare your experiment In order to optimize your experiment time, we recommend you to go through the check lists from this Before your Arrival menu.\nFeel free to print out the pdf version and check out the items one by one.\n"
+},
+{
+	"uri": "/en/capabilities/",
+	"title": "Capabilities",
+	"tags": [],
+	"description": "",
+	"content": " Imaging Facilities   CG-1D radiography/tomography with cold neutron spectrum.    VENUS time-of-flight radiography/tomography with epithermal to cold neutrons spectra.   Xray CT complementary microCT capabilities   Technical Infos     Resolution: 1 micron ultimate resolution with 1mm field-of-view  Resolution: 65 microns with 50mm field-of-view  160 kV max  50mm or less sample size      "
+},
+{
+	"uri": "/en/tutorial/",
+	"title": "Tutorials",
+	"tags": [],
+	"description": "",
+	"content": "You will find here various step by step tutorial showing you:\n how to access your data how to use our analysis computer how to run the analysis software etc.  "
+},
+{
+	"uri": "/en/tutorial/how_to_access_data/",
+	"title": "Access your data",
+	"tags": [],
+	"description": "",
+	"content": "  This will require that you complete 2 steps:\n Step 1: request access to our computer Step 2: reach your data   Step 1. Request access to our computers 1. Create an XCAMS account\nIf you have not done so, please create an XCAMS account 2. Request access to HFIR data\nYou can request access to your data by visiting this page https://neutronsr.us/accounts/request.html TOP \n Step 2. Reach your data If the goal is to bring your data to your computer for local visualization and analysis -not recommended due to the size of the data and the tools we offer via our analysis computer - you can either use:\n FileZilla Cyberduck  \nUsing FileZilla 1. Install FileZilla.\n2 Create and configure a new bookmark\nEnter the information as followed:\n Host: analysis.sns.gov Port: 22 Protocol: Select SFTP - SSH File Transfer Protocol Logon Type: Normal User: \u0026lt;your xcams\u0026gt; Password: \u0026lt;your password\u0026gt;  Click Connect\nYou can now browse to your data by following the structure /HFIR/CG1D/IPTS-XXXX\n3. Import Data\nIf you want to copy your data to your local computer, simply DRAG and DROP the folder of interest into your Desktop display on the left side of the window.\n\nUsing Cyberduck 1. Install Cyberduck.\n2. Create and configure a new bookmark\nEnter the information as followed:\n SFTP (SSH File Transfer Protocol) Server: analysis.sns.gov Port: 22 Username: \u0026lt;your xcams\u0026gt; Password: \u0026lt;your password\u0026gt; SSH Private Key: None  Click Connect\nYou can now browse to your data by following the structure /HFIR/CG1D/IPTS-XXXX\n3. Import Data\nIf you want to copy your data to your local computer, simply DRAG and DROP the folder of interest into your Desktop.\nFile Structure If you get lost in the file system, here is a typical map of the file structure.\n\n"
+},
+{
+	"uri": "/en/tutorial/how_to_access_computer/",
+	"title": "Connect to our computer",
+	"tags": [],
+	"description": "",
+	"content": " For any personal tutorial, demonstration or request, please contact Jean Bilheux.\nIn order to analyze or visualize your data, please follow the following recipe.\nConnect to our analysis computer Using your favorite browser, go to https://analysis.sns.gov\nEnter your XCAMS and your password and hit Login\nThe first time you log in, you will be presented the following display\njust click OK to finish up logging in.\nAnd if it is not the first time, you will probably see a black screen. Just click anywhere within the window to activate the screensaver log in.\nEnter your password and click Unlock.\nYou are now connected to our analysis computer.\n"
+},
+{
+	"uri": "/en/tutorial/how_to_start_notebooks/",
+	"title": "Start the python notebooks",
+	"tags": [],
+	"description": "",
+	"content": "We provide a set of jupyter python notebooks. Those provide many advantages:\n rapid implementation for your special needs ease of use easy to modify if you need to use of python language (widely used in the scientific world) nothing to install for you as we take care of this for you when you use your analysis computer  To launch the jupyter notebooks, navigate to Applications \u0026gt; Analysis \u0026gt; Jupyter. Be patient as the python server starts a firefox browser with the right python environment and move to the right folder, for you!\nGetting the browser up and running with the notebooks page display takes around 10 to 20 seconds.\n To start a notebook, just click any of the .ipynb file (normalization.ipynb in this tutorial).\nFirst thing we recommend at this point is to make a copy of this notebook. This way, update of the notebooks will not overwrite your work.  Make sure you do not close the terminal window that you can find behind the browser as killing it will terminate your notebook sesssion.  "
+},
+{
+	"uri": "/en/tutorial/how_to_run_notebooks/",
+	"title": "Run a jupyter notebook",
+	"tags": [],
+	"description": "",
+	"content": "  Our jupyter python notebooks are very straighforward to use but there are just a few key points you need to know.\n notebook layout run the notebook modify the notebook  \n Notebook layout \n Run the notebook Execute cells The notebooks must be run from top to bottom. Place the cursor in the first cell and either click the  icon, or by using the keyboard shortcut SHIFT + ENTER.\nThis is showing a busy notebook with the background cell green and the full circle at the top right corner of the notebook.\n\nFolder Navigation At least one time per notebook, you will need to select a folder or one or more files. This widget will look like this The UI is pretty self explanatory but you just need to know that:\n In the file/folder listing widget\n . means refresh of the current location .. means moving up one directory, or folder.  The file or folder will be really selected only once you have clicked the Select button at the bottom right corner.\n To select more than one file (when this option is available), CLICK first file then SHIFT + CLICK the last one. Or ALT + CLICK to individually select each file.\n  Output and widgets The cell is then executed and depending on the contain of this one, you may see or not an output to the cell. The output is always displayed just below the cell ran. In some of our notebooks you will see widgets that you will need to interact with. Here are a few examples of widgets you may encounter in your notebook.\nIn some notebooks, the output may even show up in the back of the notebook (the default cell output will give you a message that let you know where to look). Those outside widgets are more complex user interface such as the one shown here.\n\n Modify the notebook "
+},
+{
+	"uri": "/en/tutorial/notebooks/",
+	"title": "Notebooks Tutorials",
+	"tags": [],
+	"description": "",
+	"content": " bin_images  calculate_water_intake_profile  combine_folders  combine_images  create_list_of_file_name_vs_time_stamp  deal_files  display_and_export_images_with_metadata_profile  display_and_export_images_with_timestamp  display_counts_of_region_vs_stack  display_integrated_stack_of_images  file_name_and_metadata_vs_time_stamp  fix_images  fix_images_with_negative_pixels  format_filename_index  frederick_ipts   from_dsc_time_info_to_ascii_file_vs_time  ipts_18813  gamma_filtering_tool   linear_profile  list_tiff_metadata  locate_pixels  normalization_live   normalization_batch   profile_vs_file_index  radial_profile  registration   resonance_imaging_experiment_vs_theory  rotate_and_crop_images  template_ui  topaz_config_generator  water_intake_profile_calculator \nTools File Selector  Select IPTS \n Recently updated/\n"
+},
+{
+	"uri": "/en/faq/",
+	"title": "Frequently Asked Questions",
+	"tags": [],
+	"description": "",
+	"content": " Before Your Venue Proposal   How do I submit a proposal?    To learn more about submitting a proposal for beam time, go to neutrons.ornl.gov/users. To submit your proposal, go to the proposal system.      When will I know my proposal has been accepted?   Answer will go here.\n    My proposal has been rejected, what to do next?   Answer will go here.\n \nSamples   Can I bring my samples?   answer here\n    Can I leave with my samples?   answer here\n \nDuring your Experiment   Where can I stay?   A few options are available off-site and on-site. Check the neutron.ornl.gov users page for more infos.\n  Data Analysis   How can I browse my data?   Using ONCat, you will be able to  view your data view the metadata and get infos about such or such data set find an experiment using keyword More features coming soon      How can I get help analyzing my data?   Just contact Jean Bilheux to discuss your needs.\nBy going over your experiment together, Jean will show you how to run the current tools and will develop customed python notebooks if needed.\n    What are those \u0026#39;jupyter notebooks\u0026#39;?   The jupyter notebook developed by jupyter are an easy way to run python code using only a browser. By accessing our analysis computer, you won\u0026rsquo;t have anythign to install. Refer to our How To page to learn how to do that.\n    Where are my data and how can I access them?   The following tutorial will show you where are you data and how you can access them. Just go to How To \u0026gt; Access your data\n    I get a firefox error message when trying to start the jupyter notebooks on the analysis machine.   After double clicking the start jupyter icon, I get an Firefox error message telling me that I have another Firefox window opened.\nThe short way to fix that is by starting the Help me application.\nThen go to the Desperate Actions\nand click the Fix Firefox!\nThis should fix your issue and you should be able to start the jupyter notebooks now.\n    Where do I find ImageJ (or Fiji) on the analysis computer?   Just follow the following path to find and start ImageJ. If you need to learn how to use ImageJ, check their tutorial web site\n    How to cite our work?    Use of CG1D beam line iMars3D iBeatles      Metadata of the images and their meaning   You can retrieve the metadata of your TIFF images using:  ONCat the jupyter notebook list_tiff_metadata.ipynb. Check How To \u0026gt; Start the python notebooks \n Tag NameDescription ImageWidthThe number of columns in the image ImageHeightThe number of rows in the image BitsPerSampleThe number of bits per component (ie. 16-bits or 32-bits for each greyscale pixel in our case) SampleFormatSpecifies how to interpret each data sample in a pixel (1 = unsigned integer) SamplesPerPixelThe number of components per pixel (1 in our case, which is grey scale) Compression1 = None PhotometricInterpretation1 = Min is black MakeStrThe detector manufacture (eg. 'Andor' or 'SBIG') ModelStrThe detector model number SoftwareStrEPICS areaDetector  \nTags 65000 to 650009 have no name and are used for timestamps and a unique ID\n Tag NameDescription 65000EPICS timestamp. The timestamp is made when the image is read out from the camera. Format is seconds.nanoseconds since Jan 1st 00:00 1990. 65001Unique ID for the image. Always 1 for single image acquisition, and incrementing up for camera and CT scans. Should always match the ImageCounter value. 65002EPICS timestamp (seconds part only) 65003EPICS timestamp (nanoseconds part only)  Scan Information  Tag NameDescription FileNameStrThe original file name part of the constructed file name (see below) InstrumentStr'CG1D' or 'VENUS' IPTSIPTS Number ITEMSITEMS Number SampleDescStrSample description (user entered) NotesStrUser notes DataSetStr'2D' or '3D' DataAcqModeStr'White Beam', 'TOF-cold/thermal', 'Epithermal' or 'Monochromatic' DataTypeStr'OB', 'Raw' or 'DF'  Camera/Image Information  Tag NameDescription ExposureTimeExposure time for the image (in seconds) ExposurePeriodExposure period for the image (Exposure Time + Readout Time in seconds). Not relevant for single image exposures. NumImages1= single image exposure (our normal mode of operation) ImageCounterAlways 1 for single image acquisition, and incrementing up for camera and CT scans. MinXMin X pixel (0 for full frame images) MinYMin Y pixel (0 for full frame images) SizeXSize of image in X dimension (should be equal to the ImageWidth value) SizeYSize of image in Y dimension (should be equal to the ImageLength value) TemperatureThe setpoint temperature (in C) TemperatureActualThe actual temperature read from the detector (in C)  Motor Position \u0026amp; Scan Device  Tag NameDescription MotScanDeviceStr'Small Rot' or 'Large Rot' used for this CT scan (if we are doing a camera scan or single image acquisition, this is not relevant) RotationActualActual position of the rotation stage used in the CT scan (or the previous scan if we are doing a camera scan or single image acquisition) MotRotTable.RBVLarge rotation table actual position MotRotTableLarge rotation table setpoint MotSmallRotTable.RBVSmall rotation table actual position MotSmallRotTableSmall rotation table setpoint MotLiftTable.RBVLift Table actual position MotLiftTableLift table setpoint MotShortAxis.RBVShort axis actual posiiton ...  TIFF File Header Example  TIFF Directory at offset 0x800008 (8388616) Image Width: 2048 Image Length: 2048 Bits/Sample: 16 Sample Format: unsigned integer Compression Scheme: None Photometric Interpretation: min-is-black Samples/Pixel: 1 Rows/Strip: 2048 Planar Configuration: single image plane Make: Unknown Model: Unknown Software: EPICS areaDetector Tag 65000: 837380408.136687 Tag 65001: 1 Tag 65002: 837380408 Tag 65003: 148080423 Tag 65010: FileNameStr:TiffHeaderTests Tag 65011: InstrumentStr:CG1D Tag 65012: IPTS:17255 Tag 65013: ITEMS:-1 Tag 65014: SampleDescStr:polarization test Tag 65015: NotesStr:polarization test Tag 65016: DataSetStr:2D Tag 65017: DataAcqModeStr:White Beam Tag 65018: DataTypeStr:Raw Tag 65019: ModelStr:DW936_BV Tag 65020: ManufacturerStr:Andor Tag 65021: ExposureTime:1.000000 Tag 65022: ExposurePeriod:5.451660 Tag 65023: NumExposures:1 Tag 65024: NumImages:1 Tag 65025: ImageCounter:1 Tag 65026: MinX:0 Tag 65027: MinY:0 Tag 65028: SizeX:2048 Tag 65029: SizeY:2048 Tag 65030: Temperature:-60.000000 Tag 65031: TemperatureActual:-57.830002 Tag 65032: MotScanDeviceStr:Small Rot Tag 65033: RotationActual:183.000132 Tag 65034: MotLiftTable.RBV:247.500452 Tag 65035: MotLiftTable:247.500452 Tag 65036: MotShortAxis.RBV:76.000000 Tag 65037: MotShortAxis:76.000000 Tag 65038: MotLongAxis.RBV:193.016000 Tag 65039: MotLongAxis:193.016000 Tag 65040: MotRotTable.RBV:182.996500 Tag 65041: MotRotTable:183.000000 Tag 65042: MotSmallRotTable.RBV:183.000132 Tag 65043: MotSmallRotTable:183.000000 Tag 65044: MotDetTable.RBV:200.000000 Tag 65045: MotDetTable:200.000000 Tag 65046: MotCameraVert.RBV:-51.699796 Tag 65047: MotCameraVert:-51.699796 Tag 65048: MotHoriTrans.RBV:28.000000 Tag 65049: MotHoriTrans:28.000000 Tag 65050: MotVertTrans.RBV:60.000000 Tag 65051: MotVertTrans:60.000000 Tag 65052: MotDiffuser.RBV:86.300000 Tag 65053: MotDiffuser:86.300000 Tag 65054: MotAperture.RBV:138.700000 Tag 65055: MotAperture:138.700000 Tag 65056: MotSlitVB.RBV:39.969938 Tag 65057: MotSlitVB:39.969938 Tag 65058: MotSlitVT.RBV:39.860484 Tag 65059: MotSlitVT:39.860484 Tag 65060: MotSlitHR.RBV:40.000000 Tag 65061: MotSlitHR:40.000000 Tag 65062: MotSlitHL.RBV:39.977781 Tag 65063: MotSlitHL:39.977781 Tag 65064: AndorCCDCooler:1 Tag 65065: AndorCCDTempStatusStr:Not stabilized at set point Tag 65066: AndorCCDPreAmpGain:0 Tag 65067: AndorCCDADCSpeed:2   \nWork With Us   Visiting Researcher Program   Link here\n    Minority Serving Institutions Partnership Program   Link here\n \n"
+},
+{
+	"uri": "/en/links/",
+	"title": "Links",
+	"tags": [],
+	"description": "",
+	"content": " Laboratory Utilities   ORNL User Program Guide   User Program Guide.     Submit a proposal   Go to the Proposal System.\n    Neutron Imaging Facility Official Web Page   Neutron Imaging Facility Official Web Page.     Neutrons (SNS/HFIR) Web Page   https://neutrons.ornl.gov/     ORNL Web Page   https://www.ornl.gov/     ORNL guess portal   https://user.ornl.gov  \nAnalysis Tools   Sample Activation Calculators   https://sac.ornl.gov/     Calculate Transmission and Scattering Power   https://webapps.frm2.tum.de/intranet/neutroncalc/     Neutron Transmission Calculator   http://apps.jcns.fz-juelich.de/toolbox/nXsection.php     Neutron Scattering Lengths and Cross Sections   https://www.ncnr.nist.gov/resources/n-lengths/     Neutron Activation and Scattering Calculator   ncnr.nist.gov/resources/activation/  \nReferences   Standard Guide for Thermal Neutron Radiography of Materials   ASTM Guide for Thermal Neutron Radiography.     International Society for Neutron Radiology (ISNR)   International Society for Neutron Radiology  \nShortcuts  ONCat - https://oncat.ornl.gov/#/   "
+},
+{
+	"uri": "/en/tutorial/notebooks/calculate_water_intake_profile/",
+	"title": "Calculate Water Intake",
+	"tags": [],
+	"description": "",
+	"content": "Notebook name: calculate_water_intake.ipynb\n"
+},
+{
+	"uri": "/en/categories/",
+	"title": "Categories",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/en/tutorial/notebooks/combine_folders/",
+	"title": "Combine Folders",
+	"tags": [],
+	"description": "",
+	"content": "Notebook name: combine_folders.ipynb\n"
+},
+{
+	"uri": "/en/tutorial/notebooks/combine_images/",
+	"title": "Combine Images",
+	"tags": [],
+	"description": "",
+	"content": "Notebook name: combine_images.ipynb\n"
+},
+{
+	"uri": "/en/credits/",
+	"title": "Contacts",
+	"tags": [],
+	"description": "",
+	"content": "            Hassina Bilheux - Instrument ScientistExpertise: HFIR and SNS imaging beam lines  Short Bio ...   Dr. Hassina Bilheux obtained her Ph.D. in Physics at the Univ. of Versailles, France. Her work focused on plasma physics at the Oak Ridge National Laboratory’s Physics Division.\nShe has developed neutron imaging capabilities at ORNL’s High Flux Isotope Reactor CG-1D beamline and is prototyping neutron imaging at the Spallation Neutron Source. Her interests comprise the development of advanced neutron imaging techniques at the Spallation Neutron Source for material and biological applications.   bilheuxhn@ornl.gov (865) 384 - 9630 (865) 574 - 0241 researchGate Scholar Google    Lou Santodonato - Instrument ScientistExpertise: HFIR imaging beam line santodonatol@ornl.gov (865) 719 - 0656 (865) 574 - 4641     Jean Bilheux - Computer ScientistExpertise: Python Notebooks and Data Analysis bilheuxjm@ornl.gov (865) 406 - 1704 (865) 574 - 4637 jbilheux.com jeanbilheux.pages.ornl.gov     Jiao Lin - Computer ScientistExpertise: 3D Reconstruction and visualization linjiao@ornl.gov (626) 200 - 5247 (626) 200 - 5247     Yuxuan Zhang (Shawn) - PostdoctorateExpertise: Resonance Imaging zhangy6@ornl.gov    Paris Cornwell - Scientific Associate  cornwellpa@ornl.gov (865) 257 - 1127 (865) 574 - 2122    Brianne Beers - Graduate Student    Past Team Members  Keita DeCarlo, Princeton Univ. Granger Endsley, Oak Ridge High School Vincenzo Finochiarro, Italy Susan Herringer, Brown Univ. Sarah Hammer, Virginia State Univ. Felix Kim, Univ. of TN-Knoxville Misun Kang, Univ. of TN-Knoxville Gian Song, Univ. of TN-Knoxville Sophie Voisin, Univ. of TN-Knoxville Lakeisha Walker, ORNL  "
+},
+{
+	"uri": "/en/tutorial/notebooks/create_list_of_file_name_vs_time_stamp/",
+	"title": "Create List of Files",
+	"tags": [],
+	"description": "",
+	"content": "Notebook name: create_list_of_file_name_vs_time_stamp.ipynb\n"
+},
+{
+	"uri": "/en/tutorial/notebooks/deal_files/",
+	"title": "Deal Files",
+	"tags": [],
+	"description": "",
+	"content": "Notebook name: deal_files.ipynb\n"
+},
+{
+	"uri": "/en/tutorial/notebooks/display_counts_of_region_vs_stack/",
+	"title": "Display Counts of ROI vs Stack",
+	"tags": [],
+	"description": "",
+	"content": "Notebook name: display_counts_of_region_vs_stack.ipynb\n"
+},
+{
+	"uri": "/en/tutorial/notebooks/display_and_export_images_with_metadata_profile/",
+	"title": "Display Images and Metadata",
+	"tags": [],
+	"description": "",
+	"content": "Notebook name: display_and_export_images_with_metadata.ipynb\n"
+},
+{
+	"uri": "/en/tutorial/notebooks/display_integrated_stack_of_images/",
+	"title": "Display Integrated Images",
+	"tags": [],
+	"description": "",
+	"content": "Notebook name: display_integrated_stack_of_images.ipynb\n"
+},
+{
+	"uri": "/en/tutorial/notebooks/display_and_export_images_with_timestamp/",
+	"title": "Display and Export Images",
+	"tags": [],
+	"description": "",
+	"content": "Notebook name: display_and_export_images_with_timestamp.ipynb\n"
+},
+{
+	"uri": "/en/tutorial/notebooks/file_name_and_metadata_vs_time_stamp/",
+	"title": "File Name and Metadata vs Timestamp",
+	"tags": [],
+	"description": "",
+	"content": "Notebook name: file_name_and_metadata_vs_time.ipynb\n"
+},
+{
+	"uri": "/en/tutorial/notebooks/file_selector/",
+	"title": "File Selector",
+	"tags": [],
+	"description": "",
+	"content": " Description The File Selector tool allows you to navigate through the file system to select files or folders.\nNavigation Manual Definition of Folder In order to make your way to your file(s)/folder(s), you can either chose to define your folder using the manual input field and click Jump\nOr/And you can navigate using the file browser box.\nSelection To select a folder, you have two ways:\n select the folder and click SELECT  enter the folder and click SELECT   To move up the tree (go to the parent folder), select ..\nMoving Up the Tree Filter for File Selection You can sometimes narrow down the list of files/folders displayed by using the filter option.\nAll Features Tutorial If you want to check all the features offered by the fileselector tool, go to the Fileselector hands-on tutorial\n"
+},
+{
+	"uri": "/en/tutorial/notebooks/fix_images/",
+	"title": "Fix Images",
+	"tags": [],
+	"description": "",
+	"content": "Notebook name: fix_images.ipynb\n"
+},
+{
+	"uri": "/en/tutorial/notebooks/fix_images_with_negative_pixels/",
+	"title": "Fix Images with Negative Pixels",
+	"tags": [],
+	"description": "",
+	"content": "Notebook name: fix_images_with_negative_pixels.ipynb\n"
+},
+{
+	"uri": "/en/tutorial/notebooks/format_filename_index/",
+	"title": "Format Filename Index",
+	"tags": [],
+	"description": "",
+	"content": "Notebook name: format_filename_index.ipynb\n"
+},
+{
+	"uri": "/en/tutorial/notebooks/frederick_ipts/",
+	"title": "Frederick IPTS",
+	"tags": [],
+	"description": "",
+	"content": " Notebook name: frederick_ipts.ipynb\nDescription This notebook will re-group the data using the metadata recorded in the name of the files.\nStart the notebook If you need help accessing this notebook, check the How To \u0026gt; Start the python notebooks tutorial.\nSelect your IPTS Need help using the IPTS selector?\n Select Images to Process Select the images you want to process using the File Selector. Once you click the Select button, the time stamp and the images will be automatically loaded. Wait for the progress bar to be done.\nSorting Files Using the name of the files, the program will retrieve the Temperature (T) and Pressure (P) of the data set.\nHere is what those file names look like\nThe program will then re-group the files by time stamp first and then by T and P parameters.\nThis process may take some times as the program is loading all the data and calculating the groups.\nDisplay Images By running the display images cell, a UI pops up that will allow you to browse your data using the groups extracted from the previous step.\n"
+},
+{
+	"uri": "/en/tutorial/notebooks/from_dsc_time_info_to_ascii_file_vs_time/",
+	"title": "From .dsc Time Info to ASCII File vs Time",
+	"tags": [],
+	"description": "",
+	"content": "Notebook name: from_dsc_time_info_to_ascii_file_vs_time.ipynb\n"
+},
+{
+	"uri": "/en/showcase/",
+	"title": "Gallery",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/en/tutorial/notebooks/gamma_filtering_tool/",
+	"title": "Gamma Filtering Tool",
+	"tags": [],
+	"description": "",
+	"content": " Notebook name: gamma_filtering_tool.ipynb\nDescription This notebook will allow you to compare data loaded without any correction against data loaded with gamma filtering on. You will be able to change the gamma filtering coefficient to optimize the cleaning of the gammas without dammaging the images.\nStart the notebook If you need help accessing this notebook, check the How To \u0026gt; Start the python notebooks tutorial.\nHow to Use It? Select your IPTS Check the full tutorial here\nSelect Images Simply select all the images you want to work on.\nCheck the file selection tool tutorial to learn how to use the file selector tool.  Display Images Mouse Infos / Zoom and Pan Moving the mouse over the raw or filtered image will give you its value in the status bar (bottom left) of the UI. Also any zoom or pan transformation in one of the image will be reproduced in the other image.\nChanging the filtering coefficient After changing the gamma filtering coefficient and hitting ENTER, the entire stack of data will be reloaded using the new filter coefficient. The table will show you the new percentage and number of pixels cleaned. The gamma filtered plot will be refreshed to display the new cleaned selected image.\nFeel free to move the plot around and resize them!  "
+},
+{
+	"uri": "/en/github/",
+	"title": "Github Repositories",
+	"tags": [],
+	"description": "",
+	"content": "Our gloal is to only develop open source tools. You will find here a list of the major repositories hosting our programs\n jupyter notebooks used in the analysis of the data python_notebooks python library used for normalization neunorm Imaging Resonance python library imagingReso iBeatles for Bragg Edge fitting iBeatles set of jupyter widgets ipywe Root analysis library RootPlantProcessing  "
+},
+{
+	"uri": "/en/tutorial/notebooks/linear_profile/",
+	"title": "Linear Profile",
+	"tags": [],
+	"description": "",
+	"content": "Notebook name: linear_profile.ipynb\n"
+},
+{
+	"uri": "/en/tutorial/notebooks/list_tiff_metadata/",
+	"title": "List TIFF Metadata",
+	"tags": [],
+	"description": "",
+	"content": "Notebook name: list_tiff_metadata.ipynb\n"
+},
+{
+	"uri": "/en/tutorial/notebooks/locate_pixels/",
+	"title": "Locate Pixels",
+	"tags": [],
+	"description": "",
+	"content": "Notebook name: locate_pixels.ipynb\n"
+},
+{
+	"uri": "/en/",
+	"title": "Neutron Imaging",
+	"tags": [],
+	"description": "",
+	"content": " User Home Page Welcome to the ORNL Neutron Imaging Website!  To learn more about submitting a proposal for beam time, go to neutrons.ornl.gov/users. To submit your proposal, go to the proposal system.   This site is designed to help you with the preparation of your experiment and subsequent data processing and analysis. If you are not familiar with neutron imaging and may be interested in collaborating with us, visit the publications page to review the science we do.\nFor industrial applications, please contact Hassina Bilheux\nWe recommend that you discuss your experiment with the instrument team as soon as you receive approval of your beam time.\n Main features  Prepare your arrival: Everything you will need to do before coming to our laboratory. Capabilities: list of imaging instruments available. How to: short tutorials such as how to access your data, connect to the computers, etc. Frequently Asked Questions: answers to the most frequent questions we got from our users. Links: handy links.  We would like to thank the contribution from the research community in the implementation of this web site, and always welcome your comments to improve it (contact Jean Bilheux).\n   Web site logo: Ryzewski K., Herringer S., Bilheux H.Z., Walker L., Sheldon B., Voisin S., Bilheux J., Finocchiaro V., Neutron imaging of archaeological bronzes at the Oak Ridge National Laboratory Physics Procedia, 43, 343-351 (2013).\n "
+},
+{
+	"uri": "/en/tutorial/notebooks/normalization_batch/",
+	"title": "Normalization_batch",
+	"tags": [],
+	"description": "",
+	"content": " Notebook name: normalization_batch.ipynb\nDescription This notebook normalized the imaging data (tiff or fits) by removing the background and fixing the fluctuations of the neutron beam. You will need:\n select your images select your open beam (OB) optional - select the dark field (DF) optional - select one or more background region in your sample images select output folder where the normalized images will be saved normalization will run in the background  Start the notebook If you need help accessing this notebook, check the How To \u0026gt; Start the python notebooks tutorial.\nHow to Use It? Select your IPTS Check the full tutorial here\nloading the Images You need to provide the list of samples, OB and DF (if needed). To do so, just SHIFT + ENTER the following cell to display a selection tool wizard.\nThe dialogbox will start listing the files from the IPTS folder you selected in the first cell. Feel free to navigate to find your data set.\nCheck the file selection tool tutorial to learn how to use the file selector tool.   Select your sample images click Next Step\u0026gt;\u0026gt; Select your OB images click Next Step\u0026gt;\u0026gt; OPTIONAL Select your DF images click Next Step\u0026gt;\u0026gt; to let the program load all your images.  Select Background Region SHIFT + ENTER to run the cell. A new User Interface (UI) will come to life. If you can not see the UI, check behind the notebook window.\nJust click OK if you do not want to select any region of interest (ROI).\nIf you want to provide one, or more, ROI, click + on the right of the GUI and move/resize the ROI using the mouse, or the table values.\nExport Folder Select where you want to output the normalized data, then run the following cell. Once the output folder selected, a folder name after the input data folder is created and will contain all the normalized data.\nNormalization (in background) This cell runs the normalization in batch mode, this means that you can keep working on the notebook (select more data to normalized) while the data are normalized behind.\n"
+},
+{
+	"uri": "/en/tutorial/notebooks/normalization_live/",
+	"title": "Normalization_live",
+	"tags": [],
+	"description": "",
+	"content": " Notebook name: normalization_live.ipynb\nDescription This notebook normalized the imaging data (tiff or fits) by removing the background and fixing the fluctuations of the neutron beam. You will need:\n select your images select your open beam (OB) optional - select the dark field (DF) optional - select one or more background region in your sample images run the normalization select output folder where the normalized images will be saved  Start the notebook If you need help accessing this notebook, check the How To \u0026gt; Start the python notebooks tutorial.\nHow to Use It? Select your IPTS Check the full tutorial here\nloading the Images You need to provide the list of samples, OB and DF (if needed). To do so, just SHIFT + ENTER the following cell to display a selection tool wizard.\nThe dialogbox will start listing the files from the IPTS folder you selected in the first cell. Feel free to navigate to find your data set.\nCheck the file selection tool tutorial to learn how to use the file selector tool.   Select your sample images click Next Step\u0026gt;\u0026gt; Select your OB images click Next Step\u0026gt;\u0026gt; OPTIONAL Select your DF images click Next Step\u0026gt;\u0026gt; to let the program load all your images.  Select Background Region SHIFT + ENTER to run the cell. A new User Interface (UI) will come to life. If you can not see the UI, check behind the notebook window.\nJust click OK if you do not want to select any region of interest (ROI).\nIf you want to provide one, or more, ROI, click + on the right of the GUI and move/resize the ROI using the mouse, or the table values.\nNormalization This cell runs the normalization and let you know the progress of the calculation via a progress bar.\nExport Select where you want to output the normalized data, then run the following cell. Once the output folder selected, a folder name after the input data folder is created and will contain all the normalized data.\n"
+},
+{
+	"uri": "/en/tutorial/notebooks/profile_vs_file_index/",
+	"title": "Profile vs File Index",
+	"tags": [],
+	"description": "",
+	"content": "Notebook name: profile_vs_file_index.ipynb\n"
+},
+{
+	"uri": "/en/tutorial/notebooks/radial_profile/",
+	"title": "Radial Profile",
+	"tags": [],
+	"description": "",
+	"content": "Notebook name: radial_profile.ipynb\n"
+},
+{
+	"uri": "/en/tutorial/notebooks/bin_images/",
+	"title": "Rebin Images",
+	"tags": [],
+	"description": "",
+	"content": "Notebook name: bin_images.ipynb\n"
+},
+{
+	"uri": "/en/tutorial/notebooks/registration/",
+	"title": "Registration",
+	"tags": [],
+	"description": "",
+	"content": " Notebook name: registration.ipynb\nDescription This notebook will allow the registration (alignment) of a set of images using a reference image of your choice.\nHere are the steps (bold for user input/manipulation)\n Select the stack of images launch application Perform Auto alignment and/or Align images manually use profile to help in the alignment and sliders to check images overlap  Start the notebook If you need help accessing this notebook, check the How To \u0026gt; Start the python notebooks tutorial.\nSelect your IPTS Need help using the IPTS selector?\n Select Images to Process Select the images you want to process using the File Selector. Once you click the Select button, the time stamp and the images will be automatically loaded. Wait for the progress bar to be done.\nNeed help using the File Selector?\n Registration UI Auto Registration Let the program perform auto-registration of all the images selected using the default first image as a reference by clicking Auto Registration\nManual Registration If you choose to manually align the images (except the reference image), click the Manual Registration button. Then move manually the images selected using the manual registration tool widgets.\nTools to Help You Grid You can add a grid on top of your images to help you in the manual alignment. Click the Grid \u0026gt; display at the top left corner of the UI. Then play with the slider to change the size of the grid.\nProfile You can display the profile of the image selected and of the reference image to help align the images.\nSimply move the edge of the profile lines. The profile of all the images selected (+ reference image) will be displayed.\nOpacity Slider The UI provides two types of opacity sliders.\n Selection vs Reference Image Images Selected  Selection vs Reference Image This slider will show up whenever at least one file, other than the reference image, is selected in the table (bottom of UI).\n When the cursor is at the top of the slider, the mean of all the images selected is displayed (100% of selection is displayed) When the cursor is at the bottom of the slider, only the reference image is displayed (0% of selection is displayed) All other position will display a x% of the selected images and then (1-x)% of the reference image.   Images Selected Whenever at least two images are selected (other than reference image), a checkbox labeled all and a slider will show up on the left of the UI.\nBy default all the images selected are display (mean of all images). But if you uncheck the all checkbox, then you can gradually display the imagess from the first one to the last one.\nThis slider will allow to go from the first image selected to the second by increasing the opacity of the first one, and decreasing the opacity of the second one. Once only the second image is display, keep moving the cursor will bring to display the third image and the second image will vanish.\nThe goal of this slider is to gradually display the images one by one.\nThe right slider to display current image vs reference image is always available.\n \u0026lt;\u0026lt;\u0026lt;\u0026lt;\u0026lt;\u0026lt;\u0026lt; HEAD Export By clicking the Export \u0026hellip; button (bottom right) you will export the images registered into a folder you select.\nAdvanced users All the data registered can be access from the python notebook\n\u0026gt;\u0026gt;\u0026gt; data_registered = o_registration.data_dict \u0026gt;\u0026gt;\u0026gt; print(np.shape(data_registered['data'])) (8, 2048, 2048)  you can also reach the list of file names and their metadata\n\u0026gt;\u0026gt;\u0026gt; import pprint \u0026gt;\u0026gt;\u0026gt; pprint.pprint(data_registered['file_name']) ['/Volumes/my_book_thunderbolt_duo/IPTS/IPTS-19921-Charles/02/im0000.tif', '/Volumes/my_book_thunderbolt_duo/IPTS/IPTS-19921-Charles/02/im0031.tif', '/Volumes/my_book_thunderbolt_duo/IPTS/IPTS-19921-Charles/02/im0032.tif', '/Volumes/my_book_thunderbolt_duo/IPTS/IPTS-19921-Charles/02/im0033.tif', '/Volumes/my_book_thunderbolt_duo/IPTS/IPTS-19921-Charles/02/im0034.tif', '/Volumes/my_book_thunderbolt_duo/IPTS/IPTS-19921-Charles/02/im0035.tif', '/Volumes/my_book_thunderbolt_duo/IPTS/IPTS-19921-Charles/02/im0036.tif', '/Volumes/my_book_thunderbolt_duo/IPTS/IPTS-19921-Charles/02/im0037.tif'] \u0026gt;\u0026gt;\u0026gt; pprint.pprint(data_registered['metadata'][0]) {256: 2048, 257: 2048, 258: (16,), 259: 1, 262: 1, 270: 'slope = 2.13626E-05 \\roffset = 0.00000E+00\\r', 273: (8,), 277: 1, 278: 2048, 279: (8388608,), 282: 10.0, 283: 10.0, 296: 3, 320: (0,), 339: (1,)}         3843d0536ca877fa3d22b4a1faea0d7ddbf4e3c9\n       "
+},
+{
+	"uri": "/en/tutorial/notebooks/resonance_imaging_experiment_vs_theory/",
+	"title": "Resonance Imaging Experiment vs Theory",
+	"tags": [],
+	"description": "",
+	"content": "Notebook name: resonance_imaging_experiment_vs_theory.ipynb\n"
+},
+{
+	"uri": "/en/tutorial/notebooks/rotate_and_crop_images/",
+	"title": "Rotate and Crop Images",
+	"tags": [],
+	"description": "",
+	"content": "Notebook name: rotate_and_crop_images.ipynb\n"
+},
+{
+	"uri": "/en/tutorial/notebooks/select_ipts/",
+	"title": "Select IPTS",
+	"tags": [],
+	"description": "",
+	"content": " The select IPTS tool that you will find at the top of most of the notebooks allows you to quickly select your IPTS. This information will then be used by the program to quickly jump to that IPTS. Any file or folder selection will starts from this IPTS project, this way you won\u0026rsquo;t have to look around to find your data.\nEnter IPTS Use the top text box to specify your IPTS number. As you enter the number, the program check if the IPTS exists or not. A message will be displayed on the right side informing you if the file exist or not.\nIf the IPTS can be located, the second widget (list of IPTS) will automatically jump to that folder.\nSelect IPTS The second widget list all the IPTS found for your instrument (Imaging by default). Just select your IPTS.\nHELP Button Brings a new window in your browser with this help page.\nLive Demo "
+},
+{
+	"uri": "/en/tutorial/notebooks/topaz_config_generator/",
+	"title": "TOPAZ config file generator",
+	"tags": [],
+	"description": "",
+	"content": " Notebook name: TOPAZ_config_generator.ipynb\nStart the Notebook If you need help accessing this notebook, check the How To \u0026gt; Start the python notebooks tutorial.\nFirst Time Look If you are using the notebook for the first time, it should look like this\nDefine IPTS Starting from the top SHIFT + ENTER the cells in order to run them. The 4th cell will ask you to select the IPTS of your experiment.\nInitialize Parameters Using Config File (Optional) In case you want to initialize the content of all the widgets by a config file you created in the past, you can simply select that config file.\nRun All Cells at Once Select the next cell and click Cell \u0026gt; Run All Below.\nFile or Folder Selection Tool In order to select a file or a folder you need to know the following:\n one dot (.) means current folder 2 dots (..) means above folder click select to validate your file or folder selection selection made will be display above the selection tool   Widget Interaction You will find that some of the widgets display depends on your input in other widgets. This has been implemented to help you in your choice of parameters.\nAdvanced Options Instrument scientists and super users can have access to advanced options by entering a pasword in the Advanced Options cell.\nCreate Config File And finally, re-run the last cell Export the Config File in order to produce the config file. If any information is missing, a text will show you what is missing. Just click on this link to quickly jump to the widgets in the notebook.\nIf nothing is missing, the full path to the config file created will be displayed!\nFor advanced users who entered the instrument password, they will have a preview of the config file when creating the configuration file.  Run Reduction The next cell will build up the command line you will need to copy/paste into a terminal. To do so\n Copy the command line green text using Right click + Copy \u0026hellip; click the terminal icon at the top of the desktop Paste the text hit ENTER  "
+},
+{
+	"uri": "/en/tags/",
+	"title": "Tags",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/en/tutorial/notebooks/template_ui/",
+	"title": "Template UI Builder",
+	"tags": [],
+	"description": "",
+	"content": "Notebook name: template_ui.ipynb\n"
+},
+{
+	"uri": "/en/tutorial/notebooks/water_intake_profile_calculator/",
+	"title": "Water Intake Profile Calculator",
+	"tags": [],
+	"description": "",
+	"content": " Notebook name: water_intake_profile_calculator.ipynb\nDescription This notebook will calculate the water intake profile vs time of a sample.\nThis application is still under heavy development. The look of the UI will differ from the screenshot you can see in this tutorial and features are added on a regular basis. The tutorial will be fully rewrite once the development is done.  Here are the steps (bold for user input/manipulation)\n select the normalized images images sorted by time (by default) User Interface pops up! region of interest selected (optional) change the sorting algorithm  by name by date  (optional) select a folder containing the original .dsc files (which contain the right time stamp) profile of counts vs vertical-pixel calculated (select integrated algorithm: mean/median/sum) water intake profile vs file index or vs time export profiles  Start the notebook If you need help accessing this notebook, check the How To \u0026gt; Start the python notebooks tutorial.\nSelect your IPTS Need help using the IPTS selector?\n Select Images to Process Select the images you want to process using the File Selector. Once you click the Select button, the time stamp and the images will be automatically loaded. Wait for the progress bar to be done.\nNeed help using the File Selector?\n \nWater Intake Calculator UI Resizing widgets It\u0026rsquo;s possible to resize or move any of the plots.\nSorting Algorithm By default, all the images are sorted using their time stamps. But in some cases (old IPTS), the time stamp may be wrong. So It\u0026rsquo;s possible to:\n either sort them using their name and let you define the time interval between the runs define a folder that contains the .dsc files created by the MCP. Those files contain in all cases, the correct time stamp.   Profile Algorithm You can select the profile algorithm to use (to integrate over the x-axis of the region selected) using the profile algorithms available\n add mean median  The profile is calculated using the following method:\n retrieve the region you defined in the top left image using the profile algorithm you selected, will integrate over the x-axis of the ROI display the profile vs the y-pixels.  Using Pixel or Size Reference By default the water intake profile display the position of the \u0026ldquo;wave\u0026rdquo; as a pixel number vs the time. But it\u0026rsquo;s also possible to display this one using a real dimension (mm). To do so, just click the water intake y_axis -\u0026gt; distance check box and define the dimension of the pixel.\nIntegration Direction In the new version of the application, it is now possible to specify the direction of integration of the profiles. Select either y_axis or x_axis to change this direction.\nWater Intake Algorithms It\u0026rsquo;s possible to chose between 2 different algorithms to calculate the \u0026ldquo;wave\u0026rdquo; front position.\nSliding Average This method is fully demonstrated in this PDF document\nError Function Fitting The signal is fitted using a modified version of the error function as shown here\nChange Point Live Demo Export Results You can export the following data\n profile (Export \u0026gt; Profiles \u0026hellip;) water intake (Export \u0026gt; Water Intake \u0026hellip;) Table (Export Table \u0026hellip;, on the right of the table)  For Advanced Users. keep reading!\n Want to Work on the Data in the Notebook? If you want to play yourself with the data loaded, you can easily access all the data and metadata loaded\nlist_of_data = o_gui.dict_data['list_data']  list_of_files = o_gui.dict_data['list_images']  list_of_time_stamp = o_gui.dict_data['list_time_stamp'] list_of_time_stamp_user_format = o_gui.dict_data['list_time_stamp_user_format']  "
+}]
