@@ -1,6 +1,6 @@
 ---
 title: Registration
-post: " <i class='fa fa-battery-2'></i>"
+post: " <i class='fa fa-battery-full'></i>"
 ---
 
 **Notebook name**: registration.ipynb
@@ -117,3 +117,52 @@ The right slider to display current image vs reference image is always available
  
  <img src='/tutorial/notebooks/registration/images/images_selected_slider.gif' />
  
+<<<<<<< HEAD
+=======
+## Export
+
+By clicking the **Export ...** button (bottom right) you will export the images registered into a folder you select.
+
+## Advanced users
+
+All the data registered can be access from the python notebook
+
+```python
+ >>> data_registered = o_registration.data_dict
+ >>> print(np.shape(data_registered['data']))
+(8, 2048, 2048)
+```
+
+you can also reach the list of file names and their metadata
+
+```python
+>>> import pprint
+>>> pprint.pprint(data_registered['file_name'])
+['/Volumes/my_book_thunderbolt_duo/IPTS/IPTS-19921-Charles/02/im0000.tif',
+ '/Volumes/my_book_thunderbolt_duo/IPTS/IPTS-19921-Charles/02/im0031.tif',
+ '/Volumes/my_book_thunderbolt_duo/IPTS/IPTS-19921-Charles/02/im0032.tif',
+ '/Volumes/my_book_thunderbolt_duo/IPTS/IPTS-19921-Charles/02/im0033.tif',
+ '/Volumes/my_book_thunderbolt_duo/IPTS/IPTS-19921-Charles/02/im0034.tif',
+ '/Volumes/my_book_thunderbolt_duo/IPTS/IPTS-19921-Charles/02/im0035.tif',
+ '/Volumes/my_book_thunderbolt_duo/IPTS/IPTS-19921-Charles/02/im0036.tif',
+ '/Volumes/my_book_thunderbolt_duo/IPTS/IPTS-19921-Charles/02/im0037.tif']
+>>> pprint.pprint(data_registered['metadata'][0])
+{256: 2048,
+ 257: 2048,
+ 258: (16,),
+ 259: 1,
+ 262: 1,
+ 270: 'slope = 2.13626E-05 \roffset = 0.00000E+00\r',
+ 273: (8,),
+ 277: 1,
+ 278: 2048,
+ 279: (8388608,),
+ 282: 10.0,
+ 283: 10.0,
+ 296: 3,
+ 320: (0,),
+ 339: (1,)}
+```
+
+
+>>>>>>> 3843d0536ca877fa3d22b4a1faea0d7ddbf4e3c9

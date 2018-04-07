@@ -20,24 +20,24 @@ weight: 250
 <li>[frederick_ipts]({{%relref "/tutorial/notebooks/frederick_ipts/_index.md#activate-search" %}}) <i class='fa fa-battery-3'></i>  <i class='fa fa-bell'></i></li>
 <li>[from_dsc_time_info_to_ascii_file_vs_time]({{%relref "/tutorial/notebooks/from_dsc_time_info_to_ascii_file_vs_time/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
 <li>[ipts_18813]({{%relref "/tutorial/notebooks/ipts_18813/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
-<li>[gamma_filtering_tool]({{%relref "/tutorial/notebooks/gamma_filtering_tool/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> <i class='fa fa-bell'></i></li>
+<li>[gamma_filtering_tool]({{%relref "/tutorial/notebooks/gamma_filtering_tool/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
 <li>[linear_profile]({{%relref "/tutorial/notebooks/linear_profile/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
 <li>[list_tiff_metadata]({{%relref "/tutorial/notebooks/list_tiff_metadata/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
 <li>[locate_pixels]({{%relref "/tutorial/notebooks/locate_pixels/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
-<li>[normalization_live]({{%relref "/tutorial/notebooks/normalization_live/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> <i class='fa fa-bell'></i></li>
-<li>[normalization_batch]({{%relref "/tutorial/notebooks/normalization_batch/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> <i class='fa fa-bell'></i></li>
+<li>[normalization_live]({{%relref "/tutorial/notebooks/normalization_live/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
+<li>[normalization_batch]({{%relref "/tutorial/notebooks/normalization_batch/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
 <li>[profile_vs_file_index]({{%relref "/tutorial/notebooks/profile_vs_file_index/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
 <li>[radial_profile]({{%relref "/tutorial/notebooks/radial_profile/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
-<li>[registration]({{%relref "/tutorial/notebooks/registration/_index.md#activate-search" %}}) <i class='fa fa-battery-2'></i></li>
+<li>[registration]({{%relref "/tutorial/notebooks/registration/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> <i class='fa fa-bell'></i></li>
 <li>[resonance_imaging_experiment_vs_theory]({{%relref "/tutorial/notebooks/resonance_imaging_experiment_vs_theory/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
 <li>[rotate_and_crop_images]({{%relref "/tutorial/notebooks/rotate_and_crop_images/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
 <li>[template_ui]({{%relref "/tutorial/notebooks/template_ui/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
 <li>[topaz_config_generator]({{%relref "/tutorial/notebooks/topaz_config_generator/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i></li>
-<li>[water_intake_profile_calculator]({{%relref "/tutorial/notebooks/water_intake_profile_calculator/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> <i class='fa fa-bell'></i></li>
+<li>[water_intake_profile_calculator]({{%relref "/tutorial/notebooks/water_intake_profile_calculator/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i></li>
 
 ## Tools
 
 <li>[File Selector]({{%relref "/tutorial/notebooks/file_selector/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i></li>
 <li>[Select IPTS]({{%relref "/tutorial/notebooks/select_ipts/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i></li>
 
-<i class='fa fa-bell'></i> Recently updated
+<i class='fa fa-bell'></i> Recently updated/
