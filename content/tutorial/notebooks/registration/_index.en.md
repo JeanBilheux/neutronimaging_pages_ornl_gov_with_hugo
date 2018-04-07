@@ -61,6 +61,13 @@ button. Then move manually the images selected using the **manual registration t
 
 ## Tools to Help You
 
+### Grid
+
+You can add a **grid** on top of your images to help you in the manual alignment. Click the **Grid > display**
+at the top left corner of the UI. Then play with the **slider** to change the size of the grid.
+
+<img src='/tutorial/notebooks/registration/images/grid.gif' />
+
 ### Profile
 
 You can display the profile of the image selected and of the reference image to help align the images. 
@@ -110,8 +117,3 @@ The right slider to display current image vs reference image is always available
  
  <img src='/tutorial/notebooks/registration/images/images_selected_slider.gif' />
  
- 
-
-
-<img src='/images/work_in_progress.png' />
-
