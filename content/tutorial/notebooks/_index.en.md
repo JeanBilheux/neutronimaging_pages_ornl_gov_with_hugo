@@ -40,4 +40,4 @@ weight: 250
 <li>[File Selector]({{%relref "/tutorial/notebooks/file_selector/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i></li>
 <li>[Select IPTS]({{%relref "/tutorial/notebooks/select_ipts/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i></li>
 
-<i class='fa fa-bell'></i> Recently updated/
+<i class='fa fa-bell'></i> Recently updated

@@ -21,10 +21,6 @@
   </url>
   
   <url>
-    <loc>/en/tutorial/how_to_other/</loc>
-  </url>
-  
-  <url>
     <loc>/en/prepare_venue/proposal_confirmation/</loc>
     <xhtml:link
                 rel="alternate"
@@ -132,6 +128,10 @@
   
   <url>
     <loc>/en/tutorial/notebooks/</loc>
+  </url>
+  
+  <url>
+    <loc>/en/tutorial/how_to_other/</loc>
   </url>
   
   <url>

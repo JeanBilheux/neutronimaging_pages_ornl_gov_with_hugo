@@ -59,6 +59,20 @@ button. Then move manually the images selected using the **manual registration t
 
 <img src='/tutorial/notebooks/registration/images/manual_registration.gif' />
 
+## Registration using Markers
+
+Click the **Markers...** button to launch a new window.
+
+<img src='/tutorial/notebooks/registration/images/marker_registration.gif' />
+
+You can define as manay markers as you want for each image. Then using **Align images Using Markers** button will
+align all the images according to the best overlap value of the markers.
+
+You can copy/paste markers position using right click on the table.
+
+<img src='/tutorial/notebooks/registration/images/right_click_marker_registration.gif' />
+
+
 ## Tools to Help You
 
 ### Profile
