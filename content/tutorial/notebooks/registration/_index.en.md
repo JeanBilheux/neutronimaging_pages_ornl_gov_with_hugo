@@ -160,8 +160,6 @@ The right slider to display current image vs reference image is always available
  
  <img src='/tutorial/notebooks/registration/images/images_selected_slider.gif' />
  
-<<<<<<< HEAD
-=======
 ## Export
 
 By clicking the **Export ...** button (bottom right) you will export the images registered into a folder you select.
@@ -207,5 +205,3 @@ you can also reach the list of file names and their metadata
  339: (1,)}
 ```
 
-
->>>>>>> 3843d0536ca877fa3d22b4a1faea0d7ddbf4e3c9
