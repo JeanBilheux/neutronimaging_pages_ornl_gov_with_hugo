@@ -88,7 +88,7 @@
 	"title": "Notebooks Tutorials",
 	"tags": [],
 	"description": "",
-	"content": " bin_images  calculate_water_intake_profile  combine_folders  combine_images  create_list_of_file_name_vs_time_stamp  deal_files  display_and_export_images_with_metadata_profile  display_and_export_images_with_timestamp  display_counts_of_region_vs_stack  display_integrated_stack_of_images  file_name_and_metadata_vs_time_stamp  fix_images  fix_images_with_negative_pixels  format_filename_index  frederick_ipts   from_dsc_time_info_to_ascii_file_vs_time  ipts_18813  gamma_filtering_tool   linear_profile  list_tiff_metadata  locate_pixels  normalization_live   normalization_batch   profile_vs_file_index  radial_profile  registration   resonance_imaging_experiment_vs_theory  rotate_and_crop_images  template_ui  topaz_config_generator  water_intake_profile_calculator \nTools File Selector  Select IPTS \n Recently updated\n"
+	"content": " bin_images  calculate_water_intake_profile  calibrated_transmission  combine_folders  combine_images  create_list_of_file_name_vs_time_stamp  deal_files  display_and_export_images_with_metadata_profile  display_and_export_images_with_timestamp  display_counts_of_region_vs_stack  display_integrated_stack_of_images  file_name_and_metadata_vs_time_stamp  fix_images  fix_images_with_negative_pixels  format_filename_index  frederick_ipts   from_dsc_time_info_to_ascii_file_vs_time  ipts_18813  gamma_filtering_tool   linear_profile  list_tiff_metadata  locate_pixels  normalization_live   normalization_batch   profile_vs_file_index  radial_profile  registration   resonance_imaging_experiment_vs_theory  rotate_and_crop_images  template_ui  topaz_config_generator  water_intake_profile_calculator \nTools File Selector  Select IPTS \n Recently updated\n"
 },
 {
 	"uri": "/en/tutorial/how_to_other/",
@@ -117,6 +117,13 @@
 	"tags": [],
 	"description": "",
 	"content": "Notebook name: calculate_water_intake.ipynb\n"
+},
+{
+	"uri": "/en/tutorial/notebooks/calibrated_transmission/",
+	"title": "Calibrated Transmission",
+	"tags": [],
+	"description": "",
+	"content": "Notebook name: calibrated_transmission.ipynb\n"
 },
 {
 	"uri": "/en/categories/",
