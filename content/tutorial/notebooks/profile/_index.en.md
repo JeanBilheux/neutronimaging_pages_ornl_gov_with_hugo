@@ -1,8 +1,8 @@
 ---
-title: Profile vs File Index
+title: Profile
 post: "<i class='fa fa-battery-empty'></i> "
 ---
 
-**Notebook name**: profile_vs_file_index.ipynb
+**Notebook name**: profile.ipynb
 
 <img src='/images/comingsoon.png' />
