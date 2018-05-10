@@ -5,7 +5,7 @@ weight: 250
 
 <li>[bin_images]({{%relref "/tutorial/notebooks/bin_images/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
 <li>[calculate_water_intake_profile]({{%relref "/tutorial/notebooks/calculate_water_intake_profile/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
-<li>[calibrated_transmission]({{%relref "/tutorial/notebooks/calibrated_transmission/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
+<li>[calibrated_transmission]({{%relref "/tutorial/notebooks/calibrated_transmission/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> <i class='fa fa-bell'></i></li>
 <li>[combine_folders]({{%relref "/tutorial/notebooks/combine_folders/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
 <li>[combine_images]({{%relref "/tutorial/notebooks/combine_images/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
 <li>[create_list_of_file_name_vs_time_stamp]({{%relref "/tutorial/notebooks/create_list_of_file_name_vs_time_stamp/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
@@ -18,7 +18,7 @@ weight: 250
 <li>[fix_images]({{%relref "/tutorial/notebooks/fix_images/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
 <li>[fix_images_with_negative_pixels]({{%relref "/tutorial/notebooks/fix_images_with_negative_pixels/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
 <li>[format_filename_index]({{%relref "/tutorial/notebooks/format_filename_index/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
-<li>[frederick_ipts]({{%relref "/tutorial/notebooks/frederick_ipts/_index.md#activate-search" %}}) <i class='fa fa-battery-3'></i>  <i class='fa fa-bell'></i></li>
+<li>[frederick_ipts]({{%relref "/tutorial/notebooks/frederick_ipts/_index.md#activate-search" %}}) <i class='fa fa-battery-3'></i></li>
 <li>[from_dsc_time_info_to_ascii_file_vs_time]({{%relref "/tutorial/notebooks/from_dsc_time_info_to_ascii_file_vs_time/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
 <li>[ipts_18813]({{%relref "/tutorial/notebooks/ipts_18813/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
 <li>[gamma_filtering_tool]({{%relref "/tutorial/notebooks/gamma_filtering_tool/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
