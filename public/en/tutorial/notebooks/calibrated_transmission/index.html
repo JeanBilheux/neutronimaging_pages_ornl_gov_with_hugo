@@ -13,19 +13,19 @@
     <title>Calibrated Transmission :: Documentation for Hugo Learn Theme</title>
     
     
-    <link href="/css/nucleus.css?1525292826" rel="stylesheet">
-    <link href="/css/font-awesome.min.css?1525292826" rel="stylesheet">
-    <link href="/css/hybrid.css?1525292826" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1525292826" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1525292826" rel="stylesheet">
-    <link href="/css/auto-complete.css?1525292826" rel="stylesheet">
-    <link href="/css/theme.css?1525292826" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1525292826" rel="stylesheet">
+    <link href="/css/nucleus.css?1525972153" rel="stylesheet">
+    <link href="/css/font-awesome.min.css?1525972153" rel="stylesheet">
+    <link href="/css/hybrid.css?1525972153" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1525972153" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1525972153" rel="stylesheet">
+    <link href="/css/auto-complete.css?1525972153" rel="stylesheet">
+    <link href="/css/theme.css?1525972153" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1525972153" rel="stylesheet">
     
-      <link href="/css/theme-blue.css?1525292826" rel="stylesheet">
+      <link href="/css/theme-blue.css?1525972153" rel="stylesheet">
     
 
-    <script src="/js/jquery-2.x.min.js?1525292826"></script>
+    <script src="/js/jquery-2.x.min.js?1525972153"></script>
     
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left{ 
@@ -60,14 +60,14 @@
     <span data-search-clear=""><i class="fa fa-close"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1525292826"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1525292826"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1525972153"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1525972153"></script>
 <script type="text/javascript">
     
         var baseurl = "\/en";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1525292826"></script>
+<script type="text/javascript" src="/js/search.js?1525972153"></script>
 
     
   </div>
@@ -467,7 +467,7 @@
         
         ">
       <a href="/en/tutorial/notebooks/calibrated_transmission/">
-          Calibrated Transmission <i class='fa fa-battery-empty'></i>
+          Calibrated Transmission <i class='fa fa-battery-full'></i>
           
             <i class="fa fa-check read-icon"></i>
           
@@ -1510,7 +1510,27 @@
                 
                     <div class="progress">
     <div class="wrapper">
-
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#description">Description</a></li>
+<li><a href="#start-the-notebook">Start the notebook</a>
+<ul>
+<li><a href="#select-your-ipts">Select your IPTS</a></li>
+<li><a href="#select-images-to-process">Select Images to Process</a></li>
+</ul></li>
+<li><a href="#calibrated-transmission-ui-presentation">Calibrated Transmission UI Presentation</a></li>
+<li><a href="#how-does-it-work">How Does it Work ?</a>
+<ul>
+<li><a href="#define-the-calibration-regions">Define the Calibration Regions</a></li>
+<li><a href="#define-the-measurement-regions">Define the Measurement Regions</a></li>
+<li><a href="#summary-tab">Summary Tab</a></li>
+<li><a href="#export-calibrated-transmission">Export Calibrated Transmission</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
     </div>
 </div>
 
@@ -1528,9 +1548,84 @@
         
 
 
+
+
 <p><strong>Notebook name</strong>: calibrated_transmission.ipynb</p>
 
-<p><img src='/images/comingsoon.png' /></p>
+<h2 id="description">Description</h2>
+
+<p>The goal of this notebook is to display the average counts of region selected for each file. It&rsquo;s possible to calibrate
+up to 2 regions by giving them a value. If a region with a mean counts of 100 is calibrated to 1 for example, all the
+other value displayed will use this new scaled defined. That means, if for a file the mean counts of a region is 200,
+the program will display 2. When 2 calibrated region are defined, a linear interpolation is used to dislay the mean
+counts of the region selected. When no calibrated region have been defined, the true (raw) mean counts are displayed.</p>
+
+<h2 id="start-the-notebook">Start the notebook</h2>
+
+<p>If you need help accessing this notebook, check the <a href="/en/tutorial/how_to_start_notebooks">How To &gt; Start the python
+notebooks</a> tutorial.</p>
+
+<h3 id="select-your-ipts">Select your IPTS</h3>
+
+<div class="notices info" ><p>Need help using the <a href="/en/tutorial/notebooks/select_ipts/#activate-search">IPTS selector</a>?</p>
+</div>
+
+
+<h3 id="select-images-to-process">Select Images to Process</h3>
+
+<p>Select the images you want to process using the <strong>File Selector</strong>. Once you <strong>click</strong> the <strong>Select</strong> button, the time
+stamp and the images will be automatically loaded. Wait for the progress bar to be done.</p>
+
+<p><img src='/tutorial/notebooks/calibrated_transmission/images/select_files.gif' /></p>
+
+<div class="notices info" ><p>Need help using the <a href="/en/tutorial/notebooks/file_selector/#activate-search">File Selector</a>?</p>
+</div>
+
+
+<h2 id="calibrated-transmission-ui-presentation">Calibrated Transmission UI Presentation</h2>
+
+<p><img src='/tutorial/notebooks/calibrated_transmission/images/presentation_of_ui_1.png' />
+<img src='/tutorial/notebooks/calibrated_transmission/images/presentation_of_ui_2.png' /></p>
+
+<h2 id="how-does-it-work">How Does it Work ?</h2>
+
+<h3 id="define-the-calibration-regions">Define the Calibration Regions</h3>
+
+<ul>
+<li>Activate or deactivate the calibration region you want/do not want.</li>
+<li>Define the position and size of the region (using mouse in the image viewer, or by manual input)</li>
+<li>Select the value corresponding to this region</li>
+<li>Select the file to use corresponding to that region</li>
+</ul>
+
+<p><img src='/tutorial/notebooks/calibrated_transmission/images/calibration_definition.gif' /></p>
+
+<h3 id="define-the-measurement-regions">Define the Measurement Regions</h3>
+
+<ul>
+<li>Go the <strong>Measurement Regions</strong> tab</li>
+<li>Add new regions by clicking the <strong>+</strong> button at the bottom right</li>
+<li>Change the position (using mouse in image viewer or by manual input in the table)</li>
+<li>Remove regions using the <strong>-</strong> button</li>
+</ul>
+
+<p><img src='/tutorial/notebooks/calibrated_transmission/images/measurement_definition.gif' /></p>
+
+<h3 id="summary-tab">Summary Tab</h3>
+
+<p>The Summary tab display the list of files, time stamp, relative time (using the first file as reference or time 0),
+and mean counts calibrated for each measurement regions.</p>
+
+<p><img src='/tutorial/notebooks/calibrated_transmission/images/summary.png' /></p>
+
+<h3 id="export-calibrated-transmission">Export Calibrated Transmission</h3>
+
+<p>You can now export the calibrated transmission signal for each file by clicking the <strong>Export Calibrated Transmission</strong>
+button. Just select the output location. The file name created will be based on the input data folder and will look like this.</p>
+
+<p>If input data file is <strong>light_loop1_flow2</strong>, the output file will be named <strong>light_loop1_flow2_calibrated_transmission.txt</strong></p>
+
+<p><img src='/tutorial/notebooks/calibrated_transmission/images/output_file.png' /></p>
 
 
 <footer class=" footline" >
@@ -2387,20 +2482,20 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1525292826"></script>
-    <script src="/js/perfect-scrollbar.min.js?1525292826"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1525292826"></script>
-    <script src="/js/jquery.sticky.js?1525292826"></script>
-    <script src="/js/featherlight.min.js?1525292826"></script>
-    <script src="/js/html5shiv-printshiv.min.js?1525292826"></script>
-    <script src="/js/highlight.pack.js?1525292826"></script>
+    <script src="/js/clipboard.min.js?1525972153"></script>
+    <script src="/js/perfect-scrollbar.min.js?1525972153"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1525972153"></script>
+    <script src="/js/jquery.sticky.js?1525972153"></script>
+    <script src="/js/featherlight.min.js?1525972153"></script>
+    <script src="/js/html5shiv-printshiv.min.js?1525972153"></script>
+    <script src="/js/highlight.pack.js?1525972153"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom.71422.js?1525292826"></script>
-    <script src="/js/learn.js?1525292826"></script>
-    <script src="/js/hugo-learn.js?1525292826"></script>
+    <script src="/js/modernizr.custom.71422.js?1525972153"></script>
+    <script src="/js/learn.js?1525972153"></script>
+    <script src="/js/hugo-learn.js?1525972153"></script>
 
-    <link href="/mermaid/mermaid.css?1525292826" type="text/css" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1525292826"></script>
+    <link href="/mermaid/mermaid.css?1525972153" type="text/css" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1525972153"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
