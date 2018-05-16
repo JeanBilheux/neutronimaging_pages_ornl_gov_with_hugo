@@ -24,7 +24,7 @@ weight: 250
 <li>[linear_profile]({{%relref "/tutorial/notebooks/linear_profile/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
 <li>[list_tiff_metadata]({{%relref "/tutorial/notebooks/list_tiff_metadata/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
 <li>[locate_pixels]({{%relref "/tutorial/notebooks/locate_pixels/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
-<li>[normalization_live]({{%relref "/tutorial/notebooks/normalization_live/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
+<li>[normalization]({{%relref "/tutorial/notebooks/normalization/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
 <li>[normalization_batch]({{%relref "/tutorial/notebooks/normalization_batch/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
 <li>[profile_vs_file_index]({{%relref "/tutorial/notebooks/profile_vs_file_index/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
 <li>[radial_profile]({{%relref "/tutorial/notebooks/radial_profile/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
