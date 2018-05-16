@@ -119,7 +119,15 @@ The signal is fitted using a modified version of the error function as shown her
 
 ##### **Change Point**
 
-<img src='/images/coming_soon.png' />
+You can now select a 3rd algorithm based on the following python library ([changepy](https://github.com/ruipgil/changepy))
+
+<img src='/tutorial/notebooks/water_intake_profile_calculator/images/change_point.png' />
+
+### Rebin
+
+For very poor statistics data, you can rebin the data by 2, 3 or more pixels. This will decrease the resolution of the
+water intake peak position, but will improve its calculation by the various algorithms (sliding average, error function, ...)
+
 
 ### Live Demo
 

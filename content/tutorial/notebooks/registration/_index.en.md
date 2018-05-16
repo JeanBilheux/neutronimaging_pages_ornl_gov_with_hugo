@@ -45,19 +45,62 @@ Need help using the [File Selector]({{%relref "/tutorial/notebooks/file_selector
 
 <img src='/tutorial/notebooks/registration/images/description_of_ui.png' />
 
-## Auto Registration
+## Registration Methods
+
+You will find 4 ways to register your data
+
+* <a href='#auto'>Automatic mode</a> (let the program try to align your data for you)
+* <a href='#manual'>Manual mode</a> (you have full control of how to move each of the image manually)
+* <a href='#marker'>Marker mode</a> (define markers on the images and align them)
+* <a href='#profile'>Profile mode</a> (use high contrast feature to align horizontally and vertically images)
+
+<h2 id='auto'></h2>
+### Auto Registration
 
 Let the program perform auto-registration of all the images selected using the default first image as a 
 reference by clicking **Auto Registration**
 
 <img src='/tutorial/notebooks/registration/images/auto_registration.gif' />
 
-## Manual Registration
+<h2 id='manual'></h2>
+### Manual Registration
 
 If you choose to manually align the images (except the reference image), click the **Manual Registration**
 button. Then move manually the images selected using the **manual registration tool widgets**. 
 
 <img src='/tutorial/notebooks/registration/images/manual_registration.gif' />
+
+<h2 id='marker'></h2>
+### Registration using Markers
+
+Click the **Markers...** button to launch a new window.
+
+<img src='/tutorial/notebooks/registration/images/marker_registration.gif' />
+
+You can define as manay markers as you want for each image. Then using **Align images Using Markers** button will
+align all the images according to the best overlap value of the markers.
+
+You can copy/paste markers position using right click on the table.
+
+<img src='/tutorial/notebooks/registration/images/right_click_marker_registration.gif' />
+
+<h2 id='profile'></h2>
+### Registration using Profiles
+
+<img src='/tutorial/notebooks/registration/images/registration_profile_description_of_ui.png' />
+
+Using a high contrast feature of the images (like a man made marker on the side of the sample), the program
+calculates the edge of this feature for all the images. This edge position (vertically and horizontally) is then
+used to register the images. If you are curious about the algorithm used to define the edge position, we are using the
+same algorithm as the water intake algorithm called <a href='/tutorial/notebooks/water_intake_profile_calculator/images/water_intake_calculation.pdf'>**sliding average**</a>.
+
+* position the horizontal and vertical profiles on top of high contrast object
+* change size (lenght and width) of profile regions if needed
+* calculate edge (peak position) of marker in all images
+
+<img src='/tutorial/notebooks/registration/images/registration_profile_tab2_description_of_ui.png' />
+
+* select one of the bottom 3 options to export, save registered images.
 
 ## Tools to Help You
 
@@ -117,8 +160,6 @@ The right slider to display current image vs reference image is always available
  
  <img src='/tutorial/notebooks/registration/images/images_selected_slider.gif' />
  
-<<<<<<< HEAD
-=======
 ## Export
 
 By clicking the **Export ...** button (bottom right) you will export the images registered into a folder you select.
@@ -164,5 +205,3 @@ you can also reach the list of file names and their metadata
  339: (1,)}
 ```
 
-
->>>>>>> 3843d0536ca877fa3d22b4a1faea0d7ddbf4e3c9
