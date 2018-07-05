@@ -33,7 +33,7 @@ Check the full tutorial [here]({{%relref "/tutorial/notebooks/select_ipts/_index
 You need to provide the list of **samples**, **OB** and **DF** (if needed). To do so, just **SHIFT + ENTER** the
 following cell to display a *selection tool wizard*.
 
-<img src='/tutorial/notebooks/normalization_live/images/loading_images_1.gif' />
+<img src='/tutorial/notebooks/normalization/images/loading_images_1.gif' />
 
 The dialogbox will start listing the files from the IPTS folder you selected in the first cell. Feel free to navigate
 to find your data set.
@@ -51,33 +51,33 @@ to learn how to use the file selector tool.
 * **OPTIONAL** Select your **DF images**
 * click **Next Step>>** to let the program load all your images.
 
-<img src='/tutorial/notebooks/normalization_live/images/loading_images_2.gif' />
+<img src='/tutorial/notebooks/normalization/images/loading_images_2.gif' />
 
 ### Select Background Region
 
 **SHIFT + ENTER** to run the cell. A new User Interface (UI) will come to life. If you can not see the UI, check
 behind the notebook window.
 
-<img src='/tutorial/notebooks/normalization_live/images/roi_selection_1.gif' />
+<img src='/tutorial/notebooks/normalization/images/roi_selection_1.gif' />
 
 Just click **OK** if you do not want to select any region of interest (ROI).
 
 If you want to provide one, or more, ROI, click **+** on the
 right of the GUI and move/resize the ROI using the mouse, or the table values.
 
-<img src='/tutorial/notebooks/normalization_live/images/roi_selection_2.gif' />
+<img src='/tutorial/notebooks/normalization/images/roi_selection_2.gif' />
 
 ### Normalization
 
 This cell runs the normalization and let you know the progress of the calculation via a progress bar.
 
-<img src='/tutorial/notebooks/normalization_live/images/normalization.png' />
+<img src='/tutorial/notebooks/normalization/images/normalization.png' />
 
 ### Export
 
 Select where you want to output the normalized data, then run the following cell. Once the output folder selected,
 a folder name after the input data folder is created and will contain all the normalized data.
 
-<img src='/tutorial/notebooks/normalization_live/images/export.png' />
+<img src='/tutorial/notebooks/normalization/images/export.png' />
 
 
