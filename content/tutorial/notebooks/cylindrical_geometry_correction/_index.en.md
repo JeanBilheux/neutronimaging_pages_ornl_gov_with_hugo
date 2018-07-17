@@ -7,7 +7,6 @@ post: "<i class='fa fa-battery-empty'></i> "
 
 ## Description
 
-
 ## Start the notebook
 
 If you need help accessing this notebook, check the [How To > Start the python

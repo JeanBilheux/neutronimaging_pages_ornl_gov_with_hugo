@@ -26,7 +26,7 @@ weight: 250
 <li>[linear_profile]({{%relref "/tutorial/notebooks/linear_profile/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
 <li>[list_tiff_metadata]({{%relref "/tutorial/notebooks/list_tiff_metadata/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
 <li>[locate_pixels]({{%relref "/tutorial/notebooks/locate_pixels/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
-<li>[metadata_overlapping_images]({{%relref "/tutorial/notebooks/metadata_overlapping_images/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i> </li>
+<li>[metadata_overlapping_images]({{%relref "/tutorial/notebooks/metadata_overlapping_images/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> <i class='fa fa-bell'></i> </li>
 <li>[normalization]({{%relref "/tutorial/notebooks/normalization/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
 <li>[normalization_batch]({{%relref "/tutorial/notebooks/normalization_batch/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
 <li>[profile]({{%relref "/tutorial/notebooks/profile/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> <i class='fa fa-bell'></i></li>

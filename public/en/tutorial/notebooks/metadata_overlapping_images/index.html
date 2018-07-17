@@ -13,19 +13,19 @@
     <title>Metatadata Overlapping Images :: Documentation for Hugo Learn Theme</title>
     
     
-    <link href="/css/nucleus.css?1530817808" rel="stylesheet">
-    <link href="/css/font-awesome.min.css?1530817808" rel="stylesheet">
-    <link href="/css/hybrid.css?1530817808" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1530817808" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1530817808" rel="stylesheet">
-    <link href="/css/auto-complete.css?1530817808" rel="stylesheet">
-    <link href="/css/theme.css?1530817808" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1530817808" rel="stylesheet">
+    <link href="/css/nucleus.css?1531861075" rel="stylesheet">
+    <link href="/css/font-awesome.min.css?1531861075" rel="stylesheet">
+    <link href="/css/hybrid.css?1531861075" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1531861075" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1531861075" rel="stylesheet">
+    <link href="/css/auto-complete.css?1531861075" rel="stylesheet">
+    <link href="/css/theme.css?1531861075" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1531861075" rel="stylesheet">
     
-      <link href="/css/theme-blue.css?1530817808" rel="stylesheet">
+      <link href="/css/theme-blue.css?1531861075" rel="stylesheet">
     
 
-    <script src="/js/jquery-2.x.min.js?1530817808"></script>
+    <script src="/js/jquery-2.x.min.js?1531861075"></script>
     
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left{ 
@@ -60,14 +60,14 @@
     <span data-search-clear=""><i class="fa fa-close"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1530817808"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1530817808"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1531861075"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1531861075"></script>
 <script type="text/javascript">
     
         var baseurl = "\/en";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1530817808"></script>
+<script type="text/javascript" src="/js/search.js?1531861075"></script>
 
     
   </div>
@@ -1013,7 +1013,7 @@
         
         ">
       <a href="/en/tutorial/notebooks/metadata_overlapping_images/">
-          Metatadata Overlapping Images<i class='fa fa-battery-empty'></i> 
+          Metatadata Overlapping Images<i class='fa fa-battery-full'></i> 
           
             <i class="fa fa-check read-icon"></i>
           
@@ -1573,6 +1573,17 @@
 <li><a href="#select-your-ipts">Select your IPTS</a></li>
 <li><a href="#loading-the-images">loading the Images</a></li>
 </ul></li>
+<li><a href="#profile-ui-presentation">Profile UI Presentation</a></li>
+<li><a href="#how-does-it-work">How Does it Work ?</a>
+<ul>
+<li><a href="#scale">Scale</a></li>
+<li><a href="#metadata">Metadata</a>
+<ul>
+<li><a href="#text">Text</a></li>
+<li><a href="#graph">Graph</a></li>
+</ul></li>
+<li><a href="#export">Export</a></li>
+</ul></li>
 </ul></li>
 </ul>
 </nav>
@@ -1599,16 +1610,18 @@
 
 <h2 id="description">Description</h2>
 
-<p>This notebook normalized the imaging data (tiff or fits) by removing the background and fixing the fluctuations of the
-neutron beam. You will need:</p>
+<p>This notebook allows you to add a dimension scale to your images. You can also add a given metadata value
+for each of the images, or a graph showing the entire metadata plot and the current image metadata position on this graph.</p>
 
 <ul>
-<li>select your images</li>
-<li>select your open beam (OB)</li>
-<li>optional - select the dark field (DF)</li>
-<li>optional - select one or more background region in your sample images</li>
-<li>run the normalization</li>
-<li>select output folder where the normalized images will be saved</li>
+<li><p>Scale added on top of image
+<img src='/tutorial/notebooks/metadata_overlapping_images/images/scale.png'></p></li>
+
+<li><p>Metadata of current image
+<img src='/tutorial/notebooks/metadata_overlapping_images/images/metadata_text.png'></p></li>
+
+<li><p>Graph of all metadata and current metadata value
+<img src='/tutorial/notebooks/metadata_overlapping_images/images/metadata_graph.png'></p></li>
 </ul>
 
 <h2 id="start-the-notebook">Start the notebook</h2>
@@ -1624,21 +1637,62 @@ notebooks</a> tutorial.</p>
 
 <h3 id="loading-the-images">loading the Images</h3>
 
-<p>You need to provide the list of <strong>samples</strong>, <strong>OB</strong> and <strong>DF</strong> (if needed). To do so, just <strong>SHIFT + ENTER</strong> the
-following cell to display a <em>selection tool wizard</em>.</p>
+<p>Select the images you want to process using the <strong>File Selector</strong>. Once you <strong>click</strong> the <strong>Select</strong> button, the time
+stamp and the images will be automatically loaded. Wait for the progress bar to be done.</p>
 
-<p><img src='/tutorial/notebooks/normalization_live/images/loading_images_1.gif' /></p>
+<p><img src='/tutorial/notebooks/calibrated_transmission/images/select_files.gif' /></p>
 
-<p>The dialogbox will start listing the files from the IPTS folder you selected in the first cell. Feel free to navigate
-to find your data set.</p>
-
-<div class="notices info" ><p>Check the <a href="/en/tutorial/notebooks/select_ipts/#activate-search">file selection tool tutorial</a>
-to learn how to use the file selector tool.
-<img src='/tutorial/how_to_run_notebooks/images/file_folder_browser.png' /></p>
+<div class="notices info" ><p>Need help using the <a href="/en/tutorial/notebooks/file_selector/#activate-search">File Selector</a>?</p>
 </div>
 
 
-<p><img src='/images/comingsoon.png' /></p>
+<h2 id="profile-ui-presentation">Profile UI Presentation</h2>
+
+<p><img src='/tutorial/notebooks/metadata_overlapping_images/images/ui_presentation.png' /></p>
+
+<h2 id="how-does-it-work">How Does it Work ?</h2>
+
+<h3 id="scale">Scale</h3>
+
+<p>Select the <strong>scale</strong> option to add a dimension marker on top of the images. You can define:</p>
+
+<ul>
+<li>orientation of the scale</li>
+<li>size and label</li>
+<li>color</li>
+<li>thickness of the line</li>
+<li>position of the scale/label in the image</li>
+</ul>
+
+<p><img src='/tutorial/notebooks/metadata_overlapping_images/images/scale.gif' /></p>
+
+<h3 id="metadata">Metadata</h3>
+
+<p>When using <strong>metadata</strong>, you can either display the current metadata, or a graph showing the current file metadata
+position.</p>
+
+<h4 id="text">Text</h4>
+
+<p>If you are working with a TIFF image, you will have the option of selecting one of the metadata available. Feel free
+to change the label of this one if needed.
+You can also define your own metadata by editing the table, or loading a file_vs_metadata file created by a notebook
+specially dedicated to this purpose (WORK IN PROGRESS).</p>
+
+<p><img src='/tutorial/notebooks/metadata_overlapping_images/images/metadata_text.gif' /></p>
+
+<h4 id="graph">Graph</h4>
+
+<p>You can also display a graph showing the current metadata position related to the full metadata plot.</p>
+
+<p><img src='/tutorial/notebooks/metadata_overlapping_images/images/metadata_graph.gif' /></p>
+
+<h3 id="export">Export</h3>
+
+<p>You can now export all your images. The PNG files created will be a copy of the current UI image preview.</p>
+
+<p><img src='/tutorial/notebooks/metadata_overlapping_images/images/export.gif' /></p>
+
+<p><img src='/tutorial/notebooks/metadata_overlapping_images/images/exported_images.png' /></p>
 
 
 <footer class=" footline" >
@@ -2527,20 +2581,20 @@ to learn how to use the file selector tool.
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1530817808"></script>
-    <script src="/js/perfect-scrollbar.min.js?1530817808"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1530817808"></script>
-    <script src="/js/jquery.sticky.js?1530817808"></script>
-    <script src="/js/featherlight.min.js?1530817808"></script>
-    <script src="/js/html5shiv-printshiv.min.js?1530817808"></script>
-    <script src="/js/highlight.pack.js?1530817808"></script>
+    <script src="/js/clipboard.min.js?1531861075"></script>
+    <script src="/js/perfect-scrollbar.min.js?1531861075"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1531861075"></script>
+    <script src="/js/jquery.sticky.js?1531861075"></script>
+    <script src="/js/featherlight.min.js?1531861075"></script>
+    <script src="/js/html5shiv-printshiv.min.js?1531861075"></script>
+    <script src="/js/highlight.pack.js?1531861075"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom.71422.js?1530817808"></script>
-    <script src="/js/learn.js?1530817808"></script>
-    <script src="/js/hugo-learn.js?1530817808"></script>
+    <script src="/js/modernizr.custom.71422.js?1531861075"></script>
+    <script src="/js/learn.js?1531861075"></script>
+    <script src="/js/hugo-learn.js?1531861075"></script>
 
-    <link href="/mermaid/mermaid.css?1530817808" type="text/css" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1530817808"></script>
+    <link href="/mermaid/mermaid.css?1531861075" type="text/css" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1531861075"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
