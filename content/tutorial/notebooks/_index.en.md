@@ -23,7 +23,6 @@ weight: 250
 <li>[from_dsc_time_info_to_ascii_file_vs_time]({{%relref "/tutorial/notebooks/from_dsc_time_info_to_ascii_file_vs_time/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
 <li>[ipts_18813]({{%relref "/tutorial/notebooks/ipts_18813/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
 <li>[gamma_filtering_tool]({{%relref "/tutorial/notebooks/gamma_filtering_tool/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
-<li>[linear_profile]({{%relref "/tutorial/notebooks/linear_profile/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
 <li>[list_tiff_metadata]({{%relref "/tutorial/notebooks/list_tiff_metadata/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
 <li>[locate_pixels]({{%relref "/tutorial/notebooks/locate_pixels/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
 <li>[metadata_overlapping_images]({{%relref "/tutorial/notebooks/metadata_overlapping_images/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> <i class='fa fa-bell'></i> </li>

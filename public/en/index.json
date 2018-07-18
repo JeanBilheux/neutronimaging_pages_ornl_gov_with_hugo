@@ -88,7 +88,7 @@
 	"title": "Notebooks Tutorials",
 	"tags": [],
 	"description": "",
-	"content": " bin_images  calculate_water_intake_profile  calibrated_transmission   combine_folders  combine_images  create_list_of_file_name_vs_time_stamp  cylindrical_geometry_correction  deal_files  display_and_export_images_with_metadata_profile  display_and_export_images_with_timestamp  display_counts_of_region_vs_stack  display_integrated_stack_of_images  file_name_and_metadata_vs_time_stamp  fix_images  fix_images_with_negative_pixels  format_filename_index  frederick_ipts  from_dsc_time_info_to_ascii_file_vs_time  ipts_18813  gamma_filtering_tool   linear_profile  list_tiff_metadata  locate_pixels  metadata_overlapping_images    normalization   normalization_batch   profile   radial_profile  registration   resonance_imaging_experiment_vs_theory  rotate_and_crop_images  template_ui  topaz_config_generator  water_intake_profile_calculator \nTools File Selector  Select IPTS \n Recently updated\n"
+	"content": " bin_images  calculate_water_intake_profile  calibrated_transmission   combine_folders  combine_images  create_list_of_file_name_vs_time_stamp  cylindrical_geometry_correction  deal_files  display_and_export_images_with_metadata_profile  display_and_export_images_with_timestamp  display_counts_of_region_vs_stack  display_integrated_stack_of_images  file_name_and_metadata_vs_time_stamp  fix_images  fix_images_with_negative_pixels  format_filename_index  frederick_ipts  from_dsc_time_info_to_ascii_file_vs_time  ipts_18813  gamma_filtering_tool   list_tiff_metadata  locate_pixels  metadata_overlapping_images    normalization   normalization_batch   profile   radial_profile  registration   resonance_imaging_experiment_vs_theory  rotate_and_crop_images  template_ui  topaz_config_generator  water_intake_profile_calculator \nTools File Selector  Select IPTS \n Recently updated\n"
 },
 {
 	"uri": "/en/tutorial/how_to_other/",
@@ -271,13 +271,6 @@
 	"tags": [],
 	"description": "",
 	"content": "Our gloal is to only develop open source tools. You will find here a list of the major repositories hosting our programs\n jupyter notebooks used in the analysis of the data python_notebooks python library used for normalization neunorm Imaging Resonance python library imagingReso iBeatles for Bragg Edge fitting iBeatles set of jupyter widgets ipywe Root analysis library RootPlantProcessing  "
-},
-{
-	"uri": "/en/tutorial/notebooks/linear_profile/",
-	"title": "Linear Profile",
-	"tags": [],
-	"description": "",
-	"content": "Notebook name: linear_profile.ipynb\n"
 },
 {
 	"uri": "/en/tutorial/notebooks/list_tiff_metadata/",
