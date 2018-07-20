@@ -13,19 +13,19 @@
     <title>Radial Profile :: Documentation for Hugo Learn Theme</title>
     
     
-    <link href="/css/nucleus.css?1532096345" rel="stylesheet">
-    <link href="/css/font-awesome.min.css?1532096345" rel="stylesheet">
-    <link href="/css/hybrid.css?1532096345" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1532096345" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1532096345" rel="stylesheet">
-    <link href="/css/auto-complete.css?1532096345" rel="stylesheet">
-    <link href="/css/theme.css?1532096345" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1532096345" rel="stylesheet">
+    <link href="/css/nucleus.css?1532117528" rel="stylesheet">
+    <link href="/css/font-awesome.min.css?1532117528" rel="stylesheet">
+    <link href="/css/hybrid.css?1532117528" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1532117528" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1532117528" rel="stylesheet">
+    <link href="/css/auto-complete.css?1532117528" rel="stylesheet">
+    <link href="/css/theme.css?1532117528" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1532117528" rel="stylesheet">
     
-      <link href="/css/theme-blue.css?1532096345" rel="stylesheet">
+      <link href="/css/theme-blue.css?1532117528" rel="stylesheet">
     
 
-    <script src="/js/jquery-2.x.min.js?1532096345"></script>
+    <script src="/js/jquery-2.x.min.js?1532117528"></script>
     
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left{ 
@@ -60,14 +60,14 @@
     <span data-search-clear=""><i class="fa fa-close"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1532096345"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1532096345"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1532117528"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1532117528"></script>
 <script type="text/javascript">
     
         var baseurl = "\/en";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1532096345"></script>
+<script type="text/javascript" src="/js/search.js?1532117528"></script>
 
     
   </div>
@@ -1091,7 +1091,7 @@
         
         ">
       <a href="/en/tutorial/notebooks/radial_profile/">
-          Radial Profile<i class='fa fa-battery-empty'></i> 
+          Radial Profile<i class='fa fa-battery-full'></i> 
           
             <i class="fa fa-check read-icon"></i>
           
@@ -1536,7 +1536,24 @@
                 
                     <div class="progress">
     <div class="wrapper">
-
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#description">Description</a>
+<ul>
+<li><a href="#full-circle">Full circle</a></li>
+<li><a href="#sector">Sector</a></li>
+</ul></li>
+<li><a href="#start-the-notebook">Start the notebook</a>
+<ul>
+<li><a href="#select-your-ipts">Select your IPTS</a></li>
+<li><a href="#select-images-to-process">Select Images to Process</a></li>
+</ul></li>
+<li><a href="#profile-ui-presentation">Profile UI Presentation</a></li>
+</ul></li>
+</ul>
+</nav>
     </div>
 </div>
 
@@ -1554,9 +1571,69 @@
         
 
 
+
+
 <p><strong>Notebook name</strong>: radial_profile.ipynb</p>
 
-<p><img src='/images/comingsoon.png' /></p>
+<h2 id="description">Description</h2>
+
+<p>This notebook allows you to display and export the <strong>radial profile</strong> of a set of images. <strong>Radial profile</strong> means
+that, after defining the center of your profile region, the closest pixel to the center will produces the first
+data point. Then the next ones will produces the second data point (average counts over the set of each pixels).</p>
+
+<p><strong>Confusing!</strong></p>
+
+<p>Well the following drawings should help you understand how that works.</p>
+
+<h3 id="full-circle">Full circle</h3>
+
+<ul>
+<li><strong>Step1</strong>: User defined the center of the profile (Red pixel in this example)</li>
+<li><strong>Step2</strong>: User defined the sector to use (in this case, we used the entire sector 0 -&gt; 360degrees)</li>
+<li><strong>Program</strong> then calculate the position of each pixel relative to the new center defined</li>
+<li><strong>Program</strong> order the pixels by their distance relative to the center. All the pixels at the same distance from the
+center will have their counts averaged. Profile of Counts vs pixel index position is then calculated.
+<img src='/tutorial/notebooks/radial_profile/images/radial_profile_schema1.png' />
+<img src='/tutorial/notebooks/radial_profile/images/radial_profile_schema2.png' /></li>
+</ul>
+
+<h3 id="sector">Sector</h3>
+
+<ul>
+<li><strong>Step1</strong>: User defined the center of the profile (Red pixel in this example)</li>
+<li><strong>Step2</strong>: User defined the sector to use</li>
+<li><strong>Program</strong> keeps only the pixel that are within the sector defined</li>
+<li><strong>Program</strong> then calculate the position of each pixel relative to the new center defined</li>
+<li><strong>Program</strong> order the pixels by their distance relative to the center. All the pixels at the same distance from the
+center will have their counts averaged. Profile of Counts vs pixel index position is then calculated.
+<img src='/tutorial/notebooks/radial_profile/images/radial_profile_schema3.png' /></li>
+</ul>
+
+<h2 id="start-the-notebook">Start the notebook</h2>
+
+<p>If you need help accessing this notebook, check the <a href="/en/tutorial/how_to_start_notebooks">How To &gt; Start the python
+notebooks</a> tutorial.</p>
+
+<h3 id="select-your-ipts">Select your IPTS</h3>
+
+<div class="notices info" ><p>Need help using the <a href="/en/tutorial/notebooks/select_ipts/#activate-search">IPTS selector</a>?</p>
+</div>
+
+
+<h3 id="select-images-to-process">Select Images to Process</h3>
+
+<p>Select the images you want to process using the <strong>File Selector</strong>. Once you <strong>click</strong> the <strong>Select</strong> button, the time
+stamp and the images will be automatically loaded. Wait for the progress bar to be done.</p>
+
+<p><img src='/tutorial/notebooks/calibrated_transmission/images/select_files.gif' /></p>
+
+<div class="notices info" ><p>Need help using the <a href="/en/tutorial/notebooks/file_selector/#activate-search">File Selector</a>?</p>
+</div>
+
+
+<h2 id="profile-ui-presentation">Profile UI Presentation</h2>
+
+<p><strong>Comig Soon</strong></p>
 
 
 <footer class=" footline" >
@@ -2429,20 +2506,20 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1532096345"></script>
-    <script src="/js/perfect-scrollbar.min.js?1532096345"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1532096345"></script>
-    <script src="/js/jquery.sticky.js?1532096345"></script>
-    <script src="/js/featherlight.min.js?1532096345"></script>
-    <script src="/js/html5shiv-printshiv.min.js?1532096345"></script>
-    <script src="/js/highlight.pack.js?1532096345"></script>
+    <script src="/js/clipboard.min.js?1532117528"></script>
+    <script src="/js/perfect-scrollbar.min.js?1532117528"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1532117528"></script>
+    <script src="/js/jquery.sticky.js?1532117528"></script>
+    <script src="/js/featherlight.min.js?1532117528"></script>
+    <script src="/js/html5shiv-printshiv.min.js?1532117528"></script>
+    <script src="/js/highlight.pack.js?1532117528"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom.71422.js?1532096345"></script>
-    <script src="/js/learn.js?1532096345"></script>
-    <script src="/js/hugo-learn.js?1532096345"></script>
+    <script src="/js/modernizr.custom.71422.js?1532117528"></script>
+    <script src="/js/learn.js?1532117528"></script>
+    <script src="/js/hugo-learn.js?1532117528"></script>
 
-    <link href="/mermaid/mermaid.css?1532096345" type="text/css" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1532096345"></script>
+    <link href="/mermaid/mermaid.css?1532117528" type="text/css" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1532117528"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
