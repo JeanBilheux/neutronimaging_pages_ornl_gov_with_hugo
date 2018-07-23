@@ -13,19 +13,19 @@
     <title>Radial Profile :: Documentation for Hugo Learn Theme</title>
     
     
-    <link href="/css/nucleus.css?1532117528" rel="stylesheet">
-    <link href="/css/font-awesome.min.css?1532117528" rel="stylesheet">
-    <link href="/css/hybrid.css?1532117528" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1532117528" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1532117528" rel="stylesheet">
-    <link href="/css/auto-complete.css?1532117528" rel="stylesheet">
-    <link href="/css/theme.css?1532117528" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1532117528" rel="stylesheet">
+    <link href="/css/nucleus.css?1532364009" rel="stylesheet">
+    <link href="/css/font-awesome.min.css?1532364009" rel="stylesheet">
+    <link href="/css/hybrid.css?1532364009" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1532364009" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1532364009" rel="stylesheet">
+    <link href="/css/auto-complete.css?1532364009" rel="stylesheet">
+    <link href="/css/theme.css?1532364009" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1532364009" rel="stylesheet">
     
-      <link href="/css/theme-blue.css?1532117528" rel="stylesheet">
+      <link href="/css/theme-blue.css?1532364009" rel="stylesheet">
     
 
-    <script src="/js/jquery-2.x.min.js?1532117528"></script>
+    <script src="/js/jquery-2.x.min.js?1532364009"></script>
     
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left{ 
@@ -60,14 +60,14 @@
     <span data-search-clear=""><i class="fa fa-close"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1532117528"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1532117528"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1532364009"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1532364009"></script>
 <script type="text/javascript">
     
         var baseurl = "\/en";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1532117528"></script>
+<script type="text/javascript" src="/js/search.js?1532364009"></script>
 
     
   </div>
@@ -1551,6 +1551,15 @@
 <li><a href="#select-images-to-process">Select Images to Process</a></li>
 </ul></li>
 <li><a href="#profile-ui-presentation">Profile UI Presentation</a></li>
+<li><a href="#selection-of-sector-center">Selection of Sector Center</a></li>
+<li><a href="#selection-of-sector-range">Selection of Sector Range</a></li>
+<li><a href="#grid-settings">Grid Settings</a></li>
+<li><a href="#calculate-radial-profiles">Calculate Radial Profiles</a></li>
+<li><a href="#export-profiles">Export Profiles</a>
+<ul>
+<li><a href="#file-name-convention">File Name Convention</a></li>
+<li><a href="#file-format">File Format</a></li>
+</ul></li>
 </ul></li>
 </ul>
 </nav>
@@ -1633,7 +1642,72 @@ stamp and the images will be automatically loaded. Wait for the progress bar to 
 
 <h2 id="profile-ui-presentation">Profile UI Presentation</h2>
 
-<p><strong>Comig Soon</strong></p>
+<p>After running the <strong>lauch User Interface</strong> cell, the following GUI pops up.</p>
+
+<p><img src='/tutorial/notebooks/radial_profile/images/ui_presentation_1.png' />
+<img src='/tutorial/notebooks/radial_profile/images/ui_presentation_2.png' /></p>
+
+<h2 id="selection-of-sector-center">Selection of Sector Center</h2>
+
+<p>Using the mouse, <strong>click</strong> the <strong>vertical</strong> and then <strong>horizontal</strong> lines on the image window to define the
+center of the sector.</p>
+
+<p><img src='/tutorial/notebooks/radial_profile/images/sector_center.gif' /></p>
+
+<h2 id="selection-of-sector-range">Selection of Sector Range</h2>
+
+<p><img src='/tutorial/notebooks/radial_profile/images/sector_range.gif' /></p>
+
+<h2 id="grid-settings">Grid Settings</h2>
+
+<p>It&rsquo;s possible to change the settings of <strong>the grid</strong> (usefull when color of image and grid are too close).</p>
+
+<p><img src='/tutorial/notebooks/radial_profile/images/grid_settings.gif' /></p>
+
+<h2 id="calculate-radial-profiles">Calculate Radial Profiles</h2>
+
+<p>Jump to the <strong>Profile</strong> tab and click the <strong>Calculate Profiles</strong> to calculate the radial profile of each image loaded.
+All those profiles will be displayed in the same plot below.</p>
+
+<p><img src='/tutorial/notebooks/radial_profile/images/calculate_profiles.gif' /></p>
+
+<h2 id="export-profiles">Export Profiles</h2>
+
+<p>Once the <strong>calculation of all profiles</strong> has been performed, the <strong>Export Profiles</strong> button becomes available. Click
+the <strong>Export Profiles &hellip;</strong> and select where you want to create the ascii files.</p>
+
+<h3 id="file-name-convention">File Name Convention</h3>
+
+<p>The ASCII files creates will have the names bases such as</p>
+
+<p>&lt;<strong>name_of_image</strong>&gt;_profile_c_x&lt;<strong>x_center</strong>&gt;_y&lt;<strong>y_center</strong>&gt;<em>angle</em>&lt;<strong>from_angle_in_deg</strong>&gt;<em>to</em>&lt;<strong>to_angle_in_deg</strong>&gt;.txt</p>
+
+<p><strong>where</strong>:</p>
+
+<ul>
+<li><strong>name_of_image</strong>: is the name of the source image without the extension (<em>20170811_Nautical_compass_0030_356_250_1875</em>)</li>
+<li><strong>x_center</strong>: the x axis position of the center (<em>1024.0</em>)</li>
+<li><strong>y_center</strong>: the y axis position of the center (<em>1024.0</em>)</li>
+<li><strong>from_angle_in_deg</strong>: starting sector angle in degrees (<em>24.0</em>)</li>
+<li><strong>to_angle_in_deg</strong>: ending sector angle in degrees (<em>137.0</em>)</li>
+</ul>
+
+<p><strong>giving a name of</strong></p>
+
+<p>20170811_Nautical_compass_0030_356_250_1875_profile_c_x1024.0_y1024.0_angle_24.0_to_137.0.txt</p>
+
+<h3 id="file-format">File Format</h3>
+
+<p>Each ASCII file produced start with the following metadata</p>
+
+<pre><code># source image: /Volumes/my_book_thunderbolt_duo/IPTS/IPTS-19621-CLOCK/CT/20170811_Nautical_compass_0030_356_250_1875.tiff
+# center [x0, y0]: [1024.0,1024.0]
+# angular range from 24.0degrees to 137.0degrees
+
+#pixel_from_center, Average_counts
+</code></pre>
+
+<p><img src='/tutorial/notebooks/radial_profile/images/profiles_ascii_files.png' /></p>
 
 
 <footer class=" footline" >
@@ -2506,20 +2580,20 @@ stamp and the images will be automatically loaded. Wait for the progress bar to 
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1532117528"></script>
-    <script src="/js/perfect-scrollbar.min.js?1532117528"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1532117528"></script>
-    <script src="/js/jquery.sticky.js?1532117528"></script>
-    <script src="/js/featherlight.min.js?1532117528"></script>
-    <script src="/js/html5shiv-printshiv.min.js?1532117528"></script>
-    <script src="/js/highlight.pack.js?1532117528"></script>
+    <script src="/js/clipboard.min.js?1532364009"></script>
+    <script src="/js/perfect-scrollbar.min.js?1532364009"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1532364009"></script>
+    <script src="/js/jquery.sticky.js?1532364009"></script>
+    <script src="/js/featherlight.min.js?1532364009"></script>
+    <script src="/js/html5shiv-printshiv.min.js?1532364009"></script>
+    <script src="/js/highlight.pack.js?1532364009"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom.71422.js?1532117528"></script>
-    <script src="/js/learn.js?1532117528"></script>
-    <script src="/js/hugo-learn.js?1532117528"></script>
+    <script src="/js/modernizr.custom.71422.js?1532364009"></script>
+    <script src="/js/learn.js?1532364009"></script>
+    <script src="/js/hugo-learn.js?1532364009"></script>
 
-    <link href="/mermaid/mermaid.css?1532117528" type="text/css" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1532117528"></script>
+    <link href="/mermaid/mermaid.css?1532364009" type="text/css" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1532364009"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
