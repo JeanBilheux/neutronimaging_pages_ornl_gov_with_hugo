@@ -34,6 +34,11 @@ to learn how to use the file selector tool.
 
 ### Display Images
 
+{{% notice warning %}}
+click the **Auto** scale to initialize the image just after launching the UI.
+<img src='/tutorial/notebooks/gamma_filtering_tool/images/auto_scale.gif' />
+{{% /notice %}}
+
 <img src='/tutorial/notebooks/gamma_filtering_tool/images/starting_ui.png' />
 
 #### Mouse Infos / Zoom and Pan
@@ -63,8 +68,14 @@ Here is the workflow:
  * if the **coefficient * pixel_value > image_average_counts** then this pixel is considered to be a **gamma** and
 is replaced by the **average value** of its 8 neighbor pixels.
 
-
 {{% notice info %}}
 Feel free to move the plot around and resize them!
 <img src='/tutorial/notebooks/gamma_filtering_tool/images/resizing.gif' />
 {{% /notice %}}
+
+### Histogram of Raw and Filtered Data Sets
+
+A newer version of the UI offers the histogram of the images before and after filtering. This helps figuring out where
+the gamma are located.
+
+<img src='/tutorial/notebooks/gamma_filtering_tool/images/histogram.png' />
