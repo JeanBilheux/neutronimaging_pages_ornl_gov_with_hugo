@@ -14,7 +14,7 @@ weight: 250
 <li>[display_and_export_images_with_metadata_profile]({{%relref "/tutorial/notebooks/display_and_export_images_with_metadata_profile/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
 <li>[display_and_export_images_with_timestamp]({{%relref "/tutorial/notebooks/display_and_export_images_with_timestamp/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
 <li>[display_counts_of_region_vs_stack]({{%relref "/tutorial/notebooks/display_counts_of_region_vs_stack/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
-<li>[display_file_names_vs_time_stamp]({{%relref "/tutorial/notebooks/display_file_names_vs_time_stamp/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
+<li>[display_file_names_vs_time_stamp]({{%relref "/tutorial/notebooks/display_file_names_vs_time_stamp/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> <i class='fa fa-bell'></i></li>
 <li>[display_integrated_stack_of_images]({{%relref "/tutorial/notebooks/display_integrated_stack_of_images/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
 <li>[file_name_and_metadata_vs_time_stamp]({{%relref "/tutorial/notebooks/file_name_and_metadata_vs_time_stamp/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
 <li>[fix_images]({{%relref "/tutorial/notebooks/fix_images/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
