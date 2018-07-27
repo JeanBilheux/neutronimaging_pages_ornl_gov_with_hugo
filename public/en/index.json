@@ -88,7 +88,7 @@
 	"title": "Notebooks Tutorials",
 	"tags": [],
 	"description": "",
-	"content": " bin_images  calculate_water_intake_profile  calibrated_transmission   combine_folders  combine_images  create_list_of_file_name_vs_time_stamp  cylindrical_geometry_correction  deal_files  display_and_export_images_with_metadata_profile  display_and_export_images_with_timestamp  display_counts_of_region_vs_stack  display_integrated_stack_of_images  file_name_and_metadata_vs_time_stamp  fix_images  fix_images_with_negative_pixels  format_filename_index  frederick_ipts  from_dsc_time_info_to_ascii_file_vs_time  ipts_18813  gamma_filtering_tool   list_tiff_metadata  locate_pixels  metadata_overlapping_images    normalization   normalization_batch   profile   radial_profile  registration   resonance_imaging_experiment_vs_theory  rotate_and_crop_images  template_ui  topaz_config_generator  water_intake_profile_calculator \nTools File Selector  Select IPTS \n Recently updated\n"
+	"content": " bin_images  calculate_water_intake_profile  calibrated_transmission   combine_folders  combine_images  create_list_of_file_name_vs_time_stamp  cylindrical_geometry_correction  deal_files  display_and_export_images_with_metadata_profile  display_and_export_images_with_timestamp  display_counts_of_region_vs_stack  display_file_names_vs_time_stamp  display_integrated_stack_of_images  file_name_and_metadata_vs_time_stamp  fix_images  fix_images_with_negative_pixels  format_filename_index  frederick_ipts  from_dsc_time_info_to_ascii_file_vs_time  ipts_18813  gamma_filtering_tool   list_tiff_metadata  locate_pixels  metadata_overlapping_images    normalization   normalization_batch   profile   radial_profile  registration   resonance_imaging_experiment_vs_theory  rotate_and_crop_images  template_ui  topaz_config_generator  water_intake_profile_calculator \nTools File Selector  Select IPTS \n Recently updated\n"
 },
 {
 	"uri": "/en/tutorial/how_to_other/",
@@ -180,6 +180,13 @@
 	"tags": [],
 	"description": "",
 	"content": "Notebook name: display_counts_of_region_vs_stack.ipynb\n"
+},
+{
+	"uri": "/en/tutorial/notebooks/display_file_names_vs_time_stamp/",
+	"title": "Display File Names vs Time Stamp",
+	"tags": [],
+	"description": "",
+	"content": " Notebook name: display_file_names_vs_time_stamp.ipynb\nDescription This notebook extracts the acquisition time and displays\n time stamp vs file index relative time stamp offset vs file index (offset between each file) absolute time stamp offset vs file index (offset relative to first file loaded)  Start the notebook If you need help accessing this notebook, check the How To \u0026gt; Start the python notebooks tutorial.\nHow to Use It? Select your IPTS Check the full tutorial here\nSelect Data Set Select Images you want to check\nCheck the file selection tool tutorial to learn how to use the file selector tool.  Once you have selected your data, you will see a progress bar as the time stamp metadata are retrieved from the files.\nDisplay Time Stamp The next cell will plot on the left side the relative time offset in seconds, and on the right side, the absolute time offset in seconds.\nRelative time offset (s)\nThis is the time between each image.\nrelative_time(i) = acquisition_time(image(i)) - acquisition_time(image(i-1))  Absolute time offset (s)\nThis is the time spent since we started to acquire the images. For the first image, this absolute time is 0 of course.\nabsolute_time(i) = acquisition_time(image(i)) - acquisition_time(image(0))  Here is the plot we got when using an acquisition time of 30ms List Files Loaded The next cell display a list of all the fulle, relative and absolute time stamps.\n"
 },
 {
 	"uri": "/en/tutorial/notebooks/display_and_export_images_with_metadata_profile/",
