@@ -10,22 +10,22 @@
     <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 <link rel="icon" href="/images/favicon.png" type="image/x-icon" />
 
-    <title>Create List of Files :: Documentation for Hugo Learn Theme</title>
+    <title>Create List of Files of Names vs Time Stamp :: Documentation for Hugo Learn Theme</title>
     
     
-    <link href="/css/nucleus.css?1532717803" rel="stylesheet">
-    <link href="/css/font-awesome.min.css?1532717803" rel="stylesheet">
-    <link href="/css/hybrid.css?1532717803" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1532717803" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1532717803" rel="stylesheet">
-    <link href="/css/auto-complete.css?1532717803" rel="stylesheet">
-    <link href="/css/theme.css?1532717803" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1532717803" rel="stylesheet">
+    <link href="/css/nucleus.css?1533159225" rel="stylesheet">
+    <link href="/css/font-awesome.min.css?1533159225" rel="stylesheet">
+    <link href="/css/hybrid.css?1533159225" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1533159225" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1533159225" rel="stylesheet">
+    <link href="/css/auto-complete.css?1533159225" rel="stylesheet">
+    <link href="/css/theme.css?1533159225" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1533159225" rel="stylesheet">
     
-      <link href="/css/theme-blue.css?1532717803" rel="stylesheet">
+      <link href="/css/theme-blue.css?1533159225" rel="stylesheet">
     
 
-    <script src="/js/jquery-2.x.min.js?1532717803"></script>
+    <script src="/js/jquery-2.x.min.js?1533159225"></script>
     
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left{ 
@@ -60,14 +60,14 @@
     <span data-search-clear=""><i class="fa fa-close"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1532717803"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1532717803"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1533159225"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1533159225"></script>
 <script type="text/javascript">
     
         var baseurl = "\/en";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1532717803"></script>
+<script type="text/javascript" src="/js/search.js?1533159225"></script>
 
     
   </div>
@@ -539,13 +539,13 @@
  
   
     
-    <li data-nav-id="/en/tutorial/notebooks/create_list_of_file_name_vs_time_stamp/" title="Create List of Files" class="dd-item 
+    <li data-nav-id="/en/tutorial/notebooks/create_list_of_file_name_vs_time_stamp/" title="Create List of Files of Names vs Time Stamp" class="dd-item 
         parent
         active
         
         ">
       <a href="/en/tutorial/notebooks/create_list_of_file_name_vs_time_stamp/">
-          Create List of Files <i class='fa fa-battery-empty'></i>
+          Create List of Files of Names vs Time Stamp <i class='fa fa-battery-full'></i>
           
             <i class="fa fa-check read-icon"></i>
           
@@ -1548,7 +1548,7 @@
             
           
           
-            <a href='/en/'>Neutron Imaging</a> > <a href='/en/tutorial/'>Tutorials</a> > <a href='/en/tutorial/notebooks/'>Notebooks Tutorials</a> > Create List of Files
+            <a href='/en/'>Neutron Imaging</a> > <a href='/en/tutorial/'>Tutorials</a> > <a href='/en/tutorial/notebooks/'>Notebooks Tutorials</a> > Create List of Files of Names vs Time Stamp
           
          
           
@@ -1562,7 +1562,22 @@
                 
                     <div class="progress">
     <div class="wrapper">
-
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#description">Description</a></li>
+<li><a href="#start-the-notebook">Start the notebook</a></li>
+<li><a href="#how-to-use-it">How to Use It?</a>
+<ul>
+<li><a href="#select-your-ipts">Select your IPTS</a></li>
+<li><a href="#select-data-set">Select Data Set</a></li>
+<li><a href="#select-output-folder">Select Output Folder</a></li>
+<li><a href="#output-folder-created">Output Folder Created</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
     </div>
 </div>
 
@@ -1574,15 +1589,85 @@
         
         <div id="body-inner">
           
-            <h1>Create List of Files</h1>
+            <h1>Create List of Files of Names vs Time Stamp</h1>
           
 
         
 
 
+
+
 <p><strong>Notebook name</strong>: create_list_of_file_name_vs_time_stamp.ipynb</p>
 
-<p><img src='/images/comingsoon.png' /></p>
+<h2 id="description">Description</h2>
+
+<p>This notebook extracts the acquisition time of the selected files and output an ascii file with the following
+informations</p>
+
+<ul>
+<li>full path of File name</li>
+<li>time stamp (unix format)</li>
+<li>time stamp (user format)</li>
+<li>time offset (ms) relative to first image</li>
+</ul>
+
+<h2 id="start-the-notebook">Start the notebook</h2>
+
+<p>If you need help accessing this notebook, check the <a href="/en/tutorial/how_to_start_notebooks">How To &gt; Start the python
+notebooks</a> tutorial.</p>
+
+<h2 id="how-to-use-it">How to Use It?</h2>
+
+<h3 id="select-your-ipts">Select your IPTS</h3>
+
+<p>Check the full tutorial <a href="/en/tutorial/notebooks/select_ipts/#activate-search">here</a></i></p>
+
+<h3 id="select-data-set">Select Data Set</h3>
+
+<p>Select Images you want to check</p>
+
+<div class="notices info" ><p>Check the <a href="/en/tutorial/notebooks/file_selector/#folder_navigation">file selection tool tutorial</a>
+to learn how to use the file selector tool.
+<img src='/tutorial/how_to_run_notebooks/images/file_folder_browser.png' /></p>
+</div>
+
+
+<p>Once you have selected your data, you will see a progress bar as the time stamp metadata are retrieved from the files.</p>
+
+<h3 id="select-output-folder">Select Output Folder</h3>
+
+<p>Simple, just navigate to the location where you want your ascii file written.</p>
+
+<p><img src='/tutorial/notebooks/create_list_of_file_name_vs_time_stamp/images/output_folder.png' /></p>
+
+<h3 id="output-folder-created">Output Folder Created</h3>
+
+<p>The Ascii file created will look like this</p>
+
+<pre><code>#filename, timestamp(s), timestamp_user_format, timeoffset(s)
+/Volumes/my_book_thunderbolt_duo/IPTS/IPTS-21115/Huggies_3cm_thick/20180726_Huggies_3cm_0000_0001.tiff, 1532610101.2023919, 2018-07-26 09:01:41, 0.0
+/Volumes/my_book_thunderbolt_duo/IPTS/IPTS-21115/Huggies_3cm_thick/20180726_Huggies_3cm_0000_0002.tiff, 1532610101.2320013, 2018-07-26 09:01:41, 0.02960944175720215
+/Volumes/my_book_thunderbolt_duo/IPTS/IPTS-21115/Huggies_3cm_thick/20180726_Huggies_3cm_0000_0003.tiff, 1532610101.261922, 2018-07-26 09:01:41, 0.059530019760131836
+/Volumes/my_book_thunderbolt_duo/IPTS/IPTS-21115/Huggies_3cm_thick/20180726_Huggies_3cm_0000_0004.tiff, 1532610101.2918322, 2018-07-26 09:01:41, 0.08944034576416016
+/Volumes/my_book_thunderbolt_duo/IPTS/IPTS-21115/Huggies_3cm_thick/20180726_Huggies_3cm_0000_0005.tiff, 1532610101.32187, 2018-07-26 09:01:41, 0.11947822570800781
+/Volumes/my_book_thunderbolt_duo/IPTS/IPTS-21115/Huggies_3cm_thick/20180726_Huggies_3cm_0000_0006.tiff, 1532610101.352108, 2018-07-26 09:01:41, 0.14971613883972168
+/Volumes/my_book_thunderbolt_duo/IPTS/IPTS-21115/Huggies_3cm_thick/20180726_Huggies_3cm_0000_0007.tiff, 1532610101.3818908, 2018-07-26 09:01:41, 0.17949891090393066
+/Volumes/my_book_thunderbolt_duo/IPTS/IPTS-21115/Huggies_3cm_thick/20180726_Huggies_3cm_0000_0008.tiff, 1532610101.411917, 2018-07-26 09:01:41, 0.20952510833740234
+/Volumes/my_book_thunderbolt_duo/IPTS/IPTS-21115/Huggies_3cm_thick/20180726_Huggies_3cm_0000_0009.tiff, 1532610101.4418778, 2018-07-26 09:01:41, 0.2394859790802002
+/Volumes/my_book_thunderbolt_duo/IPTS/IPTS-21115/Huggies_3cm_thick/20180726_Huggies_3cm_0000_0010.tiff, 1532610101.4718854, 2018-07-26 09:01:41, 0.26949357986450195
+/Volumes/my_book_thunderbolt_duo/IPTS/IPTS-21115/Huggies_3cm_thick/20180726_Huggies_3cm_0000_0011.tiff, 1532610101.5023768, 2018-07-26 09:01:41, 0.2999849319458008
+/Volumes/my_book_thunderbolt_duo/IPTS/IPTS-21115/Huggies_3cm_thick/20180726_Huggies_3cm_0000_0012.tiff, 1532610101.531988, 2018-07-26 09:01:41, 0.32959604263305664
+/Volumes/my_book_thunderbolt_duo/IPTS/IPTS-21115/Huggies_3cm_thick/20180726_Huggies_3cm_0000_0013.tiff, 1532610101.5619035, 2018-07-26 09:01:41, 0.3595116138458252
+/Volumes/my_book_thunderbolt_duo/IPTS/IPTS-21115/Huggies_3cm_thick/20180726_Huggies_3cm_0000_0014.tiff, 1532610101.59197, 2018-07-26 09:01:41, 0.38957810401916504
+/Volumes/my_book_thunderbolt_duo/IPTS/IPTS-21115/Huggies_3cm_thick/20180726_Huggies_3cm_0000_0015.tiff, 1532610101.6220326, 2018-07-26 09:01:41, 0.41964077949523926
+/Volumes/my_book_thunderbolt_duo/IPTS/IPTS-21115/Huggies_3cm_thick/20180726_Huggies_3cm_0000_0016.tiff, 1532610101.6519294, 2018-07-26 09:01:41, 0.4495375156402588
+/Volumes/my_book_thunderbolt_duo/IPTS/IPTS-21115/Huggies_3cm_thick/20180726_Huggies_3cm_0000_0017.tiff, 1532610101.6820183, 2018-07-26 09:01:41, 0.4796264171600342
+/Volumes/my_book_thunderbolt_duo/IPTS/IPTS-21115/Huggies_3cm_thick/20180726_Huggies_3cm_0000_0018.tiff, 1532610101.7119684, 2018-07-26 09:01:41, 0.5095765590667725
+/Volumes/my_book_thunderbolt_duo/IPTS/IPTS-21115/Huggies_3cm_thick/20180726_Huggies_3cm_0000_0019.tiff, 1532610101.7419527, 2018-07-26 09:01:41, 0.5395607948303223
+/Volumes/my_book_thunderbolt_duo/IPTS/IPTS-21115/Huggies_3cm_thick/20180726_Huggies_3cm_0000_0020.tiff, 1532610101.7720513, 2018-07-26 09:01:41, 0.5696594715118408
+/Volumes/my_book_thunderbolt_duo/IPTS/IPTS-21115/Huggies_3cm_thick/20180726_Huggies_3cm_0000_0021.tiff, 1532610101.802108, 2018-07-26 09:01:41, 0.5997161865234375
+...
+</code></pre>
 
 
 <footer class=" footline" >
@@ -2471,20 +2556,20 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1532717804"></script>
-    <script src="/js/perfect-scrollbar.min.js?1532717804"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1532717804"></script>
-    <script src="/js/jquery.sticky.js?1532717804"></script>
-    <script src="/js/featherlight.min.js?1532717804"></script>
-    <script src="/js/html5shiv-printshiv.min.js?1532717804"></script>
-    <script src="/js/highlight.pack.js?1532717804"></script>
+    <script src="/js/clipboard.min.js?1533159225"></script>
+    <script src="/js/perfect-scrollbar.min.js?1533159225"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1533159225"></script>
+    <script src="/js/jquery.sticky.js?1533159225"></script>
+    <script src="/js/featherlight.min.js?1533159225"></script>
+    <script src="/js/html5shiv-printshiv.min.js?1533159225"></script>
+    <script src="/js/highlight.pack.js?1533159225"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom.71422.js?1532717804"></script>
-    <script src="/js/learn.js?1532717804"></script>
-    <script src="/js/hugo-learn.js?1532717804"></script>
+    <script src="/js/modernizr.custom.71422.js?1533159225"></script>
+    <script src="/js/learn.js?1533159225"></script>
+    <script src="/js/hugo-learn.js?1533159225"></script>
 
-    <link href="/mermaid/mermaid.css?1532717804" type="text/css" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1532717804"></script>
+    <link href="/mermaid/mermaid.css?1533159225" type="text/css" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1533159225"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
