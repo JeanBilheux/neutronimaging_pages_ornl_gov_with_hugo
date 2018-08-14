@@ -61,8 +61,8 @@ Select the **scale** option to add a dimension marker on top of the images. You 
 
 ### Metadata
 
-When using **metadata**, you can either display the current metadata, or a graph showing the current file metadata
-position.
+When using **metadata**, you can display the current metadata as a string. But if you chose to, you can
+also display a graph showing the current file metadata position over the entire set of images metadata.
 
 #### Text
 
@@ -73,11 +73,17 @@ specially dedicated to this purpose (WORK IN PROGRESS).
 
 <img src='/tutorial/notebooks/metadata_overlapping_images/images/metadata_text.gif' />
 
-#### Graph
+{{% notice info %}}
+It's sometimes necessary to format the default metadata value (especially if you want to display the graph). To do so,
+right click in the right column of the table to reach the **metadata string parser (string filter)**.
+<img src='/tutorial/notebooks/metadata_overlapping_images/images/string_filter_1.png' />
+Then define the first and last part of the string to remove
+<img src='/tutorial/notebooks/metadata_overlapping_images/images/string_filter_2.png' />
+{{% /notice %}}
 
-You can also display a graph showing the current metadata position related to the full metadata plot.
 
-<img src='/tutorial/notebooks/metadata_overlapping_images/images/metadata_graph.gif' />
+
+
 
 ### Export
 
