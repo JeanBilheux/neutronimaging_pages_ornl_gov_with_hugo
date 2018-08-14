@@ -82,10 +82,9 @@ Then define the first and last part of the string to remove
 {{% /notice %}}
 
 
-
-
-
 ### Export
+
+**NB: Your application will look a little bit different from this animation**
 
 You can now export all your images. The PNG files created will be a copy of the current UI image preview.
 
