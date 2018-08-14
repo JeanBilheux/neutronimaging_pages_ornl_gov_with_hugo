@@ -80,11 +80,18 @@ right click in the right column of the table to reach the **metadata string pars
 Then define the first and last part of the string to remove
 <img src='/tutorial/notebooks/metadata_overlapping_images/images/string_filter_2.png' />
 {{% /notice %}}
+<<<<<<< HEAD
 
 
 ### Export
 
 **NB: Your application will look a little bit different from this animation**
+=======
+
+### Export
+
+**NB: Your application will look a little bit different than the one shown here!**
+>>>>>>> e875e1d5037b41e11c093283517f927302cc9d43
 
 You can now export all your images. The PNG files created will be a copy of the current UI image preview.
 
