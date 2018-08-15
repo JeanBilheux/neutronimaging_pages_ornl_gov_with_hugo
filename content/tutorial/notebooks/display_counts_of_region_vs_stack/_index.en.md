@@ -7,8 +7,8 @@ post: " <i class='fa fa-battery-full'></i>"
 
 ## Description
 
-In this notebook, you will be able to get the number of counts of a given region
-vs a stack of images. 
+In this notebook, you will be able to get the average number of counts of a given region
+vs all the images of the selected folder.
 
 ## Start the notebook
 
@@ -32,6 +32,26 @@ The images will then be automatically loaded. Wait for the progress bar to be do
 Need help using the [File Selector]({{%relref "/tutorial/notebooks/file_selector/_index.md#activate-search" %}})?
 {{% /notice %}}
 
-## Profile UI Presentation
+### Launch the UI
+
+**SHIFT** + **ENTER** in the next cell (**Launch UI**) to start the interface.
+
+## UI Presentation
 
 <img src='/tutorial/notebooks/display_counts_of_region_vs_stack/images/ui_general.png' />
+
+### Region of Interest (ROI)
+
+By default, a ROI is already defined for you in the top left corner of the preview region. 
+
+To move it, click inside the ROI (edges will turn yellow). 
+To resize it, grab the bottom right corner and move it to resize it.
+
+The Average counts of this entire region, for all the images from the folder, will be displayed live at the bottom
+of the interface.
+
+<img src='/tutorial/notebooks/display_counts_of_region_vs_stack/images/roi_selection.gif' />
+
+### Time Spectra (OPTIONAL)
+
+<img src='/images/comingsoon.png' />
