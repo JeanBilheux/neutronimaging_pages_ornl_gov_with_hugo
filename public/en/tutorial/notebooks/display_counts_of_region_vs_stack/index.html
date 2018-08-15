@@ -13,19 +13,19 @@
     <title>Display Counts of ROI vs Stack :: Documentation for Hugo Learn Theme</title>
     
     
-    <link href="/css/nucleus.css?1534252141" rel="stylesheet">
-    <link href="/css/font-awesome.min.css?1534252141" rel="stylesheet">
-    <link href="/css/hybrid.css?1534252141" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1534252141" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1534252141" rel="stylesheet">
-    <link href="/css/auto-complete.css?1534252141" rel="stylesheet">
-    <link href="/css/theme.css?1534252141" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1534252141" rel="stylesheet">
+    <link href="/css/nucleus.css?1534356407" rel="stylesheet">
+    <link href="/css/font-awesome.min.css?1534356407" rel="stylesheet">
+    <link href="/css/hybrid.css?1534356407" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1534356407" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1534356407" rel="stylesheet">
+    <link href="/css/auto-complete.css?1534356407" rel="stylesheet">
+    <link href="/css/theme.css?1534356407" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1534356407" rel="stylesheet">
     
-      <link href="/css/theme-blue.css?1534252141" rel="stylesheet">
+      <link href="/css/theme-blue.css?1534356407" rel="stylesheet">
     
 
-    <script src="/js/jquery-2.x.min.js?1534252141"></script>
+    <script src="/js/jquery-2.x.min.js?1534356407"></script>
     
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left{ 
@@ -60,14 +60,14 @@
     <span data-search-clear=""><i class="fa fa-close"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1534252141"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1534252141"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1534356407"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1534356407"></script>
 <script type="text/javascript">
     
         var baseurl = "\/en";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1534252141"></script>
+<script type="text/javascript" src="/js/search.js?1534356407"></script>
 
     
   </div>
@@ -623,7 +623,7 @@
         
         ">
       <a href="/en/tutorial/notebooks/display_counts_of_region_vs_stack/">
-          Display Counts of ROI vs Stack <i class='fa fa-battery-empty'></i>
+          Display Counts of ROI vs Stack <i class='fa fa-battery-2'></i>
           
             <i class="fa fa-check read-icon"></i>
           
@@ -1562,7 +1562,26 @@
                 
                     <div class="progress">
     <div class="wrapper">
-
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#description">Description</a></li>
+<li><a href="#start-the-notebook">Start the notebook</a></li>
+<li><a href="#how-to-use-it">How to Use It?</a>
+<ul>
+<li><a href="#select-your-ipts">Select your IPTS</a></li>
+<li><a href="#select-the-images">Select the Images</a></li>
+<li><a href="#launch-the-ui">Launch the UI</a></li>
+</ul></li>
+<li><a href="#ui-presentation">UI Presentation</a>
+<ul>
+<li><a href="#region-of-interest-roi">Region of Interest (ROI)</a></li>
+<li><a href="#time-spectra-optional">Time Spectra (OPTIONAL)</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
     </div>
 </div>
 
@@ -1580,7 +1599,58 @@
         
 
 
+
+
 <p><strong>Notebook name</strong>: display_counts_of_region_vs_stack.ipynb</p>
+
+<h2 id="description">Description</h2>
+
+<p>In this notebook, you will be able to get the average number of counts of a given region
+vs all the images of the selected folder.</p>
+
+<h2 id="start-the-notebook">Start the notebook</h2>
+
+<p>If you need help accessing this notebook, check the <a href="/en/tutorial/how_to_start_notebooks">How To &gt; Start the python
+notebooks</a> tutorial.</p>
+
+<h2 id="how-to-use-it">How to Use It?</h2>
+
+<h3 id="select-your-ipts">Select your IPTS</h3>
+
+<p>Check the full tutorial <a href="/en/tutorial/notebooks/select_ipts/#activate-search">here</a></i></p>
+
+<h3 id="select-the-images">Select the Images</h3>
+
+<p>Select <strong>the folder</strong> containing the images you want to process using the <strong>File Selector</strong>.
+The images will then be automatically loaded. Wait for the progress bar to be done.</p>
+
+<p><img src='/tutorial/notebooks/file_selector/images/select_folder.gif' /></p>
+
+<div class="notices info" ><p>Need help using the <a href="/en/tutorial/notebooks/file_selector/#activate-search">File Selector</a>?</p>
+</div>
+
+
+<h3 id="launch-the-ui">Launch the UI</h3>
+
+<p><strong>SHIFT</strong> + <strong>ENTER</strong> in the next cell (<strong>Launch UI</strong>) to start the interface.</p>
+
+<h2 id="ui-presentation">UI Presentation</h2>
+
+<p><img src='/tutorial/notebooks/display_counts_of_region_vs_stack/images/ui_general.png' /></p>
+
+<h3 id="region-of-interest-roi">Region of Interest (ROI)</h3>
+
+<p>By default, a ROI is already defined for you in the top left corner of the preview region.</p>
+
+<p>To move it, click inside the ROI (edges will turn yellow).
+To resize it, grab the bottom right corner and move it to resize it.</p>
+
+<p>The Average counts of this entire region, for all the images from the folder, will be displayed live at the bottom
+of the interface.</p>
+
+<p><img src='/tutorial/notebooks/display_counts_of_region_vs_stack/images/roi_selection.gif' /></p>
+
+<h3 id="time-spectra-optional">Time Spectra (OPTIONAL)</h3>
 
 <p><img src='/images/comingsoon.png' /></p>
 
@@ -2471,20 +2541,20 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1534252141"></script>
-    <script src="/js/perfect-scrollbar.min.js?1534252141"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1534252141"></script>
-    <script src="/js/jquery.sticky.js?1534252141"></script>
-    <script src="/js/featherlight.min.js?1534252141"></script>
-    <script src="/js/html5shiv-printshiv.min.js?1534252141"></script>
-    <script src="/js/highlight.pack.js?1534252141"></script>
+    <script src="/js/clipboard.min.js?1534356407"></script>
+    <script src="/js/perfect-scrollbar.min.js?1534356407"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1534356407"></script>
+    <script src="/js/jquery.sticky.js?1534356407"></script>
+    <script src="/js/featherlight.min.js?1534356407"></script>
+    <script src="/js/html5shiv-printshiv.min.js?1534356407"></script>
+    <script src="/js/highlight.pack.js?1534356407"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom.71422.js?1534252141"></script>
-    <script src="/js/learn.js?1534252141"></script>
-    <script src="/js/hugo-learn.js?1534252141"></script>
+    <script src="/js/modernizr.custom.71422.js?1534356407"></script>
+    <script src="/js/learn.js?1534356407"></script>
+    <script src="/js/hugo-learn.js?1534356407"></script>
 
-    <link href="/mermaid/mermaid.css?1534252141" type="text/css" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1534252141"></script>
+    <link href="/mermaid/mermaid.css?1534356407" type="text/css" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1534356407"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>

@@ -88,7 +88,7 @@
 	"title": "Notebooks Tutorials",
 	"tags": [],
 	"description": "",
-	"content": " bin_images  calculate_water_intake_profile  calibrated_transmission   combine_folders  combine_images  create_list_of_file_name_vs_time_stamp   cylindrical_geometry_correction  deal_files  display_and_export_images_with_metadata_profile  display_and_export_images_with_timestamp  display_counts_of_region_vs_stack  display_file_names_vs_time_stamp   display_integrated_stack_of_images  file_name_and_metadata_vs_time_stamp  fix_images  fix_images_with_negative_pixels  format_filename_index  frederick_ipts  from_dsc_time_info_to_ascii_file_vs_time  ipts_18813  gamma_filtering_tool   list_tiff_metadata  locate_pixels  metadata_overlapping_images    normalization   normalization_batch   profile   radial_profile  registration   resonance_imaging_experiment_vs_theory  rotate_and_crop_images  template_ui  topaz_config_generator  water_intake_profile_calculator \nTools File Selector  Select IPTS \n Recently updated\n"
+	"content": " bin_images  calculate_water_intake_profile  calibrated_transmission  combine_folders  combine_images  create_list_of_file_name_vs_time_stamp  cylindrical_geometry_correction  deal_files  display_and_export_images_with_metadata_profile  display_and_export_images_with_timestamp  display_counts_of_region_vs_stack    display_file_names_vs_time_stamp   display_integrated_stack_of_images  file_name_and_metadata_vs_time_stamp  fix_images  fix_images_with_negative_pixels  format_filename_index  frederick_ipts  from_dsc_time_info_to_ascii_file_vs_time  ipts_18813  gamma_filtering_tool   list_tiff_metadata  locate_pixels  metadata_overlapping_images    normalization   normalization_batch   profile  radial_profile  registration  resonance_imaging_experiment_vs_theory  rotate_and_crop_images  template_ui  topaz_config_generator  water_intake_profile_calculator \nTools File Selector  Select IPTS \n Recently updated\n"
 },
 {
 	"uri": "/en/tutorial/how_to_other/",
@@ -179,7 +179,7 @@
 	"title": "Display Counts of ROI vs Stack",
 	"tags": [],
 	"description": "",
-	"content": "Notebook name: display_counts_of_region_vs_stack.ipynb\n"
+	"content": " Notebook name: display_counts_of_region_vs_stack.ipynb\nDescription In this notebook, you will be able to get the average number of counts of a given region vs all the images of the selected folder.\nStart the notebook If you need help accessing this notebook, check the How To \u0026gt; Start the python notebooks tutorial.\nHow to Use It? Select your IPTS Check the full tutorial here\nSelect the Images Select the folder containing the images you want to process using the File Selector. The images will then be automatically loaded. Wait for the progress bar to be done.\nNeed help using the File Selector?\n Launch the UI SHIFT + ENTER in the next cell (Launch UI) to start the interface.\nUI Presentation Region of Interest (ROI) By default, a ROI is already defined for you in the top left corner of the preview region.\nTo move it, click inside the ROI (edges will turn yellow). To resize it, grab the bottom right corner and move it to resize it.\nThe Average counts of this entire region, for all the images from the folder, will be displayed live at the bottom of the interface.\nTime Spectra (OPTIONAL) "
 },
 {
 	"uri": "/en/tutorial/notebooks/display_file_names_vs_time_stamp/",
