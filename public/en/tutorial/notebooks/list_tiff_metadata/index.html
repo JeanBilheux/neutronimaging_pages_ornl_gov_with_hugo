@@ -13,19 +13,19 @@
     <title>List TIFF Metadata :: Documentation for Hugo Learn Theme</title>
     
     
-    <link href="/css/nucleus.css?1534356407" rel="stylesheet">
-    <link href="/css/font-awesome.min.css?1534356407" rel="stylesheet">
-    <link href="/css/hybrid.css?1534356407" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1534356407" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1534356407" rel="stylesheet">
-    <link href="/css/auto-complete.css?1534356407" rel="stylesheet">
-    <link href="/css/theme.css?1534356407" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1534356407" rel="stylesheet">
+    <link href="/css/nucleus.css?1537206353" rel="stylesheet">
+    <link href="/css/font-awesome.min.css?1537206353" rel="stylesheet">
+    <link href="/css/hybrid.css?1537206353" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1537206353" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1537206353" rel="stylesheet">
+    <link href="/css/auto-complete.css?1537206353" rel="stylesheet">
+    <link href="/css/theme.css?1537206353" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1537206353" rel="stylesheet">
     
-      <link href="/css/theme-blue.css?1534356407" rel="stylesheet">
+      <link href="/css/theme-blue.css?1537206353" rel="stylesheet">
     
 
-    <script src="/js/jquery-2.x.min.js?1534356407"></script>
+    <script src="/js/jquery-2.x.min.js?1537206353"></script>
     
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left{ 
@@ -60,14 +60,14 @@
     <span data-search-clear=""><i class="fa fa-close"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1534356407"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1534356407"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1537206353"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1537206353"></script>
 <script type="text/javascript">
     
         var baseurl = "\/en";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1534356407"></script>
+<script type="text/javascript" src="/js/search.js?1537206353"></script>
 
     
   </div>
@@ -961,7 +961,7 @@
         
         ">
       <a href="/en/tutorial/notebooks/list_tiff_metadata/">
-          List TIFF Metadata <i class='fa fa-battery-empty'></i>
+          List TIFF Metadata <i class='fa fa-battery-full'></i>
           
             <i class="fa fa-check read-icon"></i>
           
@@ -1562,7 +1562,23 @@
                 
                     <div class="progress">
     <div class="wrapper">
-
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#description">Description</a></li>
+<li><a href="#start-the-notebook">Start the notebook</a></li>
+<li><a href="#how-to-use-it">How to Use It?</a>
+<ul>
+<li><a href="#select-your-ipts">Select your IPTS</a></li>
+<li><a href="#select-tiff-images">Select TIFF images</a></li>
+<li><a href="#select-metadata-to-display">Select metadata to display</a></li>
+<li><a href="#metadat-displayed">Metadat displayed</a></li>
+<li><a href="#export-table">Export table</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
     </div>
 </div>
 
@@ -1580,9 +1596,59 @@
         
 
 
+
+
 <p><strong>Notebook name</strong>: list_tiff_metadata.ipynb</p>
 
-<p><img src='/images/comingsoon.png' /></p>
+<h2 id="description">Description</h2>
+
+<p>This notebook will list the value of the metadata you selected for the full stack of images you loaded. You will
+then have the option to export this table in an ascii (comma separeated) file.</p>
+
+<ul>
+<li>select your tiff images</li>
+<li>select the metadata you want to see</li>
+<li>metadata are listed</li>
+<li>(OPTION) select folder to export the table</li>
+</ul>
+
+<h2 id="start-the-notebook">Start the notebook</h2>
+
+<p>If you need help accessing this notebook, check the <a href="/en/tutorial/how_to_start_notebooks">How To &gt; Start the python
+notebooks</a> tutorial.</p>
+
+<h2 id="how-to-use-it">How to Use It?</h2>
+
+<h3 id="select-your-ipts">Select your IPTS</h3>
+
+<p>Check the full tutorial <a href="/en/tutorial/notebooks/select_ipts/#activate-search">here</a></i></p>
+
+<h3 id="select-tiff-images">Select TIFF images</h3>
+
+<p>Select the list of tiff images using the file selector</p>
+
+<div class="notices info" ><p>Need help using the <a href="/en/tutorial/notebooks/file_selector/#activate-search">File Selector</a>?</p>
+</div>
+
+
+<h3 id="select-metadata-to-display">Select metadata to display</h3>
+
+<p>Using the first image selected, the program will determine the list of metadata available and will display the list here.
+Select the one you want to output.</p>
+
+<p><img src='/tutorial/notebooks/list_tiff_metadata/images/select_metadata.gif' /></p>
+
+<h3 id="metadat-displayed">Metadat displayed</h3>
+
+<p>The selected metadata value for all the images is displayed in a dropdown list.</p>
+
+<p><img src='/tutorial/notebooks/list_tiff_metadata/images/list_metadata.gif' /></p>
+
+<h3 id="export-table">Export table</h3>
+
+<p>Select <strong>output folder</strong> location and click <strong>export</strong> in next cell.</p>
+
+<p><img src='/tutorial/notebooks/list_tiff_metadata/images/export_data.gif' /></p>
 
 
 <footer class=" footline" >
@@ -2471,20 +2537,20 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1534356407"></script>
-    <script src="/js/perfect-scrollbar.min.js?1534356407"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1534356407"></script>
-    <script src="/js/jquery.sticky.js?1534356407"></script>
-    <script src="/js/featherlight.min.js?1534356407"></script>
-    <script src="/js/html5shiv-printshiv.min.js?1534356407"></script>
-    <script src="/js/highlight.pack.js?1534356407"></script>
+    <script src="/js/clipboard.min.js?1537206353"></script>
+    <script src="/js/perfect-scrollbar.min.js?1537206353"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1537206353"></script>
+    <script src="/js/jquery.sticky.js?1537206353"></script>
+    <script src="/js/featherlight.min.js?1537206353"></script>
+    <script src="/js/html5shiv-printshiv.min.js?1537206353"></script>
+    <script src="/js/highlight.pack.js?1537206353"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom.71422.js?1534356407"></script>
-    <script src="/js/learn.js?1534356407"></script>
-    <script src="/js/hugo-learn.js?1534356407"></script>
+    <script src="/js/modernizr.custom.71422.js?1537206353"></script>
+    <script src="/js/learn.js?1537206353"></script>
+    <script src="/js/hugo-learn.js?1537206353"></script>
 
-    <link href="/mermaid/mermaid.css?1534356407" type="text/css" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1534356407"></script>
+    <link href="/mermaid/mermaid.css?1537206353" type="text/css" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1537206353"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
