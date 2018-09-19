@@ -10,7 +10,7 @@
     <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 <link rel="icon" href="/images/favicon.png" type="image/x-icon" />
 
-    <title>Access :: Documentation for Hugo Learn Theme</title>
+    <title>Rename Files :: Documentation for Hugo Learn Theme</title>
     
     
     <link href="/css/nucleus.css?1537388476" rel="stylesheet">
@@ -35,7 +35,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/en/prepare_venue/access/">
+  <body class="" data-url="/en/tutorial/notebooks/rename_files/">
     <nav id="sidebar" class="showVisitedLinks">
 
 
@@ -84,7 +84,7 @@
   
     
     <li data-nav-id="/en/prepare_venue/" title="Before your Arrival" class="dd-item 
-        parent
+        
         
         
         ">
@@ -191,8 +191,8 @@
   
     
     <li data-nav-id="/en/prepare_venue/access/" title="Access" class="dd-item 
-        parent
-        active
+        
+        
         
         ">
       <a href="/en/prepare_venue/access/">
@@ -248,7 +248,7 @@
   
     
     <li data-nav-id="/en/tutorial/" title="Tutorials" class="dd-item 
-        
+        parent
         
         
         ">
@@ -407,7 +407,7 @@
   
     
     <li data-nav-id="/en/tutorial/notebooks/" title="Notebooks Tutorials" class="dd-item 
-        
+        parent
         
         
         ">
@@ -1164,8 +1164,8 @@
   
     
     <li data-nav-id="/en/tutorial/notebooks/rename_files/" title="Rename Files" class="dd-item 
-        
-        
+        parent
+        active
         
         ">
       <a href="/en/tutorial/notebooks/rename_files/">
@@ -1472,26 +1472,12 @@
                   
                     
                     
-                      <option id="en" value="/en/prepare_venue/access/" selected>English</option>
+                      <option id="en" value="/en/tutorial/notebooks/rename_files/" selected>English</option>
                     
                   
               
                   
               
-                  
-              
-          
-              
-              
-                  
-              
-                  
-              
-                  
-                    
-                    
-                      <option id="fr" value="/fr/prepare_venue/access/">Français</option>
-                    
                   
               
           
@@ -1544,6 +1530,8 @@
                         </a>
                     </span>
                   
+                  <span id="toc-menu"><i class="fa fa-list-alt"></i></span>
+                  
                   <span class="links">
                     
           
@@ -1556,7 +1544,13 @@
             
           
           
-            <a href='/en/'>Neutron Imaging</a> > <a href='/en/prepare_venue/'>Before your Arrival</a> > Access
+            
+            
+          
+          
+            <a href='/en/'>Neutron Imaging</a> > <a href='/en/tutorial/'>Tutorials</a> > <a href='/en/tutorial/notebooks/'>Notebooks Tutorials</a> > Rename Files
+          
+         
           
          
           
@@ -1566,6 +1560,36 @@
                   </span>
                 </div>
                 
+                    <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#description">Description</a>
+<ul>
+<li><a href="#main-use-of-this-notebook">Main use of this notebook</a></li>
+</ul></li>
+<li><a href="#start-the-notebook">Start the notebook</a></li>
+<li><a href="#how-to-use-it">How to Use It?</a>
+<ul>
+<li><a href="#select-your-ipts">Select your IPTS</a></li>
+<li><a href="#select-images-to-rename">Select images to rename</a></li>
+<li><a href="#define-new-naming-schema">Define new naming schema</a>
+<ul>
+<li><a href="#current-schema-name">Current schema name</a></li>
+<li><a href="#new-naming-schema">New naming schema</a></li>
+<li><a href="#result">Result</a></li>
+</ul></li>
+<li><a href="#output-folder">Output folder</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+    </div>
+</div>
+
+                
               </div>
             </div>
             
@@ -1573,25 +1597,129 @@
         
         <div id="body-inner">
           
-            <h1>Access</h1>
+            <h1>Rename Files</h1>
           
 
         
 
 
-<div class="notices info" ><p>This must be completed by <strong>all</strong> participants to the experiment <strong>before the first day</strong> of experiment.</p>
-</div>
 
 
-<p><i class='fa fa-square-o'></i> Received training e-mail from user office (neutronusers@ornl.gov)?</p>
+<p><strong>Notebook name</strong>: rename_files.ipynb</p>
 
-<p><i class='fa fa-square-o'></i> Completed online training if assigned? <a href="https://user.ornl.gov">ORNL guess portal</a></p>
+<h2 id="description">Description</h2>
 
-<p><i class='fa fa-square-o'></i> Scheduled onsite training and tour for HFIR access?</p>
+<p>This notebook allows you to rename a set of files. You can define</p>
 
-<p><i class='fa fa-square-o'></i> Followed attached procedure to access CG-1D data?</p>
+<ul>
+<li>the prefix file name</li>
+<li>the starting index</li>
+<li>the index number of digits</li>
+</ul>
 
-<p><i class='fa fa-square-o'></i> Followed attached procedure to access CG-1D analysis computer?</p>
+<h3 id="main-use-of-this-notebook">Main use of this notebook</h3>
+
+<p>In this notebook, we will correctly format the file name index of the file selected. This allows the sorting of the file name to works all the time. For example, there are many cases where the images are saved using the following convention</p>
+
+<p><strong>Wrong filename index</strong></p>
+
+<pre><code>image_1.tif
+image_2.tif
+image_3.tif
+image_4.tif
+...
+image_10.tif
+image_11.tif
+...
+image_100.tif
+</code></pre>
+
+<p>Using this convention, any sorting algorithm will sort them as followed</p>
+
+<p><strong>Wrong sorting</strong></p>
+
+<pre><code>image_1.tif
+image_10.tif
+image_100.tif
+...
+</code></pre>
+
+<p>So this notebook will fix this issue by renaming the files</p>
+
+<p><strong>correct filename index</strong></p>
+
+<pre><code>image_001.tif
+image_002.tif
+image_003.tif
+image_004.tif
+...
+image_010.tif
+image_011.tif
+...
+image_100.tif
+</code></pre>
+
+<h2 id="start-the-notebook">Start the notebook</h2>
+
+<p>If you need help accessing this notebook, check the <a href="/en/tutorial/how_to_start_notebooks">How To &gt; Start the python
+notebooks</a> tutorial.</p>
+
+<h2 id="how-to-use-it">How to Use It?</h2>
+
+<h3 id="select-your-ipts">Select your IPTS</h3>
+
+<p>Check the full tutorial <a href="/en/tutorial/notebooks/select_ipts/#activate-search">here</a></i></p>
+
+<h3 id="select-images-to-rename">Select images to rename</h3>
+
+<p>Using the file dialog tool, select the folder for which you want to renmame the files.</p>
+
+<p><strong>Only the  most dominant file type (ex: tiff, fits) from the folder will be renamed</strong></p>
+
+<p><img src='/tutorial/notebooks/rename_files/images/select_folder.gif' /></p>
+
+<h3 id="define-new-naming-schema">Define new naming schema</h3>
+
+<h4 id="current-schema-name">Current schema name</h4>
+
+<p>This is where you define the way the file name is defined. You need to specify what string separates the first part
+of the file name with the index. The entire part of the string before this <strong>separator</strong> will be replaced by your
+own string (defined in <strong>New Naming Schema</strong>).</p>
+
+<p>The <strong>Random input</strong> dropdown list displays a random selection of the input files, to help you in defining the
+<strong>separator</strong> string.</p>
+
+<h4 id="new-naming-schema">New naming schema</h4>
+
+<p>Here, you define the new <strong>prefix</strong> file name, <strong>index separator</strong>, <strong>number of digits</strong> and <strong>offset</strong> of this index.</p>
+
+<p><em>Example:</em></p>
+
+<ul>
+<li><strong>old file name</strong>:   experiment_0845454_10.tiff</li>
+<li><strong>separator</strong>: _</li>
+<li><strong>new file name prefix</strong>: my_image</li>
+<li><strong>number of digits</strong>: 4</li>
+<li><strong>offset</strong>: 15</li>
+<li><strong>new file name will be</strong>: my_image_0025.tiff</li>
+</ul>
+
+<h4 id="result">Result</h4>
+
+<p>The bottom part of the cell will show the result of the naming on the first image selected.</p>
+
+<p>If the new name shows an <strong>Error</strong>, checks your <strong>pre index separator</strong>.</p>
+
+<p><img src='/tutorial/notebooks/rename_files/images/result_renaming.gif' /></p>
+
+<h3 id="output-folder">Output folder</h3>
+
+<p>You simply need to select where the new renamed file will be created. Then the program will copy the selected files
+and renamed them in the folder you selected.</p>
+
+<p><img src='/tutorial/notebooks/rename_files/images/output.gif' /></p>
+
+<p>Feel free to check the dropdown list that shows the old name versus the new name of each file.</p>
 
 
 <footer class=" footline" >
@@ -1629,111 +1757,8 @@
             
                 
                     
-                    
-                
-                
-
-                    
-                    
-                        
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
                         
                         
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                        
-                        
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
                     
                 
                 
@@ -1809,6 +1834,60 @@
             
         
                     
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
                         
             
             
@@ -1835,21 +1914,6 @@
 
                     
                     
-                        
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
                     
 
                     
@@ -1892,6 +1956,25 @@
             
             
                 
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
                     
                 
                 
@@ -2341,6 +2424,26 @@
             
                 
                     
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
                 
                 
 
@@ -2400,6 +2503,38 @@
             
         
                     
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
             
         
                     
@@ -2461,10 +2596,10 @@
 
 
         
-            <a class="nav nav-prev" href="/en/prepare_venue/safety/" title="Engineering &amp; Equipment Safety"> <i class="fa fa-chevron-left"></i></a>
+            <a class="nav nav-prev" href="/en/tutorial/notebooks/registration/" title="Registration"> <i class="fa fa-chevron-left"></i></a>
         
         
-            <a class="nav nav-next" href="/en/capabilities/" title="Capabilities" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+            <a class="nav nav-next" href="/en/tutorial/notebooks/resonance_imaging_experiment_vs_theory/" title="Resonance Imaging Experiment vs Theory" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
         
     </div>
 

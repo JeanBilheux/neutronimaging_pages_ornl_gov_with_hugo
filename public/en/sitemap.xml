@@ -172,13 +172,13 @@
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
-                hreflang="fr"
-                href="/fr/categories/"
+                hreflang="es"
+                href="/es/categories/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
-                href="/es/categories/"
+                hreflang="fr"
+                href="/fr/categories/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -260,10 +260,6 @@
   
   <url>
     <loc>/en/tutorial/notebooks/fix_images_with_negative_pixels/</loc>
-  </url>
-  
-  <url>
-    <loc>/en/tutorial/notebooks/format_filename_index/</loc>
   </url>
   
   <url>
@@ -367,6 +363,10 @@
   </url>
   
   <url>
+    <loc>/en/tutorial/notebooks/rename_files/</loc>
+  </url>
+  
+  <url>
     <loc>/en/tutorial/notebooks/resonance_imaging_experiment_vs_theory/</loc>
   </url>
   
@@ -387,13 +387,13 @@
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
-                hreflang="fr"
-                href="/fr/tags/"
+                hreflang="es"
+                href="/es/tags/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
-                href="/es/tags/"
+                hreflang="fr"
+                href="/fr/tags/"
                 />
     <xhtml:link
                 rel="alternate"
