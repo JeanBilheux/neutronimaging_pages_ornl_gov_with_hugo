@@ -13,7 +13,7 @@ weight: 250
 <li>[deal_files]({{%relref "/tutorial/notebooks/deal_files/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
 <li>[display_and_export_images_with_metadata_profile]({{%relref "/tutorial/notebooks/display_and_export_images_with_metadata_profile/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
 <li>[display_and_export_images_with_timestamp]({{%relref "/tutorial/notebooks/display_and_export_images_with_timestamp/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
-<li>[display_counts_of_region_vs_stack]({{%relref "/tutorial/notebooks/display_counts_of_region_vs_stack/_index.md#activate-search" %}}) <i class='fa fa-battery-2'></i> <i class='fa fa-bell'></i> </li>
+<li>[display_counts_of_region_vs_stack]({{%relref "/tutorial/notebooks/display_counts_of_region_vs_stack/_index.md#activate-search" %}}) <i class='fa fa-battery-2'></i> </li>
 <li>[display_file_names_vs_time_stamp]({{%relref "/tutorial/notebooks/display_file_names_vs_time_stamp/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> <i class='fa fa-bell'></i></li>
 <li>[display_integrated_stack_of_images]({{%relref "/tutorial/notebooks/display_integrated_stack_of_images/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
 <li>[file_name_and_metadata_vs_time_stamp]({{%relref "/tutorial/notebooks/file_name_and_metadata_vs_time_stamp/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
@@ -31,7 +31,7 @@ weight: 250
 <li>[profile]({{%relref "/tutorial/notebooks/profile/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i></li>
 <li>[radial_profile]({{%relref "/tutorial/notebooks/radial_profile/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
 <li>[registration]({{%relref "/tutorial/notebooks/registration/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i></li>
-<li>[rename_files]({{%relref "/tutorial/notebooks/rename_files/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
+<li>[rename_files]({{%relref "/tutorial/notebooks/rename_files/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> <i class='fa fa-bell'></i> </li>
 <li>[resonance_imaging_experiment_vs_theory]({{%relref "/tutorial/notebooks/resonance_imaging_experiment_vs_theory/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
 <li>[rotate_and_crop_images]({{%relref "/tutorial/notebooks/rotate_and_crop_images/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
 <li>[template_ui]({{%relref "/tutorial/notebooks/template_ui/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>

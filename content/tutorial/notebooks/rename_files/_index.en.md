@@ -1,6 +1,6 @@
 ---
 title: Rename Files
-post: " <i class='fa fa-battery-empty'></i>"
+post: " <i class='fa fa-battery-full'></i>"
 ---
 
 **Notebook name**: rename_files.ipynb
@@ -70,5 +70,49 @@ Check the full tutorial [here]({{%relref "/tutorial/notebooks/select_ipts/_index
 
 ### Select images to rename
 
+Using the file dialog tool, select the folder for which you want to renmame the files.
 
+**Only the  most dominant file type (ex: tiff, fits) from the folder will be renamed**
 
+<img src='/tutorial/notebooks/rename_files/images/select_folder.gif' />
+
+### Define new naming schema
+
+#### Current schema name
+
+This is where you define the way the file name is defined. You need to specify what string separates the first part
+of the file name with the index. The entire part of the string before this **separator** will be replaced by your
+own string (defined in **New Naming Schema**).
+
+The **Random input** dropdown list displays a random selection of the input files, to help you in defining the
+**separator** string.
+
+#### New naming schema
+
+Here, you define the new **prefix** file name, **index separator**, **number of digits** and **offset** of this index.
+
+_Example:_
+
+ * **old file name**:   experiment_0845454_10.tiff
+ * **separator**: _
+ * **new file name prefix**: my_image
+ * **number of digits**: 4
+ * **offset**: 15
+ * **new file name will be**: my_image_0025.tiff
+
+#### Result
+
+The bottom part of the cell will show the result of the naming on the first image selected.
+
+If the new name shows an **Error**, checks your **pre index separator**.
+
+<img src='/tutorial/notebooks/rename_files/images/result_renaming.gif' />
+
+### Output folder
+
+You simply need to select where the new renamed file will be created. Then the program will copy the selected files
+and renamed them in the folder you selected.
+
+<img src='/tutorial/notebooks/rename_files/images/output.gif' />
+
+Feel free to check the dropdown list that shows the old name versus the new name of each file.
