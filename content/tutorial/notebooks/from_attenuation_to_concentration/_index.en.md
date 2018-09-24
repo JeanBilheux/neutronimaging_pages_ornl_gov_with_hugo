@@ -57,3 +57,7 @@ output folder will be **data_03_concentration**
 {{% notice info %}}
 Need help using the [File Selector]({{%relref "/tutorial/notebooks/file_selector/_index.md#activate-search" %}})?
 {{% /notice %}}
+
+### Video showing entire process
+
+<img src='/tutorial/notebooks/from_attenuation_to_concentration/images/full_example.gif' />
