@@ -1,6 +1,8 @@
 ---
 title: Resonance Imaging Experiment vs Theory
 post: "<i class='fa fa-battery-empty'></i> "
+pre: "- "
+
 ---
 
 **Notebook name**: resonance_imaging_experiment_vs_theory.ipynb

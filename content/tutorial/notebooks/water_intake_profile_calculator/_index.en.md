@@ -1,6 +1,8 @@
 ---
 title: Water Intake Profile Calculator
 post: "<i class='fa fa-battery-full'></i> "
+pre: "- "
+
 ---
 
 **Notebook name**: water_intake_profile_calculator.ipynb

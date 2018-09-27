@@ -1,6 +1,8 @@
 ---
 title: Profile
 post: "<i class='fa fa-battery-full'></i> "
+pre: "- "
+
 ---
 
 **Notebook name**: profile.ipynb

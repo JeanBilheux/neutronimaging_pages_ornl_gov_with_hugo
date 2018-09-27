@@ -1,6 +1,8 @@
 ---
 title: From Attenuation to Concentration
 post: "<i class='fa fa-battery-full'></i> "
+pre: "- "
+
 ---
 
 **Notebook name**: from_attenuation_to_concentration.ipynb

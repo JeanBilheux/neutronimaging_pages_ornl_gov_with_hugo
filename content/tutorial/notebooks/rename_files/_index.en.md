@@ -1,6 +1,8 @@
 ---
 title: Rename Files
 post: " <i class='fa fa-battery-full'></i>"
+pre: "- "
+
 ---
 
 **Notebook name**: rename_files.ipynb

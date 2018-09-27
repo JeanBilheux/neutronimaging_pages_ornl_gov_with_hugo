@@ -1,6 +1,8 @@
 ---
 title: Metatadata Overlapping Images
 post: "<i class='fa fa-battery-full'></i> "
+pre: "- "
+
 ---
 
 **Notebook name**: metadata_overlapping_images.ipynb

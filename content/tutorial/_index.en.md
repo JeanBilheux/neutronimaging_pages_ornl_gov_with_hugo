@@ -1,8 +1,8 @@
 ---
 title: Tutorials
-weight: 200
+weight: 500
 chapter: true
-pre: "<b>3. </b>"
+pre: "<b>5. </b>"
 ---
 
 You will find here various step by step tutorial showing you:

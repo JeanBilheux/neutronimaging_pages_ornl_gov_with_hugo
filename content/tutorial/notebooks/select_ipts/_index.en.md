@@ -1,6 +1,8 @@
 ---
 title: Select IPTS
 post: "<i class='fa fa-battery-full'></i> "
+pre: "- "
+
 ---
 
 The **select IPTS** tool that you will find at the top of most of the notebooks allows you to **quickly select your

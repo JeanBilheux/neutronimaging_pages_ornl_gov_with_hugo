@@ -1,6 +1,8 @@
 ---
 title: Notebooks Tutorials
-weight: 250
+weight: 700
+pre: "<b>g. </b>"
+
 ---
 
 <li>[bin_images]({{%relref "/tutorial/notebooks/bin_images/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>

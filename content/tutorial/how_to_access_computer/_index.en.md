@@ -1,6 +1,8 @@
 ---
 title: Connect to our computer
-weight: 220
+weight: 200
+pre: "<b>b. </b>"
+
 ---
 
 For any personal tutorial, demonstration or request, please contact [Jean Bilheux](/en/credits#jean_bilheux).

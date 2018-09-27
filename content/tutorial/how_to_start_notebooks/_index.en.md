@@ -1,6 +1,8 @@
 ---
 title: Start the python notebooks
-weight: 230
+weight: 300
+pre: "<b>c. </b>"
+
 ---
 
 We provide a set of jupyter python notebooks. Those provide many advantages:

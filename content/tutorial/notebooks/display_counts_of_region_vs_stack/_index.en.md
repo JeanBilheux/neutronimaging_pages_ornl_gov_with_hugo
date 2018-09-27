@@ -1,6 +1,8 @@
 ---
 title: Display Counts of ROI vs Stack
 post: " <i class='fa fa-battery-2'></i>"
+pre: "- "
+
 ---
 
 **Notebook name**: display_counts_of_region_vs_stack.ipynb

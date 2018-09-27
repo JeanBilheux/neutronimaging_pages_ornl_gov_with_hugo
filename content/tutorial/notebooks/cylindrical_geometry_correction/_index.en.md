@@ -1,6 +1,8 @@
 ---
 title: Cylindrical Geometry Correction
 post: "<i class='fa fa-battery-empty'></i> "
+pre: "- "
+
 ---
 
 **Notebook name**: cylindrical_geometry_correction.ipynb

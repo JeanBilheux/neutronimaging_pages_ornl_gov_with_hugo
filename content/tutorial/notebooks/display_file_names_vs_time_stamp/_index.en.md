@@ -1,6 +1,8 @@
 ---
 title: Display File Names vs Time Stamp
 post: " <i class='fa fa-battery-full'></i>"
+pre: "- "
+
 ---
 
 **Notebook name**: display_file_names_vs_time_stamp.ipynb

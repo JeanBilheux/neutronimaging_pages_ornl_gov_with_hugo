@@ -1,6 +1,8 @@
 ---
 title: Display and Export Images
 post: " <i class='fa fa-battery-empty'></i>"
+pre: "- "
+
 ---
 
 **Notebook name**: display_and_export_images_with_timestamp.ipynb

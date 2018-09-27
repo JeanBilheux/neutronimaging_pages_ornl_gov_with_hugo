@@ -1,6 +1,8 @@
 ---
 title: Gamma Filtering Tool
 post: " <i class='fa fa-battery-full'></i>"
+pre: "- "
+
 ---
 
 **Notebook name**: gamma_filtering_tool.ipynb

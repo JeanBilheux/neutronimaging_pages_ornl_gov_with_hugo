@@ -1,6 +1,8 @@
 ---
 title: Normalization
 post: "<i class='fa fa-battery-full'></i> "
+pre: "- "
+
 ---
 
 **Notebook name**: normalization.ipynb

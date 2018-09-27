@@ -1,6 +1,8 @@
 ---
 title: Normalization_batch
 post: "<i class='fa fa-battery-full'></i> "
+pre: "- "
+
 ---
 
 **Notebook name**: normalization_batch.ipynb

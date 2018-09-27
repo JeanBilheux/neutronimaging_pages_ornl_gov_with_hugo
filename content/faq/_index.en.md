@@ -1,7 +1,7 @@
 ---
 date: 2016-04-09T16:50:16+02:00
 title: Frequently Asked Questions
-pre: "<b>4. </b>"
+pre: "<b>3. </b>"
 weight: 300
 ---
 
@@ -14,21 +14,6 @@ weight: 300
 <li>To learn more about submitting a proposal for beam time, go to <a href='https://neutrons.ornl.gov/users'>neutrons.ornl.gov/users</a>.</li>
 <li>To submit your proposal, go to the <a href='https://snsapp1.sns.ornl.gov/xprod/f?p=100'>proposal system</a>.</li>
 </ul>
-{{% /expand%}}
-{{%expand "When will I know my proposal has been accepted?" %}}
-Answer will go here.
-{{% /expand%}}
-{{%expand "My proposal has been rejected, what to do next?" %}}
-Answer will go here.
-{{% /expand%}}
-
-#### Samples
-
-{{%expand "Can I bring my samples?" %}}
-answer here
-{{% /expand%}}
-{{%expand "Can I leave with my samples?" %}}
-answer here
 {{% /expand%}}
 
 ## During your Experiment

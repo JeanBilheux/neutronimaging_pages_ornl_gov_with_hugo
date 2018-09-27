@@ -1,6 +1,8 @@
 ---
 title: Create List of Files of Names vs Time Stamp
 post: " <i class='fa fa-battery-full'></i>"
+pre: "- "
+
 ---
 
 **Notebook name**: create_list_of_file_name_vs_time_stamp.ipynb

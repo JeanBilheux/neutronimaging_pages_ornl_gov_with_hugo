@@ -1,6 +1,8 @@
 ---
 title: File Selector 
 post: "<i class='fa fa-battery-full'></i> "
+pre: "- "
+
 ---
 
 ## Description

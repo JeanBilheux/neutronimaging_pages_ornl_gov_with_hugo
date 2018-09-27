@@ -1,6 +1,8 @@
 ---
 title: Do a CT reconstruction
-weight: 5
+weight: 500
+pre: "<b>e. </b>"
+
 ---
 
 This tutorial explains how to use SNS jupyter notebook site to perform CT reconstruction.

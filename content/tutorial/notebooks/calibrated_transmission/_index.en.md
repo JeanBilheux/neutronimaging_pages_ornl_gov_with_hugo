@@ -1,6 +1,8 @@
 ---
 title: Calibrated Transmission
 post: " <i class='fa fa-battery-full'></i>"
+pre: "- "
+
 ---
 
 **Notebook name**: calibrated_transmission.ipynb

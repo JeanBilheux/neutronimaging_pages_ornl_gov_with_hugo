@@ -1,6 +1,8 @@
 ---
 title: Frederick IPTS
 post: " <i class='fa fa-battery-2'></i>"
+pre: "- "
+
 ---
 
 **Notebook name**: frederick_ipts.ipynb
