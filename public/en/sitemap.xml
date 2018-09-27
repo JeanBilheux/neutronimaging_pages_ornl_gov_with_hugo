@@ -17,10 +17,6 @@
   </url>
   
   <url>
-    <loc>/en/tutorial/how_to_run_imars3d/</loc>
-  </url>
-  
-  <url>
     <loc>/en/prepare_venue/proposal_confirmation/</loc>
     <xhtml:link
                 rel="alternate"
@@ -82,25 +78,6 @@
   </url>
   
   <url>
-    <loc>/en/capabilities/</loc>
-    <lastmod>2018-01-21T16:50:16+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/en/tutorial/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="/fr/tutorial/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/tutorial/"
-                />
-  </url>
-  
-  <url>
     <loc>/en/tutorial/how_to_access_data/</loc>
     <xhtml:link
                 rel="alternate"
@@ -115,23 +92,12 @@
   </url>
   
   <url>
+    <loc>/en/capabilities/</loc>
+    <lastmod>2018-01-21T16:50:16+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/en/tutorial/how_to_access_computer/</loc>
-  </url>
-  
-  <url>
-    <loc>/en/tutorial/how_to_start_notebooks/</loc>
-  </url>
-  
-  <url>
-    <loc>/en/tutorial/how_to_run_notebooks/</loc>
-  </url>
-  
-  <url>
-    <loc>/en/tutorial/notebooks/</loc>
-  </url>
-  
-  <url>
-    <loc>/en/tutorial/how_to_other/</loc>
   </url>
   
   <url>
@@ -155,8 +121,46 @@
   </url>
   
   <url>
+    <loc>/en/tutorial/how_to_start_notebooks/</loc>
+  </url>
+  
+  <url>
     <loc>/en/links/</loc>
     <lastmod>2016-04-09T16:50:16+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/en/tutorial/how_to_run_notebooks/</loc>
+  </url>
+  
+  <url>
+    <loc>/en/tutorial/how_to_run_imars3d/</loc>
+  </url>
+  
+  <url>
+    <loc>/en/tutorial/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/tutorial/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tutorial/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/tutorial/how_to_do_bragg_edge_modeling/</loc>
+  </url>
+  
+  <url>
+    <loc>/en/tutorial/notebooks/</loc>
+  </url>
+  
+  <url>
+    <loc>/en/tutorial/how_to_other/</loc>
   </url>
   
   <url>

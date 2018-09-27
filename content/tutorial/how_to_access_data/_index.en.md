@@ -23,6 +23,12 @@ If you have not done so, please create an [XCAMS account](https://xcams.ornl.gov
 **2.** Request access to HFIR data
 
 You can request access to your data by visiting this page [https://neutronsr.us/accounts/request.html](https://neutronsr.us/accounts/request.html)
+{{%expand "Link not working?" %}}
+<img src='/tutorial/how_to_access_data/images/request_hfir_access_1.png' />
+<img src='/tutorial/how_to_access_data/images/request_hfir_access_2.png' />
+<img src='/tutorial/how_to_access_data/images/request_hfir_access_3.png' />
+{{% /expand%}}
+
 <img src='/tutorial/how_to_access_data/images/hfir_access.png' />
 
 <a href='#top'>TOP</a>
