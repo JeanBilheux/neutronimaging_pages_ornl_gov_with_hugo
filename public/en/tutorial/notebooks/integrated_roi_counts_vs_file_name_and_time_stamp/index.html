@@ -10,7 +10,7 @@
     <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 <link rel="icon" href="/images/favicon.png" type="image/x-icon" />
 
-    <title>Links :: Documentation for Hugo Learn Theme</title>
+    <title>Integrated ROI Counts vs File Name and Time Stamp :: Documentation for Hugo Learn Theme</title>
     
     
     <link href="/css/nucleus.css?1538486750" rel="stylesheet">
@@ -35,7 +35,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/en/links/">
+  <body class="" data-url="/en/tutorial/notebooks/integrated_roi_counts_vs_file_name_and_time_stamp/">
     <nav id="sidebar" class="showVisitedLinks">
 
 
@@ -272,8 +272,8 @@
   
     
     <li data-nav-id="/en/links/" title="Links" class="dd-item 
-        parent
-        active
+        
+        
         
         ">
       <a href="/en/links/">
@@ -296,7 +296,7 @@
   
     
     <li data-nav-id="/en/tutorial/" title="Tutorials" class="dd-item 
-        
+        parent
         
         
         ">
@@ -481,7 +481,7 @@
   
     
     <li data-nav-id="/en/tutorial/notebooks/" title="Notebooks Tutorials" class="dd-item 
-        
+        parent
         
         
         ">
@@ -1030,8 +1030,8 @@
   
     
     <li data-nav-id="/en/tutorial/notebooks/integrated_roi_counts_vs_file_name_and_time_stamp/" title="Integrated ROI Counts vs File Name and Time Stamp" class="dd-item 
-        
-        
+        parent
+        active
         
         ">
       <a href="/en/tutorial/notebooks/integrated_roi_counts_vs_file_name_and_time_stamp/">
@@ -1550,7 +1550,7 @@
                   
                     
                     
-                      <option id="en" value="/en/links/" selected>English</option>
+                      <option id="en" value="/en/tutorial/notebooks/integrated_roi_counts_vs_file_name_and_time_stamp/" selected>English</option>
                     
                   
               
@@ -1618,7 +1618,19 @@
             
           
           
-            <a href='/en/'>Neutron Imaging</a> > Links
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='/en/'>Neutron Imaging</a> > <a href='/en/tutorial/'>Tutorials</a> > <a href='/en/tutorial/notebooks/'>Notebooks Tutorials</a> > Integrated ROI Counts vs File Name and Time Stamp
+          
+         
+          
+         
           
          
           
@@ -1632,10 +1644,13 @@
 <ul>
 <li>
 <ul>
-<li><a href="#laboratory-utilities">Laboratory Utilities</a></li>
-<li><a href="#analysis-tools">Analysis Tools</a></li>
-<li><a href="#references">References</a></li>
-<li><a href="#shortcuts">Shortcuts</a></li>
+<li><a href="#description">Description</a></li>
+<li><a href="#start-the-notebook">Start the notebook</a></li>
+<li><a href="#how-to-use-it">How to Use It?</a>
+<ul>
+<li><a href="#select-your-ipts">Select your IPTS</a></li>
+<li><a href="#loading-the-images">loading the Images</a></li>
+</ul></li>
 </ul></li>
 </ul>
 </nav>
@@ -1650,7 +1665,7 @@
         
         <div id="body-inner">
           
-            <h1>Links</h1>
+            <h1>Integrated ROI Counts vs File Name and Time Stamp</h1>
           
 
         
@@ -1658,243 +1673,36 @@
 
 
 
-<h2 id="laboratory-utilities">Laboratory Utilities</h2>
+<p><strong>Notebook name</strong>: integrated_roi_counts_vs_file_name_and_time_stamp.ipynb</p>
 
-<p><div class="expand">
-    <div class="expand-label" style="cursor: pointer;" onclick="$h = $(this);$h.next('div').slideToggle(100,function () {$h.children('i').attr('class',function () {return $h.next('div').is(':visible') ? 'fa fa-chevron-down' : 'fa fa-chevron-right';});});">
-        <i style="font-size:x-small;" class="fa fa-chevron-right"></i>
-        <span>
-        
-    	
-    	ORNL User Program Guide
-    	
-    	</span>
-    </div>
-    <div class="expand-content" style="display: none;">
-        <p><a href='https://neutrons.ornl.gov/users'>User Program Guide</a>.
-<img src='/links/images/links_1.png' /></p>
+<h2 id="description">Description</h2>
 
-    </div>
+<h2 id="start-the-notebook">Start the notebook</h2>
+
+<p>If you need help accessing this notebook, check the <a href="/en/tutorial/how_to_start_notebooks">How To &gt; Start the python
+notebooks</a> tutorial.</p>
+
+<h2 id="how-to-use-it">How to Use It?</h2>
+
+<h3 id="select-your-ipts">Select your IPTS</h3>
+
+<p>Check the full tutorial <a href="/en/tutorial/notebooks/select_ipts/#activate-search">here</a></i></p>
+
+<h3 id="loading-the-images">loading the Images</h3>
+
+<p>You need to provide the list of <strong>samples</strong>, <strong>OB</strong> and <strong>DF</strong> (if needed). To do so, just <strong>SHIFT + ENTER</strong> the
+following cell to display a <em>selection tool wizard</em>.</p>
+
+<p><img src='/tutorial/notebooks/calibrated_transmission/images/select_files.gif' /></p>
+
+<p>The dialogbox will start listing the files from the IPTS folder you selected in the first cell. Feel free to navigate
+to find your data set.</p>
+
+<div class="notices info" ><p>Check the <a href="/en/tutorial/notebooks/select_ipts/#activate-search">file selection tool tutorial</a>
+to learn how to use the file selector tool.
+<img src='/tutorial/how_to_run_notebooks/images/file_folder_browser.png' /></p>
 </div>
-<div class="expand">
-    <div class="expand-label" style="cursor: pointer;" onclick="$h = $(this);$h.next('div').slideToggle(100,function () {$h.children('i').attr('class',function () {return $h.next('div').is(':visible') ? 'fa fa-chevron-down' : 'fa fa-chevron-right';});});">
-        <i style="font-size:x-small;" class="fa fa-chevron-right"></i>
-        <span>
-        
-    	
-    	Submit a proposal
-    	
-    	</span>
-    </div>
-    <div class="expand-content" style="display: none;">
-        <p>Go to the <a href='https://snsapp1.sns.ornl.gov/xprod/f?p=100'>Proposal System</a>.</p>
 
-    </div>
-</div>
-<div class="expand">
-    <div class="expand-label" style="cursor: pointer;" onclick="$h = $(this);$h.next('div').slideToggle(100,function () {$h.children('i').attr('class',function () {return $h.next('div').is(':visible') ? 'fa fa-chevron-down' : 'fa fa-chevron-right';});});">
-        <i style="font-size:x-small;" class="fa fa-chevron-right"></i>
-        <span>
-        
-    	
-    	Neutron Imaging Facility Official Web Page
-    	
-    	</span>
-    </div>
-    <div class="expand-content" style="display: none;">
-        <p><a href='https://neutrons.ornl.gov/imaging'>Neutron Imaging Facility Official Web Page</a>.
-<img src='/links/images/links_2.png' /></p>
-
-    </div>
-</div>
-<div class="expand">
-    <div class="expand-label" style="cursor: pointer;" onclick="$h = $(this);$h.next('div').slideToggle(100,function () {$h.children('i').attr('class',function () {return $h.next('div').is(':visible') ? 'fa fa-chevron-down' : 'fa fa-chevron-right';});});">
-        <i style="font-size:x-small;" class="fa fa-chevron-right"></i>
-        <span>
-        
-    	
-    	Neutrons (SNS/HFIR) Web Page
-    	
-    	</span>
-    </div>
-    <div class="expand-content" style="display: none;">
-        <p><a href='https://neutrons.ornl.gov/'><a href="https://neutrons.ornl.gov/">https://neutrons.ornl.gov/</a></a>
-<img src='/links/images/links_3.png' /></p>
-
-    </div>
-</div>
-<div class="expand">
-    <div class="expand-label" style="cursor: pointer;" onclick="$h = $(this);$h.next('div').slideToggle(100,function () {$h.children('i').attr('class',function () {return $h.next('div').is(':visible') ? 'fa fa-chevron-down' : 'fa fa-chevron-right';});});">
-        <i style="font-size:x-small;" class="fa fa-chevron-right"></i>
-        <span>
-        
-    	
-    	ORNL Web Page
-    	
-    	</span>
-    </div>
-    <div class="expand-content" style="display: none;">
-        <p><a href='https://www.ornl.gov/'><a href="https://www.ornl.gov/">https://www.ornl.gov/</a></a>
-<img src='/links/images/links_4.png' /></p>
-
-    </div>
-</div>
-<div class="expand">
-    <div class="expand-label" style="cursor: pointer;" onclick="$h = $(this);$h.next('div').slideToggle(100,function () {$h.children('i').attr('class',function () {return $h.next('div').is(':visible') ? 'fa fa-chevron-down' : 'fa fa-chevron-right';});});">
-        <i style="font-size:x-small;" class="fa fa-chevron-right"></i>
-        <span>
-        
-    	
-    	ORNL guess portal
-    	
-    	</span>
-    </div>
-    <div class="expand-content" style="display: none;">
-        <p><a href='https://user.ornl.gov'><a href="https://user.ornl.gov">https://user.ornl.gov</a></a>
-<img src='/links/images/guess_portal.png' /></p>
-
-    </div>
-</div></p>
-
-<h2 id="analysis-tools">Analysis Tools</h2>
-
-<p><div class="expand">
-    <div class="expand-label" style="cursor: pointer;" onclick="$h = $(this);$h.next('div').slideToggle(100,function () {$h.children('i').attr('class',function () {return $h.next('div').is(':visible') ? 'fa fa-chevron-down' : 'fa fa-chevron-right';});});">
-        <i style="font-size:x-small;" class="fa fa-chevron-right"></i>
-        <span>
-        
-    	
-    	Sample Activation Calculators
-    	
-    	</span>
-    </div>
-    <div class="expand-content" style="display: none;">
-        <p><a href='https://sac.ornl.gov/'><a href="https://sac.ornl.gov/">https://sac.ornl.gov/</a></a>
-<img src='/links/images/sample_activation_calculators.png' /></p>
-
-    </div>
-</div>
-<div class="expand">
-    <div class="expand-label" style="cursor: pointer;" onclick="$h = $(this);$h.next('div').slideToggle(100,function () {$h.children('i').attr('class',function () {return $h.next('div').is(':visible') ? 'fa fa-chevron-down' : 'fa fa-chevron-right';});});">
-        <i style="font-size:x-small;" class="fa fa-chevron-right"></i>
-        <span>
-        
-    	
-    	Calculate Transmission and Scattering Power
-    	
-    	</span>
-    </div>
-    <div class="expand-content" style="display: none;">
-        <p><a href='https://webapps.frm2.tum.de/intranet/neutroncalc/'><a href="https://webapps.frm2.tum.de/intranet/neutroncalc/">https://webapps.frm2.tum.de/intranet/neutroncalc/</a></a>
-<img src='/links/images/neutroncalc.png' /></p>
-
-    </div>
-</div>
-<div class="expand">
-    <div class="expand-label" style="cursor: pointer;" onclick="$h = $(this);$h.next('div').slideToggle(100,function () {$h.children('i').attr('class',function () {return $h.next('div').is(':visible') ? 'fa fa-chevron-down' : 'fa fa-chevron-right';});});">
-        <i style="font-size:x-small;" class="fa fa-chevron-right"></i>
-        <span>
-        
-    	
-    	Neutron Transmission Calculator
-    	
-    	</span>
-    </div>
-    <div class="expand-content" style="display: none;">
-        <p><a href='http://apps.jcns.fz-juelich.de/toolbox/nXsection.php'><a href="http://apps.jcns.fz-juelich.de/toolbox/nXsection.php">http://apps.jcns.fz-juelich.de/toolbox/nXsection.php</a></a>
-<img src='/links/images/nxsection.png' /></p>
-
-    </div>
-</div>
-<div class="expand">
-    <div class="expand-label" style="cursor: pointer;" onclick="$h = $(this);$h.next('div').slideToggle(100,function () {$h.children('i').attr('class',function () {return $h.next('div').is(':visible') ? 'fa fa-chevron-down' : 'fa fa-chevron-right';});});">
-        <i style="font-size:x-small;" class="fa fa-chevron-right"></i>
-        <span>
-        
-    	
-    	Neutron Scattering Lengths and Cross Sections
-    	
-    	</span>
-    </div>
-    <div class="expand-content" style="display: none;">
-        <p><a href='https://www.ncnr.nist.gov/resources/n-lengths/'><a href="https://www.ncnr.nist.gov/resources/n-lengths/">https://www.ncnr.nist.gov/resources/n-lengths/</a></a>
-<img src='/links/images/nlengths.png' /></p>
-
-    </div>
-</div>
-<div class="expand">
-    <div class="expand-label" style="cursor: pointer;" onclick="$h = $(this);$h.next('div').slideToggle(100,function () {$h.children('i').attr('class',function () {return $h.next('div').is(':visible') ? 'fa fa-chevron-down' : 'fa fa-chevron-right';});});">
-        <i style="font-size:x-small;" class="fa fa-chevron-right"></i>
-        <span>
-        
-    	
-    	Neutron Activation and Scattering Calculator
-    	
-    	</span>
-    </div>
-    <div class="expand-content" style="display: none;">
-        <p><a href='https://ncnr.nist.gov/resources/activation/'>ncnr.nist.gov/resources/activation/</a>
-<img src='/links/images/ncnr_nist.png' /></p>
-
-    </div>
-</div>
-<div class="expand">
-    <div class="expand-label" style="cursor: pointer;" onclick="$h = $(this);$h.next('div').slideToggle(100,function () {$h.children('i').attr('class',function () {return $h.next('div').is(':visible') ? 'fa fa-chevron-down' : 'fa fa-chevron-right';});});">
-        <i style="font-size:x-small;" class="fa fa-chevron-right"></i>
-        <span>
-        
-    	
-    	Cold Neutron (HFIR) Transmission and Resonance
-    	
-    	</span>
-    </div>
-    <div class="expand-content" style="display: none;">
-        <p><a href='https://isc.sns.gov/'><a href="https://isc.sns.gov/">https://isc.sns.gov/</a></a>
-<img src='/links/images/cold_neutron_transmission.png' /></p>
-
-    </div>
-</div></p>
-
-<h2 id="references">References</h2>
-
-<p><div class="expand">
-    <div class="expand-label" style="cursor: pointer;" onclick="$h = $(this);$h.next('div').slideToggle(100,function () {$h.children('i').attr('class',function () {return $h.next('div').is(':visible') ? 'fa fa-chevron-down' : 'fa fa-chevron-right';});});">
-        <i style="font-size:x-small;" class="fa fa-chevron-right"></i>
-        <span>
-        
-    	
-    	Standard Guide for Thermal Neutron Radiography of Materials
-    	
-    	</span>
-    </div>
-    <div class="expand-content" style="display: none;">
-        <p><a href='https://www.astm.org/Standards/E748.htm'>ASTM Guide for Thermal Neutron Radiography.</a>
-<img src='/links/images/astm.png' /></p>
-
-    </div>
-</div>
-<div class="expand">
-    <div class="expand-label" style="cursor: pointer;" onclick="$h = $(this);$h.next('div').slideToggle(100,function () {$h.children('i').attr('class',function () {return $h.next('div').is(':visible') ? 'fa fa-chevron-down' : 'fa fa-chevron-right';});});">
-        <i style="font-size:x-small;" class="fa fa-chevron-right"></i>
-        <span>
-        
-    	
-    	International Society for Neutron Radiology (ISNR)
-    	
-    	</span>
-    </div>
-    <div class="expand-content" style="display: none;">
-        <p><a href='https://www.isnr.de/'>International Society for Neutron Radiology</a>
-<img src='/links/images/isnr.png' /></p>
-
-    </div>
-</div></p>
-
-<h2 id="shortcuts">Shortcuts</h2>
-
-<ul>
-<li><a href='https://oncat.ornl.gov/#/'>ONCat -> https://oncat.ornl.gov/#/ </a></li>
-</ul>
 
 
 <footer class=" footline" >
@@ -2049,7 +1857,6 @@
             
                 
                     
-                    
                 
                 
 
@@ -2066,8 +1873,6 @@
             
                 
                     
-                        
-                        
                     
                 
                 
@@ -2084,21 +1889,8 @@
             
                 
                     
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
                         
-            
-            
-                
+                        
                     
                 
                 
@@ -2185,21 +1977,6 @@
 
                     
                     
-                        
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
                     
 
                     
@@ -2210,6 +1987,25 @@
             
             
                 
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
                     
                 
                 
@@ -2531,6 +2327,26 @@
             
                 
                     
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
                 
                 
 
@@ -2811,10 +2627,10 @@
 
 
         
-            <a class="nav nav-prev" href="/en/faq/" title="Frequently Asked Questions"> <i class="fa fa-chevron-left"></i></a>
+            <a class="nav nav-prev" href="/en/tutorial/notebooks/gamma_filtering_tool/" title="Gamma Filtering Tool"> <i class="fa fa-chevron-left"></i></a>
         
         
-            <a class="nav nav-next" href="/en/tutorial/" title="Tutorials" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+            <a class="nav nav-next" href="/en/tutorial/notebooks/list_tiff_metadata/" title="List TIFF Metadata" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
         
     </div>
 
