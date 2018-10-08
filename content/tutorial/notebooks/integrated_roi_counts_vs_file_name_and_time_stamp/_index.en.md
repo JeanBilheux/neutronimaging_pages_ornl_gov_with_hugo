@@ -1,6 +1,6 @@
 ---
 title: Integrated ROI Counts vs File Name and Time Stamp
-post: "<i class='fa fa-battery-empty'></i> "
+post: "<i class='fa fa-battery-full'></i> "
 pre: "- "
 
 ---
