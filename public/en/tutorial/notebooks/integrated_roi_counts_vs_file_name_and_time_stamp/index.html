@@ -13,19 +13,19 @@
     <title>Integrated ROI Counts vs File Name and Time Stamp :: Documentation for Hugo Learn Theme</title>
     
     
-    <link href="/css/nucleus.css?1538486750" rel="stylesheet">
-    <link href="/css/font-awesome.min.css?1538486750" rel="stylesheet">
-    <link href="/css/hybrid.css?1538486750" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1538486750" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1538486750" rel="stylesheet">
-    <link href="/css/auto-complete.css?1538486750" rel="stylesheet">
-    <link href="/css/theme.css?1538486750" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1538486750" rel="stylesheet">
+    <link href="/css/nucleus.css?1539000774" rel="stylesheet">
+    <link href="/css/font-awesome.min.css?1539000774" rel="stylesheet">
+    <link href="/css/hybrid.css?1539000774" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1539000774" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1539000774" rel="stylesheet">
+    <link href="/css/auto-complete.css?1539000774" rel="stylesheet">
+    <link href="/css/theme.css?1539000774" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1539000774" rel="stylesheet">
     
-      <link href="/css/theme-blue.css?1538486750" rel="stylesheet">
+      <link href="/css/theme-blue.css?1539000774" rel="stylesheet">
     
 
-    <script src="/js/jquery-2.x.min.js?1538486750"></script>
+    <script src="/js/jquery-2.x.min.js?1539000774"></script>
     
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left{ 
@@ -60,14 +60,14 @@
     <span data-search-clear=""><i class="fa fa-close"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1538486750"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1538486750"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1539000774"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1539000774"></script>
 <script type="text/javascript">
     
         var baseurl = "\/en";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1538486750"></script>
+<script type="text/javascript" src="/js/search.js?1539000774"></script>
 
     
   </div>
@@ -1650,6 +1650,13 @@
 <ul>
 <li><a href="#select-your-ipts">Select your IPTS</a></li>
 <li><a href="#loading-the-images">loading the Images</a></li>
+<li><a href="#presentation-of-the-ui">Presentation of the UI</a></li>
+<li><a href="#step-by-step">Step by Step</a>
+<ul>
+<li><a href="#roi-selection">ROI selection</a></li>
+<li><a href="#integration-algorithm">Integration Algorithm</a></li>
+<li><a href="#export-the-counts-vs-file-name-and-time-stamp-information">Export the Counts vs file name and time stamp information</a></li>
+</ul></li>
 </ul></li>
 </ul></li>
 </ul>
@@ -1677,6 +1684,15 @@
 
 <h2 id="description">Description</h2>
 
+<p>This notebook will create an ASCII file with the following information</p>
+
+<ul>
+<li>file index</li>
+<li>file name</li>
+<li>time stamp of file</li>
+<li>Mean or total number of counts of each region of interest for each image</li>
+</ul>
+
 <h2 id="start-the-notebook">Start the notebook</h2>
 
 <p>If you need help accessing this notebook, check the <a href="/en/tutorial/how_to_start_notebooks">How To &gt; Start the python
@@ -1703,6 +1719,54 @@ to learn how to use the file selector tool.
 <img src='/tutorial/how_to_run_notebooks/images/file_folder_browser.png' /></p>
 </div>
 
+
+<h3 id="presentation-of-the-ui">Presentation of the UI</h3>
+
+<p><img src='/tutorial/notebooks/integrated_roi_counts_vs_file_name_and_time_stamp/images/presentation_of_main_ui.png' />
+<img src='/tutorial/notebooks/integrated_roi_counts_vs_file_name_and_time_stamp/images/presentation_of_second_tab.png' /></p>
+
+<h3 id="step-by-step">Step by Step</h3>
+
+<h4 id="roi-selection">ROI selection</h4>
+
+<p>You have the option with this UI to select more than one region of interest (ROI). Click the <strong>+</strong> button on the right
+to add a ROI, and <strong>-</strong> if you want to remove the ROI selected. You can also <strong>enabled</strong> or <strong>disabled</strong> any of the
+ROIs.</p>
+
+<p>To modify any of the ROI, you can either:</p>
+
+<ul>
+<li><strong>move</strong> or <strong>resize</strong> the ROI directly from the Image window</li>
+<li>manually change x0, y0, width or/and height in the ROI table</li>
+</ul>
+
+<p>The <strong>total conts vs file index</strong> plot will be updated live as you modified the ROI.
+This plot displays the <strong>mean</strong> or <strong>total counts</strong> of the ROIs for each image (1 image = 1 data point)</p>
+
+<p><img src='/tutorial/notebooks/integrated_roi_counts_vs_file_name_and_time_stamp/images/roi_table.gif' /></p>
+
+<h4 id="integration-algorithm">Integration Algorithm</h4>
+
+<p>The current implementation provides 2 algorithms to integrate the counts within each ROI</p>
+
+<ul>
+<li>Add - sum counts of all the pixels in the ROI</li>
+<li>Mean - average counts of all the pixels in the ROI</li>
+</ul>
+
+<p>The <strong>total counts vs file index</strong> plot will be updated live as you change the algorithm.</p>
+
+<h4 id="export-the-counts-vs-file-name-and-time-stamp-information">Export the Counts vs file name and time stamp information</h4>
+
+<p>Click the <strong>Export Counts vs File Name and Time Stamp &hellip;</strong> button to create the ascii file version of the data found
+int the <strong>Summary Tab</strong> table.</p>
+
+<p>The following 3 images shows an example where 3 ROIs have been created, how the <strong>summary tab</strong> looks like and the final
+output file created.</p>
+
+<p><img src='/tutorial/notebooks/integrated_roi_counts_vs_file_name_and_time_stamp/images/main_tab_before_export.png' />
+<img src='/tutorial/notebooks/integrated_roi_counts_vs_file_name_and_time_stamp/images/summary_tab.png' />
+<img src='/tutorial/notebooks/integrated_roi_counts_vs_file_name_and_time_stamp/images/export_file.png' /></p>
 
 
 <footer class=" footline" >
@@ -2639,20 +2703,20 @@ to learn how to use the file selector tool.
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1538486750"></script>
-    <script src="/js/perfect-scrollbar.min.js?1538486750"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1538486750"></script>
-    <script src="/js/jquery.sticky.js?1538486750"></script>
-    <script src="/js/featherlight.min.js?1538486750"></script>
-    <script src="/js/html5shiv-printshiv.min.js?1538486750"></script>
-    <script src="/js/highlight.pack.js?1538486750"></script>
+    <script src="/js/clipboard.min.js?1539000774"></script>
+    <script src="/js/perfect-scrollbar.min.js?1539000774"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1539000774"></script>
+    <script src="/js/jquery.sticky.js?1539000774"></script>
+    <script src="/js/featherlight.min.js?1539000774"></script>
+    <script src="/js/html5shiv-printshiv.min.js?1539000774"></script>
+    <script src="/js/highlight.pack.js?1539000774"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom.71422.js?1538486750"></script>
-    <script src="/js/learn.js?1538486750"></script>
-    <script src="/js/hugo-learn.js?1538486750"></script>
+    <script src="/js/modernizr.custom.71422.js?1539000774"></script>
+    <script src="/js/learn.js?1539000774"></script>
+    <script src="/js/hugo-learn.js?1539000774"></script>
 
-    <link href="/mermaid/mermaid.css?1538486750" type="text/css" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1538486750"></script>
+    <link href="/mermaid/mermaid.css?1539000774" type="text/css" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1539000774"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
