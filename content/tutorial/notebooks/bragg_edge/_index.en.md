@@ -1,20 +1,13 @@
 ---
-title: Integrated ROI Counts vs File Name and Time Stamp
+title: Bragg Edge
 post: "<i class='fa fa-battery-full'></i> "
 pre: "- "
 
 ---
 
-**Notebook name**: integrated_roi_counts_vs_file_name_and_time_stamp.ipynb
+**Notebook name**: bragg_edge.ipynb
 
 ## Description
-
-This notebook will create an ASCII file with the following information
-
- * file index
- * file name
- * time stamp of file
- * Mean or total number of counts of each region of interest for each image
 
 ## Start the notebook
 
@@ -27,12 +20,18 @@ notebooks](/en/tutorial/how_to_start_notebooks) tutorial.
 
 Check the full tutorial [here]({{%relref "/tutorial/notebooks/select_ipts/_index.md#activate-search" %}})</i>
 
-### loading the Images
+### loading the Normalized Images
 
-Simply select all the images you want to work on.
+You need to provide the list of **samples**, **OB** and **DF** (if needed). To do so, just **SHIFT + ENTER** the
+following cell to display a *selection tool wizard*.
+
+<img src='/tutorial/notebooks/calibrated_transmission/images/select_files.gif' />
+
+The dialogbox will start listing the files from the IPTS folder you selected in the first cell. Feel free to navigate
+to find your data set.
 
 {{% notice info %}}
-Check the [file selection tool tutorial]({{%relref "/tutorial/notebooks/file_selector/_index.md#folder_navigation" %}})
+Check the [file selection tool tutorial]({{%relref "/tutorial/notebooks/select_ipts/_index.md#activate-search" %}})
 to learn how to use the file selector tool.
 <img src='/tutorial/how_to_run_notebooks/images/file_folder_browser.png' />
 {{% /notice %}}
