@@ -10,7 +10,7 @@
     <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 <link rel="icon" href="/images/favicon.png" type="image/x-icon" />
 
-    <title>List TIFF Metadata :: Documentation for Hugo Learn Theme</title>
+    <title>Bragg Edge :: Documentation for Hugo Learn Theme</title>
     
     
     <link href="/css/nucleus.css?1539008068" rel="stylesheet">
@@ -35,7 +35,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/en/tutorial/notebooks/list_tiff_metadata/">
+  <body class="" data-url="/en/tutorial/notebooks/bragg_edge/">
     <nav id="sidebar" class="showVisitedLinks">
 
 
@@ -510,8 +510,8 @@
   
     
     <li data-nav-id="/en/tutorial/notebooks/bragg_edge/" title="Bragg Edge" class="dd-item 
-        
-        
+        parent
+        active
         
         ">
       <a href="/en/tutorial/notebooks/bragg_edge/">
@@ -1082,8 +1082,8 @@
   
     
     <li data-nav-id="/en/tutorial/notebooks/list_tiff_metadata/" title="List TIFF Metadata" class="dd-item 
-        parent
-        active
+        
+        
         
         ">
       <a href="/en/tutorial/notebooks/list_tiff_metadata/">
@@ -1576,7 +1576,7 @@
                   
                     
                     
-                      <option id="en" value="/en/tutorial/notebooks/list_tiff_metadata/" selected>English</option>
+                      <option id="en" value="/en/tutorial/notebooks/bragg_edge/" selected>English</option>
                     
                   
               
@@ -1652,7 +1652,7 @@
             
           
           
-            <a href='/en/'>Neutron Imaging</a> > <a href='/en/tutorial/'>Tutorials</a> > <a href='/en/tutorial/notebooks/'>Notebooks Tutorials</a> > List TIFF Metadata
+            <a href='/en/'>Neutron Imaging</a> > <a href='/en/tutorial/'>Tutorials</a> > <a href='/en/tutorial/notebooks/'>Notebooks Tutorials</a> > Bragg Edge
           
          
           
@@ -1675,10 +1675,8 @@
 <li><a href="#how-to-use-it">How to Use It?</a>
 <ul>
 <li><a href="#select-your-ipts">Select your IPTS</a></li>
-<li><a href="#select-tiff-images">Select TIFF images</a></li>
-<li><a href="#select-metadata-to-display">Select metadata to display</a></li>
-<li><a href="#metadat-displayed">Metadat displayed</a></li>
-<li><a href="#export-table">Export table</a></li>
+<li><a href="#loading-the-normalized-images">loading the Normalized Images</a></li>
+<li><a href="#presentation-of-the-ui">Presentation of the UI</a></li>
 </ul></li>
 </ul></li>
 </ul>
@@ -1694,7 +1692,7 @@
         
         <div id="body-inner">
           
-            <h1>List TIFF Metadata</h1>
+            <h1>Bragg Edge</h1>
           
 
         
@@ -1702,19 +1700,9 @@
 
 
 
-<p><strong>Notebook name</strong>: list_tiff_metadata.ipynb</p>
+<p><strong>Notebook name</strong>: bragg_edge.ipynb</p>
 
 <h2 id="description">Description</h2>
-
-<p>This notebook will list the value of the metadata you selected for the full stack of images you loaded. You will
-then have the option to export this table in an ascii (comma separeated) file.</p>
-
-<ul>
-<li>select your tiff images</li>
-<li>select the metadata you want to see</li>
-<li>metadata are listed</li>
-<li>(OPTION) select folder to export the table</li>
-</ul>
 
 <h2 id="start-the-notebook">Start the notebook</h2>
 
@@ -1727,32 +1715,19 @@ notebooks</a> tutorial.</p>
 
 <p>Check the full tutorial <a href="/en/tutorial/notebooks/select_ipts/#activate-search">here</a></i></p>
 
-<h3 id="select-tiff-images">Select TIFF images</h3>
+<h3 id="loading-the-normalized-images">loading the Normalized Images</h3>
 
-<p>Select the list of tiff images using the file selector</p>
+<p>Simply select all the images you want to work on.</p>
 
-<div class="notices info" ><p>Need help using the <a href="/en/tutorial/notebooks/file_selector/#activate-search">File Selector</a>?</p>
+<div class="notices info" ><p>Check the <a href="/en/tutorial/notebooks/file_selector/#folder_navigation">file selection tool tutorial</a>
+to learn how to use the file selector tool.
+<img src='/tutorial/how_to_run_notebooks/images/file_folder_browser.png' /></p>
 </div>
 
 
-<h3 id="select-metadata-to-display">Select metadata to display</h3>
+<h3 id="presentation-of-the-ui">Presentation of the UI</h3>
 
-<p>Using the first image selected, the program will determine the list of metadata available and will display the list here.
-Select the one you want to output.</p>
-
-<p><img src='/tutorial/notebooks/list_tiff_metadata/images/select_metadata.gif' /></p>
-
-<h3 id="metadat-displayed">Metadat displayed</h3>
-
-<p>The selected metadata value for all the images is displayed in a dropdown list.</p>
-
-<p><img src='/tutorial/notebooks/list_tiff_metadata/images/list_metadata.gif' /></p>
-
-<h3 id="export-table">Export table</h3>
-
-<p>Select <strong>output folder</strong> location and click <strong>export</strong> in next cell.</p>
-
-<p><img src='/tutorial/notebooks/list_tiff_metadata/images/export_data.gif' /></p>
+<p>work in progress &hellip;.</p>
 
 
 <footer class=" footline" >
@@ -2054,6 +2029,23 @@ Select the one you want to output.</p>
             
                 
                     
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
                         
                         
                     
@@ -2409,26 +2401,6 @@ Select the one you want to output.</p>
             
                 
                     
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                        
-                        
-                    
                 
                 
 
@@ -2693,10 +2665,10 @@ Select the one you want to output.</p>
 
 
         
-            <a class="nav nav-prev" href="/en/tutorial/notebooks/integrated_roi_counts_vs_file_name_and_time_stamp/" title="Integrated ROI Counts vs File Name and Time Stamp"> <i class="fa fa-chevron-left"></i></a>
+            <a class="nav nav-prev" href="/en/tutorial/notebooks/" title="Notebooks Tutorials"> <i class="fa fa-chevron-left"></i></a>
         
         
-            <a class="nav nav-next" href="/en/tutorial/notebooks/locate_pixels/" title="Locate Pixels" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+            <a class="nav nav-next" href="/en/tutorial/notebooks/calculate_water_intake_profile/" title="Calculate Water Intake" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
         
     </div>
 
