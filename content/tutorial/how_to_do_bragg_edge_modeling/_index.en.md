@@ -71,7 +71,7 @@ Here is what the output file should look like
 
 <img src='/tutorial/how_to_do_bragg_edge_modeling/images/matlab2014a.png' />
 
-- Within Matlab, move to folder **/user/local/mtex-3.5.0**
+- Within Matlab, move to folder **/usr/local/mtex-3.5.0**
 - start **startup_mtex** from the Matlab command
 
 <img src='/tutorial/how_to_do_bragg_edge_modeling/images/startup_mtex.gif' />

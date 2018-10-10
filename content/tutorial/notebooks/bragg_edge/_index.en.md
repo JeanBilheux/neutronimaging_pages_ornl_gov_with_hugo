@@ -22,14 +22,4 @@ Check the full tutorial [here]({{%relref "/tutorial/notebooks/select_ipts/_index
 
 ### loading the Normalized Images
 
-Simply select all the images you want to work on.
-
-{{% notice info %}}
-Check the [file selection tool tutorial]({{%relref "/tutorial/notebooks/file_selector/_index.md#folder_navigation" %}})
-to learn how to use the file selector tool.
-<img src='/tutorial/how_to_run_notebooks/images/file_folder_browser.png' />
-{{% /notice %}}
-
-### Presentation of the UI
-
-work in progress ....
+Select the **working folder**. All the
