@@ -6,7 +6,7 @@ title = "Hugo Learn Documentation"
 theme = "hugo-theme-learn"
 themesdir = "themes"
 metaDataFormat = "yaml"
-defaultContentLanguageInSubdir= true
+defaultContentLanguageInSubdir= false
 
 [params]
   editURL = ""
@@ -23,7 +23,6 @@ home = [ "HTML", "RSS", "JSON"]
 title = "Documentation for Hugo Learn Theme"
 weight = 1
 languageName = "English"
-
 
 #[[Languages.en.menu.shortcuts]]
 #name = "<i class='fa fa-github'></i> Github Repos"
@@ -45,44 +44,3 @@ name = "<i class='fa fa-user-circle'></i> Contacts"
 url = "credits"
 weight = 30
 
-[Languages.fr]
-title = "Site pour les usagers de la ligne de faisceau d'imagerie d'ORNL"
-weight = 2
-languageName = "Français"
-
-#[[Languages.fr.menu.shortcuts]]
-#name = "<i class='fa fa-github'></i> Repos. Github"
-#identifier = "ds"
-#url = "github"
-#weight = 10
-
-[[Languages.fr.menu.shortcuts]]
-name = "<i class='fa fa-camera'></i> Que Faisons-nous"
-url = "/showcase"
-weight = 11
-
-[[Languages.fr.menu.shortcuts]]
-name = "<i class='fa fa-bullhorn'></i> Contactes"
-url = "credits"
-weight = 30
-
-[Languages.es]
-title = "web site para los pequinos de la imaga"
-weight = 2
-languageName = "Spanish"
-
-#[[Languages.es.menu.shortcuts]]
-#name = "<i class='fa fa-github'></i> Repos. Github"
-#identifier = "ds"
-#url = "github"
-#weight = 10
-
-[[Languages.es.menu.shortcuts]]
-name = "<i class='fa fa-camera'></i> Que Hacemos "
-url = "/showcase"
-weight = 11
-
-[[Languages.es.menu.shortcuts]]
-name = "<i class='fa fa-bullhorn'></i> Contactes"
-url = "credits"
-weight = 30

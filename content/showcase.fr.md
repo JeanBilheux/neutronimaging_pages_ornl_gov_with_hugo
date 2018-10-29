@@ -1,6 +1,0 @@
----
-title: Vitrine
-slug: vitrine
----
-
-
