@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Select IPTS on Documentation for Hugo Learn Theme</title>
+    <link>/tutorial/notebooks/select_ipts/</link>
+    <description>Recent content in Select IPTS on Documentation for Hugo Learn Theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    
+	<atom:link href="/tutorial/notebooks/select_ipts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>

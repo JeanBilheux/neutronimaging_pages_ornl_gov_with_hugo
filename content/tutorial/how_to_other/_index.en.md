@@ -1,6 +1,7 @@
 ---
-title: 8. More ...
-weight: 800
+title: More ...
+weight: 900
+pre: "<b>i. </b>"
 ---
 
 {{%expand "How can I create a movie from a sequence of images?" %}}
