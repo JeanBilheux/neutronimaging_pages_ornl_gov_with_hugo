@@ -54,10 +54,6 @@
   </url>
   
   <url>
-    <loc>/tutorial/how_to_run_imars3d/</loc>
-  </url>
-  
-  <url>
     <loc>/tutorial/</loc>
   </url>
   
@@ -67,6 +63,10 @@
   
   <url>
     <loc>/tutorial/how_to_run_mcp_detector_correction/</loc>
+  </url>
+  
+  <url>
+    <loc>/tutorial/how_to_run_imars3d/</loc>
   </url>
   
   <url>
