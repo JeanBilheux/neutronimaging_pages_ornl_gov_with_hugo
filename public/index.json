@@ -84,6 +84,13 @@
 	"content": "  Our jupyter python notebooks are very straighforward to use but there are just a few key points you need to know.\n notebook layout run the notebook modify the notebook  \n Notebook layout \n Run the notebook Execute cells The notebooks must be run from top to bottom. Place the cursor in the first cell and either click the  icon, or by using the keyboard shortcut SHIFT + ENTER.\nThis is showing a busy notebook with the background cell green and the full circle at the top right corner of the notebook.\n\nFolder Navigation At least one time per notebook, you will need to select a folder or one or more files. This widget will look like this The UI is pretty self explanatory but you just need to know that:\n In the file/folder listing widget\n . means refresh of the current location .. means moving up one directory, or folder.  The file or folder will be really selected only once you have clicked the Select button at the bottom right corner.\n To select more than one file (when this option is available), CLICK first file then SHIFT + CLICK the last one. Or ALT + CLICK to individually select each file.\n  Output and widgets The cell is then executed and depending on the contain of this one, you may see or not an output to the cell. The output is always displayed just below the cell ran. In some of our notebooks you will see widgets that you will need to interact with. Here are a few examples of widgets you may encounter in your notebook.\nIn some notebooks, the output may even show up in the back of the notebook (the default cell output will give you a message that let you know where to look). Those outside widgets are more complex user interface such as the one shown here.\n\n Modify the notebook "
 },
 {
+	"uri": "/tutorial/how_to_run_imars3d/",
+	"title": "Do a CT reconstruction",
+	"tags": [],
+	"description": "",
+	"content": "This tutorial explains how to use SNS jupyter notebook site to perform CT reconstruction.\nYou will find this tutorial here\n"
+},
+{
 	"uri": "/tutorial/",
 	"title": "Tutorials",
 	"tags": [],
@@ -105,7 +112,7 @@
 	"content": " The following tutorial will guide, step by step, in running the MCP correction program\nDescription Every single data acquired using the MCP detector needs to be corrected for detector efficiency.\nOld Way\nIn the past, one had to go through the following steps:\n start the windows command line tool locate the .exe script (using file browser) and drag and drop it into the command line window add a space in the command line locate the first image of the data set to correct Run the script and wait \u0026hellip; rename the folder correction created by the script grab this folder and move it to final location repeat for all other set of data  New Way\n start MCPcorrection program select root folder containing all data set select output folder click correction button  The parent folder must be the folder seating on top of the data folder! This looks confusing? Well just follow the following diagram. In such a case, you should select the first folder!  Step by Step Select the parent folder Make sure the folder you select contains all the data folders. Any other folder selected (higher or lower in the hierarchy will crash the application)!\nSelect the data folder to correct In the table, simply select all the data folder you want to correct. If a row is highlighted, this folder will be corrected\nSelect the output folder The data corrected will be moved into this folder\nNaming convention\nEach data set corrected will be copied inside a folder based on the name of all the images and inside a folder of the data folder + \u0026ldquo;_corrected\u0026rdquo;.\nFull correction animation Configuration This is where you can define the starting default folder, default output folder and also the run correction time out. The script run in the back requires user input to finish it, because we wanted to allow you to run several job one after the other without your input, we, using the time out value, stop the process manually. During testing, we found that 35s is long enough to allow all the files to be translater. In case you find that the time out shows up too early, you may need to increase the time here.\n"
 },
 {
-	"uri": "/tutorial/how_to_run_imars3d/",
+	"uri": "/tutorial/how_to_start_amira/",
 	"title": "How to work with Amira",
 	"tags": [],
 	"description": "",
