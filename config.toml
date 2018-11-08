@@ -41,6 +41,6 @@ weight = 13
 
 [[Languages.en.menu.shortcuts]]
 name = "<i class='fa fa-user-circle'></i> Contacts"
-url = "credits"
+url = "/credits"
 weight = 30
 
