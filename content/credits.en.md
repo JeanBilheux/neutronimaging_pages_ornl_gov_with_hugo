@@ -15,14 +15,14 @@ title: Contacts
 ### Past Team Members
 
 <ul>
-<li>Lou Santodonato</li>
 <li>Keita DeCarlo, Princeton Univ.</li>
 <li>Granger Endsley, Oak Ridge High School</li>
 <li>Vincenzo Finochiarro, Italy</li>
-<li>Susan Herringer, Brown Univ.</li>
 <li>Sarah Hammer, Virginia State Univ.</li>
-<li>Felix Kim, Univ. of TN-Knoxville</li>
+<li>Susan Herringer, Brown Univ.</li>
 <li>Misun Kang, Univ. of TN-Knoxville</li>
+<li>Felix Kim, Univ. of TN-Knoxville</li>
+<li>Lou Santodonato, ARS Cryo</li>
 <li>Gian Song, Univ. of TN-Knoxville</li>
 <li>Sophie Voisin, Univ. of TN-Knoxville</li>
 <li>Lakeisha Walker, ORNL</li>
