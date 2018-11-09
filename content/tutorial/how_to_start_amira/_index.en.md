@@ -25,13 +25,9 @@ You should then see the **Amira** icon showing up
 
 <img src='/tutorial/how_to_start_amira/images/amira_startup.png' />
 
-If this does not work for you, you can always type the long version of the command
+NB: You may see some error messages in the terminal window, just ignore them !
 
-```
-/usr/bin/vglrun /SNS/software/amira/latest/bin/Amira
-```
-
-{{% notice info %}}If you see this, contact your [local contact]({{%relref "/credits.en.md" %}})
+{{% notice info %}}If you see the following message, contact your [local contact]({{%relref "/credits.en.md" %}})
 <img src='/tutorial/how_to_start_amira/images/amira_license_issue.png' />
 {{% /notice %}}
 
