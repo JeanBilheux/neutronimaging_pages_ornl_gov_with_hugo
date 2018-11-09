@@ -24,6 +24,9 @@ neutron.ornl.gov users page</a> for more infos.
 {{% /expand%}}
 
 ## Data Analysis
+{{%expand "I forgot my XCAMS password" %}}
+Simply go to <a href='https://user.ornl.gov/Account/ForgottenPassword?reqid='>How to reset password</a> web page. 
+{{% /expand%}}
 {{%expand "How can I browse my data?" %}}
 Using <a href='https://oncat.ornl.gov/#/'>ONCat</a>, you will be able to
 <ul>
