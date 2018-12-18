@@ -12,17 +12,23 @@ title: Contacts
 | ![Paris Cornwell](/images/contacts/paris.png) | <ul><li>**Paris Cornwell** - Scientific Associate </li><li><i class='fa fa-envelope-open'></i> cornwellpa@ornl.gov</li><li><i class='fa fa-mobile'></i> (865) 257 - 1127</li><li><i class='fa fa-phone'></i> (865) 574 - 2122</li></ul>  |
 | ![Brianne Beers](/images/contacts/brianne.png) | <ul><li>**Brianne Beers** - Graduate Student</li></ul> |
 
+
+<img src="/images/contacts/2018_group_photo.png" />
+
+
 ### Past Team Members
 
 <ul>
 <li>Keita DeCarlo, Princeton Univ.</li>
+<li>Indu Dhiman</li>
 <li>Granger Endsley, Oak Ridge High School</li>
 <li>Vincenzo Finochiarro, Italy</li>
 <li>Sarah Hammer, Virginia State Univ.</li>
 <li>Susan Herringer, Brown Univ.</li>
 <li>Misun Kang, Univ. of TN-Knoxville</li>
 <li>Felix Kim, Univ. of TN-Knoxville</li>
-<li>Lou Santodonato, ARS Cryo</li>
+<li>Chad Lani, Penn State University</li>
+<li>Lou Santodonato, Advanced Research Systems, Inc</li>
 <li>Gian Song, Univ. of TN-Knoxville</li>
 <li>Sophie Voisin, Univ. of TN-Knoxville</li>
 <li>Lakeisha Walker, ORNL</li>
