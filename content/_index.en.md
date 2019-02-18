@@ -29,7 +29,6 @@ we got from our users.
 {{% notice info %}}We would like to thank the contribution from the research community in the implementation of this
 web site, and always **welcome your comments** to improve it (contact
 <a href="/en/credits#jean_bilheux">Jean Bilheux</a>).
-
 {{% /notice %}}
 
 <hr>
