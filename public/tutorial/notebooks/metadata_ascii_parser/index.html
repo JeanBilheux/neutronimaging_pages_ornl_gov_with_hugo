@@ -13,19 +13,19 @@
     <title>Metadata Ascii Parser :: Documentation for Hugo Learn Theme</title>
     
     
-    <link href="/css/nucleus.css?1550496372" rel="stylesheet">
-    <link href="/css/font-awesome.min.css?1550496372" rel="stylesheet">
-    <link href="/css/hybrid.css?1550496372" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1550496372" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1550496372" rel="stylesheet">
-    <link href="/css/auto-complete.css?1550496372" rel="stylesheet">
-    <link href="/css/theme.css?1550496372" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1550496372" rel="stylesheet">
+    <link href="/css/nucleus.css?1550502375" rel="stylesheet">
+    <link href="/css/font-awesome.min.css?1550502375" rel="stylesheet">
+    <link href="/css/hybrid.css?1550502375" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1550502375" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1550502375" rel="stylesheet">
+    <link href="/css/auto-complete.css?1550502375" rel="stylesheet">
+    <link href="/css/theme.css?1550502375" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1550502375" rel="stylesheet">
     
-      <link href="/css/theme-blue.css?1550496372" rel="stylesheet">
+      <link href="/css/theme-blue.css?1550502375" rel="stylesheet">
     
 
-    <script src="/js/jquery-2.x.min.js?1550496372"></script>
+    <script src="/js/jquery-2.x.min.js?1550502375"></script>
     
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left{ 
@@ -60,14 +60,14 @@
     <span data-search-clear=""><i class="fa fa-close"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1550496372"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1550496372"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1550502375"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1550502375"></script>
 <script type="text/javascript">
     
         var baseurl = "";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1550496372"></script>
+<script type="text/javascript" src="/js/search.js?1550502375"></script>
 
     
   </div>
@@ -1217,7 +1217,7 @@
         
         ">
       <a href="/tutorial/notebooks/metadata_ascii_parser/">
-          - Metadata Ascii Parser<i class='fa fa-battery-empty'></i> 
+          - Metadata Ascii Parser<i class='fa fa-battery-full'></i> 
           
             <i class="fa fa-check read-icon"></i>
           
@@ -1743,6 +1743,9 @@
 <li><a href="#start-the-notebook">Start the notebook</a>
 <ul>
 <li><a href="#select-your-ipts">Select your IPTS</a></li>
+<li><a href="#select-the-metadata-file">Select the metadata file</a></li>
+<li><a href="#select-the-infos-you-want-to-keep">Select the infos you want to keep</a></li>
+<li><a href="#select-output-folder-and-filename">Select output folder and filename</a></li>
 </ul></li>
 </ul></li>
 </ul>
@@ -1770,6 +1773,25 @@
 
 <h2 id="description">Description</h2>
 
+<p>Because of the large variety of sample environment used, we need to face a large variety of metadata files outputs.
+Those metadata files contain the sample environment data, such as <strong>temperature of a furnace</strong>, <strong>pressure of a cell</strong>,
+<strong>voltage of a power supply</strong>, etc. This notebook will allow you to select this metadata and isolate the set of
+information you want to retrieve. A new ascii file will then be created in a more common format that other notebooks
+will be able to use.</p>
+
+<div class="notices warning" ><p>If your metadata file can not be parsed by this program, this means we need to write a new plugin for that particular
+file, please contact <a href="/en/credits#jean_bilheux">Jean Bilheux</a>.</p>
+</div>
+
+
+<p>The metadata file currently supported by this application looks like this:</p>
+
+<p><img src='/tutorial/notebooks/metadata_ascii_parser/images/metadata_file_1.png' /></p>
+
+<p>and will create the following type of output file</p>
+
+<p><img src='/tutorial/notebooks/metadata_ascii_parser/images/output.png' /></p>
+
 <h2 id="start-the-notebook">Start the notebook</h2>
 
 <p>If you need help accessing this notebook, check the <a href="/en/tutorial/how_to_start_notebooks">How To &gt; Start the python
@@ -1780,6 +1802,35 @@ notebooks</a> tutorial.</p>
 <div class="notices info" ><p>Need help using the <a href="/tutorial/notebooks/select_ipts/#activate-search">IPTS selector</a>?</p>
 </div>
 
+
+<h3 id="select-the-metadata-file">Select the metadata file</h3>
+
+<p>Using the <a href="/tutorial/notebooks/file_selector/#activate-search">file selection tool</a>, select
+your metadata file.</p>
+
+<h3 id="select-the-infos-you-want-to-keep">Select the infos you want to keep</h3>
+
+<p>The program will list the name of each column of metadata, as well as a data/time columns created by the program
+ itself. Select the metadata you want to keep (any number of columns is allowed).</p>
+
+<p><img src='/tutorial/notebooks/metadata_ascii_parser/images/metadata_selection.gif' /></p>
+
+<p>Use <strong>SHIFT</strong> or <strong>COMMAND + CLICK</strong> to select more than one metadata.</p>
+
+<h3 id="select-output-folder-and-filename">Select output folder and filename</h3>
+
+<p>It is now time to export the new ascii metadata file.</p>
+
+<p>Define the output file name. The extension <em>.txt</em> will be automatically added if you don&rsquo;t specify it. Then select
+the output folder.</p>
+
+<p><img src='/tutorial/notebooks/metadata_ascii_parser/images/output_folder_filename.png' /></p>
+
+<p>The new comma separated ascii file will have the following columns</p>
+
+<p><strong>Index, timestamp (s), metadata you selected &hellip;</strong></p>
+
+<p><img src='/tutorial/notebooks/metadata_ascii_parser/images/output_detail.png' /></p>
 
 
 <footer class=" footline" >
@@ -2796,20 +2847,20 @@ notebooks</a> tutorial.</p>
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1550496372"></script>
-    <script src="/js/perfect-scrollbar.min.js?1550496372"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1550496372"></script>
-    <script src="/js/jquery.sticky.js?1550496372"></script>
-    <script src="/js/featherlight.min.js?1550496372"></script>
-    <script src="/js/html5shiv-printshiv.min.js?1550496372"></script>
-    <script src="/js/highlight.pack.js?1550496372"></script>
+    <script src="/js/clipboard.min.js?1550502375"></script>
+    <script src="/js/perfect-scrollbar.min.js?1550502375"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1550502375"></script>
+    <script src="/js/jquery.sticky.js?1550502375"></script>
+    <script src="/js/featherlight.min.js?1550502375"></script>
+    <script src="/js/html5shiv-printshiv.min.js?1550502375"></script>
+    <script src="/js/highlight.pack.js?1550502375"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom.71422.js?1550496372"></script>
-    <script src="/js/learn.js?1550496372"></script>
-    <script src="/js/hugo-learn.js?1550496372"></script>
+    <script src="/js/modernizr.custom.71422.js?1550502375"></script>
+    <script src="/js/learn.js?1550502375"></script>
+    <script src="/js/hugo-learn.js?1550502375"></script>
 
-    <link href="/mermaid/mermaid.css?1550496372" type="text/css" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1550496372"></script>
+    <link href="/mermaid/mermaid.css?1550502375" type="text/css" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1550502375"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
