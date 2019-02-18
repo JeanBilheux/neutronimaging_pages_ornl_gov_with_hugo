@@ -11,6 +11,13 @@ starts from this IPTS project, this way you won't have to look around to find yo
 
 <img src='/tutorial/notebooks/select_ipts/images/select_ipts.png' />
 
+## Select your Instrument
+
+Due to the success of the imaging technique ( :-) ), we are not limited to HFIR anymore. That means you will need to 
+select your instrument to allow to list the IPTS of this particular beam line. 
+
+<img src='/tutorial/notebooks/select_ipts/images/select_instrument.png' />
+
 ## Enter IPTS
 
 Use the top text box to specify your IPTS number. As you enter the number, the program check if the IPTS exists or not.
