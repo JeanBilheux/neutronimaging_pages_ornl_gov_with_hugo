@@ -1,6 +1,6 @@
 ---
 title: Combine Images
-post: " <i class='fa fa-battery-empty'></i>"
+post: " <i class='fa fa-battery-full'></i>"
 pre: "- "
 
 ---
