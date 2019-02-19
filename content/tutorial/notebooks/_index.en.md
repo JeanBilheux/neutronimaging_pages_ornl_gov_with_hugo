@@ -5,7 +5,7 @@ pre: "<b>g. </b>"
 
 ---
 
-<li>[bin_images]({{%relref "/tutorial/notebooks/bin_images/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
+<li>[bin_images]({{%relref "/tutorial/notebooks/bin_images/_index.md#activate-search" %}}) <i class='fa fa-battery-quarter'></i></li>
 <li>[bragg_edge_signal_vs_powder_peaks]({{%relref "/tutorial/notebooks/bragg_edge_signal_vs_powder_peaks/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i></li>
 <li>[calculate_water_intake_profile]({{%relref "/tutorial/notebooks/calculate_water_intake_profile/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
 <li>[calibrated_transmission]({{%relref "/tutorial/notebooks/calibrated_transmission/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i></li>
