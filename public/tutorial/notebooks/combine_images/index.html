@@ -13,19 +13,19 @@
     <title>Combine Images :: Documentation for Hugo Learn Theme</title>
     
     
-    <link href="/css/nucleus.css?1550602116" rel="stylesheet">
-    <link href="/css/font-awesome.min.css?1550602116" rel="stylesheet">
-    <link href="/css/hybrid.css?1550602116" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1550602116" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1550602116" rel="stylesheet">
-    <link href="/css/auto-complete.css?1550602116" rel="stylesheet">
-    <link href="/css/theme.css?1550602116" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1550602116" rel="stylesheet">
+    <link href="/css/nucleus.css?1550605047" rel="stylesheet">
+    <link href="/css/font-awesome.min.css?1550605047" rel="stylesheet">
+    <link href="/css/hybrid.css?1550605047" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1550605047" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1550605047" rel="stylesheet">
+    <link href="/css/auto-complete.css?1550605047" rel="stylesheet">
+    <link href="/css/theme.css?1550605047" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1550605047" rel="stylesheet">
     
-      <link href="/css/theme-blue.css?1550602116" rel="stylesheet">
+      <link href="/css/theme-blue.css?1550605047" rel="stylesheet">
     
 
-    <script src="/js/jquery-2.x.min.js?1550602116"></script>
+    <script src="/js/jquery-2.x.min.js?1550605047"></script>
     
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left{ 
@@ -60,14 +60,14 @@
     <span data-search-clear=""><i class="fa fa-close"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1550602116"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1550602116"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1550605047"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1550605047"></script>
 <script type="text/javascript">
     
         var baseurl = "";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1550602116"></script>
+<script type="text/javascript" src="/js/search.js?1550605047"></script>
 
     
   </div>
@@ -697,7 +697,7 @@
         
         ">
       <a href="/tutorial/notebooks/combine_images/">
-          - Combine Images <i class='fa fa-battery-empty'></i>
+          - Combine Images <i class='fa fa-battery-full'></i>
           
             <i class="fa fa-check read-icon"></i>
           
@@ -1761,7 +1761,22 @@
                 
                     <div class="progress">
     <div class="wrapper">
-
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#description">Description</a>
+<ul>
+<li><a href="#select-your-ipts">Select your IPTS</a></li>
+<li><a href="#select-the-images-to-merge">Select the images to merge</a></li>
+<li><a href="#merging-method">Merging method</a></li>
+<li><a href="#select-output-location">Select output location</a></li>
+<li><a href="#personalize-the-output-file-name">Personalize the output file name</a></li>
+<li><a href="#merging">Merging</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
     </div>
 </div>
 
@@ -1779,9 +1794,86 @@
         
 
 
+
+
 <p><strong>Notebook name</strong>: combine_images.ipynb</p>
 
-<p><img src='/images/comingsoon.png' /></p>
+<h2 id="description">Description</h2>
+
+<p>This notebook allows you to combine the images selected. 3 algorithms are currently
+available</p>
+
+<ul>
+<li>Arithmetic Mean</li>
+</ul>
+
+<p><img src='/tutorial/notebooks/combine_images/images/arithmetic_mean.png' /></p>
+
+<ul>
+<li>Geometric Mean</li>
+</ul>
+
+<p><img src='/tutorial/notebooks/combine_images/images/geometric_mean.png' /></p>
+
+<ul>
+<li>Add</li>
+</ul>
+
+<div class="notices info" ><p>Not seeing the algorithm you want to use? Please let me know and I will add it (<a href="/en/credits#jean_bilheux">Jean Bilheux</a>)</p>
+</div>
+
+
+<p><strong>Example:</strong></p>
+
+<p><strong>Input</strong></p>
+
+<ul>
+<li>image001.fits</li>
+<li>image002.fits</li>
+<li>image003.fits</li>
+</ul>
+
+<p><strong>Output</strong></p>
+
+<ul>
+<li>image001_image002_image003.fits</li>
+</ul>
+
+<h3 id="select-your-ipts">Select your IPTS</h3>
+
+<div class="notices info" ><p>Need help using the <a href="/tutorial/notebooks/select_ipts/#activate-search">IPTS selector</a>?</p>
+</div>
+
+
+<h3 id="select-the-images-to-merge">Select the images to merge</h3>
+
+<p>Using the <a href="/tutorial/notebooks/file_selector/#activate-search">file selection tool</a>, select
+the images you want to combine.</p>
+
+<h3 id="merging-method">Merging method</h3>
+
+<p>It&rsquo;s time to select your merging algorithm (check the description at the top of this web page for
+the explanation of the algorithms).</p>
+
+<p><img src='/tutorial/notebooks/combine_images/images/merging_methods.png' /></p>
+
+<h3 id="select-output-location">Select output location</h3>
+
+<p>Using the <a href="/tutorial/notebooks/file_selector/#activate-search">folder selection tool</a>, select
+the location where you want to create the combine image.</p>
+
+<h3 id="personalize-the-output-file-name">Personalize the output file name</h3>
+
+<p>If you don&rsquo;t like the default output file name offered, you have here the option to define
+your own.</p>
+
+<p><img src='/tutorial/notebooks/combine_images/images/output_filename.png' /></p>
+
+<h3 id="merging">Merging</h3>
+
+<p>Running the next cell will create the merge image and will inform you of the progress via a progress bar.</p>
+
+<p><img src='/tutorial/notebooks/combine_images/images/merging_in_progress.png' /></p>
 
 
 <footer class=" footline" >
@@ -2814,20 +2906,20 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1550602116"></script>
-    <script src="/js/perfect-scrollbar.min.js?1550602116"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1550602116"></script>
-    <script src="/js/jquery.sticky.js?1550602116"></script>
-    <script src="/js/featherlight.min.js?1550602116"></script>
-    <script src="/js/html5shiv-printshiv.min.js?1550602116"></script>
-    <script src="/js/highlight.pack.js?1550602116"></script>
+    <script src="/js/clipboard.min.js?1550605047"></script>
+    <script src="/js/perfect-scrollbar.min.js?1550605047"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1550605047"></script>
+    <script src="/js/jquery.sticky.js?1550605047"></script>
+    <script src="/js/featherlight.min.js?1550605047"></script>
+    <script src="/js/html5shiv-printshiv.min.js?1550605047"></script>
+    <script src="/js/highlight.pack.js?1550605047"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom.71422.js?1550602116"></script>
-    <script src="/js/learn.js?1550602116"></script>
-    <script src="/js/hugo-learn.js?1550602116"></script>
+    <script src="/js/modernizr.custom.71422.js?1550605047"></script>
+    <script src="/js/learn.js?1550605047"></script>
+    <script src="/js/hugo-learn.js?1550605047"></script>
 
-    <link href="/mermaid/mermaid.css?1550602116" type="text/css" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1550602116"></script>
+    <link href="/mermaid/mermaid.css?1550605047" type="text/css" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1550605047"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
