@@ -9,7 +9,7 @@ pre: "<b>g. </b>"
 <li>[bragg_edge_signal_vs_powder_peaks]({{%relref "/tutorial/notebooks/bragg_edge_signal_vs_powder_peaks/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i></li>
 <li>[calculate_water_intake_profile]({{%relref "/tutorial/notebooks/calculate_water_intake_profile/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
 <li>[calibrated_transmission]({{%relref "/tutorial/notebooks/calibrated_transmission/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i></li>
-<li>[combine_folders]({{%relref "/tutorial/notebooks/combine_folders/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
+<li>[combine_folders]({{%relref "/tutorial/notebooks/combine_folders/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> <i class='fa fa-bell'></i> </li>
 <li>[combine_images]({{%relref "/tutorial/notebooks/combine_images/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
 <li>[create_list_of_file_name_vs_time_stamp]({{%relref "/tutorial/notebooks/create_list_of_file_name_vs_time_stamp/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i></li>
 <li>[cylindrical_geometry_correction]({{%relref "/tutorial/notebooks/cylindrical_geometry_correction/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
