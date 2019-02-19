@@ -70,11 +70,11 @@
   </url>
   
   <url>
-    <loc>/tutorial/how_to_start_amira/</loc>
+    <loc>/tutorial/notebooks/</loc>
   </url>
   
   <url>
-    <loc>/tutorial/notebooks/</loc>
+    <loc>/tutorial/how_to_start_amira/</loc>
   </url>
   
   <url>
@@ -184,6 +184,10 @@
   
   <url>
     <loc>/github/</loc>
+  </url>
+  
+  <url>
+    <loc>/tutorial/notebooks/images_metadata_matcher/</loc>
   </url>
   
   <url>
