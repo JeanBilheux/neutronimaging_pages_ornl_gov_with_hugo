@@ -1,6 +1,6 @@
 ---
-title: Rebin Images
-post: " <i class='fa fa-battery-quarter'></i>"
+title: Bin Images
+post: " <i class='fa fa-battery-full'></i>"
 pre: "- "
 ---
 

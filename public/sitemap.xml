@@ -82,6 +82,10 @@
   </url>
   
   <url>
+    <loc>/tutorial/notebooks/bin_images/</loc>
+  </url>
+  
+  <url>
     <loc>/tutorial/notebooks/bragg_edge/</loc>
   </url>
   
@@ -228,10 +232,6 @@
   
   <url>
     <loc>/tutorial/notebooks/radial_profile/</loc>
-  </url>
-  
-  <url>
-    <loc>/tutorial/notebooks/bin_images/</loc>
   </url>
   
   <url>
