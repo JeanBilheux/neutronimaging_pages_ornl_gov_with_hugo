@@ -30,7 +30,6 @@ pre: "<b>g. </b>"
 <li>[images_metadata_matcher]({{%relref "/tutorial/notebooks/images_metadata_matcher/_index.md#activate-search" %}}) <i class='fa fa-battery-quarter'></i> IN PROGRESS</li>
 <li>[integrated_roi_counts_vs_file_name_and_time_stamp]({{%relref "/tutorial/notebooks/integrated_roi_counts_vs_file_name_and_time_stamp/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i></li>
 <li>[list_tiff_metadata]({{%relref "/tutorial/notebooks/list_tiff_metadata/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i></li>
-<li>[locate_pixels]({{%relref "/tutorial/notebooks/locate_pixels/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
 <li>[metadata_ascii_parser]({{%relref "/tutorial/notebooks/metadata_ascii_parser/_index.md#activate-search" %}}) <i class='fa fa-battery-full'> </i> <i class='fa fa-bell'></i> </li>
 <li>[metadata_overlapping_images]({{%relref "/tutorial/notebooks/metadata_overlapping_images/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> <i class='fa fa-bell'></i> </li>
 <li>[normalization]({{%relref "/tutorial/notebooks/normalization/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>

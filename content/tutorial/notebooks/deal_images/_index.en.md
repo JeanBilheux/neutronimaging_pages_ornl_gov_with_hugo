@@ -28,7 +28,6 @@ text<image_ref>_<image_index>.<ext>
 If it does not, run the notebook [rename_files.ipynb]({{%relref "/tutorial/notebooks/rename_files/_index.md" %}}).
 {{% /notice %}}
 
-
 ### Select your IPTS
 
 {{% notice info %}}
