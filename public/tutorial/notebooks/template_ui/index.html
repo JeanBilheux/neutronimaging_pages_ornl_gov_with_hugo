@@ -13,19 +13,19 @@
     <title>Template UI Builder :: Documentation for Hugo Learn Theme</title>
     
     
-    <link href="/css/nucleus.css?1551124056" rel="stylesheet">
-    <link href="/css/font-awesome.min.css?1551124056" rel="stylesheet">
-    <link href="/css/hybrid.css?1551124056" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1551124056" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1551124056" rel="stylesheet">
-    <link href="/css/auto-complete.css?1551124056" rel="stylesheet">
-    <link href="/css/theme.css?1551124056" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1551124056" rel="stylesheet">
+    <link href="/css/nucleus.css?1551126323" rel="stylesheet">
+    <link href="/css/font-awesome.min.css?1551126323" rel="stylesheet">
+    <link href="/css/hybrid.css?1551126323" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1551126323" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1551126323" rel="stylesheet">
+    <link href="/css/auto-complete.css?1551126323" rel="stylesheet">
+    <link href="/css/theme.css?1551126323" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1551126323" rel="stylesheet">
     
-      <link href="/css/theme-blue.css?1551124056" rel="stylesheet">
+      <link href="/css/theme-blue.css?1551126323" rel="stylesheet">
     
 
-    <script src="/js/jquery-2.x.min.js?1551124056"></script>
+    <script src="/js/jquery-2.x.min.js?1551126323"></script>
     
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left{ 
@@ -60,14 +60,14 @@
     <span data-search-clear=""><i class="fa fa-close"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1551124056"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1551124056"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1551126323"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1551126323"></script>
 <script type="text/javascript">
     
         var baseurl = "";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1551124056"></script>
+<script type="text/javascript" src="/js/search.js?1551126323"></script>
 
     
   </div>
@@ -1529,7 +1529,7 @@
         
         ">
       <a href="/tutorial/notebooks/template_ui/">
-          - Template UI Builder<i class='fa fa-battery-empty'></i> 
+          - Template UI Builder<i class='fa fa-battery-full'></i> 
           
             <i class="fa fa-check read-icon"></i>
           
@@ -1735,7 +1735,20 @@
                 
                     <div class="progress">
     <div class="wrapper">
-
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#description">Description</a></li>
+<li><a href="#description-of-the-notebook">Description of the notebook</a>
+<ul>
+<li><a href="#select-your-ipts">Select your IPTS</a></li>
+<li><a href="#select-your-images">Select your images</a></li>
+<li><a href="#display-images">Display images</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
     </div>
 </div>
 
@@ -1753,9 +1766,164 @@
         
 
 
+
+
 <p><strong>Notebook name</strong>: template_ui.ipynb</p>
 
-<p><img src='/images/comingsoon.png' /></p>
+<h2 id="description">Description</h2>
+
+<p>This notebook was implemented for the most aventurous python developers. This notebook offers the minimum
+required to start the development of a more complex user interface (UI).</p>
+
+<p>The notebook is limited to the following features</p>
+
+<ul>
+<li>select your instrument/IPTS</li>
+<li>select list of images</li>
+
+<li><p>UI comes to life and there you can</p>
+
+<ul>
+<li>slide through the images to display them</li>
+<li>display name of image selected</li>
+</ul></li>
+</ul>
+
+<p><img src='/tutorial/notebooks/template_ui/images/template_ui.png' /></p>
+
+<h2 id="description-of-the-notebook">Description of the notebook</h2>
+
+<h3 id="select-your-ipts">Select your IPTS</h3>
+
+<div class="notices info" ><p>Need help using the <a href="/tutorial/notebooks/select_ipts/#activate-search">IPTS selector</a>?</p>
+</div>
+
+
+<h3 id="select-your-images">Select your images</h3>
+
+<p>Using the <a href="/tutorial/notebooks/file_selector/#activate-search">files selection tool</a>,
+select the images you want to fix.</p>
+
+<h3 id="display-images">Display images</h3>
+
+<p>This is where the UI will comes to life. In order to improve or modify this ui, you will need to edit the file
+<strong>__code/template_ui.py</strong></p>
+
+<pre><code class="language-python">
+from IPython.core.display import HTML
+from IPython.display import display
+
+import pyqtgraph as pg
+
+try:
+    from PyQt4.QtGui import QFileDialog
+    from PyQt4 import QtCore, QtGui
+    from PyQt4.QtGui import QMainWindow
+except ImportError:
+    from PyQt5.QtWidgets import QFileDialog
+    from PyQt5 import QtCore, QtGui
+    from PyQt5.QtWidgets import QApplication, QMainWindow
+
+from NeuNorm.normalization import Normalization
+
+from __code.ui_template  import Ui_MainWindow as UiMainWindow
+from __code.file_folder_browser import FileFolderBrowser
+
+
+class InterfaceHandler(FileFolderBrowser):
+
+    def __init__(self, working_dir=''):
+        super(InterfaceHandler, self).__init__(working_dir=working_dir)
+
+    def load(self):
+        list_images = self.list_images_ui.selected
+        o_norm = Normalization()
+        o_norm.load(file=list_images, notebook=True)
+        self.o_norm = o_norm
+
+
+class Interface(QMainWindow):
+
+    live_data = []
+
+    def __init__(self, parent=None, o_norm=None):
+
+        display(HTML('&lt;span style=&quot;font-size: 20px; color:blue&quot;&gt;Check UI that poped up \
+            (maybe hidden behind this browser!)&lt;/span&gt;'))
+
+        self.o_norm = o_norm
+
+        self.list_files = self.o_norm.data['sample']['file_name']
+        self.list_data = self.o_norm.data['sample']['data']
+
+        QMainWindow.__init__(self, parent=parent)
+        self.ui = UiMainWindow()
+        self.ui.setupUi(self)
+        self.init_statusbar()
+        self.setWindowTitle(&quot;Template UI&quot;)
+
+        self.ui.image_view = pg.ImageView()
+        self.ui.image_view.ui.roiBtn.hide()
+        self.ui.image_view.ui.menuBtn.hide()
+
+        bottom_layout = QtGui.QHBoxLayout()
+
+        # file index slider
+        label_1 = QtGui.QLabel(&quot;File Index&quot;)
+        self.ui.slider = QtGui.QSlider(QtCore.Qt.Horizontal)
+        self.ui.slider.setMaximum(len(self.list_files) - 1)
+        self.ui.slider.setMinimum(0)
+        self.ui.slider.valueChanged.connect(self.file_index_changed)
+
+        # spacer
+        spacer = QtGui.QSpacerItem(40, 20, QtGui.QSizePolicy.Expanding, QtGui.QSizePolicy.Minimum)
+
+        bottom_layout.addWidget(label_1)
+        bottom_layout.addWidget(self.ui.slider)
+        bottom_layout.addItem(spacer)
+
+        bottom_widget = QtGui.QWidget()
+        bottom_widget.setLayout(bottom_layout)
+
+        vertical_layout = QtGui.QVBoxLayout()
+        vertical_layout.addWidget(self.ui.image_view)
+        vertical_layout.addWidget(bottom_widget)
+
+        self.ui.widget.setLayout(vertical_layout)
+
+        self.init_widgets()
+        self.file_index_changed()
+
+    def init_widgets(self):
+        pass
+
+    def init_statusbar(self):
+        self.eventProgress = QtGui.QProgressBar(self.ui.statusbar)
+        self.eventProgress.setMinimumSize(20, 14)
+        self.eventProgress.setMaximumSize(540, 100)
+        self.eventProgress.setVisible(False)
+        self.ui.statusbar.addPermanentWidget(self.eventProgress)
+
+    def apply_clicked(self):
+        # do stuff
+        self.close()
+
+    def cancel_clicked(self):
+        self.close()
+
+    def file_index_changed(self):
+        file_index = self.ui.slider.value()
+        new_live_image = self.list_data[file_index]
+        self.ui.image_view.setImage(new_live_image)
+        self.ui.file_name.setText(self.list_files[file_index])
+
+    def display_image(self, image):
+        self.ui.image_view.setImage(image)
+
+    def closeEvent(self, eventhere=None):
+        print(&quot;Leaving Parameters Selection UI&quot;)
+        
+</code></pre>
 
 
 <footer class=" footline" >
@@ -2772,20 +2940,20 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1551124056"></script>
-    <script src="/js/perfect-scrollbar.min.js?1551124056"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1551124056"></script>
-    <script src="/js/jquery.sticky.js?1551124056"></script>
-    <script src="/js/featherlight.min.js?1551124056"></script>
-    <script src="/js/html5shiv-printshiv.min.js?1551124056"></script>
-    <script src="/js/highlight.pack.js?1551124056"></script>
+    <script src="/js/clipboard.min.js?1551126323"></script>
+    <script src="/js/perfect-scrollbar.min.js?1551126323"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1551126323"></script>
+    <script src="/js/jquery.sticky.js?1551126323"></script>
+    <script src="/js/featherlight.min.js?1551126323"></script>
+    <script src="/js/html5shiv-printshiv.min.js?1551126323"></script>
+    <script src="/js/highlight.pack.js?1551126323"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom.71422.js?1551124056"></script>
-    <script src="/js/learn.js?1551124056"></script>
-    <script src="/js/hugo-learn.js?1551124056"></script>
+    <script src="/js/modernizr.custom.71422.js?1551126323"></script>
+    <script src="/js/learn.js?1551126323"></script>
+    <script src="/js/hugo-learn.js?1551126323"></script>
 
-    <link href="/mermaid/mermaid.css?1551124056" type="text/css" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1551124056"></script>
+    <link href="/mermaid/mermaid.css?1551126323" type="text/css" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1551126323"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
