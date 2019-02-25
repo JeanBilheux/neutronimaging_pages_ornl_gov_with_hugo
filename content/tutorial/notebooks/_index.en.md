@@ -20,7 +20,7 @@ pre: "<b>g. </b>"
 <li>[display_file_names_vs_time_stamp]({{%relref "/tutorial/notebooks/display_file_names_vs_time_stamp/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
 <li>[display_integrated_stack_of_images]({{%relref "/tutorial/notebooks/display_integrated_stack_of_images/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
 <li>[file_name_and_metadata_vs_time_stamp]({{%relref "/tutorial/notebooks/file_name_and_metadata_vs_time_stamp/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
-<li>[fix_images]({{%relref "/tutorial/notebooks/fix_images/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
+<li>[fix_images]({{%relref "/tutorial/notebooks/fix_images/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> <i class='fa fa-bell'></i> </li>
 <li>[fix_images_with_negative_pixels]({{%relref "/tutorial/notebooks/fix_images_with_negative_pixels/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
 <li>[frederick_ipts]({{%relref "/tutorial/notebooks/frederick_ipts/_index.md#activate-search" %}}) <i class='fa fa-battery-3'></i></li>
 <li>[from_attenuation_to_concentration]({{%relref "/tutorial/notebooks/from_attenuation_to_concentration/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i></li>
@@ -40,7 +40,7 @@ pre: "<b>g. </b>"
 <li>[rename_files]({{%relref "/tutorial/notebooks/rename_files/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i></li>
 <li>[resonance_imaging_experiment_vs_theory]({{%relref "/tutorial/notebooks/resonance_imaging_experiment_vs_theory/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
 <li>[rotate_and_crop_images]({{%relref "/tutorial/notebooks/rotate_and_crop_images/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
-<li>[template_ui]({{%relref "/tutorial/notebooks/template_ui/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
+<li>[template_ui]({{%relref "/tutorial/notebooks/template_ui/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> <i class='fa fa-bell'></i>  </li>
 <li>[topaz_config_generator]({{%relref "/tutorial/notebooks/topaz_config_generator/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i></li>
 <li>[water_intake_profile_calculator]({{%relref "/tutorial/notebooks/water_intake_profile_calculator/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i></li>
 
