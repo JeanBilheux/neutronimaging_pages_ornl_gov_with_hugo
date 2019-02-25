@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <meta name="generator" content="Hugo 0.31.1" />
+    <meta name="generator" content="Hugo 0.50" />
     <meta name="description" content="ORNL Neutron Imaging for Users Home Page">
 <meta name="author" content="Jean Bilheux">
 
@@ -13,19 +13,19 @@
     <title>Fix Images :: Documentation for Hugo Learn Theme</title>
     
     
-    <link href="/css/nucleus.css?1550867482" rel="stylesheet">
-    <link href="/css/font-awesome.min.css?1550867482" rel="stylesheet">
-    <link href="/css/hybrid.css?1550867482" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1550867482" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1550867482" rel="stylesheet">
-    <link href="/css/auto-complete.css?1550867482" rel="stylesheet">
-    <link href="/css/theme.css?1550867482" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1550867482" rel="stylesheet">
+    <link href="/css/nucleus.css?1551124056" rel="stylesheet">
+    <link href="/css/font-awesome.min.css?1551124056" rel="stylesheet">
+    <link href="/css/hybrid.css?1551124056" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1551124056" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1551124056" rel="stylesheet">
+    <link href="/css/auto-complete.css?1551124056" rel="stylesheet">
+    <link href="/css/theme.css?1551124056" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1551124056" rel="stylesheet">
     
-      <link href="/css/theme-blue.css?1550867482" rel="stylesheet">
+      <link href="/css/theme-blue.css?1551124056" rel="stylesheet">
     
 
-    <script src="/js/jquery-2.x.min.js?1550867482"></script>
+    <script src="/js/jquery-2.x.min.js?1551124056"></script>
     
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left{ 
@@ -60,14 +60,14 @@
     <span data-search-clear=""><i class="fa fa-close"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1550867482"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1550867482"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1551124056"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1551124056"></script>
 <script type="text/javascript">
     
         var baseurl = "";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1550867482"></script>
+<script type="text/javascript" src="/js/search.js?1551124056"></script>
 
     
   </div>
@@ -983,7 +983,7 @@
         
         ">
       <a href="/tutorial/notebooks/fix_images/">
-          - Fix Images <i class='fa fa-battery-empty'></i>
+          - Fix Images <i class='fa fa-battery-full'></i>
           
             <i class="fa fa-check read-icon"></i>
           
@@ -1192,32 +1192,6 @@
         ">
       <a href="/tutorial/notebooks/list_tiff_metadata/">
           - List TIFF Metadata <i class='fa fa-battery-full'></i>
-          
-            <i class="fa fa-check read-icon"></i>
-          
-      </a>
-      
-              
-    </li>
-  
- 
-
-            
-          
-            
-            
-
-
- 
-  
-    
-    <li data-nav-id="/tutorial/notebooks/locate_pixels/" title="Locate Pixels" class="dd-item 
-        
-        
-        
-        ">
-      <a href="/tutorial/notebooks/locate_pixels/">
-          - Locate Pixels <i class='fa fa-battery-empty'></i>
           
             <i class="fa fa-check read-icon"></i>
           
@@ -1761,7 +1735,21 @@
                 
                     <div class="progress">
     <div class="wrapper">
-
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#description">description</a>
+<ul>
+<li><a href="#select-your-ipts">Select your IPTS</a></li>
+<li><a href="#select-your-images">Select your images</a></li>
+<li><a href="#give-statistics">Give statistics</a></li>
+<li><a href="#display-images-and-histograms">Display images and histograms</a></li>
+<li><a href="#export-images">Export images</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
     </div>
 </div>
 
@@ -1779,9 +1767,88 @@
         
 
 
+
+
 <p><strong>Notebook name</strong>: fix_images.ipynb</p>
 
-<p><img src='/images/comingsoon.png' /></p>
+<h2 id="description">description</h2>
+
+<p>This notebook allows you to fix a set of images by replacing all the pixels having the
+same value, by another value. For example, you can replace all the <strong>Inf</strong> values
+by <strong>0</strong> or <strong>np.NaN</strong>.</p>
+
+<p>Here is the list of things you can fix:</p>
+
+<ul>
+<li>Inf values</li>
+<li>NaN values</li>
+<li>Negative values</li>
+</ul>
+
+<p>and here is the list of things you can replace with:</p>
+
+<ul>
+<li>np.NaN</li>
+<li>0</li>
+</ul>
+
+<h3 id="select-your-ipts">Select your IPTS</h3>
+
+<div class="notices info" ><p>Need help using the <a href="/tutorial/notebooks/select_ipts/#activate-search">IPTS selector</a>?</p>
+</div>
+
+
+<h3 id="select-your-images">Select your images</h3>
+
+<p>Using the <a href="/tutorial/notebooks/file_selector/#activate-search">files selection tool</a>,
+select the images you want to fix.</p>
+
+<h3 id="give-statistics">Give statistics</h3>
+
+<p>In order to get an idea of what you need to correct, the next cell will display the following informations.</p>
+
+<ul>
+<li><strong>name</strong> of the file</li>
+<li><strong>total number of pixels</strong> in the image</li>
+<li>number and percentage of pixels with <strong>negative values</strong></li>
+<li>number and percentage of pixels with <strong>infinite (negative or positive) values</strong></li>
+<li>number and percentage of pixels with <strong>non defined (NaN) values</strong></li>
+</ul>
+
+<p>A slider allows you to check those parameters for each of the images you loaded.</p>
+
+<p><img src='/tutorial/notebooks/fix_images/images/statistics.png' /></p>
+
+<h3 id="display-images-and-histograms">Display images and histograms</h3>
+
+<p>This is where you are able to visualize the corrections you are about to apply to the data. You can
+select which corrections you want to apply and see the effect on the image and its histogram.</p>
+
+<p>You can make the following corrections</p>
+
+<ul>
+<li>Negative values -&gt; np.NaN or 0</li>
+<li>Infinite values -&gt; np.NaN or 0</li>
+<li>NaN values -&gt; np.NaN or 0</li>
+</ul>
+
+<p>where np.NaN is the numpy NaN.</p>
+
+<p>You can slide through the images to display</p>
+
+<ul>
+<li>the raw image (top left corner)</li>
+<li>the raw histogram (top right corner)</li>
+<li>the new corrected image (bottom left corner)</li>
+<li>the new histogram (bottom right corner)<br /></li>
+</ul>
+
+<p><img src='/tutorial/notebooks/fix_images/images/histogram.png' /></p>
+
+<h3 id="export-images">Export images</h3>
+
+<p>Using the <a href="/tutorial/notebooks/file_selector/#activate-search">folder selection tool</a> to
+select the output location of all the images corrected.</p>
 
 
 <footer class=" footline" >
@@ -2741,22 +2808,6 @@
             
         
                     
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
             
         
                     
@@ -2814,20 +2865,20 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1550867482"></script>
-    <script src="/js/perfect-scrollbar.min.js?1550867482"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1550867482"></script>
-    <script src="/js/jquery.sticky.js?1550867482"></script>
-    <script src="/js/featherlight.min.js?1550867482"></script>
-    <script src="/js/html5shiv-printshiv.min.js?1550867482"></script>
-    <script src="/js/highlight.pack.js?1550867482"></script>
+    <script src="/js/clipboard.min.js?1551124056"></script>
+    <script src="/js/perfect-scrollbar.min.js?1551124056"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1551124056"></script>
+    <script src="/js/jquery.sticky.js?1551124056"></script>
+    <script src="/js/featherlight.min.js?1551124056"></script>
+    <script src="/js/html5shiv-printshiv.min.js?1551124056"></script>
+    <script src="/js/highlight.pack.js?1551124056"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom.71422.js?1550867482"></script>
-    <script src="/js/learn.js?1550867482"></script>
-    <script src="/js/hugo-learn.js?1550867482"></script>
+    <script src="/js/modernizr.custom.71422.js?1551124056"></script>
+    <script src="/js/learn.js?1551124056"></script>
+    <script src="/js/hugo-learn.js?1551124056"></script>
 
-    <link href="/mermaid/mermaid.css?1550867482" type="text/css" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1550867482"></script>
+    <link href="/mermaid/mermaid.css?1551124056" type="text/css" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1551124056"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>

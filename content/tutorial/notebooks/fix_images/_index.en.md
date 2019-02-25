@@ -54,12 +54,24 @@ A slider allows you to check those parameters for each of the images you loaded.
 This is where you are able to visualize the corrections you are about to apply to the data. You can 
 select which corrections you want to apply and see the effect on the image and its histogram.
 
-You can slide thru the images to display
+You can make the following corrections
+
+* Negative values -> np.NaN or 0
+* Infinite values -> np.NaN or 0
+* NaN values -> np.NaN or 0
+
+where np.NaN is the numpy NaN.
+
+You can slide through the images to display
 
 * the raw image (top left corner)
 * the raw histogram (top right corner)
 * the new corrected image (bottom left corner)
 * the new histogram (bottom right corner)   
 
-FIXME: Add a better example with bad data to correct
+<img src='/tutorial/notebooks/fix_images/images/histogram.png' />
 
+### Export images
+
+Using the [folder selection tool]({{%relref "/tutorial/notebooks/file_selector/_index.md#activate-search" %}}) to 
+select the output location of all the images corrected.
