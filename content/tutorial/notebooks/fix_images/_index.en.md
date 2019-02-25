@@ -51,9 +51,15 @@ A slider allows you to check those parameters for each of the images you loaded.
 
 ### Display images and histograms
 
-You can slider throw the images to display
+This is where you are able to visualize the corrections you are about to apply to the data. You can 
+select which corrections you want to apply and see the effect on the image and its histogram.
+
+You can slide thru the images to display
 
 * the raw image (top left corner)
 * the raw histogram (top right corner)
 * the new corrected image (bottom left corner)
 * the new histogram (bottom right corner)   
+
+FIXME: Add a better example with bad data to correct
+
