@@ -116,7 +116,7 @@
 	"title": "Notebooks Tutorials",
 	"tags": [],
 	"description": "",
-	"content": " bin_images    bragg_edge_signal_vs_powder_peaks  calibrated_transmission  combine_folders    combine_images   create_list_of_file_name_vs_time_stamp  cylindrical_geometry_correction  deal_images   display_and_export_images_with_metadata_profile  display_and_export_images_with_timestamp  display_counts_of_region_vs_stack   display_file_names_vs_time_stamp   display_integrated_stack_of_images  file_name_and_metadata_vs_time_stamp  fix_images    fix_images_with_negative_pixels  frederick_ipts  from_attenuation_to_concentration  from_dsc_time_info_to_ascii_file_vs_time  ipts_18813  gamma_filtering_tool   images_metadata_matcher  IN PROGRESS integrated_roi_counts_vs_file_name_and_time_stamp  list_tiff_metadata  metadata_ascii_parser    metadata_overlapping_images    normalization   normalization_batch   profile  radial_profile  registration  rename_files  resonance_imaging_experiment_vs_theory  rotate_and_crop_images  template_ui    topaz_config_generator  water_intake_profile_calculator \nTools File Selector  Select IPTS \n Recently updated\n"
+	"content": " bin_images    bragg_edge_signal_vs_powder_peaks  calibrated_transmission  combine_folders    combine_images   create_list_of_file_name_vs_time_stamp  cylindrical_geometry_correction  deal_images   display_and_export_images_with_metadata_profile  display_and_export_images_with_timestamp  display_counts_of_region_vs_stack   display_file_names_vs_time_stamp   display_integrated_stack_of_images  file_name_and_metadata_vs_time_stamp  fix_images    frederick_ipts  from_attenuation_to_concentration  from_dsc_time_info_to_ascii_file_vs_time  ipts_18813  gamma_filtering_tool   images_metadata_matcher  IN PROGRESS integrated_roi_counts_vs_file_name_and_time_stamp  list_tiff_metadata  metadata_ascii_parser    metadata_overlapping_images    normalization   normalization_batch   profile  radial_profile    registration  rename_files  resonance_imaging_experiment_vs_theory  rotate_and_crop_images  template_ui    topaz_config_generator  water_intake_profile_calculator \nTools File Selector  Select IPTS \n Recently updated\n"
 },
 {
 	"uri": "/tutorial/how_to_start_amira/",
@@ -264,13 +264,6 @@
 	"tags": [],
 	"description": "",
 	"content": " Notebook name: fix_images.ipynb\ndescription This notebook allows you to fix a set of images by replacing all the pixels having the same value, by another value. For example, you can replace all the Inf values by 0 or np.NaN.\nHere is the list of things you can fix:\n Inf values NaN values Negative values  and here is the list of things you can replace with:\n np.NaN 0  Select your IPTS Need help using the IPTS selector?\n Select your images Using the files selection tool, select the images you want to fix.\nGive statistics In order to get an idea of what you need to correct, the next cell will display the following informations.\n name of the file total number of pixels in the image number and percentage of pixels with negative values number and percentage of pixels with infinite (negative or positive) values number and percentage of pixels with non defined (NaN) values  A slider allows you to check those parameters for each of the images you loaded.\nDisplay images and histograms This is where you are able to visualize the corrections you are about to apply to the data. You can select which corrections you want to apply and see the effect on the image and its histogram.\nYou can make the following corrections\n Negative values -\u0026gt; np.NaN or 0 Infinite values -\u0026gt; np.NaN or 0 NaN values -\u0026gt; np.NaN or 0  where np.NaN is the numpy NaN.\nYou can slide through the images to display\n the raw image (top left corner) the raw histogram (top right corner) the new corrected image (bottom left corner) the new histogram (bottom right corner)\n  Export images Using the folder selection tool to select the output location of all the images corrected.\n"
-},
-{
-	"uri": "/tutorial/notebooks/fix_images_with_negative_pixels/",
-	"title": "Fix Images with Negative Pixels",
-	"tags": [],
-	"description": "",
-	"content": "Notebook name: fix_images_with_negative_pixels.ipynb\n"
 },
 {
 	"uri": "/tutorial/notebooks/frederick_ipts/",
