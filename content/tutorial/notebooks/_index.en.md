@@ -20,7 +20,6 @@ pre: "<b>g. </b>"
 <li>[display_integrated_stack_of_images]({{%relref "/tutorial/notebooks/display_integrated_stack_of_images/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
 <li>[file_name_and_metadata_vs_time_stamp]({{%relref "/tutorial/notebooks/file_name_and_metadata_vs_time_stamp/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
 <li>[fix_images]({{%relref "/tutorial/notebooks/fix_images/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> <i class='fa fa-bell'></i> </li>
-<li>[fix_images_with_negative_pixels]({{%relref "/tutorial/notebooks/fix_images_with_negative_pixels/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
 <li>[frederick_ipts]({{%relref "/tutorial/notebooks/frederick_ipts/_index.md#activate-search" %}}) <i class='fa fa-battery-3'></i></li>
 <li>[from_attenuation_to_concentration]({{%relref "/tutorial/notebooks/from_attenuation_to_concentration/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i></li>
 <li>[from_dsc_time_info_to_ascii_file_vs_time]({{%relref "/tutorial/notebooks/from_dsc_time_info_to_ascii_file_vs_time/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
@@ -34,7 +33,7 @@ pre: "<b>g. </b>"
 <li>[normalization]({{%relref "/tutorial/notebooks/normalization/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
 <li>[normalization_batch]({{%relref "/tutorial/notebooks/normalization_batch/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
 <li>[profile]({{%relref "/tutorial/notebooks/profile/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i></li>
-<li>[radial_profile]({{%relref "/tutorial/notebooks/radial_profile/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
+<li>[radial_profile]({{%relref "/tutorial/notebooks/radial_profile/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> <i class='fa fa-bell'></i> </li>
 <li>[registration]({{%relref "/tutorial/notebooks/registration/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i></li>
 <li>[rename_files]({{%relref "/tutorial/notebooks/rename_files/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i></li>
 <li>[resonance_imaging_experiment_vs_theory]({{%relref "/tutorial/notebooks/resonance_imaging_experiment_vs_theory/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
