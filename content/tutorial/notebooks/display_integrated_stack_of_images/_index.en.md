@@ -9,7 +9,7 @@ pre: "- "
 
 ### Description
 
-This notebook will simply the **integrated image** of all the images from the input folder.
+This notebook will simply the **integrated image** of all the images (TIFF or FITS) from the input folder.
 
 ### Select your IPTS
 

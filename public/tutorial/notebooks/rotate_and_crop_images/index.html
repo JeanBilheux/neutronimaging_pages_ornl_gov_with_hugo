@@ -13,19 +13,19 @@
     <title>Rotate and Crop Images :: Documentation for Hugo Learn Theme</title>
     
     
-    <link href="/css/nucleus.css?1551292994" rel="stylesheet">
-    <link href="/css/font-awesome.min.css?1551292994" rel="stylesheet">
-    <link href="/css/hybrid.css?1551292994" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1551292994" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1551292994" rel="stylesheet">
-    <link href="/css/auto-complete.css?1551292994" rel="stylesheet">
-    <link href="/css/theme.css?1551292994" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1551292994" rel="stylesheet">
+    <link href="/css/nucleus.css?1551373722" rel="stylesheet">
+    <link href="/css/font-awesome.min.css?1551373722" rel="stylesheet">
+    <link href="/css/hybrid.css?1551373722" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1551373722" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1551373722" rel="stylesheet">
+    <link href="/css/auto-complete.css?1551373722" rel="stylesheet">
+    <link href="/css/theme.css?1551373722" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1551373722" rel="stylesheet">
     
-      <link href="/css/theme-blue.css?1551292994" rel="stylesheet">
+      <link href="/css/theme-blue.css?1551373722" rel="stylesheet">
     
 
-    <script src="/js/jquery-2.x.min.js?1551292994"></script>
+    <script src="/js/jquery-2.x.min.js?1551373722"></script>
     
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left{ 
@@ -60,14 +60,14 @@
     <span data-search-clear=""><i class="fa fa-close"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1551292994"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1551292994"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1551373722"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1551373722"></script>
 <script type="text/javascript">
     
         var baseurl = "";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1551292994"></script>
+<script type="text/javascript" src="/js/search.js?1551373722"></script>
 
     
   </div>
@@ -1009,7 +1009,7 @@
         
         ">
       <a href="/tutorial/notebooks/from_dsc_time_info_to_ascii_file_vs_time/">
-          - From .dsc Time Info to ASCII File vs Time <i class='fa fa-battery-empty'></i>
+          - From .dsc Time Info to ASCII File vs Time <i class='fa fa-battery-full'></i>
           
             <i class="fa fa-check read-icon"></i>
           
@@ -1399,7 +1399,7 @@
         
         ">
       <a href="/tutorial/notebooks/rotate_and_crop_images/">
-          - Rotate and Crop Images<i class='fa fa-battery-empty'></i> 
+          - Rotate and Crop Images<i class='fa fa-battery-full'></i> 
           
             <i class="fa fa-check read-icon"></i>
           
@@ -1683,7 +1683,26 @@
                 
                     <div class="progress">
     <div class="wrapper">
-
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#description">Description</a></li>
+<li><a href="#how-it-works">How it Works</a>
+<ul>
+<li><a href="#select-your-ipts">Select your IPTS</a></li>
+<li><a href="#select-your-images">Select your Images</a></li>
+<li><a href="#crop-and-or-rotate-your-images">Crop and/or Rotate your Images</a>
+<ul>
+<li><a href="#how-to-crop-the-images">How to crop the images:</a></li>
+<li><a href="#how-to-rotate-the-images">How to rotate the images:</a></li>
+<li><a href="#apply-changes-to-all-images">Apply changes to all images:</a></li>
+<li><a href="#export-images">Export Images</a></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
     </div>
 </div>
 
@@ -1701,9 +1720,69 @@
         
 
 
+
+
 <p><strong>Notebook name</strong>: rotate_and_crop_images.ipynb</p>
 
-<p><img src='/images/comingsoon.png' /></p>
+<h2 id="description">Description</h2>
+
+<p>You will use this notebook if you need to <strong>crop</strong> and/or <strong>rotate</strong> a set of images.</p>
+
+<p>The application will ask you to select the images (FITS or TIFF) you want to modify.
+Then a User Interface (UI) will allow you to define the cropping region as well as the rotation
+angle to apply to the images.
+You will be able to browse through the images to check the result and then create the transformed
+images before exporting them to a new output folder as TIFF images.</p>
+
+<p><img src='/tutorial/notebooks/rotate_and_crop_images/images/demo_ui.gif' /></p>
+
+<h2 id="how-it-works">How it Works</h2>
+
+<h3 id="select-your-ipts">Select your IPTS</h3>
+
+<div class="notices info" ><p>Need help using the <a href="/tutorial/notebooks/select_ipts/#activate-search">IPTS selector</a>?</p>
+</div>
+
+
+<h3 id="select-your-images">Select your Images</h3>
+
+<p>Using the <a href="/tutorial/notebooks/file_selector/#activate-search">file selection tool</a>, select
+the images you want to work with.</p>
+
+<p>Once selected, your images will be automatically loaded.</p>
+
+<h3 id="crop-and-or-rotate-your-images">Crop and/or Rotate your Images</h3>
+
+<p>This is where you will apply the correction to your images.</p>
+
+<p><img src='/tutorial/notebooks/rotate_and_crop_images/images/ui_description.png' /></p>
+
+<h4 id="how-to-crop-the-images">How to crop the images:</h4>
+
+<ul>
+<li><strong>move the box</strong> around by <strong>clicking one of the edge</strong> and <strong>without releasing the mouse</strong> move the box to the new location</li>
+<li><strong>resize the box</strong> by <strong>clicking</strong> the <strong>bottom right corner</strong> and <strong>dragging</strong> it to the new size.</li>
+</ul>
+
+<h4 id="how-to-rotate-the-images">How to rotate the images:</h4>
+
+<p>Simply by entering the <strong>angle</strong> value in the text field. The angle is using the geometrical convention, with counter clock wise
+  rotation direction.</p>
+
+<h4 id="apply-changes-to-all-images">Apply changes to all images:</h4>
+
+<p>By clicking the <strong>apply on all images</strong> button, you will apply those correction to all images and <strong>quit this UI</strong></p>
+
+<h4 id="export-images">Export Images</h4>
+
+<p>Using the <a href="/tutorial/notebooks/file_selector/#activate-search">folder selection tool</a>, select
+where you want the output images to be created.</p>
+
+<p>The program will automatically create a folder based on the rotation angle you defined</p>
+
+<p>For example:</p>
+
+<p>A folder named <strong>rotated_0.5deg</strong> is created when the angle is 0.5 degrees.</p>
 
 
 <footer class=" footline" >
@@ -2688,20 +2767,20 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1551292994"></script>
-    <script src="/js/perfect-scrollbar.min.js?1551292994"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1551292994"></script>
-    <script src="/js/jquery.sticky.js?1551292994"></script>
-    <script src="/js/featherlight.min.js?1551292994"></script>
-    <script src="/js/html5shiv-printshiv.min.js?1551292994"></script>
-    <script src="/js/highlight.pack.js?1551292994"></script>
+    <script src="/js/clipboard.min.js?1551373722"></script>
+    <script src="/js/perfect-scrollbar.min.js?1551373722"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1551373722"></script>
+    <script src="/js/jquery.sticky.js?1551373722"></script>
+    <script src="/js/featherlight.min.js?1551373722"></script>
+    <script src="/js/html5shiv-printshiv.min.js?1551373722"></script>
+    <script src="/js/highlight.pack.js?1551373722"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom.71422.js?1551292994"></script>
-    <script src="/js/learn.js?1551292994"></script>
-    <script src="/js/hugo-learn.js?1551292994"></script>
+    <script src="/js/modernizr.custom.71422.js?1551373722"></script>
+    <script src="/js/learn.js?1551373722"></script>
+    <script src="/js/hugo-learn.js?1551373722"></script>
 
-    <link href="/mermaid/mermaid.css?1551292994" type="text/css" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1551292994"></script>
+    <link href="/mermaid/mermaid.css?1551373722" type="text/css" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1551373722"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>

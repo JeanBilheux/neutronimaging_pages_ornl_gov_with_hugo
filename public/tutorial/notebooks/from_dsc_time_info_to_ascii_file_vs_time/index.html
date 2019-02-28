@@ -13,19 +13,19 @@
     <title>From .dsc Time Info to ASCII File vs Time :: Documentation for Hugo Learn Theme</title>
     
     
-    <link href="/css/nucleus.css?1551292994" rel="stylesheet">
-    <link href="/css/font-awesome.min.css?1551292994" rel="stylesheet">
-    <link href="/css/hybrid.css?1551292994" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1551292994" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1551292994" rel="stylesheet">
-    <link href="/css/auto-complete.css?1551292994" rel="stylesheet">
-    <link href="/css/theme.css?1551292994" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1551292994" rel="stylesheet">
+    <link href="/css/nucleus.css?1551373722" rel="stylesheet">
+    <link href="/css/font-awesome.min.css?1551373722" rel="stylesheet">
+    <link href="/css/hybrid.css?1551373722" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1551373722" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1551373722" rel="stylesheet">
+    <link href="/css/auto-complete.css?1551373722" rel="stylesheet">
+    <link href="/css/theme.css?1551373722" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1551373722" rel="stylesheet">
     
-      <link href="/css/theme-blue.css?1551292994" rel="stylesheet">
+      <link href="/css/theme-blue.css?1551373722" rel="stylesheet">
     
 
-    <script src="/js/jquery-2.x.min.js?1551292994"></script>
+    <script src="/js/jquery-2.x.min.js?1551373722"></script>
     
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left{ 
@@ -60,14 +60,14 @@
     <span data-search-clear=""><i class="fa fa-close"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1551292994"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1551292994"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1551373722"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1551373722"></script>
 <script type="text/javascript">
     
         var baseurl = "";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1551292994"></script>
+<script type="text/javascript" src="/js/search.js?1551373722"></script>
 
     
   </div>
@@ -1009,7 +1009,7 @@
         
         ">
       <a href="/tutorial/notebooks/from_dsc_time_info_to_ascii_file_vs_time/">
-          - From .dsc Time Info to ASCII File vs Time <i class='fa fa-battery-empty'></i>
+          - From .dsc Time Info to ASCII File vs Time <i class='fa fa-battery-full'></i>
           
             <i class="fa fa-check read-icon"></i>
           
@@ -1399,7 +1399,7 @@
         
         ">
       <a href="/tutorial/notebooks/rotate_and_crop_images/">
-          - Rotate and Crop Images<i class='fa fa-battery-empty'></i> 
+          - Rotate and Crop Images<i class='fa fa-battery-full'></i> 
           
             <i class="fa fa-check read-icon"></i>
           
@@ -1683,7 +1683,22 @@
                 
                     <div class="progress">
     <div class="wrapper">
-
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#description">Description</a></li>
+<li><a href="#instructions">Instructions</a>
+<ul>
+<li><a href="#select-your-ipts">Select your IPTS</a></li>
+<li><a href="#select-the-dsc-folder">Select the DSC Folder</a></li>
+<li><a href="#select-the-image-folder">Select the Image Folder</a></li>
+<li><a href="#select-the-output-folder">Select the Output Folder</a></li>
+<li><a href="#ascii-file-created">Ascii File Created</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
     </div>
 </div>
 
@@ -1701,9 +1716,60 @@
         
 
 
+
+
 <p><strong>Notebook name</strong>: from_dsc_time_info_to_ascii_file_vs_time.ipynb</p>
 
-<p><img src='/images/comingsoon.png' /></p>
+<h2 id="description">Description</h2>
+
+<p>There are cases where you will need to use the metadata from the <strong>dsc</strong> file to retrieve the time information as
+the files themselves do not have this information any more (because they are not the original images anymore, because
+they have been moved, &hellip;).</p>
+
+<p>So this notebook will use the <strong>dsc</strong> files and match the time stamp information they contain with the base file name.
+Then will create an ascii file of the equivalent TIFF image vs time stamp</p>
+
+<p><strong>INPUT</strong></p>
+
+<p><em>folder containing .dsc files</em></p>
+
+<p><strong>OUTPUT</strong></p>
+
+<p>filename_vs_timestamp.txt</p>
+
+<pre><code>sample_0000.tif 1045454545  
+sample_0001.tif 1045454546
+sample_0002.tfi 1045454547
+</code></pre>
+
+<h2 id="instructions">Instructions</h2>
+
+<h3 id="select-your-ipts">Select your IPTS</h3>
+
+<div class="notices info" ><p>Need help using the <a href="/tutorial/notebooks/select_ipts/#activate-search">IPTS selector</a>?</p>
+</div>
+
+
+<h3 id="select-the-dsc-folder">Select the DSC Folder</h3>
+
+<p>Using the <a href="/tutorial/notebooks/file_selector/#activate-search">folder selection tool</a>, select
+the folder that contains the <strong>.dsc</strong> files.</p>
+
+<h3 id="select-the-image-folder">Select the Image Folder</h3>
+
+<p>Using the <a href="/tutorial/notebooks/file_selector/#activate-search">folder selection tool</a>, select
+the folder that contains the <strong>images</strong> (TIFF or FITS) to match with the <strong>dsc</strong> files.</p>
+
+<h3 id="select-the-output-folder">Select the Output Folder</h3>
+
+<p>Using the <a href="/tutorial/notebooks/file_selector/#activate-search">folder selection tool</a>, select
+the folder where the ascii file listing the image files and their time stamp will be created.</p>
+
+<h3 id="ascii-file-created">Ascii File Created</h3>
+
+<p>Once you have selected the output folder, the ascii file will be automatically created and will look something like this</p>
+
+<p><img src='/tutorial/notebooks/from_dsc_time_info_to_ascii_file_vs_time/images/??.png' /></p>
 
 
 <footer class=" footline" >
@@ -2688,20 +2754,20 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1551292994"></script>
-    <script src="/js/perfect-scrollbar.min.js?1551292994"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1551292994"></script>
-    <script src="/js/jquery.sticky.js?1551292994"></script>
-    <script src="/js/featherlight.min.js?1551292994"></script>
-    <script src="/js/html5shiv-printshiv.min.js?1551292994"></script>
-    <script src="/js/highlight.pack.js?1551292994"></script>
+    <script src="/js/clipboard.min.js?1551373722"></script>
+    <script src="/js/perfect-scrollbar.min.js?1551373722"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1551373722"></script>
+    <script src="/js/jquery.sticky.js?1551373722"></script>
+    <script src="/js/featherlight.min.js?1551373722"></script>
+    <script src="/js/html5shiv-printshiv.min.js?1551373722"></script>
+    <script src="/js/highlight.pack.js?1551373722"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom.71422.js?1551292994"></script>
-    <script src="/js/learn.js?1551292994"></script>
-    <script src="/js/hugo-learn.js?1551292994"></script>
+    <script src="/js/modernizr.custom.71422.js?1551373722"></script>
+    <script src="/js/learn.js?1551373722"></script>
+    <script src="/js/hugo-learn.js?1551373722"></script>
 
-    <link href="/mermaid/mermaid.css?1551292994" type="text/css" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1551292994"></script>
+    <link href="/mermaid/mermaid.css?1551373722" type="text/css" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1551373722"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
