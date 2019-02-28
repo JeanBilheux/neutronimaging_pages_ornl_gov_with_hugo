@@ -56,5 +56,11 @@ the folder where the ascii file listing the image files and their time stamp wil
 
 Once you have selected the output folder, the ascii file will be automatically created and will look something like this
 
-<img src='/tutorial/notebooks/from_dsc_time_info_to_ascii_file_vs_time/images/??.png' />
+<img src='/tutorial/notebooks/from_dsc_time_info_to_ascii_file_vs_time/images/preview_output.png' />
 
+where the columns information are in order
+
+ * base file name
+ * time stamp (unix format)
+ * time stamp (user format)
+ * acquisition time (s)
