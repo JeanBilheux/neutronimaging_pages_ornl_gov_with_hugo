@@ -79,4 +79,5 @@ To get quickly started with Amira, here are a few YouTube videos that you may fi
  *  [CLICK HERE: Amira Image Segmentation Tutorial](https://www.youtube.com/watch?v=QfGmGFsTWdQ&amp=&index=6)
 <img src='/tutorial/how_to_start_amira/images/amira_tutorial_strip_7.png' />
 
-
+ *  [CLCK HERE: Introduction to Python Scripting](https://www.youtube.com/watch?v=tUlZFJj-aYs)
+<img src='/tutorial/how_to_start_amira/images/amira_tutorial_strip_8.png' />
