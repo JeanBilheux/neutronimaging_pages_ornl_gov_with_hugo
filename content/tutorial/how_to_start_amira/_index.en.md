@@ -1,7 +1,7 @@
 ---
 title: How to work with Amira
-weight: 800
-pre: "<b>h. </b>"
+weight: 660
+pre: "<b>i. </b>"
 ---
 
 This tutorial will show you how to start and then do some of the most basics things with **Amira** 
