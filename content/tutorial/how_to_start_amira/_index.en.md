@@ -1,7 +1,7 @@
 ---
 title: How to work with Amira
-weight: 660
-pre: "<b>i. </b>"
+weight: 900
+pre: "<b>5.9 </b>"
 ---
 
 This tutorial will show you how to start and then do some of the most basics things with **Amira** 

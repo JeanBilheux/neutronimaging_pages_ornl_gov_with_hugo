@@ -1,7 +1,7 @@
 ---
 title: Connect to our computer
 weight: 200
-pre: "<b>b. </b>"
+pre: "<b>5.2 </b>"
 
 ---
 

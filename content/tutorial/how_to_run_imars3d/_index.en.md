@@ -1,7 +1,7 @@
 ---
 title: Do a CT reconstruction
 weight: 500
-pre: "<b>e. </b>"
+pre: "<b>5.5 </b>"
 
 ---
 

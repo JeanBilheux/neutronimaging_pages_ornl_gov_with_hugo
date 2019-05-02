@@ -1,7 +1,7 @@
 ---
-title: MCP Detector Correction
-weight: 650
-pre: "<b>g. </b>"
+title: MCP Det. Corr.
+weight: 700
+pre: "<b>5.7 </b>"
 ---
 
 The following tutorial will guide, step by step, in running the MCP correction program
