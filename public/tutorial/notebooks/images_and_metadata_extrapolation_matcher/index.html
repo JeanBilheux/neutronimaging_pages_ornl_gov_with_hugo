@@ -13,19 +13,19 @@
     <title>Images and Metadata Extrapolation Matcher :: Documentation for Hugo Learn Theme</title>
     
     
-    <link href="/css/nucleus.css?1556820893" rel="stylesheet">
-    <link href="/css/font-awesome.min.css?1556820893" rel="stylesheet">
-    <link href="/css/hybrid.css?1556820893" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1556820893" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1556820893" rel="stylesheet">
-    <link href="/css/auto-complete.css?1556820893" rel="stylesheet">
-    <link href="/css/theme.css?1556820893" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1556820893" rel="stylesheet">
+    <link href="/css/nucleus.css?1556828245" rel="stylesheet">
+    <link href="/css/font-awesome.min.css?1556828245" rel="stylesheet">
+    <link href="/css/hybrid.css?1556828245" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1556828245" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1556828245" rel="stylesheet">
+    <link href="/css/auto-complete.css?1556828245" rel="stylesheet">
+    <link href="/css/theme.css?1556828245" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1556828245" rel="stylesheet">
     
-      <link href="/css/theme-blue.css?1556820893" rel="stylesheet">
+      <link href="/css/theme-blue.css?1556828245" rel="stylesheet">
     
 
-    <script src="/js/jquery-2.x.min.js?1556820893"></script>
+    <script src="/js/jquery-2.x.min.js?1556828245"></script>
     
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left{ 
@@ -60,14 +60,14 @@
     <span data-search-clear=""><i class="fa fa-close"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1556820893"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1556820893"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1556828245"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1556828245"></script>
 <script type="text/javascript">
     
         var baseurl = "";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1556820893"></script>
+<script type="text/javascript" src="/js/search.js?1556828245"></script>
 
     
   </div>
@@ -1165,7 +1165,7 @@
         
         ">
       <a href="/tutorial/notebooks/images_and_metadata_extrapolation_matcher/">
-          - Images and Metadata Extrapolation Matcher<i class='fa fa-battery-quarter'></i> 
+          - Images and Metadata Extrapolation Matcher<i class='fa fa-battery-full'></i> 
           
             <i class="fa fa-check read-icon"></i>
           
@@ -1740,12 +1740,13 @@
 <li>
 <ul>
 <li><a href="#description">Description</a></li>
-<li><a href="#start-the-notebook">Start the notebook</a>
-<ul>
+<li><a href="#start-the-notebook">Start the notebook</a></li>
 <li><a href="#select-your-ipts">Select your IPTS</a></li>
 <li><a href="#select-the-file-name-vs-time-stamp-text-file">Select the file name vs time stamp text file</a></li>
 <li><a href="#select-the-metadata-vs-time-stamp-text-file">Select the metadata vs time stamp text file</a></li>
-</ul></li>
+<li><a href="#select-data-to-merge">Select data to merge</a></li>
+<li><a href="#extrapolate-and-display-results">Extrapolate and display results</a></li>
+<li><a href="#select-output-folder">Select output folder</a></li>
 </ul></li>
 </ul>
 </nav>
@@ -1799,8 +1800,8 @@ according to the time stamp of the image file, the metadata value.</p>
 </ul></li>
 </ul>
 
-<p>Using those input files, the notebook will create a new text file of the file name and the corresponding metadata values you
-previously selected.</p>
+<p>Using those input files, the notebook will create a new text file of the file name and the corresponding metadata
+values you previously selected.</p>
 
 <p><img src='/tutorial/notebooks/images_and_metadata_extrapolation_matcher/images/output_ascii_file.png' /></p>
 
@@ -1809,32 +1810,72 @@ previously selected.</p>
 <p>If you need help accessing this notebook, check the <a href="/en/tutorial/how_to_start_notebooks">How To &gt; Start the python
 notebooks</a> tutorial.</p>
 
-<h3 id="select-your-ipts">Select your IPTS</h3>
+<h2 id="select-your-ipts">Select your IPTS</h2>
 
 <div class="notices info" ><p>Need help using the <a href="/tutorial/notebooks/select_ipts/#activate-search">IPTS selector</a>?</p>
 </div>
 
 
-<h3 id="select-the-file-name-vs-time-stamp-text-file">Select the file name vs time stamp text file</h3>
+<h2 id="select-the-file-name-vs-time-stamp-text-file">Select the file name vs time stamp text file</h2>
 
 <p>Using the <a href="/tutorial/notebooks/file_selector/#activate-search">file selection tool</a>, select
 your metadata file.</p>
 
-<p>As specified in the notebook, this is the file you created using the notebook <a href="/tutorial/notebooks/create_list_of_file_name_vs_time_stamp/#activate-search">create_list_of_file_name_vs_time_stamp.ipynb</a></p>
+<p>As specified in the notebook, this is the file you created using the notebook
+<a href="/tutorial/notebooks/create_list_of_file_name_vs_time_stamp/#activate-search">create_list_of_file_name_vs_time_stamp.ipynb</a></p>
 
 <p>This file looks like this</p>
 
 <p><img src='/tutorial/notebooks/images_and_metadata_extrapolation_matcher/images/filename_vs_timestamp.png' /></p>
 
-<h3 id="select-the-metadata-vs-time-stamp-text-file">Select the metadata vs time stamp text file</h3>
+<h2 id="select-the-metadata-vs-time-stamp-text-file">Select the metadata vs time stamp text file</h2>
 
-<p>This file can be created using the notebook <a href="/tutorial/notebooks/metadata_ascii_parser/#activate-search">metadata_ascii_parser</a> when the metadata have not been saved inside
-the image file.</p>
+<p>This file can be created</p>
+
+<ul>
+<li>using the notebook <a href="/tutorial/notebooks/metadata_ascii_parser/#activate-search">metadata_ascii_parser</a>
+when the metadata have not been saved inside the image file (ex: hardware used to apply, and record, metadata was not
+connected to our data aquisition system (DAS))</li>
+</ul>
 
 <p>or</p>
 
-<p>using the notebook <a href="/tutorial/notebooks/list_metadata_and_time_with_oncat/#activate-search">list_metadata_and_time_with_oncat</a> when the metadata are inside the
-image file. Here is how to know if your file contains the metadata.</p>
+<ul>
+<li>using the notebook <a href="/tutorial/notebooks/list_metadata_and_time_with_oncat/#activate-search">list_metadata_and_time_with_oncat</a> when the metadata are inside
+the image file.</li>
+</ul>
+
+<div class="notices info" ><p>Need help figuring out the metadata stored in your image file? Check this tutorial on <a href="/tutorial/how_to_use_oncat/#activate-search">how to use ONCat</a>
+<img src='/tutorial/how_to_use_oncat/images/oncat_preview.png' /></p>
+</div>
+
+
+<h2 id="select-data-to-merge">Select data to merge</h2>
+
+<p>You have now the option to select which of the metadata you want <strong>to keep</strong> and <strong>extrapolate</strong> for the given
+image files.</p>
+
+<p><img src='/tutorial/notebooks/images_and_metadata_extrapolation_matcher/images/merging.png' /></p>
+
+<p>Use <strong>CTRL</strong> + <strong>Click</strong> to select more than one metadata.</p>
+
+<h2 id="extrapolate-and-display-results">Extrapolate and display results</h2>
+
+<p>Running this cell will give you a preview of the interpolation of the data. Original values of the metadata are
+displayed in green and extrapolated values are displayed in orange. The orange data will be the one exported in
+the final text file as those corespond to the image file time stamps.</p>
+
+<p><img src='/tutorial/notebooks/images_and_metadata_extrapolation_matcher/images/merged_data.png' /></p>
+
+<h2 id="select-output-folder">Select output folder</h2>
+
+<p>Using the <a href="/tutorial/notebooks/file_selector/#activate-search">folder selection tool</a>, select
+the output folder.</p>
+
+<p>Once you have selected this folder, the output ascii file is automatically created and a message informs you
+of the name of the file as well as the location of this file.</p>
+
+<p><img src='/tutorial/notebooks/images_and_metadata_extrapolation_matcher/images/output_message.png' /></p>
 
 
 <footer class=" footline" >
@@ -2851,20 +2892,20 @@ image file. Here is how to know if your file contains the metadata.</p>
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1556820893"></script>
-    <script src="/js/perfect-scrollbar.min.js?1556820893"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1556820893"></script>
-    <script src="/js/jquery.sticky.js?1556820893"></script>
-    <script src="/js/featherlight.min.js?1556820893"></script>
-    <script src="/js/html5shiv-printshiv.min.js?1556820893"></script>
-    <script src="/js/highlight.pack.js?1556820893"></script>
+    <script src="/js/clipboard.min.js?1556828245"></script>
+    <script src="/js/perfect-scrollbar.min.js?1556828245"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1556828245"></script>
+    <script src="/js/jquery.sticky.js?1556828245"></script>
+    <script src="/js/featherlight.min.js?1556828245"></script>
+    <script src="/js/html5shiv-printshiv.min.js?1556828245"></script>
+    <script src="/js/highlight.pack.js?1556828245"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom.71422.js?1556820893"></script>
-    <script src="/js/learn.js?1556820893"></script>
-    <script src="/js/hugo-learn.js?1556820893"></script>
+    <script src="/js/modernizr.custom.71422.js?1556828245"></script>
+    <script src="/js/learn.js?1556828245"></script>
+    <script src="/js/hugo-learn.js?1556828245"></script>
 
-    <link href="/mermaid/mermaid.css?1556820893" type="text/css" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1556820893"></script>
+    <link href="/mermaid/mermaid.css?1556828245" type="text/css" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1556828245"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
