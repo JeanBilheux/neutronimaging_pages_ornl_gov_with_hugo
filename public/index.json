@@ -106,17 +106,17 @@
 },
 {
 	"uri": "/tutorial/how_to_run_mcp_detector_correction/",
-	"title": "MCP Detector Correction",
+	"title": "MCP Det. Corr.",
 	"tags": [],
 	"description": "",
 	"content": " The following tutorial will guide, step by step, in running the MCP correction program\nDescription Every single data acquired using the MCP detector needs to be corrected for detector efficiency.\nOld Way\nIn the past, one had to go through the following steps:\n start the windows command line tool locate the .exe script (using file browser) and drag and drop it into the command line window add a space in the command line locate the first image of the data set to correct Run the script and wait \u0026hellip; rename the folder correction created by the script grab this folder and move it to final location repeat for all other set of data  New Way\n start MCPcorrection program select root folder containing all data set select output folder click correction button  The parent folder must be the folder seating on top of the data folder! This looks confusing? Well just follow the following diagram. In such a case, you should select the first folder!  Step by Step Select the parent folder Make sure the folder you select contains all the data folders. Any other folder selected (higher or lower in the hierarchy will crash the application)!\nSelect the data folder to correct In the table, simply select all the data folder you want to correct. If a row is highlighted, this folder will be corrected\nSelect the output folder The data corrected will be moved into this folder\nNaming convention\nEach data set corrected will be copied inside a folder based on the name of all the images and inside a folder of the data folder + \u0026ldquo;_corrected\u0026rdquo;.\nFull correction animation Configuration This is where you can define the starting default folder, default output folder and also the run correction time out. The script run in the back requires user input to finish it, because we wanted to allow you to run several job one after the other without your input, we, using the time out value, stop the process manually. During testing, we found that 35s is long enough to allow all the files to be translater. In case you find that the time out shows up too early, you may need to increase the time here.\n"
 },
 {
-	"uri": "/tutorial/notebooks/",
-	"title": "Notebooks Tutorials",
+	"uri": "/tutorial/how_to_use_oncat/",
+	"title": "Use ONCat",
 	"tags": [],
 	"description": "",
-	"content": " bin_images    bragg_edge_signal_vs_powder_peaks  calibrated_transmission  combine_folders    combine_images   create_list_of_file_name_vs_time_stamp  cylindrical_geometry_correction  deal_images   display_and_export_images_with_metadata_profile  display_and_export_images_with_timestamp  display_counts_of_region_vs_stack   display_file_names_vs_time_stamp   display_integrated_stack_of_images   file_name_and_metadata_vs_time_stamp  fix_images    frederick_ipts  from_attenuation_to_concentration  from_dsc_time_info_to_ascii_file_vs_time  ipts_18813  gamma_filtering_tool   images_metadata_matcher  IN PROGRESS integrated_roi_counts_vs_file_name_and_time_stamp  list_metadata_and_time_with_oncat   list_tiff_metadata  metadata_ascii_parser    metadata_overlapping_images    normalization   normalization_batch   profile  radial_profile    registration  rename_files  resonance_imaging_experiment_vs_theory  rotate_and_crop_images   template_ui    topaz_config_generator  water_intake_profile_calculator \nTools File Selector  Select IPTS \n Recently updated\n"
+	"content": " For any personal tutorial, demonstration or request, please contact Jean Bilheux.\nIn order to analyze or visualize your data, please follow the following recipe.\nConnect to our analysis computer Using your favorite browser, go to https://analysis.sns.gov\nEnter your XCAMS and your password and hit Login\nThe first time you log in, you will be presented the following display\njust click OK to finish up logging in.\nAnd if it is not the first time, you will probably see a black screen. Just click anywhere within the window to activate the screensaver log in.\nEnter your password and click Unlock.\nYou are now connected to our analysis computer.\n"
 },
 {
 	"uri": "/tutorial/how_to_start_amira/",
@@ -127,10 +127,17 @@
 },
 {
 	"uri": "/tutorial/how_to_other/",
-	"title": "More ...",
+	"title": "Divers ...",
 	"tags": [],
 	"description": "",
 	"content": "  How can I create a movie from a sequence of images?   A full tutorial showing you step by step how to create a movie using ImageJ is available at this post.\n  "
+},
+{
+	"uri": "/tutorial/notebooks/",
+	"title": "Notebooks Tutorials",
+	"tags": [],
+	"description": "",
+	"content": " bin_images    bragg_edge_signal_vs_powder_peaks  calibrated_transmission  combine_folders    combine_images   create_list_of_file_name_vs_time_stamp  cylindrical_geometry_correction  deal_images   display_and_export_images_with_metadata_profile  display_and_export_images_with_timestamp  display_counts_of_region_vs_stack   display_file_names_vs_time_stamp   display_integrated_stack_of_images   file_name_and_metadata_vs_time_stamp  fix_images    frederick_ipts  from_attenuation_to_concentration  from_dsc_time_info_to_ascii_file_vs_time  ipts_18813  gamma_filtering_tool   images_and_metadata_extrapolation_matcher  IN PROGRESS integrated_roi_counts_vs_file_name_and_time_stamp  list_metadata_and_time_with_oncat   list_tiff_metadata  metadata_ascii_parser    metadata_overlapping_images    normalization   normalization_batch   profile  radial_profile    registration  rename_files  resonance_imaging_experiment_vs_theory  rotate_and_crop_images   template_ui    topaz_config_generator  water_intake_profile_calculator \nTools File Selector  Select IPTS \n Recently updated\n"
 },
 {
 	"uri": "/tutorial/notebooks/bin_images/",
@@ -308,11 +315,11 @@
 	"content": "Our gloal is to only develop open source tools. You will find here a list of the major repositories hosting our programs\n jupyter notebooks used in the analysis of the data python_notebooks python library used for normalization neunorm Imaging Resonance python library imagingReso iBeatles for Bragg Edge fitting iBeatles set of jupyter widgets ipywe Root analysis library RootPlantProcessing  "
 },
 {
-	"uri": "/tutorial/notebooks/images_metadata_matcher/",
-	"title": "Images Metadata Matcher",
+	"uri": "/tutorial/notebooks/images_and_metadata_extrapolation_matcher/",
+	"title": "Images and Metadata Extrapolation Matcher",
 	"tags": [],
 	"description": "",
-	"content": " Notebook name: images_metadata_parser.ipynb\nDescription Start the notebook If you need help accessing this notebook, check the How To \u0026gt; Start the python notebooks tutorial.\nSelect your IPTS Need help using the IPTS selector?\n Select the metadata file Using the file selection tool, select your metadata file.\n"
+	"content": " Notebook name: images_and_metadata_extrapolation_parser.ipynb\nDescription There are cases where you need to define the metadata value of a given image. This is challenging when the file recording the metadata has no correlation with the images taken. This notebook will allow you to calculate, according to the time stamp of the image file, the metadata value.\nThis notebook takes 2 text files as input:\n filename vs timestamp text file\n created by the notebook create_list_of_file_name_vs_time_stamp.ipynb  metadata vs timestamp text file\n created by metadata_ascii_parser   or\n created by list_metadata_and_time_with_oncat   Using those input files, the notebook will create a new text file of the file name and the corresponding metadata values you previously selected.\nStart the notebook If you need help accessing this notebook, check the How To \u0026gt; Start the python notebooks tutorial.\nSelect your IPTS Need help using the IPTS selector?\n Select the file name vs time stamp text file Using the file selection tool, select your metadata file.\nAs specified in the notebook, this is the file you created using the notebook create_list_of_file_name_vs_time_stamp.ipynb\nThis file looks like this\nSelect the metadata vs time stamp text file This file can be created using the notebook metadata_ascii_parser when the metadata have not been saved inside the image file.\nor\nusing the notebook list_metadata_and_time_with_oncat when the metadata are inside the image file. Here is how to know if your file contains the metadata.\n"
 },
 {
 	"uri": "/tutorial/notebooks/integrated_roi_counts_vs_file_name_and_time_stamp/",

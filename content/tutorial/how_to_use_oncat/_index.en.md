@@ -5,32 +5,36 @@ pre: "<b>5.8 </b>"
 
 ---
 
-For any personal tutorial, demonstration or request, please contact [Jean Bilheux](/en/credits#jean_bilheux).
+ONCat is a web tool that allows you to browse through the archived data. 
 
-In order to analyze or visualize your data, please follow the following recipe.
+To access ONCat, go to [https://oncat.ornl.gov/#/](https://oncat.ornl.gov/#/)
 
-## Connect to our analysis computer
+<img src='/tutorial/how_to_use_oncat/images/oncat_preview.png' />
 
-Using your favorite browser, go to [https://analysis.sns.gov](https://analysis.sns.gov)
+# How to reach your data
 
-<img src='/tutorial/how_to_access_computer/images/launch_session.png' />
-<img src='/tutorial/how_to_access_computer/images/analysis_1.png' />
+1. **Click** EXPLORE
+2. enter your **UCAMS** and **password**
+3. Select your **facility** 
+4. Select your **instrument**
+5. Select your **IPTS**, or perform a search to quickly find the right **IPTS**
 
-Enter your **XCAMS** and your **password** and hit **Login**
+<img src='/tutorial/how_to_use_oncat/images/start_oncat.gif' />
 
-The first time you log in, you will be presented the following display
+# Preview of your data
 
-<img src='/tutorial/how_to_access_computer/images/analysis_2.png' />
+By clicking the **Thumbnails** button, you can get a preview of every single file archived.
 
-just click **OK** to finish up logging in.
+<img src='/tutorial/how_to_use_oncat/images/thumbnails.gif' />
 
-And if it is not the first time, you will probably see a **black screen**. Just **click anywhere within the window**
-to activate the **screensaver log in**.
+# How to access the metadata
 
-<img src='/tutorial/how_to_access_computer/images/analysis_1a.png' />
+From the top page of your IPTS, click the **Files** button at the top.
 
-Enter your **password** and click **Unlock**.
+A predefined list of metadata is display in the table. 
 
-<img src='/tutorial/how_to_access_computer/images/analysis_3.png' />
+But if you want to preview the entire list of metadata in your files, click your **file name** in the left column of 
+this table and navigate through the tree shown. 
 
-You are now connected to our analysis computer.
+<img src='/tutorial/how_to_use_oncat/images/metadata.gif' />
+

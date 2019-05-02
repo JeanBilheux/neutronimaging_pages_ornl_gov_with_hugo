@@ -70,7 +70,7 @@
   </url>
   
   <url>
-    <loc>/tutorial/notebooks/</loc>
+    <loc>/tutorial/how_to_use_oncat/</loc>
   </url>
   
   <url>
@@ -79,6 +79,10 @@
   
   <url>
     <loc>/tutorial/how_to_other/</loc>
+  </url>
+  
+  <url>
+    <loc>/tutorial/notebooks/</loc>
   </url>
   
   <url>
@@ -183,7 +187,7 @@
   </url>
   
   <url>
-    <loc>/tutorial/notebooks/images_metadata_matcher/</loc>
+    <loc>/tutorial/notebooks/images_and_metadata_extrapolation_matcher/</loc>
   </url>
   
   <url>
