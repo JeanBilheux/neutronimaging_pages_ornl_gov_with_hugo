@@ -7,7 +7,7 @@ pre: "<b>5.8 </b>"
 
 ONCat is a web tool that allows you to browse through the archived data. 
 
-To access ONCat, go to [https://oncat.ornl.gov/#/](https://oncat.ornl.gov/#/)
+To access ONCat, go to [https://oncat.ornl.gov/#/](https://oncat.ornl.gov)
 
 <img src='/tutorial/how_to_use_oncat/images/oncat_preview.png' />
 
