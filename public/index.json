@@ -116,7 +116,7 @@
 	"title": "Use ONCat",
 	"tags": [],
 	"description": "",
-	"content": " For any personal tutorial, demonstration or request, please contact Jean Bilheux.\nIn order to analyze or visualize your data, please follow the following recipe.\nConnect to our analysis computer Using your favorite browser, go to https://analysis.sns.gov\nEnter your XCAMS and your password and hit Login\nThe first time you log in, you will be presented the following display\njust click OK to finish up logging in.\nAnd if it is not the first time, you will probably see a black screen. Just click anywhere within the window to activate the screensaver log in.\nEnter your password and click Unlock.\nYou are now connected to our analysis computer.\n"
+	"content": " ONCat is a web tool that allows you to browse through the archived data.\nTo access ONCat, go to https://oncat.ornl.gov/#/\nHow to reach your data  Click EXPLORE enter your UCAMS and password Select your facility Select your instrument Select your IPTS, or perform a search to quickly find the right IPTS  Preview of your data By clicking the Thumbnails button, you can get a preview of every single file archived.\nHow to access the metadata From the top page of your IPTS, click the Files button at the top.\nA predefined list of metadata is display in the table.\nBut if you want to preview the entire list of metadata in your files, click your file name in the left column of this table and navigate through the tree shown.\n"
 },
 {
 	"uri": "/tutorial/how_to_start_amira/",
