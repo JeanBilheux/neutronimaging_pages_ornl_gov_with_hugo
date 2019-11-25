@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Neutron Imaging on Documentation for Hugo Learn Theme</title>
@@ -16,8 +16,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/credits/</guid>
-      <description>Hassina Bilheux - Instrument ScientistExpertise: HFIR and SNS imaging beam lines  Short Bio ...   Dr. Hassina Bilheux obtained her Ph.D. in Physics at the Univ. of Versailles, France. Her work focused on plasma physics at the Oak Ridge National Laboratory’s Physics Division.
-She has developed neutron imaging capabilities at ORNL’s High Flux Isotope Reactor CG-1D beamline and is prototyping neutron imaging at the Spallation Neutron Source.</description>
+      <description>Hassina Bilheux - Instrument ScientistExpertise: HFIR and SNS imaging beam lines    &amp;lt;div class=&amp;quot;expand-label&amp;quot; style=&amp;quot;cursor: pointer;&amp;quot; onclick=&amp;quot;$h = $(this);$h.next(&#39;div&#39;).slideToggle(100,function () {$h.children(&#39;i&#39;).attr(&#39;class&#39;,function () {return $h.next(&#39;div&#39;).is(&#39;:visible&#39;) ? &#39;fa fa-chevron-down&#39; : &#39;fa fa-chevron-right&#39;;});});&amp;quot;&amp;gt; &amp;lt;i style=&amp;quot;font-size:x-small;&amp;quot; class=&amp;quot;fa fa-chevron-right&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; &amp;lt;span&amp;gt; Short Bio ... &amp;lt;/span&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;quot;expand-content&amp;quot; style=&amp;quot;display: none;&amp;quot;&amp;gt; Dr. Hassina Bilheux obtained her Ph.D. in Physics at the Univ. of Versailles, France.</description>
     </item>
     
     <item>
