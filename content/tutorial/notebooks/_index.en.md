@@ -26,6 +26,7 @@ pre: "<b>5.11 </b>"
 <li>[gamma_filtering_tool]({{%relref "/tutorial/notebooks/gamma_filtering_tool/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
 <li>[images_and_metadata_extrapolation_matcher]({{%relref "/tutorial/notebooks/images_and_metadata_extrapolation_matcher/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
 <li>[integrated_roi_counts_vs_file_name_and_time_stamp]({{%relref "/tutorial/notebooks/integrated_roi_counts_vs_file_name_and_time_stamp/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i></li>
+<li>[list_element_bragg_edges]({{%relref "/tutorial/notebooks/list_element_bragg_edges/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i></li>
 <li>[list_metadata_and_time_with_oncat]({{%relref "/tutorial/notebooks/list_metadata_and_time_with_oncat/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
 <li>[list_tiff_metadata]({{%relref "/tutorial/notebooks/list_tiff_metadata/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i></li>
 <li>[metadata_ascii_parser]({{%relref "/tutorial/notebooks/metadata_ascii_parser/_index.md#activate-search" %}}) <i class='fa fa-battery-full'> </i> </li>
