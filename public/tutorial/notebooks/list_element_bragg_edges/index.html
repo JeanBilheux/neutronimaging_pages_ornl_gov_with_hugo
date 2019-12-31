@@ -10,7 +10,7 @@
     <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 <link rel="icon" href="/images/favicon.png" type="image/x-icon" />
 
-    <title>Tags :: Documentation for Hugo Learn Theme</title>
+    <title>List Bragg Edges of an Element :: Documentation for Hugo Learn Theme</title>
     
     
     <link href="/css/nucleus.css?1577822344" rel="stylesheet">
@@ -35,7 +35,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/tags/">
+  <body class="" data-url="/tutorial/notebooks/list_element_bragg_edges/">
     <nav id="sidebar" class="showVisitedLinks">
 
 
@@ -296,7 +296,7 @@
   
     
     <li data-nav-id="/tutorial/" title="Tutorials" class="dd-item 
-        
+        parent
         
         
         ">
@@ -585,7 +585,7 @@
   
     
     <li data-nav-id="/tutorial/notebooks/" title="Notebooks Tutorials" class="dd-item 
-        
+        parent
         
         
         ">
@@ -1238,8 +1238,8 @@
   
     
     <li data-nav-id="/tutorial/notebooks/list_element_bragg_edges/" title="List Bragg Edges of an Element" class="dd-item 
-        
-        
+        parent
+        active
         
         ">
       <a href="/tutorial/notebooks/list_element_bragg_edges/">
@@ -1765,7 +1765,19 @@
             
           
           
-            <a href='/'>Neutron Imaging</a> > Tags
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='/'>Neutron Imaging</a> > <a href='/tutorial/'>Tutorials</a> > <a href='/tutorial/notebooks/'>Notebooks Tutorials</a> > List Bragg Edges of an Element
+          
+         
+          
+         
           
          
           
@@ -1775,7 +1787,20 @@
                 
                     <div class="progress">
     <div class="wrapper">
-
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#description">Description</a></li>
+<li><a href="#how-to-use-it">How to Use It?</a>
+<ul>
+<li><a href="#select-the-entries">Select the entries</a></li>
+<li><a href="#table-result">Table Result</a></li>
+<li><a href="#export-table">Export table</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
     </div>
 </div>
 
@@ -1787,12 +1812,57 @@
         
         <div id="body-inner">
           
-            <h1>Tags</h1>
+            <h1>List Bragg Edges of an Element</h1>
           
 
         
 
 
+
+
+<p><strong>Notebook name</strong>: list_element_bragg_edges.ipynb</p>
+
+<h2 id="description">Description</h2>
+
+<p>This notebook lists the given number of hkl, d-spacing and Bragg Edges values for one of the listed element.</p>
+
+<p><img src='/tutorial/notebooks/list_element_bragg_edges/images/list_bragg_edges_result.png' /></p>
+
+<p>If you need help accessing this notebook, check the <a href="/en/tutorial/how_to_start_notebooks">How To &gt; Start the python
+notebooks</a> tutorial.</p>
+
+<h2 id="how-to-use-it">How to Use It?</h2>
+
+<h3 id="select-the-entries">Select the entries</h3>
+
+<p>Select the <strong>element</strong> and the <strong>number of data</strong> you want to see.</p>
+
+<p><img src='/tutorial/notebooks/list_element_bragg_edges/images/select.png' /></p>
+
+<h3 id="table-result">Table Result</h3>
+
+<p>The next cell will display the following information</p>
+
+<ul>
+<li>name of the material you selected</li>
+<li>lattice value</li>
+<li>crystal structure</li>
+<li>if the program used the local metadata table or retrieved the information from the NIST web site directly</li>
+<li>d-spacing and Bragg edges values for each hkl</li>
+</ul>
+
+<p><img src='/tutorial/notebooks/list_element_bragg_edges/images/table.png' /></p>
+
+<h3 id="export-table">Export table</h3>
+
+<p>You have the option to export the table information as a CSV (comma separated file format).</p>
+
+<p>Select the <strong>output folder</strong> where the file will be created. The file will then be created automatically
+using the following file name convention</p>
+
+<p><strong>bragg_edges_of_&lt;name_of_element&gt;.txt</strong></p>
+
+<p><img src='/tutorial/notebooks/list_element_bragg_edges/images/export_file.png' /></p>
 
 
 <footer class=" footline" >
@@ -1963,6 +2033,7 @@
             
                 
                     
+                    
                 
                 
 
@@ -1977,6 +2048,9 @@
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -2138,6 +2212,7 @@
             
                 
                     
+                    
                 
                 
 
@@ -2153,21 +2228,8 @@
             
                 
                     
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
                         
-            
-            
-                
+                        
                     
                 
                 
@@ -2553,6 +2615,26 @@
             
                 
                     
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
                 
                 
 
@@ -2817,8 +2899,10 @@
 
 
         
+            <a class="nav nav-prev" href="/tutorial/notebooks/integrated_roi_counts_vs_file_name_and_time_stamp/" title="Integrated ROI Counts vs File Name and Time Stamp"> <i class="fa fa-chevron-left"></i></a>
         
-            <a class="nav nav-next" href="/prepare_venue/" title="Before your Arrival" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+        
+            <a class="nav nav-next" href="/tutorial/notebooks/list_metadata_and_time_with_oncat/" title="List Metadata and Time with ONCat" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
         
     </div>
 
@@ -2827,20 +2911,20 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1577822345"></script>
-    <script src="/js/perfect-scrollbar.min.js?1577822345"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1577822345"></script>
-    <script src="/js/jquery.sticky.js?1577822345"></script>
-    <script src="/js/featherlight.min.js?1577822345"></script>
-    <script src="/js/html5shiv-printshiv.min.js?1577822345"></script>
-    <script src="/js/highlight.pack.js?1577822345"></script>
+    <script src="/js/clipboard.min.js?1577822344"></script>
+    <script src="/js/perfect-scrollbar.min.js?1577822344"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1577822344"></script>
+    <script src="/js/jquery.sticky.js?1577822344"></script>
+    <script src="/js/featherlight.min.js?1577822344"></script>
+    <script src="/js/html5shiv-printshiv.min.js?1577822344"></script>
+    <script src="/js/highlight.pack.js?1577822344"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom.71422.js?1577822345"></script>
-    <script src="/js/learn.js?1577822345"></script>
-    <script src="/js/hugo-learn.js?1577822345"></script>
+    <script src="/js/modernizr.custom.71422.js?1577822344"></script>
+    <script src="/js/learn.js?1577822344"></script>
+    <script src="/js/hugo-learn.js?1577822344"></script>
 
-    <link href="/mermaid/mermaid.css?1577822345" type="text/css" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1577822345"></script>
+    <link href="/mermaid/mermaid.css?1577822344" type="text/css" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1577822344"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
