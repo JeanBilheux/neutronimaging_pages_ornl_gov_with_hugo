@@ -357,6 +357,13 @@
 	"content": " Notebook name: list_tiff_metadata.ipynb\nDescription This notebook will list the value of the metadata you selected for the full stack of images you loaded. You will then have the option to export this table in an ascii (comma separeated) file.\n select your tiff images select the metadata you want to see metadata are listed (OPTION) select folder to export the table  Start the notebook If you need help accessing this notebook, check the How To \u0026gt; Start the python notebooks tutorial.\nHow to Use It? Select your IPTS Check the full tutorial here\nSelect TIFF images Select the list of tiff images using the file selector\nNeed help using the [File Selector](/tutorial/notebooks/file_selector/#activate-search)?  Select metadata to display Using the first image selected, the program will determine the list of metadata available and will display the list here. Select the one you want to output.\nMetadat displayed The selected metadata value for all the images is displayed in a dropdown list.\nExport table Select output folder location and click export in next cell.\n"
 },
 {
+	"uri": "/tutorial/notebooks/math_images/",
+	"title": "Math with Images",
+	"tags": [],
+	"description": "",
+	"content": " Notebook name: math_images.ipynb\nDescription This notebook allows you to perform simple math (addition or subtraction for now) on a stack of images.\nThe current requirement is that you can add or subtract a single image (that you will select) on a stack of images.\nNot seeing the algorithm you want to use? Please let me know and I will add it (Jean Bilheux)  Select your IPTS Need help using the [IPTS selector](/tutorial/notebooks/select_ipts/#activate-search)?  Select the images to operate on Using the file selection tool, select the images you want use in the math.\nselect the second image to use in the math Using the file selection tool, select the image you want to use on the other side of the math.\nMath Method You can currently only select add or subtraction.\nRecap The program gives you a recapitulation of the math you are about to perform, such as:\n the number of files affected the math algorithm the name of the second file image  Select output location Using the folder selection tool, select the location where you want to create the final images.\nOnce the files have been created, a message will let you know where you can check the result.\n"
+},
+{
 	"uri": "/tutorial/notebooks/metadata_ascii_parser/",
 	"title": "Metadata Ascii Parser",
 	"tags": [],
