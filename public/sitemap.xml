@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
@@ -103,6 +103,7 @@
   
   <url>
     <loc>/categories/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -134,10 +135,6 @@
   </url>
   
   <url>
-    <loc>/tutorial/notebooks/display_and_export_images_with_timestamp/</loc>
-  </url>
-  
-  <url>
     <loc>/tutorial/notebooks/display_counts_of_region_vs_stack/</loc>
   </url>
   
@@ -151,6 +148,10 @@
   
   <url>
     <loc>/tutorial/notebooks/display_integrated_stack_of_images/</loc>
+  </url>
+  
+  <url>
+    <loc>/tutorial/notebooks/display_and_export_images_with_timestamp/</loc>
   </url>
   
   <url>
@@ -262,15 +263,16 @@
   </url>
   
   <url>
+    <loc>/tutorial/notebooks/topaz_config_generator/</loc>
+  </url>
+  
+  <url>
     <loc>/tags/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>/tutorial/notebooks/template_ui/</loc>
-  </url>
-  
-  <url>
-    <loc>/tutorial/notebooks/topaz_config_generator/</loc>
   </url>
   
   <url>
