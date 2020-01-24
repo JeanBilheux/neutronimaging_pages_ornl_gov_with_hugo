@@ -1,11 +1,11 @@
 ---
-title: Combine Images
+title: Combine All Images Selected
 post: " <i class='fa fa-battery-full'></i>"
 pre: "- "
 
 ---
 
-**Notebook name**: combine_images.ipynb
+**Notebook name**: combine_all_images_selected.ipynb
 
 ## Description
 
@@ -14,11 +14,11 @@ available
 
  * Arithmetic Mean
  
-<img src='/tutorial/notebooks/combine_images/images/arithmetic_mean.png' />
+<img src='/tutorial/notebooks/combine_all_images_selected/images/arithmetic_mean.png' />
  
  * Geometric Mean
 
-<img src='/tutorial/notebooks/combine_images/images/geometric_mean.png' />
+<img src='/tutorial/notebooks/combine_all_images_selected/images/geometric_mean.png' />
 
  * Add
  
@@ -54,7 +54,7 @@ the images you want to combine.
 It's time to select your merging algorithm (check the description at the top of this web page for
 the explanation of the algorithms). 
 
-<img src='/tutorial/notebooks/combine_images/images/merging_methods.png' />
+<img src='/tutorial/notebooks/combine_all_images_selected/images/merging_methods.png' />
 
 ### Select output location
 
@@ -66,10 +66,10 @@ the location where you want to create the combine image.
 If you don't like the default output file name offered, you have here the option to define
 your own.
 
-<img src='/tutorial/notebooks/combine_images/images/output_filename.png' />
+<img src='/tutorial/notebooks/combine_all_images_selected/images/output_filename.png' />
 
 ### Merging
 
 Running the next cell will create the merge image and will inform you of the progress via a progress bar. 
 
-<img src='/tutorial/notebooks/combine_images/images/merging_in_progress.png' />
+<img src='/tutorial/notebooks/combine_all_images_selected/images/merging_in_progress.png' />
