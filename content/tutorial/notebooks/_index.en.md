@@ -10,6 +10,7 @@ pre: "<b>5.11 </b>"
 <li>[calibrated_transmission]({{%relref "/tutorial/notebooks/calibrated_transmission/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i></li>
 <li>[combine_folders]({{%relref "/tutorial/notebooks/combine_folders/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
 <li>[combine_all_images_selected]({{%relref "/tutorial/notebooks/combine_all_images_selected/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
+<li>[combine_images_n_by_n]({{%relref "/tutorial/notebooks/combine_images_n_by_n/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> <i class='fa fa-bell'></i></li>
 <li>[create_list_of_file_name_vs_time_stamp]({{%relref "/tutorial/notebooks/create_list_of_file_name_vs_time_stamp/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i></li>
 <li>[cylindrical_geometry_correction]({{%relref "/tutorial/notebooks/cylindrical_geometry_correction/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
 <li>[deal_images]({{%relref "/tutorial/notebooks/deal_images/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
