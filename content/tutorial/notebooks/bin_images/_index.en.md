@@ -25,17 +25,18 @@ Then we selected a **rebin** value of 2.
 <img src='/tutorial/notebooks/bin_images/images/images_mean_2_binning.png' />
 <center>fig 2: Rebin by 2 for a final image size of 4 by 4.</center>
 
-{{% notice info %}}
-In the case where the width and/or height of the image can not be evenly divided by the 
-rebin coefficient, the last uncompleted bin will be removed from the final image.
-<img src='/tutorial/notebooks/bin_images/images/truncated_image_after_rebin.png' />
-{{% /notice %}}
+ 
+ {{% notice info%}} 
+ In the case where the width and/or height of the image can not be evenly divided by the 
+ rebin coefficient, the last uncompleted bin will be removed from the final image.
+ <img src='/tutorial/notebooks/bin_images/images/truncated_image_after_rebin.png' />
+ {{% /notice %}}
 
 ### Select your IPTS
 
-{{% notice info %}}
-Need help using the [IPTS selector]({{%relref "/tutorial/notebooks/select_ipts/_index.md#activate-search" %}})?
-{{% /notice %}}
+ {{% notice info %}}
+ Need help using the [IPTS selector]({{%relref "/tutorial/notebooks/select_ipts/_index.md#activate-search" %}})?
+ {{% /notice %}}
 
 ### Select the images to rebin
 

@@ -34,6 +34,7 @@ pre: "<b>5.11 </b>"
 <li>[metadata_overlapping_images]({{%relref "/tutorial/notebooks/metadata_overlapping_images/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
 <li>[normalization]({{%relref "/tutorial/notebooks/normalization/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
 <li>[normalization_batch]({{%relref "/tutorial/notebooks/normalization_batch/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
+<li>[normalization_with_simplify_selection]({{%relref "/tutorial/notebooks/normalization_with_simplify_selection/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> <i class='fa fa-bell'></i></li>
 <li>[profile]({{%relref "/tutorial/notebooks/profile/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i></li>
 <li>[radial_profile]({{%relref "/tutorial/notebooks/radial_profile/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
 <li>[registration]({{%relref "/tutorial/notebooks/registration/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i></li>
