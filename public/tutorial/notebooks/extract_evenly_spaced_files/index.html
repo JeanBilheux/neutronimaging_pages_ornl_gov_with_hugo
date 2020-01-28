@@ -9,7 +9,7 @@
 
     <link rel="icon" href="/images/favicon.png" type="image/png">
 
-    <title>Metadata Ascii Parser :: Documentation for Hugo Learn Theme</title>
+    <title>Extract Evenly Spaced Files :: Documentation for Hugo Learn Theme</title>
 
     
     <link href="/css/nucleus.css?1580176107" rel="stylesheet">
@@ -35,7 +35,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/tutorial/notebooks/metadata_ascii_parser/">
+  <body class="" data-url="/tutorial/notebooks/extract_evenly_spaced_files/">
     <nav id="sidebar" class="showVisitedLinks">
 
 
@@ -1030,8 +1030,8 @@
   
     
     <li data-nav-id="/tutorial/notebooks/extract_evenly_spaced_files/" title="Extract Evenly Spaced Files" class="dd-item 
-        
-        
+        parent
+        active
         
         ">
       <a href="/tutorial/notebooks/extract_evenly_spaced_files/">
@@ -1394,8 +1394,8 @@
   
     
     <li data-nav-id="/tutorial/notebooks/metadata_ascii_parser/" title="Metadata Ascii Parser" class="dd-item 
-        parent
-        active
+        
+        
         
         ">
       <a href="/tutorial/notebooks/metadata_ascii_parser/">
@@ -1879,7 +1879,7 @@
             
           
           
-            <a href='/'>Neutron Imaging</a> > <a href='/tutorial/'>Tutorials</a> > <a href='/tutorial/notebooks/'>Notebooks Tutorials</a> > Metadata Ascii Parser
+            <a href='/'>Neutron Imaging</a> > <a href='/tutorial/'>Tutorials</a> > <a href='/tutorial/notebooks/'>Notebooks Tutorials</a> > Extract Evenly Spaced Files
           
          
           
@@ -1899,12 +1899,13 @@
 <li>
 <ul>
 <li><a href="#description">Description</a></li>
-<li><a href="#start-the-notebook">Start the notebook</a>
+<li><a href="#how-does-the-notebook-work">How does the notebook work?</a>
 <ul>
 <li><a href="#select-your-ipts">Select your IPTS</a></li>
-<li><a href="#select-the-metadata-file">Select the metadata file</a></li>
-<li><a href="#select-the-infos-you-want-to-keep">Select the infos you want to keep</a></li>
-<li><a href="#select-output-folder-and-filename">Select output folder and filename</a></li>
+<li><a href="#select-the-folder-containing-the-images-to-extract">Select the folder containing the images to extract</a></li>
+<li><a href="#extraction-coefficient">Extraction coefficient</a></li>
+<li><a href="#select-output-location">Select output location</a></li>
+<li><a href="#extracting">Extracting</a></li>
 </ul></li>
 </ul></li>
 </ul>
@@ -1924,7 +1925,7 @@
           
             <h1>
               
-              Metadata Ascii Parser
+              Extract Evenly Spaced Files
             </h1>
           
 
@@ -1935,34 +1936,57 @@
 
 	
 
-<p><strong>Notebook name</strong>: metadata_ascii_parser.ipynb</p>
+<p><strong>Notebook name</strong>: extract_evenly_spaced_files.ipynb</p>
 
 <h2 id="description">Description</h2>
 
-<p>Because of the large variety of sample environment used, we need to face a large variety of metadata files outputs.
-Those metadata files contain the sample environment data, such as <strong>temperature of a furnace</strong>, <strong>pressure of a cell</strong>,
-<strong>voltage of a power supply</strong>, etc. This notebook will allow you to select this metadata and isolate the set of
-information you want to retrieve. A new ascii file will then be created in a more common format that other notebooks
-will be able to use.</p>
+<p>This notebook allows you to copy into a new folder (extract) 1 every n files from the source folder. You
+will need to provide the <strong>skipping</strong> factor <strong>n</strong> in the notebook.</p>
 
+<p><strong>Example:</strong></p>
 
-<div class="notices warning" ><p>If your metadata file can not be parsed by this program, this means we need to write a new plugin for that particular
-file, please contact <a href="/en/credits#jean_bilheux">Jean Bilheux</a>.</p>
-</div>
+<p>let&rsquo;s pretend you selected a folder (<em>/Users/j35/my_data/</em>) containing the following 21 images</p>
 
+<p><strong>Input</strong></p>
 
-<p>The metadata file currently supported by this application looks like this:</p>
+<ul>
+<li>image001.fits<br /></li>
+<li>image002.fits</li>
+<li>image003.fits</li>
+<li>image004.fits</li>
+<li>image005.fits</li>
+<li>image006.fits</li>
+<li>image007.fits</li>
+<li>image008.fits</li>
+<li>image009.fits</li>
+<li>image010.fits<br /></li>
+<li>image011.fits</li>
+<li>image012.fits</li>
+<li>image013.fits</li>
+<li>image014.fits</li>
+<li>image015.fits</li>
+<li>image016.fits</li>
+<li>image017.fits</li>
+<li>image018.fits</li>
+<li>image019.fits</li>
+<li>image020.fits</li>
+<li>image021.fits</li>
+</ul>
 
-<p><img src='/tutorial/notebooks/metadata_ascii_parser/images/metadata_file_1.png' /></p>
+<p>and you decided to extract <strong>1 every 5 files</strong> in the <strong>Desktop</strong>.</p>
 
-<p>and will create the following type of output file</p>
+<p>The notebook will create the folder called <em>/Users/j35/Desktop/my_data_1_every_5_files</em> and will copy the following
+files there</p>
 
-<p><img src='/tutorial/notebooks/metadata_ascii_parser/images/output.png' /></p>
+<ul>
+<li>image001.fits<br /></li>
+<li>image006.fits</li>
+<li>image011.fits</li>
+<li>image016.fits</li>
+<li>image021.fits</li>
+</ul>
 
-<h2 id="start-the-notebook">Start the notebook</h2>
-
-<p>If you need help accessing this notebook, check the <a href="/en/tutorial/how_to_start_notebooks">How To &gt; Start the python
-notebooks</a> tutorial.</p>
+<h2 id="how-does-the-notebook-work">How does the notebook work?</h2>
 
 <h3 id="select-your-ipts">Select your IPTS</h3>
 
@@ -1971,34 +1995,31 @@ notebooks</a> tutorial.</p>
 </div>
 
 
-<h3 id="select-the-metadata-file">Select the metadata file</h3>
+<h3 id="select-the-folder-containing-the-images-to-extract">Select the folder containing the images to extract</h3>
 
 <p>Using the <a href="/tutorial/notebooks/file_selector/#activate-search">file selection tool</a>, select
-your metadata file.</p>
+the folder</p>
 
-<h3 id="select-the-infos-you-want-to-keep">Select the infos you want to keep</h3>
+<h3 id="extraction-coefficient">Extraction coefficient</h3>
 
-<p>The program will list the name of each column of metadata, as well as a data/time columns created by the program
- itself. Select the metadata you want to keep (any number of columns is allowed).</p>
+<p>Select the number of images you want to skip. The notebook will give you live the list of files that will then be
+extracted.</p>
 
-<p><img src='/tutorial/notebooks/metadata_ascii_parser/images/metadata_selection.gif' /></p>
+<p><img src='/tutorial/notebooks/extract_evenly_spaced_files/images/extraction_method.png' /></p>
 
-<p>Use <strong>SHIFT</strong> or <strong>COMMAND + CLICK</strong> to select more than one metadata.</p>
+<h3 id="select-output-location">Select output location</h3>
 
-<h3 id="select-output-folder-and-filename">Select output folder and filename</h3>
+<p>Using the <a href="/tutorial/notebooks/file_selector/#activate-search">folder selection tool</a>, select
+the location where you want to create the combine images.</p>
 
-<p>It is now time to export the new ascii metadata file.</p>
+<p><img src='/tutorial/notebooks/extract_evenly_spaced_files/images/select_output_folder.png' /></p>
 
-<p>Define the output file name. The extension <em>.txt</em> will be automatically added if you don&rsquo;t specify it. Then select
-the output folder.</p>
+<h3 id="extracting">Extracting</h3>
 
-<p><img src='/tutorial/notebooks/metadata_ascii_parser/images/output_folder_filename.png' /></p>
+<p>Once the output folder has been selected, the files will be automatically extracted (copied) into the output folder.
+Then a message will let you know when the process is done and where you can find the files copied.</p>
 
-<p>The new comma separated ascii file will have the following columns</p>
-
-<p><strong>Index, timestamp (s), metadata you selected &hellip;</strong></p>
-
-<p><img src='/tutorial/notebooks/metadata_ascii_parser/images/output_detail.png' /></p>
+<p><img src='/tutorial/notebooks/extract_evenly_spaced_files/images/result_of_notebook.png' /></p>
 
 
 
@@ -2626,6 +2647,26 @@ the output folder.</p>
             
                 
                     
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
                 
                 
 
@@ -2849,26 +2890,6 @@ the output folder.</p>
             
             
                 
-                    
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                        
-                        
                     
                 
                 
@@ -3104,10 +3125,10 @@ the output folder.</p>
 	 
 	 
 		
-			<a class="nav nav-prev" href="/tutorial/notebooks/math_images/" title="Math with Images"> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="/tutorial/notebooks/display_integrated_stack_of_images/" title="Display Integrated Images"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="/tutorial/notebooks/metadata_overlapping_images/" title="Metatadata Overlapping Images" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="/tutorial/notebooks/file_name_and_metadata_vs_time_stamp/" title="File Name and Metadata vs Timestamp" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>

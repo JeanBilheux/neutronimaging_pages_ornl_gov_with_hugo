@@ -66,16 +66,23 @@ the folder
 
 ### Extraction coefficient
 
+Select the number of images you want to skip. The notebook will give you live the list of files that will then be
+extracted.
 
-
-
+<img src='/tutorial/notebooks/extract_evenly_spaced_files/images/extraction_method.png' />
 
 ### Select output location
 
 Using the [folder selection tool]({{%relref "/tutorial/notebooks/file_selector/_index.md#activate-search" %}}), select 
 the location where you want to create the combine images.
 
+<img src='/tutorial/notebooks/extract_evenly_spaced_files/images/select_output_folder.png' />
+
 ### Extracting
 
+Once the output folder has been selected, the files will be automatically extracted (copied) into the output folder.
+Then a message will let you know when the process is done and where you can find the files copied.
+
+<img src='/tutorial/notebooks/extract_evenly_spaced_files/images/result_of_notebook.png' />
 
 
