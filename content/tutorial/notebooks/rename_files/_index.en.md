@@ -11,13 +11,15 @@ pre: "- "
 
 This notebook allows you to rename a set of files. You can define
 
- * the prefix file name
+ * the prefix file name from scratch or used part of the old name
  * the starting index
  * the index number of digits
 
 ### Main use of this notebook
 
-In this notebook, we will correctly format the file name index of the file selected. This allows the sorting of the file name to works all the time. For example, there are many cases where the images are saved using the following convention
+In this notebook, we will correctly format the file name index of the file selected. 
+This allows the sorting of the file name to works all the time. For example, there are many cases where the 
+images are saved using the following convention.
 
 **Wrong filename index**
 
@@ -82,16 +84,21 @@ Using the file dialog tool, select the folder for which you want to renmame the 
 
 #### Current schema name
 
-This is where you define the way the file name is defined. You need to specify what string separates the first part
-of the file name with the index. The entire part of the string before this **separator** will be replaced by your
-own string (defined in **New Naming Schema**).
+This is where you define the way the current file name is defined. You need to specify what string separates the first 
+part of the file name with the index. If you decide to not fully rename the images, the string before this **separator** 
+will be kept in the new file name.
 
 The **Random input** dropdown list displays a random selection of the input files, to help you in defining the
-**separator** string.
+**separator** string. Play with it to make sure you correctly defined the current file name (what is prefix, what is a
+separator). Use the slider to the right of the **file name prefix** to define the prefix part of the name (as shown in
+the following animation). 
+
+<img src='/tutorial/notebooks/rename_files/images/playing_with_slider.gif' />
 
 #### New naming schema
 
-Here, you define the new **prefix** file name, **index separator**, **number of digits** and **offset** of this index.
+Here, you define if you want to keep the old prefix or not, the new **prefix** file name, **index separator**,
+ **number of digits** and **offset** of this index.
 
 _Example:_
 
@@ -102,19 +109,19 @@ _Example:_
  * **offset**: 15
  * **new file name will be**: my_image_0025.tiff
 
+<img src='/tutorial/notebooks/rename_files/images/new_file_name.gif' />
+
 #### Result
 
 The bottom part of the cell will show the result of the naming on the first image selected.
 
 If the new name shows an **Error**, checks your **pre index separator**.
 
-<img src='/tutorial/notebooks/rename_files/images/result_renaming.gif' />
-
 ### Output folder
 
 You simply need to select where the new renamed file will be created. Then the program will copy the selected files
 and renamed them in the folder you selected.
 
-<img src='/tutorial/notebooks/rename_files/images/output.gif' />
+<img src='/tutorial/notebooks/rename_files/images/output_result.gif' />
 
 Feel free to check the dropdown list that shows the old name versus the new name of each file.

@@ -12,20 +12,20 @@
     <title>Rename Files :: Documentation for Hugo Learn Theme</title>
 
     
-    <link href="/css/nucleus.css?1580176107" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1580176107" rel="stylesheet">
-    <link href="/css/hybrid.css?1580176107" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1580176107" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1580176107" rel="stylesheet">
-    <link href="/css/auto-complete.css?1580176107" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1580176107" rel="stylesheet">
-    <link href="/css/theme.css?1580176107" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1580176107" rel="stylesheet">
+    <link href="/css/nucleus.css?1580949282" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1580949282" rel="stylesheet">
+    <link href="/css/hybrid.css?1580949282" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1580949282" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1580949282" rel="stylesheet">
+    <link href="/css/auto-complete.css?1580949282" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1580949282" rel="stylesheet">
+    <link href="/css/theme.css?1580949282" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1580949282" rel="stylesheet">
     
-      <link href="/css/theme-blue.css?1580176107" rel="stylesheet">
+      <link href="/css/theme-blue.css?1580949282" rel="stylesheet">
     
 
-    <script src="/js/jquery-3.3.1.min.js?1580176107"></script>
+    <script src="/js/jquery-3.3.1.min.js?1580949282"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -60,14 +60,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1580176107"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1580176107"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1580949282"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1580949282"></script>
 <script type="text/javascript">
     
         var baseurl = "";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1580176107"></script>
+<script type="text/javascript" src="/js/search.js?1580949282"></script>
 
     
   </div>
@@ -1951,14 +1951,16 @@
 <p>This notebook allows you to rename a set of files. You can define</p>
 
 <ul>
-<li>the prefix file name</li>
+<li>the prefix file name from scratch or used part of the old name</li>
 <li>the starting index</li>
 <li>the index number of digits</li>
 </ul>
 
 <h3 id="main-use-of-this-notebook">Main use of this notebook</h3>
 
-<p>In this notebook, we will correctly format the file name index of the file selected. This allows the sorting of the file name to works all the time. For example, there are many cases where the images are saved using the following convention</p>
+<p>In this notebook, we will correctly format the file name index of the file selected.
+This allows the sorting of the file name to works all the time. For example, there are many cases where the
+images are saved using the following convention.</p>
 
 <p><strong>Wrong filename index</strong></p>
 
@@ -2021,16 +2023,21 @@ notebooks</a> tutorial.</p>
 
 <h4 id="current-schema-name">Current schema name</h4>
 
-<p>This is where you define the way the file name is defined. You need to specify what string separates the first part
-of the file name with the index. The entire part of the string before this <strong>separator</strong> will be replaced by your
-own string (defined in <strong>New Naming Schema</strong>).</p>
+<p>This is where you define the way the current file name is defined. You need to specify what string separates the first
+part of the file name with the index. If you decide to not fully rename the images, the string before this <strong>separator</strong>
+will be kept in the new file name.</p>
 
 <p>The <strong>Random input</strong> dropdown list displays a random selection of the input files, to help you in defining the
-<strong>separator</strong> string.</p>
+<strong>separator</strong> string. Play with it to make sure you correctly defined the current file name (what is prefix, what is a
+separator). Use the slider to the right of the <strong>file name prefix</strong> to define the prefix part of the name (as shown in
+the following animation).</p>
+
+<p><img src='/tutorial/notebooks/rename_files/images/playing_with_slider.gif' /></p>
 
 <h4 id="new-naming-schema">New naming schema</h4>
 
-<p>Here, you define the new <strong>prefix</strong> file name, <strong>index separator</strong>, <strong>number of digits</strong> and <strong>offset</strong> of this index.</p>
+<p>Here, you define if you want to keep the old prefix or not, the new <strong>prefix</strong> file name, <strong>index separator</strong>,
+ <strong>number of digits</strong> and <strong>offset</strong> of this index.</p>
 
 <p><em>Example:</em></p>
 
@@ -2043,20 +2050,20 @@ own string (defined in <strong>New Naming Schema</strong>).</p>
 <li><strong>new file name will be</strong>: my_image_0025.tiff</li>
 </ul>
 
+<p><img src='/tutorial/notebooks/rename_files/images/new_file_name.gif' /></p>
+
 <h4 id="result">Result</h4>
 
 <p>The bottom part of the cell will show the result of the naming on the first image selected.</p>
 
 <p>If the new name shows an <strong>Error</strong>, checks your <strong>pre index separator</strong>.</p>
 
-<p><img src='/tutorial/notebooks/rename_files/images/result_renaming.gif' /></p>
-
 <h3 id="output-folder">Output folder</h3>
 
 <p>You simply need to select where the new renamed file will be created. Then the program will copy the selected files
 and renamed them in the folder you selected.</p>
 
-<p><img src='/tutorial/notebooks/rename_files/images/output.gif' /></p>
+<p><img src='/tutorial/notebooks/rename_files/images/output_result.gif' /></p>
 
 <p>Feel free to check the dropdown list that shows the old name versus the new name of each file.</p>
 
@@ -3177,19 +3184,19 @@ and renamed them in the folder you selected.</p>
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1580176107"></script>
-    <script src="/js/perfect-scrollbar.min.js?1580176107"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1580176107"></script>
-    <script src="/js/jquery.sticky.js?1580176107"></script>
-    <script src="/js/featherlight.min.js?1580176107"></script>
-    <script src="/js/highlight.pack.js?1580176107"></script>
+    <script src="/js/clipboard.min.js?1580949282"></script>
+    <script src="/js/perfect-scrollbar.min.js?1580949282"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1580949282"></script>
+    <script src="/js/jquery.sticky.js?1580949282"></script>
+    <script src="/js/featherlight.min.js?1580949282"></script>
+    <script src="/js/highlight.pack.js?1580949282"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1580176107"></script>
-    <script src="/js/learn.js?1580176107"></script>
-    <script src="/js/hugo-learn.js?1580176107"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1580949282"></script>
+    <script src="/js/learn.js?1580949282"></script>
+    <script src="/js/hugo-learn.js?1580949282"></script>
 
-    <link href="/mermaid/mermaid.css?1580176107" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1580176107"></script>
+    <link href="/mermaid/mermaid.css?1580949282" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1580949282"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
