@@ -10,7 +10,8 @@ pre: "- "
 ## Description
 
 This notebook allows you to copy into a new folder (extract) 1 every n files from the source folder. You
-will need to provide the **skipping** factor **n** in the notebook.
+will need to provide the **skipping** factor **n** in the notebook. You will also have the option to rename
+those files, as they are copied, in order to keep a linear increasing index starting at index 0.
 
 **Example:**
 
@@ -18,38 +19,46 @@ let's pretend you selected a folder (*/Users/j35/my_data/*) containing the follo
 
 **Input**
 
- * image001.fits      
- * image002.fits
- * image003.fits
- * image004.fits
- * image005.fits
- * image006.fits
- * image007.fits
- * image008.fits
- * image009.fits
- * image010.fits      
- * image011.fits
- * image012.fits
- * image013.fits
- * image014.fits
- * image015.fits
- * image016.fits
- * image017.fits
- * image018.fits
- * image019.fits
- * image020.fits
- * image021.fits
+ * image_001.fits      
+ * image_002.fits
+ * image_003.fits
+ * image_004.fits
+ * image_005.fits
+ * image_006.fits
+ * image_007.fits
+ * image_008.fits
+ * image_009.fits
+ * image_010.fits      
+ * image_011.fits
+ * image_012.fits
+ * image_013.fits
+ * image_014.fits
+ * image_015.fits
+ * image_016.fits
+ * image_017.fits
+ * image_018.fits
+ * image_019.fits
+ * image_020.fits
+ * image_021.fits
 
 and you decided to extract **1 every 5 files** in the **Desktop**. 
 
 The notebook will create the folder called */Users/j35/Desktop/my_data_1_every_5_files* and will copy the following
 files there
 
- * image001.fits      
- * image006.fits
- * image011.fits
- * image016.fits
- * image021.fits
+ * image_001.fits      
+ * image_006.fits
+ * image_011.fits
+ * image_016.fits
+ * image_021.fits
+
+or if you decide to rename them
+
+ * image_0000.fits      
+ * image_0001.fits
+ * image_0002.fits
+ * image_0003.fits
+ * image_0004.fits
 
 ## How does the notebook work?
 
@@ -70,6 +79,12 @@ Select the number of images you want to skip. The notebook will give you live th
 extracted.
 
 <img src='/tutorial/notebooks/extract_evenly_spaced_files/images/extraction_method.png' />
+
+### Rename or not Files
+
+This is where you have the option to rename of not the output files.
+
+<img src='/tutorial/notebooks/extract_evenly_spaced_files/images/rename_files.gif' />
 
 ### Select output location
 
