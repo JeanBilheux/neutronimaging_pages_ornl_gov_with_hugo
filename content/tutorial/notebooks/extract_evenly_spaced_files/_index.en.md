@@ -91,7 +91,7 @@ This is where you have the option to rename of not the output files.
 Using the [folder selection tool]({{%relref "/tutorial/notebooks/file_selector/_index.md#activate-search" %}}), select 
 the location where you want to create the combine images.
 
-<img src='/tutorial/notebooks/extract_evenly_spaced_files/images/select_output_folder.png' />
+<img src='/tutorial/notebooks/file_selector/images/select_output_folder.png' />
 
 ### Extracting
 
