@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/prepare_venue/sample/</loc>
+  </url>
+  
+  <url>
+    <loc>/prepare_venue/proposal_confirmation/</loc>
+  </url>
+  
+  <url>
+    <loc>/prepare_venue/safety/</loc>
+  </url>
+  
+  <url>
+    <loc>/prepare_venue/access/</loc>
+  </url>
+  
+  <url>
+    <loc>/prepare_venue/</loc>
+  </url>
+  
+  <url>
+    <loc>/tutorial/how_to_access_data/</loc>
+  </url>
+  
+  <url>
+    <loc>/capabilities/</loc>
+    <lastmod>2018-01-21T16:50:16+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tutorial/how_to_access_computer/</loc>
+  </url>
+  
+  <url>
+    <loc>/faq/</loc>
+    <lastmod>2016-04-09T16:50:16+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tutorial/how_to_start_notebooks/</loc>
+  </url>
+  
+  <url>
+    <loc>/links/</loc>
+    <lastmod>2016-04-09T16:50:16+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tutorial/how_to_run_notebooks/</loc>
+  </url>
+  
+  <url>
+    <loc>/tutorial/how_to_run_imars3d/</loc>
+  </url>
+  
+  <url>
+    <loc>/tutorial/</loc>
+  </url>
+  
+  <url>
+    <loc>/tutorial/how_to_do_bragg_edge_modeling/</loc>
+  </url>
+  
+  <url>
+    <loc>/tutorial/how_to_run_mcp_detector_correction/</loc>
+  </url>
+  
+  <url>
+    <loc>/tutorial/how_to_use_oncat/</loc>
+  </url>
+  
+  <url>
+    <loc>/tutorial/how_to_start_amira/</loc>
+  </url>
+  
+  <url>
+    <loc>/tutorial/how_to_other/</loc>
+  </url>
+  
+  <url>
+    <loc>/tutorial/notebooks/</loc>
+  </url>
+  
+  <url>
+    <loc>/tutorial/notebooks/bin_images/</loc>
+  </url>
+  
+  <url>
+    <loc>/tutorial/notebooks/bragg_edge/</loc>
+  </url>
+  
+  <url>
+    <loc>/tutorial/notebooks/bragg_edge_signal_vs_powder_peaks/</loc>
+  </url>
+  
+  <url>
+    <loc>/tutorial/notebooks/bragg_edge_normalization/</loc>
+  </url>
+  
+  <url>
+    <loc>/tutorial/notebooks/calibrated_transmission/</loc>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>/tutorial/notebooks/combine_all_images_selected/</loc>
+  </url>
+  
+  <url>
+    <loc>/tutorial/notebooks/combine_folders/</loc>
+  </url>
+  
+  <url>
+    <loc>/tutorial/notebooks/combine_images_n_by_n/</loc>
+  </url>
+  
+  <url>
+    <loc>/tutorial/notebooks/sequential_combine_images_using_metadata/</loc>
+  </url>
+  
+  <url>
+    <loc>/credits/</loc>
+  </url>
+  
+  <url>
+    <loc>/tutorial/notebooks/create_list_of_file_name_vs_time_stamp/</loc>
+  </url>
+  
+  <url>
+    <loc>/tutorial/notebooks/cylindrical_geometry_correction/</loc>
+  </url>
+  
+  <url>
+    <loc>/tutorial/notebooks/deal_images/</loc>
+  </url>
+  
+  <url>
+    <loc>/tutorial/notebooks/display_and_export_images_with_timestamp/</loc>
+  </url>
+  
+  <url>
+    <loc>/tutorial/notebooks/display_counts_of_region_vs_stack/</loc>
+  </url>
+  
+  <url>
+    <loc>/tutorial/notebooks/display_file_names_vs_time_stamp/</loc>
+  </url>
+  
+  <url>
+    <loc>/tutorial/notebooks/display_and_export_images_with_metadata_profile/</loc>
+  </url>
+  
+  <url>
+    <loc>/tutorial/notebooks/display_integrated_stack_of_images/</loc>
+  </url>
+  
+  <url>
+    <loc>/tutorial/notebooks/extract_evenly_spaced_files/</loc>
+  </url>
+  
+  <url>
+    <loc>/tutorial/notebooks/extract_nexus_daslogs/</loc>
+  </url>
+  
+  <url>
+    <loc>/tutorial/notebooks/file_name_and_metadata_vs_time_stamp/</loc>
+  </url>
+  
+  <url>
+    <loc>/tutorial/notebooks/file_selector/</loc>
+  </url>
+  
+  <url>
+    <loc>/tutorial/notebooks/fix_images/</loc>
+  </url>
+  
+  <url>
+    <loc>/tutorial/notebooks/frederick_ipts/</loc>
+  </url>
+  
+  <url>
+    <loc>/tutorial/notebooks/from_dsc_time_info_to_ascii_file_vs_time/</loc>
+  </url>
+  
+  <url>
+    <loc>/tutorial/notebooks/from_attenuation_to_concentration/</loc>
+  </url>
+  
+  <url>
+    <loc>/showcase/</loc>
+  </url>
+  
+  <url>
+    <loc>/tutorial/notebooks/gamma_filtering_tool/</loc>
+  </url>
+  
+  <url>
+    <loc>/github/</loc>
+  </url>
+  
+  <url>
+    <loc>/tutorial/notebooks/images_and_metadata_extrapolation_matcher/</loc>
+  </url>
+  
+  <url>
+    <loc>/tutorial/notebooks/integrated_roi_counts_vs_file_name_and_time_stamp/</loc>
+  </url>
+  
+  <url>
+    <loc>/tutorial/notebooks/list_element_bragg_edges/</loc>
+  </url>
+  
+  <url>
+    <loc>/tutorial/notebooks/list_metadata_and_time_with_oncat/</loc>
+  </url>
+  
+  <url>
+    <loc>/tutorial/notebooks/list_tiff_metadata/</loc>
+  </url>
+  
+  <url>
+    <loc>/tutorial/notebooks/math_images/</loc>
+  </url>
+  
+  <url>
+    <loc>/tutorial/notebooks/metadata_ascii_parser/</loc>
+  </url>
+  
+  <url>
+    <loc>/tutorial/notebooks/metadata_overlapping_images/</loc>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+  </url>
+  
+  <url>
+    <loc>/tutorial/notebooks/normalization/</loc>
+  </url>
+  
+  <url>
+    <loc>/tutorial/notebooks/normalization_with_simplify_selection/</loc>
+  </url>
+  
+  <url>
+    <loc>/tutorial/notebooks/normalization_batch/</loc>
+  </url>
+  
+  <url>
+    <loc>/tutorial/notebooks/profile/</loc>
+  </url>
+  
+  <url>
+    <loc>/tutorial/notebooks/radial_profile/</loc>
+  </url>
+  
+  <url>
+    <loc>/tutorial/notebooks/registration/</loc>
+  </url>
+  
+  <url>
+    <loc>/tutorial/notebooks/rename_files/</loc>
+  </url>
+  
+  <url>
+    <loc>/tutorial/notebooks/resonance_imaging_experiment_vs_theory/</loc>
+  </url>
+  
+  <url>
+    <loc>/tutorial/notebooks/rotate_and_crop_images/</loc>
+  </url>
+  
+  <url>
+    <loc>/tutorial/notebooks/select_ipts/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+  </url>
+  
+  <url>
+    <loc>/tutorial/notebooks/template_ui/</loc>
+  </url>
+  
+  <url>
+    <loc>/tutorial/notebooks/topaz_config_generator/</loc>
+  </url>
+  
+  <url>
+    <loc>/tutorial/notebooks/water_intake_profile_calculator/</loc>
+  </url>
+  
+</urlset>
