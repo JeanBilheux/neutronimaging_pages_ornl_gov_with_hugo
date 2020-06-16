@@ -7,11 +7,11 @@ pre: "<b>5.11 </b>"
 
 <li>[bin_images]({{%relref "/tutorial/notebooks/bin_images/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
 <li>[bragg_edge_signal_vs_powder_peaks]({{%relref "/tutorial/notebooks/bragg_edge_signal_vs_powder_peaks/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i></li>
-<li>[bragg_edge_normalization]({{%relref "/tutorial/notebooks/bragg_edge_normalization/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i></li>
+<li>[bragg_edge_normalization]({{%relref "/tutorial/notebooks/bragg_edge_normalization/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> <i class='fa fa-bell'></i></li>
 <li>[calibrated_transmission]({{%relref "/tutorial/notebooks/calibrated_transmission/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i></li>
 <li>[combine_folders]({{%relref "/tutorial/notebooks/combine_folders/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
 <li>[combine_all_images_selected]({{%relref "/tutorial/notebooks/combine_all_images_selected/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
-<li>[combine_images_n_by_n]({{%relref "/tutorial/notebooks/combine_images_n_by_n/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> <i class='fa fa-bell'></i></li>
+<li>[combine_images_n_by_n]({{%relref "/tutorial/notebooks/combine_images_n_by_n/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i></li>
 <li>[create_list_of_file_name_vs_time_stamp]({{%relref "/tutorial/notebooks/create_list_of_file_name_vs_time_stamp/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i></li>
 <li>[cylindrical_geometry_correction]({{%relref "/tutorial/notebooks/cylindrical_geometry_correction/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
 <li>[deal_images]({{%relref "/tutorial/notebooks/deal_images/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
@@ -41,10 +41,10 @@ pre: "<b>5.11 </b>"
 <li>[profile]({{%relref "/tutorial/notebooks/profile/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i></li>
 <li>[radial_profile]({{%relref "/tutorial/notebooks/radial_profile/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
 <li>[registration]({{%relref "/tutorial/notebooks/registration/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i></li>
-<li>[rename_files]({{%relref "/tutorial/notebooks/rename_files/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> <i class='fa fa-bell'></i></li>
+<li>[rename_files]({{%relref "/tutorial/notebooks/rename_files/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i></li>
 <li>[resonance_imaging_experiment_vs_theory]({{%relref "/tutorial/notebooks/resonance_imaging_experiment_vs_theory/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
 <li>[rotate_and_crop_images]({{%relref "/tutorial/notebooks/rotate_and_crop_images/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
-<li>[sequential_combine_images_using_metadata]({{%relref "/tutorial/notebooks/sequential_combine_images_using_metadata/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> <i class='fa fa-bell'></i></li>
+<li>[sequential_combine_images_using_metadata]({{%relref "/tutorial/notebooks/sequential_combine_images_using_metadata/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i></li>
 <li>[template_ui]({{%relref "/tutorial/notebooks/template_ui/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
 <li>[topaz_config_generator]({{%relref "/tutorial/notebooks/topaz_config_generator/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i></li>
 <li>[water_intake_profile_calculator]({{%relref "/tutorial/notebooks/water_intake_profile_calculator/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i></li>

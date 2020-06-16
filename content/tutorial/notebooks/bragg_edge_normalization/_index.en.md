@@ -80,7 +80,13 @@ reference powder elements show up at the right lambda in your signal data.
 
 <img src='/tutorial/notebooks/bragg_edge_signal_vs_powder_peaks/images/experimental_setup.png' />
 
+### Calculate Bragg Edges Data
+
+This cell will calculate the Bragg edges data using the region selected, if any.
+
 ### Display Bragg Edges vs Signal
+
+This cell is optional and you need to run it only if you want to display the Counts vs lambda. 
 
 <img src='/tutorial/notebooks/bragg_edge_signal_vs_powder_peaks/images/bragg_edges_vs_signal.png' />
 
