@@ -9,7 +9,7 @@
 
     <link rel="icon" href="/images/favicon.png" type="image/png">
 
-    <title>Contacts :: Documentation for Hugo Learn Theme</title>
+    <title>Extract Metadata from SANS ReductionLog :: Documentation for Hugo Learn Theme</title>
 
     
     <link href="/css/nucleus.css?1592833086" rel="stylesheet">
@@ -35,7 +35,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/credits/">
+  <body class="" data-url="/tutorial/notebooks/extract_sans_reductionlog_metadata/">
     <nav id="sidebar" class="showVisitedLinks">
 
 
@@ -296,7 +296,7 @@
   
     
     <li data-nav-id="/tutorial/" title="Tutorials" class="dd-item 
-        
+        parent
         
         
         ">
@@ -585,7 +585,7 @@
   
     
     <li data-nav-id="/tutorial/notebooks/" title="Notebooks Tutorials" class="dd-item 
-        
+        parent
         
         
         ">
@@ -1082,8 +1082,8 @@
   
     
     <li data-nav-id="/tutorial/notebooks/extract_sans_reductionlog_metadata/" title="Extract Metadata from SANS ReductionLog" class="dd-item 
-        
-        
+        parent
+        active
         
         ">
       <a href="/tutorial/notebooks/extract_sans_reductionlog_metadata/">
@@ -1949,7 +1949,19 @@
             
           
           
-            <a href='/'>Neutron Imaging</a> > Contacts
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='/'>Neutron Imaging</a> > <a href='/tutorial/'>Tutorials</a> > <a href='/tutorial/notebooks/'>Notebooks Tutorials</a> > Extract Metadata from SANS ReductionLog
+          
+         
+          
+         
           
          
           
@@ -1964,9 +1976,13 @@
 <ul>
 <li>
 <ul>
-<li>
+<li><a href="#description">Description</a></li>
+<li><a href="#step-by-step-demo">Step by Step Demo</a>
 <ul>
-<li><a href="#past-team-members">Past Team Members</a></li>
+<li><a href="#select-your-instrument">Select your instrument</a></li>
+<li><a href="#select-all-the-reductionlog-your-want-to-extract-metadata-from">Select all the ReductionLog your want to extract metadata from</a></li>
+<li><a href="#select-list-of-metadata-to-extract">Select list of metadata to extract</a></li>
+<li><a href="#select-output-folder">Select output folder</a></li>
 </ul></li>
 </ul></li>
 </ul>
@@ -1986,7 +2002,7 @@
           
             <h1>
               
-              Contacts
+              Extract Metadata from SANS ReductionLog
             </h1>
           
 
@@ -1995,87 +2011,55 @@
 
 
 
+	
 
-<table>
-<thead>
-<tr>
-<th></th>
-<th></th>
-</tr>
-</thead>
+<p><strong>Notebook name</strong>: extract_sans_reductionlog_metadata.ipynb</p>
 
-<tbody>
-<tr>
-<td><h2 id='hassina_bilheux'></h2> <img src="/images/contacts/hassina_1.png" alt="Hassina Bilheux" /></td>
-<td><ul><li><strong>Hassina Bilheux</strong> - Instrument Scientist</li><li>Expertise: HFIR and SNS imaging beam lines</li><li>
-<div class="expand">
-    <div class="expand-label" style="cursor: pointer;" onclick="$h = $(this);$h.next('div').slideToggle(100,function () {$h.children('i').attr('class',function () {return $h.next('div').is(':visible') ? 'fas fa-chevron-down' : 'fas fa-chevron-right';});});">
-        <i style="font-size:x-small;" class="fas fa-chevron-right"></i>
-        <span>
-        
-    	
-    	Short Bio ...
-    	
-    	</span>
-    </div>
-    <div class="expand-content" style="display: none;">
-        Dr. Hassina Bilheux obtained her Ph.D. in Physics at the Univ. of Versailles, France. <br>Her work focused on plasma physics at the Oak Ridge National Laboratory’s Physics Division.<br> She has developed neutron imaging capabilities at ORNL’s High Flux Isotope Reactor CG-1D beamline and is prototyping neutron imaging at the Spallation Neutron Source. Her interests comprise the development of advanced neutron imaging techniques at the Spallation Neutron Source for material and biological applications.
-    </div>
-</div></li><li><i class='fa fa-envelope-open'></i> bilheuxhn@ornl.gov</li><li><i class='fa fa-mobile'></i> (865) 384 - 9630</li><li><i class='fa fa-phone'></i> (865) 574 - 0241</li><li><i class='fa fa-external-link'></i> <a href='https://www.researchgate.net/profile/Hassina_Bilheux'>researchGate</a></li><li><i class='fa fa-google'></i> <a href='https://scholar.google.com/citations?user=dHH8dFUAAAAJ&hl=en'>Scholar Google</a></li></ul></td>
-</tr>
+<h2 id="description">Description</h2>
 
-<tr>
-<td><img src="/images/contacts/shawn.png" alt="Shawn" /></td>
-<td><ul><li><strong>Yuxuan Zhang (Shawn)</strong> - Instrument Scientist</li><li>Expertise: Resonance Imaging</li><li><i class='fa fa-envelope-open'></i> zhangy6@ornl.gov</li></ul></td>
-</tr>
+<p>This notebook creates an ASCII file of any of the metadata selected in the ReductionLog file.
+This file is created at the end of each reduction and contain a lot of information about
+the reduction process. Metadata from all ReductionLog files are listed side by side in a comma
+separated format as shown here.</p>
 
-<tr>
-<td><h2 id='jean_bilheux'></h2> <img src="/images/contacts/jean.png" alt="Jean Bilheux" /></td>
-<td><ul><li><strong>Jean Bilheux</strong> - Computer Scientist</li><li>Expertise: Python Notebooks and Data Analysis</li><li><i class='fa fa-envelope-open'></i> bilheuxjm@ornl.gov</li><li><i class='fa fa-mobile'></i> (865) 406 - 1704</li><li><i class='fa fa-phone'></i> (865) 574 - 4637</li><li><i class='fa fa-external-link'></i> <a href='http://jbilheux.com'>jbilheux.com</a></li><li><i class='fa fa-external-link'></i> <a href='https://jeanbilheux.pages.ornl.gov'>jeanbilheux.pages.ornl.gov</a></li><ul></td>
-</tr>
+<p><img src='/tutorial/notebooks/extract_sans_reductionlog_metadata/images/example_of_output.png' /></p>
 
-<tr>
-<td><h2 id='jiao_lin'></h2> <img src="/images/contacts/jiao.png" alt="Jiao Lin" /></td>
-<td><ul><li><strong>Jiao Lin</strong> - Computer Scientist</li><li>Expertise: 3D Reconstruction and visualization</li><li><i class='fa fa-envelope-open'></i> linjiao@ornl.gov</li><li><i class='fa fa-mobile'></i> (626) 200 - 5247</li><li><i class='fa fa-phone'></i> (626) 200 - 5247</li> <ul></td>
-</tr>
+<h2 id="step-by-step-demo">Step by Step Demo</h2>
 
-<tr>
-<td><img src="/images/contacts/paris.png" alt="Paris Cornwell" /></td>
-<td><ul><li><strong>Paris Cornwell</strong> - Scientific Associate </li><li><i class='fa fa-envelope-open'></i> cornwellpa@ornl.gov</li><li><i class='fa fa-mobile'></i> (865) 257 - 1127</li><li><i class='fa fa-phone'></i> (865) 574 - 2122</li></ul></td>
-</tr>
+<h3 id="select-your-instrument">Select your instrument</h3>
 
-<tr>
-<td><img src="/images/contacts/brianne.png" alt="Brianne Beers" /></td>
-<td><ul><li><strong>Brianne Beers</strong> - Graduate Student</li></ul></td>
-</tr>
-</tbody>
-</table>
+<p>Select your HFIR SANS instrument. This will allow the program to start directly from the instrument
+folder.</p>
 
-<p><img src="/images/contacts/2018_group_photo.png" /></p>
+<p><img src='/tutorial/notebooks/extract_sans_reductionlog_metadata/images/select_instrument.png' /></p>
 
-<h3 id="past-team-members">Past Team Members</h3>
+<h3 id="select-all-the-reductionlog-your-want-to-extract-metadata-from">Select all the ReductionLog your want to extract metadata from</h3>
 
-<ul>
-<li>Keita DeCarlo, Princeton Univ.</li>
-<li>Indu Dhiman</li>
-<li>Granger Endsley, Oak Ridge High School</li>
-<li>Vincenzo Finochiarro, Italy</li>
-<li>Sarah Hammer, Virginia State Univ.</li>
-<li>Susan Herringer, Brown Univ.</li>
-<li>Misun Kang, Univ. of TN-Knoxville</li>
-<li>Felix Kim, Univ. of TN-Knoxville</li>
-<li>Chad Lani, Penn State University</li>
-<li>Lou Santodonato, Advanced Research Systems, Inc</li>
-<li>Gian Song, Univ. of TN-Knoxville</li>
-<li>Sophie Voisin, Univ. of TN-Knoxville</li>
-<li>Lakeisha Walker, ORNL</li>
-</ul>
+<p>Using the <a href="/tutorial/notebooks/file_selector/#activate-search">folder selection tool</a>, select
+all the ReductionLog files (*.hdf) you want to use.</p>
+
+<p>Once you selected all those files, the notebook will automatically display all the metadata you
+can extract. This list of metadata has been provided by the instrument team. This allows to
+only display the metadata of interest and hide most of the one you don&rsquo;t really care.</p>
+
+<h3 id="select-list-of-metadata-to-extract">Select list of metadata to extract</h3>
+
+<p>Use a combination of CLICK, SHIFT + CLICK and CTRL + CLICK to make sure you selected all the metadata.</p>
+
+<p><img src='/tutorial/notebooks/extract_sans_reductionlog_metadata/images/select_metadata.gif' /></p>
+
+<h3 id="select-output-folder">Select output folder</h3>
+
+<p>Using the <a href="/tutorial/notebooks/file_selector/#activate-search">folder selection tool</a>, select
+the folder where you want to create the ascii file.</p>
+
+
+
 
 
 <footer class=" footline" >
 	
 </footer>
-
 
         
         </div> 
@@ -2241,6 +2225,7 @@
             
                 
                     
+                    
                 
                 
 
@@ -2255,6 +2240,9 @@
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -2416,6 +2404,7 @@
             
                 
                     
+                    
                 
                 
 
@@ -2431,133 +2420,8 @@
             
                 
                     
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
                         
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
                         
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
                     
                 
                 
@@ -2734,6 +2598,138 @@
             
             
                 
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
                     
                 
                 
@@ -3209,8 +3205,10 @@
 	 
 	 
 		
+			<a class="nav nav-prev" href="/tutorial/notebooks/extract_evenly_spaced_files/" title="Extract Evenly Spaced Files"> <i class="fa fa-chevron-left"></i></a>
 		
-			<a class="nav nav-next" href="/prepare_venue/" title="Before your Arrival" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+		
+			<a class="nav nav-next" href="/tutorial/notebooks/extract_nexus_daslogs/" title="Extract NeXus DASlogs" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>
@@ -3248,4 +3246,3 @@
 </script>
   </body>
 </html>
-
