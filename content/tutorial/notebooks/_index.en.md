@@ -8,7 +8,7 @@ pre: "<b>5.11 </b>"
 <li>[bin_images]({{%relref "/tutorial/notebooks/bin_images/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
 <li>[bragg_edge_signal_vs_powder_peaks]({{%relref "/tutorial/notebooks/bragg_edge_signal_vs_powder_peaks/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i></li>
 <li>[bragg_edge_normalization]({{%relref "/tutorial/notebooks/bragg_edge_normalization/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> <i class='fa fa-bell'></i></li>
-<li>[bragg_edge_normalization_and_profile_extractor]({{%relref "/tutorial/notebooks/bragg_edge_normalization_and_profile_extractor/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> <i class='fa fa-bell'></i></li>
+<li>[bragg_edge_profile]({{%relref "/tutorial/notebooks/bragg_edge_profile/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> <i class='fa fa-bell'></i></li>
 <li>[calibrated_transmission]({{%relref "/tutorial/notebooks/calibrated_transmission/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i></li>
 <li>[combine_folders]({{%relref "/tutorial/notebooks/combine_folders/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
 <li>[combine_all_images_selected]({{%relref "/tutorial/notebooks/combine_all_images_selected/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
