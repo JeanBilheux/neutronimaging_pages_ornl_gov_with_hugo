@@ -12,20 +12,20 @@
     <title>Bragg Edge Normalization :: Documentation for Hugo Learn Theme</title>
 
     
-    <link href="/css/nucleus.css?1592833086" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1592833086" rel="stylesheet">
-    <link href="/css/hybrid.css?1592833086" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1592833086" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1592833086" rel="stylesheet">
-    <link href="/css/auto-complete.css?1592833086" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1592833086" rel="stylesheet">
-    <link href="/css/theme.css?1592833086" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1592833086" rel="stylesheet">
+    <link href="/css/nucleus.css?1593172379" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1593172379" rel="stylesheet">
+    <link href="/css/hybrid.css?1593172379" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1593172379" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1593172379" rel="stylesheet">
+    <link href="/css/auto-complete.css?1593172379" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1593172379" rel="stylesheet">
+    <link href="/css/theme.css?1593172379" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1593172379" rel="stylesheet">
     
-      <link href="/css/theme-blue.css?1592833086" rel="stylesheet">
+      <link href="/css/theme-blue.css?1593172379" rel="stylesheet">
     
 
-    <script src="/js/jquery-3.3.1.min.js?1592833086"></script>
+    <script src="/js/jquery-3.3.1.min.js?1593172379"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -60,14 +60,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1592833086"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1592833086"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1593172379"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1593172379"></script>
 <script type="text/javascript">
     
         var baseurl = "";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1592833086"></script>
+<script type="text/javascript" src="/js/search.js?1593172379"></script>
 
     
   </div>
@@ -698,6 +698,32 @@
         ">
       <a href="/tutorial/notebooks/bragg_edge_normalization/">
           - Bragg Edge Normalization<i class='fa fa-battery-full'></i> 
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/tutorial/notebooks/bragg_edge_normalization_and_profile_extractor/" title="Bragg Edge Normalization and Profile Extractor" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/tutorial/notebooks/bragg_edge_normalization_and_profile_extractor/">
+          - Bragg Edge Normalization and Profile Extractor<i class='fa fa-battery-full'></i> 
           
             <i class="fas fa-check read-icon"></i>
           
@@ -1983,12 +2009,9 @@
 <li><a href="#select-your-ipts">Select your IPTS</a></li>
 <li><a href="#select-sample-folder">Select Sample Folder</a></li>
 <li><a href="#select-ob-folder">Select OB Folder</a></li>
-<li><a href="#selection-of-sample-in-the-image">Selection of Sample in the Image</a></li>
-<li><a href="#select-powder-elements">Select Powder Elements</a></li>
-<li><a href="#define-experiment-setup">Define Experiment Setup</a></li>
-<li><a href="#calculate-bragg-edges-data">Calculate Bragg Edges Data</a></li>
-<li><a href="#display-bragg-edges-vs-signal">Display Bragg Edges vs Signal</a></li>
-<li><a href="#export-ascii-data">Export ASCII data</a></li>
+<li><a href="#selection-of-background-region-in-the-image">Selection of background region in the image</a></li>
+<li><a href="#perform-normalization">Perform normalization</a></li>
+<li><a href="#export-normalized-data">Export normalized data</a></li>
 </ul></li>
 </ul></li>
 </ul>
@@ -2023,14 +2046,7 @@
 
 <h2 id="description">Description</h2>
 
-<p>This notebook has been implemented to produce an ASCII file of the average counts of the entire image, or of selected regions,
-versus lambda (Angstroms) and TOF (microS).</p>
-
-<p>It&rsquo;s also possible to compare the signal with the Bragg edge signature of a given unstrained powder.</p>
-
-<p>Output will look like this</p>
-
-<p><img src='/tutorial/notebooks/bragg_edge_normalization/images/output_example.png' /></p>
+<p>This notebook is dedicated to the normalization of data set taken at the SNS.</p>
 
 <h2 id="start-the-notebook">Start the notebook</h2>
 
@@ -2046,9 +2062,8 @@ notebooks</a> tutorial.</p>
 <h3 id="select-sample-folder">Select Sample Folder</h3>
 
 <p>Select the <strong>sample folder</strong> using the file selector. If the <strong>time spectra</strong> file is part of the folder, it will
-be automatically loaded, if <strong>not</strong>, you will have the option to select the <strong>time spectra</strong> file next.</p>
-
-<p><img src='/tutorial/notebooks/bragg_edge_signal_vs_powder_peaks/images/load_data.gif' /></p>
+be automatically loaded, if <strong>not</strong>, you will have the option to select the <strong>time spectra</strong> file next, or just ignore
+it and click the button <strong>dot not select any time spectra</strong></p>
 
 
 <div class="notices info" ><p>Check the <a href="/tutorial/notebooks/file_selector/#folder_navigation">file selection tool tutorial</a>
@@ -2057,65 +2072,54 @@ to learn how to use the file selector tool.
 </div>
 
 
+
+<div class="notices info" ><p>If you select a time spectra file, it will be automatically copied into the output folder. this will facilitate
+the next step that is usually the extraction of the Bragg edges versus lambda/TOF into an ASCII file.</p>
+</div>
+
+
+<p><img src='/tutorial/notebooks/bragg_edge_normalization/images/load_data.gif' /></p>
+
 <p>The sample data will be automatically loaded.</p>
 
 <h3 id="select-ob-folder">Select OB Folder</h3>
 
-<p>Just like you did for the sample data, select the folder containing the open beam (OB) data.</p>
+<p>Just like you did for the sample data, select the folder containing the open beam (OB) data. Once you selected this
+folder the data will be automatically loaded.</p>
 
-<h3 id="selection-of-sample-in-the-image">Selection of Sample in the Image</h3>
+<h3 id="selection-of-background-region-in-the-image">Selection of background region in the image</h3>
 
-<p>In order to calculate the signal of the loaded images, you must define the location of your sample in the image. But
-before doing so, the program will need to load a random subset of those images. You will need to define how many images
-you want to use to select that sample. A subset has been defined for you by default. Using this value (N), the program
-will load N images randomly choosen within the list of images in the working folder.</p>
+<p>You have the option to define a region of your image that <strong>is background</strong> for sure. This will improve the normalization.</p>
+
+<p>To do so, you first need to specify how many random images you want to use to help the selection. The more images
+you select, the higher resolution your image will have but the longer it will take to display it. Usually the
+default number of images provided is a good compromise. If you can not see your sample in the image, just close the UI and
+increase the number of images to use.</p>
+
+<p>Once the <strong>ROI selection tool UI</strong> show up, you can select, or not, 1 or more regions. You need to make sure that/those
+region(s) is/are away from the sample. If the sample covers the entire image, do not select any region!
+ Once you are done, <strong>click OK</strong> to close the UI.</p>
 
 <p><strong>Remember</strong> The more images you want to load, the longer it will take.</p>
 
-<p><img src='/tutorial/notebooks/bragg_edge_signal_vs_powder_peaks/images/how_many_images.png' /></p>
+<p><img src='/tutorial/notebooks/bragg_edge_normalization/images/how_many_images.png' /></p>
 
-<p>Once this subset has been defined, running the next cell will bring a user interface that will allow you
-to define the location(s) of your sample.</p>
+<p><img src='/tutorial/notebooks/bragg_edge_normalization/images/select_sample_roi.gif' /></p>
 
-<p><img src='/tutorial/notebooks/bragg_edge_signal_vs_powder_peaks/images/select_sample_roi.gif' /></p>
+<h3 id="perform-normalization">Perform normalization</h3>
 
-<h3 id="select-powder-elements">Select Powder Elements</h3>
+<p>Just run this cell to run the normalization algorithm.</p>
 
-<p>It&rsquo;s now time to select the <strong>powder elements</strong> for which you want to see the <strong>Bragg Edges</strong> on top of your
-signal.</p>
+<h3 id="export-normalized-data">Export normalized data</h3>
 
-<p><img src='/tutorial/notebooks/bragg_edge_signal_vs_powder_peaks/images/si_element.png' /></p>
+<p>Select where you want to export all the normalized images. You have the option to create a folder if needed. The
+notebook will create a folder inside the output folder location you selected. The folder will be named after the
+input sample folder name. If input folder is <em>test_data</em>, the normalized folder will be <em>test_data_normalized</em></p>
 
-<h3 id="define-experiment-setup">Define Experiment Setup</h3>
+<p><img src='/tutorial/notebooks/bragg_edge_normalization/images/export_data.gif' /></p>
 
-<p>This is where you can set up your experiment and play with these values to make sure the Bragg Edges of the
-reference powder elements show up at the right lambda in your signal data.</p>
-
-<p><img src='/tutorial/notebooks/bragg_edge_signal_vs_powder_peaks/images/experimental_setup.png' /></p>
-
-<h3 id="calculate-bragg-edges-data">Calculate Bragg Edges Data</h3>
-
-<p>This cell will calculate the Bragg edges data using the region selected, if any.</p>
-
-<h3 id="display-bragg-edges-vs-signal">Display Bragg Edges vs Signal</h3>
-
-<p>This cell is optional and you need to run it only if you want to display the Counts vs lambda.</p>
-
-<p><img src='/tutorial/notebooks/bragg_edge_signal_vs_powder_peaks/images/bragg_edges_vs_signal.png' /></p>
-
-<p>Feel free to play with the <strong>iPlot</strong> widgets (above the plot) to zoom, pan, &hellip; etc</p>
-
-<p><img src='/tutorial/notebooks/bragg_edge_signal_vs_powder_peaks/images/iplot_interaction.png' /></p>
-
-<h3 id="export-ascii-data">Export ASCII data</h3>
-
-<p>Select the output folder</p>
-
-<p><img src='/tutorial/notebooks/file_selector/images/select_output_folder.png' /></p>
-
-<p>and then an ASCII file will be automatically created using the sample input folder as based name.</p>
-
-<p><img src='/tutorial/notebooks/bragg_edge_normalization/images/output_file_message.png' /></p>
+<p>If you selected, or if the program automatically found, a <strong>time spectra file</strong>, this file will be copied into the output
+folder.</p>
 
 
 
@@ -3254,6 +3258,22 @@ reference powder elements show up at the right lambda in your signal data.</p>
             
         
                     
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
             
         
                     
@@ -3272,7 +3292,7 @@ reference powder elements show up at the right lambda in your signal data.</p>
 			<a class="nav nav-prev" href="/tutorial/notebooks/bragg_edge_signal_vs_powder_peaks/" title="Bragg Edge - Signal vs Powder Peaks"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="/tutorial/notebooks/calibrated_transmission/" title="Calibrated Transmission" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="/tutorial/notebooks/bragg_edge_normalization_and_profile_extractor/" title="Bragg Edge Normalization and Profile Extractor" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>
@@ -3282,19 +3302,19 @@ reference powder elements show up at the right lambda in your signal data.</p>
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1592833086"></script>
-    <script src="/js/perfect-scrollbar.min.js?1592833086"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1592833086"></script>
-    <script src="/js/jquery.sticky.js?1592833086"></script>
-    <script src="/js/featherlight.min.js?1592833086"></script>
-    <script src="/js/highlight.pack.js?1592833086"></script>
+    <script src="/js/clipboard.min.js?1593172379"></script>
+    <script src="/js/perfect-scrollbar.min.js?1593172379"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1593172379"></script>
+    <script src="/js/jquery.sticky.js?1593172379"></script>
+    <script src="/js/featherlight.min.js?1593172379"></script>
+    <script src="/js/highlight.pack.js?1593172379"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1592833086"></script>
-    <script src="/js/learn.js?1592833086"></script>
-    <script src="/js/hugo-learn.js?1592833086"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1593172379"></script>
+    <script src="/js/learn.js?1593172379"></script>
+    <script src="/js/hugo-learn.js?1593172379"></script>
 
-    <link href="/mermaid/mermaid.css?1592833086" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1592833086"></script>
+    <link href="/mermaid/mermaid.css?1593172379" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1593172379"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
