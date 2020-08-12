@@ -16,6 +16,9 @@ separated format as shown here.
 
 <img src='/tutorial/notebooks/extract_sans_reductionlog_metadata/images/example_of_output.png' />
 
+In this format, all the metadata selected of a given input file are on the same row. You will then have
+as many rows as input files selected.
+
 ## Step by Step Demo
 
 ### Select your instrument
