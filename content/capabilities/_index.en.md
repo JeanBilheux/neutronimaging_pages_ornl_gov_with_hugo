@@ -8,9 +8,9 @@ weight: 200
 ## Imaging Facilities
 
 <ul>
-<li> <strong>CG-1D</strong> radiography/tomography with cold neutron spectrum.
+<li> <a href='https://neutrons.ornl.gov/imaging'><strong>CG-1D</strong> radiography/tomography with cold neutron spectrum.</a>
 <a href='http://neutrons.ornl.gov/imaging'><i class='fa fa-external-link'></i></a> </li>
-<li> <strong>VENUS</strong> time-of-flight radiography/tomography with epithermal to cold neutrons spectra.
+<li> <a href='https://neutrons.ornl.gov/venus'><strong>VENUS</strong> time-of-flight radiography/tomography with epithermal to cold neutrons spectra.</a>
 <a href='http://neutrons.ornl.gov/venus'><i class='fa fa-external-link'></i></a></li>
 <li> <strong>Xray</strong> CT complementary microCT capabilities
 {{%expand "Technical Infos" %}}
