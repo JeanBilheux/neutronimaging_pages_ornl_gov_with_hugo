@@ -28,7 +28,7 @@ folder.
 
 <img src='/tutorial/notebooks/extract_sans_reductionlog_metadata/images/select_instrument.png' />
 
-### Select all the ReductionLog your want to extract metadata from
+### Select the ReductionLog files
 
 Using the [folder selection tool]({{%relref "/tutorial/notebooks/file_selector/_index.md#activate-search" %}}), select 
 all the ReductionLog files (*.hdf) you want to use. 
