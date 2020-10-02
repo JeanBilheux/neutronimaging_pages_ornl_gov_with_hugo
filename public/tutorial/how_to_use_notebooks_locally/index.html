@@ -9,7 +9,7 @@
 
     <link rel="icon" href="/images/favicon.png" type="image/png">
 
-    <title>Normalization with Simplify Selection :: Documentation for Hugo Learn Theme</title>
+    <title>How to use the notebooks in your computer :: Documentation for Hugo Learn Theme</title>
 
     
     <link href="/css/nucleus.css?1601641248" rel="stylesheet">
@@ -35,7 +35,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/tutorial/notebooks/normalization_with_simplify_selection/">
+  <body class="" data-url="/tutorial/how_to_use_notebooks_locally/">
     <nav id="sidebar" class="showVisitedLinks">
 
 
@@ -559,8 +559,8 @@
   
     
     <li data-nav-id="/tutorial/how_to_use_notebooks_locally/" title="How to use the notebooks in your computer" class="dd-item 
-        
-        
+        parent
+        active
         
         ">
       <a href="/tutorial/how_to_use_notebooks_locally/">
@@ -611,7 +611,7 @@
   
     
     <li data-nav-id="/tutorial/notebooks/" title="Notebooks Tutorials" class="dd-item 
-        parent
+        
         
         
         ">
@@ -1628,8 +1628,8 @@
   
     
     <li data-nav-id="/tutorial/notebooks/normalization_with_simplify_selection/" title="Normalization with Simplify Selection" class="dd-item 
-        parent
-        active
+        
+        
         
         ">
       <a href="/tutorial/notebooks/normalization_with_simplify_selection/">
@@ -2031,13 +2031,7 @@
             
           
           
-            
-            
-          
-          
-            <a href='/'>Neutron Imaging</a> > <a href='/tutorial/'>Tutorials</a> > <a href='/tutorial/notebooks/'>Notebooks Tutorials</a> > Normalization with Simplify Selection
-          
-         
+            <a href='/'>Neutron Imaging</a> > <a href='/tutorial/'>Tutorials</a> > How to use the notebooks in your computer
           
          
           
@@ -2054,14 +2048,18 @@
 <ul>
 <li>
 <ul>
-<li><a href="#description">Description</a></li>
-<li><a href="#start-the-notebook">Start the notebook</a></li>
-<li><a href="#how-to-use-it">How to Use It?</a>
+<li><a href="#instructions">Instructions</a>
 <ul>
-<li><a href="#select-your-ipts">Select your IPTS</a></li>
-<li><a href="#selecting-the-sample-images">Selecting the Sample Images</a></li>
-<li><a href="#normalization-workflow">Normalization workflow</a></li>
-<li><a href="#select-output-folder">Select Output Folder</a></li>
+<li><a href="#a-href-top-class-fa-fa-arrow-up-a-for-mac"><a href='#top' class='fa fa-arrow-up'></a> for Mac</a>
+<ul>
+<li><a href="#step1-download-the-notebooks">Step1 - Download the notebooks</a></li>
+<li><a href="#step2-move-folder-to-new-location">Step2 - Move folder to new location</a></li>
+<li><a href="#step3-install-anaconda-on-your-computer">Step3 - Install Anaconda on your computer</a></li>
+<li><a href="#step4-create-a-virtual-python-environment">Step4 - Create a virtual python environment</a></li>
+<li><a href="#step5-set-up-environment">Step5 - Set up environment</a></li>
+<li><a href="#step-6-launch-the-notebooks">Step 6 - launch the notebooks</a></li>
+</ul></li>
+<li><a href="#a-href-top-class-fa-fa-arrow-up-a-for-windows"><a href='#top' class='fa fa-arrow-up'></a> for Windows</a></li>
 </ul></li>
 </ul></li>
 </ul>
@@ -2081,7 +2079,7 @@
           
             <h1>
               
-              Normalization with Simplify Selection
+              How to use the notebooks in your computer
             </h1>
           
 
@@ -2092,77 +2090,92 @@
 
 	
 
-<p><strong>Notebook name</strong>: normalization_with_simplify_selection.ipynb</p>
+<p><h1 id='top'></a></h1>
+When working with your data files we recommend<br />
+<a href="/tutorial/how_to_start_notebooks/#activate-search">using the notebooks from the analysis machine</a>
+but we also want to provide the flexibility of using the notebooks from your own computer, especially if you want
+to modify or implement new notebooks.</p>
 
-<h2 id="description">Description</h2>
+<p>We describe here the procedure to follow to bring those notebooks from our repository to your computer and how to
+set up your python environment to get all the right libraries.</p>
 
-<p>This notebook normalized the imaging data (tiff or fits) by removing the background and fixing the fluctuations of the
-neutron beam. You will need:</p>
-
-<ul>
-<li>select your sample images folder</li>
-<li>Keep default option of using all open beam (OB) and dark field (DF) images from the same IPTS or select a different time frame</li>
-<li>select output folder where the normalized images will be saved</li>
-</ul>
-
-<p>The big improvement of this notebook compared to the old <em>normalization</em> notebook is that now, the notebook will take
-care of finding all the OB and DF for you, and will match them to your sample data by making sure that:</p>
+<h2 id="instructions">Instructions</h2>
 
 <ul>
-<li>the slits have the same position</li>
-<li>the acquisition time is identical</li>
-<li>the detector type is identical</li>
+<li><a href='#for_mac'>for Mac/Linux</a></li>
+<li><a href='#for_windows'>for Windows</a></li>
 </ul>
 
-<h2 id="start-the-notebook">Start the notebook</h2>
+<p><h1 id='for_mac'></h1></p>
 
-<p>If you need help accessing this notebook, check the <a href="/en/tutorial/how_to_start_notebooks">How To &gt; Start the python
-notebooks</a> tutorial.</p>
+<h3 id="a-href-top-class-fa-fa-arrow-up-a-for-mac"><a href='#top' class='fa fa-arrow-up'></a> for Mac</h3>
 
-<h2 id="how-to-use-it">How to Use It?</h2>
+<h4 id="step1-download-the-notebooks">Step1 - Download the notebooks</h4>
 
-<h3 id="select-your-ipts">Select your IPTS</h3>
+<p>We recommend using the [latest tag (stable))(<a href="https://github.com/neutronimaging/python_notebooks/releases/tag/0.1.0">https://github.com/neutronimaging/python_notebooks/releases/tag/0.1.0</a>)
+version of the notebooks. Click either the <strong>zip</strong> or the <strong>tar.gz</strong> link.</p>
 
-<p>Check the full tutorial <a href="/tutorial/notebooks/select_ipts/#activate-search">here</a></i></p>
+<p><img src='/tutorial/how_to_use_notebooks_locally/images/tag.png' /></p>
 
-<h3 id="selecting-the-sample-images">Selecting the Sample Images</h3>
+<h4 id="step2-move-folder-to-new-location">Step2 - Move folder to new location</h4>
 
-<p>Simply navigate to the folder containing all the data your want to normalize. The program will then list the
-files with the most dominant extension, for example, if you have a folder with 10 tiff images and 2 fits, only the 10
-tiff images will be used. All the sample images will be grouped according to the following criteria:</p>
+<p>Go to your download folder and double click the file you just downloaded. Move this folder to your location of choice
+on your computer (for example, I used <em>~/git/</em> on my computer)</p>
 
-<ul>
-<li>acquisition time</li>
-<li>slits positions</li>
-<li>detector type</li>
-</ul>
+<h4 id="step3-install-anaconda-on-your-computer">Step3 - Install Anaconda on your computer</h4>
 
-<p>The notebook will then retrieve all the OB and DF of the same IPTS by looking into the /raw/ob and /raw/df folders
-respectively of your IPTS folder. The OB and DF that match the sample criteria will then be associated to their
-sample data.</p>
+<p>Anaconda is a free program that will make the installation and management of the python libraries very easy. You can
+install either <a href="https://www.anaconda.com/products/individual">Anaconda (the full package)</a> or just the light version
+called <a href="https://docs.conda.io/en/latest/miniconda.html">miniconda3</a></p>
 
-<p><img src='/tutorial/notebooks/normalization_with_simplify_selection/images/sample_ob_df_list_files.png' /></p>
+<h4 id="step4-create-a-virtual-python-environment">Step4 - Create a virtual python environment</h4>
 
-<h3 id="normalization-workflow">Normalization workflow</h3>
+<p>A virtual python environment is like a python version running on your machine but being isolated from the rest of the
+system. This way anything you will do in this environment, like installing new libraries, will not affect the rest
+of your computer.</p>
 
-<p>This table will summarizes the data reduction that is about to take place. If a config has no OB, the table will let you
-know that this config won&rsquo;t be normalized unless you provide at least one OB.</p>
+<p>In the following example we chose <strong>neutron_imaging</strong> as the name of our virtual environment. Feel free to replace it
+with whatever name makes more sense to you.</p>
 
-<p><img src='/tutorial/notebooks/normalization_with_simplify_selection/images/recap.png' /></p>
+<p>To do so, simply type the following command on your terminal</p>
 
-<h3 id="select-output-folder">Select Output Folder</h3>
+<pre><code>$ conda create -n neutron_imaging python=3
+</code></pre>
 
-<p>Select the output location where you want all the normalized folders to be created. Then a message will let you know
-when the normalization is done and the name of the files created.</p>
+<p>Now let&rsquo;s switch to that environment</p>
 
+<pre><code>$ conda activate neutron_imaging
+</code></pre>
 
-<div class="notices info" ><p>Check the <a href="/tutorial/notebooks/select_ipts/#activate-search">folder selection tool tutorial</a>
-to learn how to use the folder selector tool.
-<img src='/tutorial/how_to_run_notebooks/images/file_folder_browser.png' /></p>
-</div>
+<h4 id="step5-set-up-environment">Step5 - Set up environment</h4>
 
+<p>Final step, we need to install all the librairies used by the notebooks. To do so, in your terminal, navigate to
+the notebooks folder your downloaded (tag version)</p>
 
-<p><img src='/tutorial/notebooks/normalization_with_simplify_selection/images/output_message.png' /></p>
+<pre><code>cd ~/git/python_notebooks-0.1.0
+</code></pre>
+
+<p>and execute the installation script <strong>config_conda_env.sh</strong></p>
+
+<pre><code>$ bash config_conda_env.sh
+</code></pre>
+
+<p>This will take a while!</p>
+
+<h4 id="step-6-launch-the-notebooks">Step 6 - launch the notebooks</h4>
+
+<p>Last step, start the notebooks</p>
+
+<pre><code>$ jupyter notebook
+</code></pre>
+
+<p>Your favorite browser will show up with the notebooks. Enjoy!</p>
+
+<p><h1 id='for_windows'></h1></p>
+
+<h3 id="a-href-top-class-fa-fa-arrow-up-a-for-windows"><a href='#top' class='fa fa-arrow-up'></a> for Windows</h3>
+
+<p>Coming soon!</p>
 
 
 
@@ -2499,21 +2512,6 @@ to learn how to use the folder selector tool.
             
                 
                     
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
                     
                 
                 
@@ -2525,22 +2523,6 @@ to learn how to use the folder selector tool.
                     
             
         
-                    
-                        
-            
-            
-                
-                    
-                    
-                
-                
-
-                    
-                    
-                        
-                    
-                    
-
                     
                         
             
@@ -2571,11 +2553,10 @@ to learn how to use the folder selector tool.
 
                     
                     
+                        
+                    
                     
 
-                    
-            
-        
                     
                         
             
@@ -3158,6 +3139,21 @@ to learn how to use the folder selector tool.
             
                 
                     
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
                     
                 
                 
@@ -3175,8 +3171,21 @@ to learn how to use the folder selector tool.
             
                 
                     
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
                         
-                        
+            
+            
+                
                     
                 
                 
@@ -3364,10 +3373,10 @@ to learn how to use the folder selector tool.
 	 
 	 
 		
-			<a class="nav nav-prev" href="/tutorial/notebooks/normalization/" title="Normalization"> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="/tutorial/how_to_start_amira/" title="How to work with Amira"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="/tutorial/notebooks/normalization_batch/" title="Normalization_batch" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="/tutorial/how_to_other/" title="Divers ..." style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>
