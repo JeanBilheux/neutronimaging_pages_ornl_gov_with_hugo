@@ -17,6 +17,7 @@ pre: "<b>5.12 </b>"
 <li>[create_list_of_file_name_vs_time_stamp]({{%relref "/tutorial/notebooks/create_list_of_file_name_vs_time_stamp/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i></li>
 <li>[cylindrical_geometry_correction]({{%relref "/tutorial/notebooks/cylindrical_geometry_correction/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
 <li>[deal_images]({{%relref "/tutorial/notebooks/deal_images/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
+<li>[dual_energy]({{%relref "/tutorial/notebooks/dual_energy/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> <i class='fa fa-bell'></i> </li>
 <li>[display_and_export_images_with_metadata_profile]({{%relref "/tutorial/notebooks/display_and_export_images_with_metadata_profile/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
 <li>[display_and_export_images_with_timestamp]({{%relref "/tutorial/notebooks/display_and_export_images_with_timestamp/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
 <li>[display_counts_of_region_vs_stack]({{%relref "/tutorial/notebooks/display_counts_of_region_vs_stack/_index.md#activate-search" %}}) <i class='fa fa-battery-2'></i> </li>
@@ -60,5 +61,8 @@ pre: "<b>5.12 </b>"
 
 <li>[extract_sans_reductionlog_metadata]({{%relref "/tutorial/notebooks/extract_sans_reductionlog_metadata/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> <i class='fa fa-bell'></i></li>
 
+<hr>
 
 <i class='fa fa-bell'></i> Recently updated
+
+<i class='fa fa-battery-empty'></i> <i class='fa fa-battery-half'></i>   <i class='fa fa-battery-full'></i> Level of documentation
