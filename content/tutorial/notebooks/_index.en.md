@@ -17,12 +17,12 @@ pre: "<b>5.12 </b>"
 <li>[create_list_of_file_name_vs_time_stamp]({{%relref "/tutorial/notebooks/create_list_of_file_name_vs_time_stamp/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i></li>
 <li>[cylindrical_geometry_correction]({{%relref "/tutorial/notebooks/cylindrical_geometry_correction/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
 <li>[deal_images]({{%relref "/tutorial/notebooks/deal_images/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
-<li>[dual_energy]({{%relref "/tutorial/notebooks/dual_energy/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> <i class='fa fa-bell'></i> </li>
 <li>[display_and_export_images_with_metadata_profile]({{%relref "/tutorial/notebooks/display_and_export_images_with_metadata_profile/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
 <li>[display_and_export_images_with_timestamp]({{%relref "/tutorial/notebooks/display_and_export_images_with_timestamp/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
 <li>[display_counts_of_region_vs_stack]({{%relref "/tutorial/notebooks/display_counts_of_region_vs_stack/_index.md#activate-search" %}}) <i class='fa fa-battery-2'></i> </li>
 <li>[display_file_names_vs_time_stamp]({{%relref "/tutorial/notebooks/display_file_names_vs_time_stamp/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
 <li>[display_integrated_stack_of_images]({{%relref "/tutorial/notebooks/display_integrated_stack_of_images/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
+<li>[dual_energy]({{%relref "/tutorial/notebooks/dual_energy/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> <i class='fa fa-bell'></i> </li>
 <li>[extract_evenly_spaced_files]({{%relref "/tutorial/notebooks/extract_evenly_spaced_files/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
 <li>[extract_nexus_daslogs]({{%relref "/tutorial/notebooks/extract_nexus_daslogs/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> <i class='fa fa-bell'></i> </li>
 <li>[file_name_and_metadata_vs_time_stamp]({{%relref "/tutorial/notebooks/file_name_and_metadata_vs_time_stamp/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
