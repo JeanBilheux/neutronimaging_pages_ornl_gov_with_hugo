@@ -19,7 +19,7 @@ pre: "<b>5.12 </b>"
 <li>[deal_images]({{%relref "/tutorial/notebooks/deal_images/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
 <li>[display_and_export_images_with_metadata_profile]({{%relref "/tutorial/notebooks/display_and_export_images_with_metadata_profile/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
 <li>[display_and_export_images_with_timestamp]({{%relref "/tutorial/notebooks/display_and_export_images_with_timestamp/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
-<li>[display_counts_of_region_vs_stack]({{%relref "/tutorial/notebooks/display_counts_of_region_vs_stack/_index.md#activate-search" %}}) <i class='fa fa-battery-2'></i> </li>
+<li>[display_counts_of_region_vs_stack]({{%relref "/tutorial/notebooks/display_counts_of_region_vs_stack/_index.md#activate-search" %}}) <i class='fa fa-battery-half'></i> </li>
 <li>[display_file_names_vs_time_stamp]({{%relref "/tutorial/notebooks/display_file_names_vs_time_stamp/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
 <li>[display_integrated_stack_of_images]({{%relref "/tutorial/notebooks/display_integrated_stack_of_images/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
 <li>[dual_energy]({{%relref "/tutorial/notebooks/dual_energy/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> <i class='fa fa-bell'></i> </li>
@@ -31,6 +31,7 @@ pre: "<b>5.12 </b>"
 <li>[from_attenuation_to_concentration]({{%relref "/tutorial/notebooks/from_attenuation_to_concentration/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i></li>
 <li>[from_dsc_time_info_to_ascii_file_vs_time]({{%relref "/tutorial/notebooks/from_dsc_time_info_to_ascii_file_vs_time/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i></li>
 <li>[gamma_filtering_tool]({{%relref "/tutorial/notebooks/gamma_filtering_tool/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
+<li>[group_images_by_cycle_for_panoramic_stitching]({{%relref "/tutorial/notebooks/group_images_by_cycle_for_panoramic_stitching/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> <i class='fa fa-bell'></i></li>
 <li>[images_and_metadata_extrapolation_matcher]({{%relref "/tutorial/notebooks/images_and_metadata_extrapolation_matcher/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
 <li>[integrated_roi_counts_vs_file_name_and_time_stamp]({{%relref "/tutorial/notebooks/integrated_roi_counts_vs_file_name_and_time_stamp/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i></li>
 <li>[list_element_bragg_edges]({{%relref "/tutorial/notebooks/list_element_bragg_edges/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i></li>

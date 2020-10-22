@@ -5,7 +5,7 @@ pre: "<b>5.2 </b>"
 
 ---
 
-For any personal tutorial, demonstration or request, please contact [Jean Bilheux](/en/credits#jean_bilheux).
+For any personal tutorial, demonstration or request, please contact [Jean Bilheux](/credits#jean_bilheux).
 
 In order to analyze or visualize your data, please follow the following recipe.
 
