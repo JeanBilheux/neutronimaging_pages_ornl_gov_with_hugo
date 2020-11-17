@@ -62,7 +62,7 @@ in the table will display a **blue border** around the image.
 
 <img src='/tutorial/notebooks/panoramic_stitching/images/first_image_selected.png' />
 
-Any other row selected will display a **red border** around the image selected. You have two options to move those
+Any other row selected will display a **red border** around the image selected. You have three options to move those
 images. 
 
  * using the mouse
