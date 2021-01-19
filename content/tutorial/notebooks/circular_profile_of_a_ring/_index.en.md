@@ -44,21 +44,21 @@ The user interface contains 3 main parts:
 
 #### ring selection
 
-Using the mouse and a simple constant left click, you can move the ring around and use the grid tool (size and color
+Using the mouse + left click, you can move the ring around and use the grid tool (size and color
 can be modified) in order to place with high precision the center of the ring. Feel free to use the mouse wheel to
 zoom in and/or out the image. 
 
-<<gif here>>
+<img src='/tutorial/notebooks/circular_profile_of_a_ring/images/moving_ring_around.gif' />
 
 Then you can modify the ring size using either the mouse directly on the plot, or the widgets on the
 right of the preview. Via the plot, click and little square box on the bottom right of the ring to change the size
 of the ring. You can also play with the **inner radius** slider on the right to change the size.
 
-<<gif here>>
+<img src='/tutorial/notebooks/circular_profile_of_a_ring/images/ring_size.gif' />
 
 To change the thickness of the ring, play with the **thickness** slider on the right of the preview.
 
-<<gif here>>
+<img src='/tutorial/notebooks/circular_profile_of_a_ring/images/ring_thickness.gif' />
 
 #### profile generator tool
 
@@ -66,7 +66,7 @@ The notebook will create a table of counts versus angles. The **angles bins (deg
 thinner or coarser profile. To visualize the angle value of each pixel of the ring, click the "angles matrix of ring" 
 radio button on top of the preview image. 
 
-<<gif here>>
+<img src='/tutorial/notebooks/circular_profile_of_a_ring/images/angles_matrix.png' />
 
 ### calculate profiles
 
@@ -74,21 +74,29 @@ Click the **calculate profiles** button to produce the profile of the ring. A pr
 of the ui will show the progress of the calculation as the program extracts the profile for every single radiograph
 your loaded.
 
-<<png here>>
+**how is the profile calculated?**
 
-<<explain math behind the profile calculator>>
+The following diagram will help explain the math behind the profile calculation.
 
+In order to calculate the angular position of every single of the image relative to the top vertical position, the 
+center of the pixel is used. Each center gets an angular value. Then when the angular axis has been defined by playing
+with the angular bin, every pixel is associated with the closest angle value. If one more than 1 pixel falls in the 
+same angle bin, the average of all the pixel counts in this bin is used.
 
+<img src='/tutorial/notebooks/circular_profile_of_a_ring/images/diagram_of_pixel_angles.png' />
 
+In the previous figure,
+ 
+ * pixel **a** and **b** are part of the same angular bin and the average of pixel A and B will be used for that angle
+ * all angles are calculated by using the center of the pixels as shown in figure **d**
+ * pixel **c** has its center outside of the ring and then, won't be used 
 
 Once the process is done, the right part of the UI will expand and display the list of images loaded. Select any, one 
 or more, of those images to display the profile of mean counts versus angle value.
 
-<<gif here>>
+<img src='/tutorial/notebooks/circular_profile_of_a_ring/images/profiles.png' />
 
 Feel free to play with the plot style widgets, as well as zoom and pan of the plot.
-
-<<gif here>>
 
 ### Export profiles ###
 
