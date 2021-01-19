@@ -130,4 +130,4 @@ Z
 
 <i class='fa fa-bell'></i> Recently updated
 
-<i class='fa fa-battery-empty'></i> <i class='fa fa-battery-half'></i>   <i class='fa fa-battery-full'></i> Level of documentation
+<i class='fa fa-battery-empty'></i> <i class='fa fa-battery-half'></i>   <i class='fa fa-battery-full'></i> Levels of documentation
