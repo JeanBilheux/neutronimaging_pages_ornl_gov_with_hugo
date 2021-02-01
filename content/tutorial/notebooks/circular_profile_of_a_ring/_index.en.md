@@ -60,6 +60,13 @@ To change the thickness of the ring, play with the **thickness** slider on the r
 
 <img src='/tutorial/notebooks/circular_profile_of_a_ring/images/ring_thickness.gif' />
 
+#### Angle cursor 
+
+It's possible to measure the angular position of any element relative to the custom center defined by playing
+with the **angle cursor widgets**. 
+
+<img src='/tutorial/notebooks/circular_profile_of_a_ring/images/angle_cursor.gif' />
+
 #### profile generator tool
 
 The notebook will create a table of counts versus angles. The **angles bins (degrees)** slider allows you to get a 
@@ -97,6 +104,13 @@ or more, of those images to display the profile of mean counts versus angle valu
 <img src='/tutorial/notebooks/circular_profile_of_a_ring/images/profiles.png' />
 
 Feel free to play with the plot style widgets, as well as zoom and pan of the plot.
+
+#### Browsing the profiles
+
+It's possible to quickly locate the elements position calculated by the algorithm by clicking the profile plot. The
+angular position of that point will be displayed on the left display.
+
+<img src='/tutorial/notebooks/circular_profile_of_a_ring/images/live_angle_position.gif' />
 
 ### Export profiles ###
 

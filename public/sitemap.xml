@@ -118,6 +118,10 @@
   </url>
   
   <url>
+    <loc>/tutorial/notebooks/circular_profile_of_a_ring/</loc>
+  </url>
+  
+  <url>
     <loc>/tutorial/notebooks/combine_all_images_selected/</loc>
   </url>
   
@@ -227,6 +231,10 @@
   
   <url>
     <loc>/tutorial/notebooks/group_images_by_cycle_for_panoramic_stitching/</loc>
+  </url>
+  
+  <url>
+    <loc>/tutorial/notebooks/hfir_reactor_element_analysis/</loc>
   </url>
   
   <url>
