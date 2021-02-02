@@ -69,6 +69,12 @@ only the real peaks of at least **n** data points.
 
 <img src='/tutorial/notebooks/hfir_reactor_element_analysis/images/calculate_elements_position.gif' />
 
+Once the **elements positions** have been calculated, clicking the **Display ideal positions of n elements** will
+show in the top plot the ideal positions of those n elements by using the full 360 degrees span starting at the
+first element found. 
+
+<img src='/tutorial/notebooks/hfir_reactor_element_analysis/images/display_ideal_positions.png' />
+
 #### Elements Position tab
 
 This tab displays the peak position of each element for each file. y-axis is the file index and x-axis is the
@@ -76,6 +82,25 @@ angular position. Zoom in the top plot to really isolate each element and compar
 the slices (projections). 
 
 <img src='/tutorial/notebooks/hfir_reactor_element_analysis/images/second_tab.gif' />
+
+2 tabs are provided at the bottom to quickly locate possible issues. 
+ 
+  * **all peaks found**
+  * **missing peaks**
+ 
+The first tab called **all peaks found** displays in red the element position that are outside of the tolerance range
+(defined at the bottom of the window).
+
+The second tab called **missing peaks** considers the perfect table of number of files per ideal number of elements and 
+shows in red the elements that have not been located in that particular "ideal" location.
+
+{{% notice warning %}}
+One should starts worried when the red pattern repeats over multiple images!
+{{% /notice %}}
+
+Right click any of the cells of those 2 tables will display the **angle value** and the corresponding **file name**. 
+
+#### Export
 
 You can then just export the data into an ASCII data file by clicking the **Export table data ...** button at the
 bottom right corner. 
