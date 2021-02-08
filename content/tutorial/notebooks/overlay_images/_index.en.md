@@ -9,11 +9,11 @@ pre: "- "
 
 ## Description
 
-This notebook will create an ASCII output file of the average counts of the pixel within a given ring versus
-angle position. Top vertical being the angle 0 and going clockwise. 
+This notebook will overlay (merged) two folders of images taken with different resolution. The low resolution, wide
+angle, images will be scaled in order to fit the high resolution. The high resolution can be placed inside the low
+resolution images automatically or manually.
 
-<img src='/tutorial/notebooks/circular_profile_of_a_ring/images/description_figure.png' />
-<img src='/tutorial/notebooks/circular_profile_of_a_ring/images/preview_of_output.png' />
+<img src='/tutorial/notebooks/overlay_images/images/preview_of_application.png' />
 
 ## Start the notebook
 
@@ -28,90 +28,98 @@ Check the full tutorial [here]({{%relref "/tutorial/notebooks/select_ipts/_index
 
 ### loading the Images
 
-Select a folder that contains all the images to get profile from. The radiographs will be loaded in memory and a 
-progress bar will display the progress of the loading. 
+#### High resolution images
+
+Select the folder that contains all the high resolution images you want to use.
 
 {{% notice info %}}
-Check this tutorial if you need help using the [file selection tool]({{%relref "/tutorial/notebooks/file_selector/_index.md#activate-search" %}})
+Check this tutorial if you need help using the 
+[file selection tool]({{%relref "/tutorial/notebooks/file_selector/_index.md#activate-search" %}})
 {{% /notice %}}
 
-### launch the user interface
+Move on to the next cell to select the low resolution images.
 
-The user interface contains 3 main parts:
- * on the left - preview of the radiographs loaded + grid + ring selection 
- * on the right - ring, grid and angle bin settings
- * hiding in the slider on the far right - result of circular profile of the ring
+#### Low resolution images
 
-#### ring selection
+Repeat the process for the low resolution images. Make sure the two folders have the same number of images
 
-Using the mouse + left click, you can move the ring around and use the grid tool (size and color
-can be modified) in order to place with high precision the center of the ring. Feel free to use the mouse wheel to
-zoom in and/or out the image. 
+### Launching the interface
 
-<img src='/tutorial/notebooks/circular_profile_of_a_ring/images/moving_ring_around.gif' />
+The next cell will bring the main UI to life. 
 
-Then you can modify the ring size using either the mouse directly on the plot, or the widgets on the
-right of the preview. Via the plot, click and little square box on the bottom right of the ring to change the size
-of the ring. You can also play with the **inner radius** slider on the right to change the size.
+<img src='/tutorial/notebooks/overlay_images/images/preview_of_ui.png' />
 
-<img src='/tutorial/notebooks/circular_profile_of_a_ring/images/ring_size.gif' />
+{{% notice info %}}
+Use the splitters to resize any of the windows.
+<img src='/tutorial/notebooks/overlay_images/images/resizing.gif' />
+{{% /notice %}}
 
-To change the thickness of the ring, play with the **thickness** slider on the right of the preview.
-
-<img src='/tutorial/notebooks/circular_profile_of_a_ring/images/ring_thickness.gif' />
-
-#### Angle cursor 
-
-It's possible to measure the angular position of any element relative to the custom center defined by playing
-with the **angle cursor widgets**. 
-
-<img src='/tutorial/notebooks/circular_profile_of_a_ring/images/angle_cursor.gif' />
-
-#### profile generator tool
-
-The notebook will create a table of counts versus angles. The **angles bins (degrees)** slider allows you to get a 
-thinner or coarser profile. To visualize the angle value of each pixel of the ring, click the "angles matrix of ring" 
-radio button on top of the preview image. 
-
-<img src='/tutorial/notebooks/circular_profile_of_a_ring/images/angles_matrix.png' />
-
-### calculate profiles
-
-Click the **calculate profiles** button to produce the profile of the ring. A progress bar displayed at the bottom
-of the ui will show the progress of the calculation as the program extracts the profile for every single radiograph
-your loaded.
-
-**how is the profile calculated?**
-
-The following diagram will help explain the math behind the profile calculation.
-
-In order to calculate the angular position of every single of the image relative to the top vertical position, the 
-center of the pixel is used. Each center gets an angular value. Then when the angular axis has been defined by playing
-with the angular bin, every pixel is associated with the closest angle value. If one more than 1 pixel falls in the 
-same angle bin, the average of all the pixel counts in this bin is used.
-
-<img src='/tutorial/notebooks/circular_profile_of_a_ring/images/diagram_of_pixel_angles.png' />
-
-In the previous figure,
+**The first tab will allows you:**
  
- * pixel **a** and **b** are part of the same angular bin and the average of pixel A and B will be used for that angle
- * all angles are calculated by using the center of the pixels as shown in figure **d**
- * pixel **c** has its center outside of the ring and then, won't be used 
+  * to roughly rescale the low resolution images to fit the pixel size of the high
+resolution images
+  * place the high resolution images at the right place inside the low resolution images
 
-Once the process is done, the right part of the UI will expand and display the list of images loaded. Select any, one 
-or more, of those images to display the profile of mean counts versus angle value.
+#### Step 1
 
-<img src='/tutorial/notebooks/circular_profile_of_a_ring/images/profiles.png' />
+Using the <span style="color: red">RED</span> and <span style="color: blue">BLUE</span> markers.
+The goal being to place the <span style="color: red">RED</span> markers at the corresponding spot in the **high 
+resolution** image and the **low resolution** image. Repeat it for the <span style="color: blue">BLUE</span> markers.
 
-Feel free to play with the plot style widgets, as well as zoom and pan of the plot.
+Make sure you use the mouse to facilitate the selection by **Zooming (wheel)** or **panning (left and drag click)**.
 
-#### Browsing the profiles
+<img src='/tutorial/notebooks/overlay_images/images/auto_align.gif' />
 
-It's possible to quickly locate the elements position calculated by the algorithm by clicking the profile plot. The
-angular position of that point will be displayed on the left display.
+#### Step 2
 
-<img src='/tutorial/notebooks/circular_profile_of_a_ring/images/live_angle_position.gif' />
+<img src='/tutorial/notebooks/overlay_images/images/step2_preview.png' />
 
-### Export profiles ###
+The second step allows you to improve the alignment of the selected high resolution image and apply that changes 
+(**scaling factor**, **xoffset** and **yoffset**) to all the other images. 
 
-Once you are done, click **export profiles ...** to export the profiles data into an ASCII file.
+A couple of tools are available to help you position the images, the **profiler** and  **transparency** tools.
+
+<h4><span style="color: red"> Manual scaling, xoffset and yoffset</span></h4>
+
+It's possible to manually define the **scaling factor**, the **xoffset**, and the **yoffset** position of the 
+currently selected high and low resolution images. Just enter the new value and hit **ENTER** to validate the new
+value. You can also manually move the high resolution image by 1 or 5 pixels either way using the **-, - -, +** and 
+**+ +** buttons. 
+
+As soon as the **scaling factor, xoffset** and **yoffset** values differ from the values calculated by the automatic 
+mode, the **overlay mode** in the table of list of files will display <span style="color: blue">Manual</span>.
+
+<img src='/tutorial/notebooks/overlay_images/images/manual_overlay.gif' />
+
+<h4><span style="color: red">Profiler tool</span></h4>
+
+Turn on the **profiler tool** to get a live profile plot of the vertical and horizontal **high resolution** and **low resolution** profiles
+around the cursor position. This will help overlaying the two images.
+
+<img src='/tutorial/notebooks/overlay_images/images/profiler.gif' />
+
+<h4><span style="color: red">Transparency</span></h4>
+  
+Using the transparency feature allows to see "through" the high resolution image, the low resolution to help the
+overlay. 
+
+<img src='/tutorial/notebooks/overlay_images/images/transparency.gif' />
+
+{{% notice warning %}}
+Once you are satisfied with the overlay of the "working" images, click the **Manually overlay all images** in order
+to apply that settings to all the images. Once all the images have been overlaid, the **export overlaid images** button
+becomes available.
+<img src='/tutorial/notebooks/overlay_images/images/manually_overlaid_all_images.gif' />
+{{% /notice %}}
+
+### Export the final images
+
+Click the **Export overlaid images** button to export the overlaid images. Each TIFF image created will have a few
+of new metadata infos:
+
+ * **scaling factor**
+ * **xoffset**
+ * **yoffset** 
+ 
+<img src='/tutorial/notebooks/overlay_images/images/metadata_list.png' />
+ 
