@@ -262,6 +262,10 @@
   </url>
   
   <url>
+    <loc>/tutorial/notebooks/mcp_chips_corrector/</loc>
+  </url>
+  
+  <url>
     <loc>/tutorial/notebooks/metadata_ascii_parser/</loc>
   </url>
   
