@@ -93,7 +93,6 @@ Z
 
 <h3 id='n'>N</h3>
 <li>[normalization]({{%relref "/tutorial/notebooks/normalization/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
-<li>[normalization_batch]({{%relref "/tutorial/notebooks/normalization_batch/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
 <li>[normalization_with_simplify_selection]({{%relref "/tutorial/notebooks/normalization_with_simplify_selection/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> <i class='fa fa-bell'></i></li>
 
 <h3 id='o'>O</h3>
