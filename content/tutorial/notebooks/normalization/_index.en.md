@@ -60,6 +60,14 @@ to learn how to use the file selector tool.
 **SHIFT + ENTER** to run the cell. A new User Interface (UI) will come to life. If you can not see the UI, check
 behind the notebook window.
 
+
+{{% notice info %}}
+In order to speed up the display of the data, the notebook randomly select **5%** of the stack of sample image 
+selected. If you want to change that coefficient, edit the **config.py** file found in the *__code* folder and change
+the variable value called **percentage_of_images_to_use_for_roi_selection**.
+<img src='/tutorial/notebooks/normalization/images/config.png' />
+{{% /notice %}}
+
 <img src='/tutorial/notebooks/normalization/images/roi_selection_1.gif' />
 
 Just click **OK** if you do not want to select any region of interest (ROI).
