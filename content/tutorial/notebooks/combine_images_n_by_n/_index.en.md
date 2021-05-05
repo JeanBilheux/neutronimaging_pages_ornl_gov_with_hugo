@@ -111,6 +111,19 @@ those files have been created.
 
 <img src='/tutorial/notebooks/combine_images_n_by_n/images/output_files.gif' />
 
+### Working with TOF data
 
+ If you are working with TOF data set, where a **_Spectra.txt** file is present, the notebook will automatically create
+a new **_Spectra.txt** file according to the merging parameters you selected. 
+  
+  * The first column of the file, *time*, will be the average of the corresponding row/files combined
+  * The second column, *total counts* will use the same algorithm than the one you selected in the notebook.
+
+<img src='/tutorial/notebooks/combine_images_n_by_n/images/time_spectra_creating_explanation.png' />
+
+If a Spectra file has been located and a new one created, the full file path of that file will be displayed in the 
+notebook
+
+<img src='/tutorial/notebooks/combine_images_n_by_n/images/output_in_tof_mode.png' />
 
 
