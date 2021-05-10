@@ -97,11 +97,25 @@ The **BLACK** plot shows the profile from the reference image, the **RED** plot 
 Using those buttons, you can move the working image by **1** or **5**pixels at a time horizontally or vertically.
 <img src='/tutorial/notebooks/panoramic_stitching/images/manual_move_buttons.png' />
 
+{{% notice tip %}}
+<img src='/tutorial/notebooks/panoramic_stitching/images/remote_control_widgets.png' />
+The latest version of the notebook provides a **remote control** that will speed up the alignment process. 
+You can easily jump to the previous or next image to work on, and you can bring all the alignment tools (FROM and TO
+cursors, horizontal and vertical profilers) into the current window view. This allows you to use full benefit of 
+your monitor size by only working on the image view.
+<img src='/tutorial/notebooks/panoramic_stitching/images/remote_use.gif' />
+{{% /notice %}}
+
 **Using table**
 
 You can also directly entered the xoffset or yoffset of any image, except the first one, within the table. Double 
 click the field you want to edit to change the x or y offset. 
 <img src='/tutorial/notebooks/panoramic_stitching/images/manual_xoffset_and_yoffset_in_table.gif' />
+
+{{% notice tip %}}
+A **right click** inside the table allows you to **save**, **load** or **reset** the content of the table
+<img src='/tutorial/notebooks/panoramic_stitching/images/table_right_click.png' />
+{{% /notice %}}
 
 #### Step 2 - Repeat settings defined on all other folders
 
