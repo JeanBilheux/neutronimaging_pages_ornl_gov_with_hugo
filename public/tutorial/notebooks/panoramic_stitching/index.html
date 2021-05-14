@@ -12,20 +12,20 @@
     <title>Panoramic Stitching :: Documentation for Hugo Learn Theme</title>
 
     
-    <link href="/css/nucleus.css?1620678606" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1620678606" rel="stylesheet">
-    <link href="/css/hybrid.css?1620678606" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1620678606" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1620678606" rel="stylesheet">
-    <link href="/css/auto-complete.css?1620678606" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1620678606" rel="stylesheet">
-    <link href="/css/theme.css?1620678606" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1620678606" rel="stylesheet">
+    <link href="/css/nucleus.css?1621001798" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1621001798" rel="stylesheet">
+    <link href="/css/hybrid.css?1621001798" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1621001798" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1621001798" rel="stylesheet">
+    <link href="/css/auto-complete.css?1621001798" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1621001798" rel="stylesheet">
+    <link href="/css/theme.css?1621001798" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1621001798" rel="stylesheet">
     
-      <link href="/css/theme-blue.css?1620678606" rel="stylesheet">
+      <link href="/css/theme-blue.css?1621001798" rel="stylesheet">
     
 
-    <script src="/js/jquery-3.3.1.min.js?1620678606"></script>
+    <script src="/js/jquery-3.3.1.min.js?1621001798"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -60,14 +60,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1620678606"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1620678606"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1621001798"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1621001798"></script>
 <script type="text/javascript">
     
         var baseurl = "";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1620678606"></script>
+<script type="text/javascript" src="/js/search.js?1621001798"></script>
 
     
   </div>
@@ -2250,6 +2250,7 @@
 <li><a href="#step-1-stitch-one-group-of-images-any-of-them-will-work">Step 1 - stitch one group of images (any of them will work)</a></li>
 <li><a href="#step-2-repeat-settings-defined-on-all-other-folders">Step 2 - Repeat settings defined on all other folders</a></li>
 <li><a href="#step-3-create-all-panoramic-images">Step 3 - Create all panoramic images</a></li>
+<li><a href="#step4-export-all-panoramic-images">Step4 - Export all panoramic images</a></li>
 </ul></li>
 </ul></li>
 </ul></li>
@@ -2412,10 +2413,49 @@ Once it&rsquo;s done, simply browse through the folders to check the alignment o
 <h4 id="step-3-create-all-panoramic-images">Step 3 - Create all panoramic images</h4>
 
 <p>You need first to select the output location where the image will be created. A folder will be created based on the name
-of the parent directory of the input folders.</p>
+of the input folders parent directory.</p>
 
-<p>For the region of overlap between two images, the notebook simply takes the average of the two images as illustrated here.
-<img src='/tutorial/notebooks/panoramic_stitching/images/math_of_overlap.png' /></p>
+<p>The final images are not created at this stage and only the position of each image is set. The final step, <strong>export</strong>
+will perform the stitching using the algorithm you will select.</p>
+
+<h4 id="step4-export-all-panoramic-images">Step4 - Export all panoramic images</h4>
+
+<p>Click the bottom right button to export all the panoramic images.</p>
+
+<p>A progress bar at the bottom will show you that the notebook is calculating the result of using various stitching
+algorithms on the current working set of images. Once it&rsquo;s done, a dialog box will display those images side by
+side to allow you to pick the best one for your data set.</p>
+
+<p><img src='/tutorial/notebooks/panoramic_stitching/images/export_screenshot.png' /></p>
+
+<p>Feel free to zoom/pan within any of the images to compare the results</p>
+
+<p><img src='/tutorial/notebooks/panoramic_stitching/images/export_images.gif' /></p>
+
+<p>The 3 algorithms available for now are:</p>
+
+<ul>
+<li>use minimum counts</li>
+<li>use maximum counts</li>
+<li>use mean counts</li>
+</ul>
+
+<p><strong>Use minimum counts</strong> will take the pixel of lower intensity in the overlap region</p>
+
+<p><strong>Use maximum counts</strong> will take the pixel of higher intensity</p>
+
+<p><strong>Use mean counts</strong> will take the average of the two pixels</p>
+
+<p>Once you click <strong>OK</strong>, you will need to select where your want to create the output folder. The name of the folder that
+the program is going to create will be based on the input folder name and the name of the algorithm selected.</p>
+
+<p>For example:</p>
+
+<ul>
+<li>top parent folder: <em>raw_normalized_sorted_by_cycle</em></li>
+<li>algorithm selected: <em>minimum counts</em></li>
+<li>output folder will be <em>raw_normalized_sorted_by_cycle_panoramic_minimum_counts</em></li>
+</ul>
 
 
 
@@ -3742,19 +3782,19 @@ of the parent directory of the input folders.</p>
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1620678606"></script>
-    <script src="/js/perfect-scrollbar.min.js?1620678606"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1620678606"></script>
-    <script src="/js/jquery.sticky.js?1620678606"></script>
-    <script src="/js/featherlight.min.js?1620678606"></script>
-    <script src="/js/highlight.pack.js?1620678606"></script>
+    <script src="/js/clipboard.min.js?1621001798"></script>
+    <script src="/js/perfect-scrollbar.min.js?1621001798"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1621001798"></script>
+    <script src="/js/jquery.sticky.js?1621001798"></script>
+    <script src="/js/featherlight.min.js?1621001798"></script>
+    <script src="/js/highlight.pack.js?1621001798"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1620678606"></script>
-    <script src="/js/learn.js?1620678606"></script>
-    <script src="/js/hugo-learn.js?1620678606"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1621001798"></script>
+    <script src="/js/learn.js?1621001798"></script>
+    <script src="/js/hugo-learn.js?1621001798"></script>
 
-    <link href="/mermaid/mermaid.css?1620678606" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1620678606"></script>
+    <link href="/mermaid/mermaid.css?1621001798" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1621001798"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>

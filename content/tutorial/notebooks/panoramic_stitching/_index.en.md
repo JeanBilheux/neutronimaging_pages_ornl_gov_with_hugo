@@ -128,12 +128,43 @@ Once it's done, simply browse through the folders to check the alignment of all 
 #### Step 3 - Create all panoramic images
 
 You need first to select the output location where the image will be created. A folder will be created based on the name
-of the parent directory of the input folders.  
+of the input folders parent directory. 
 
-For the region of overlap between two images, the notebook simply takes the average of the two images as illustrated here.
-<img src='/tutorial/notebooks/panoramic_stitching/images/math_of_overlap.png' />
+The final images are not created at this stage and only the position of each image is set. The final step, **export**
+will perform the stitching using the algorithm you will select.
 
+#### Step4 - Export all panoramic images
 
+Click the bottom right button to export all the panoramic images. 
 
+A progress bar at the bottom will show you that the notebook is calculating the result of using various stitching
+algorithms on the current working set of images. Once it's done, a dialog box will display those images side by
+side to allow you to pick the best one for your data set.
 
+<img src='/tutorial/notebooks/panoramic_stitching/images/export_screenshot.png' />
 
+Feel free to zoom/pan within any of the images to compare the results
+
+<img src='/tutorial/notebooks/panoramic_stitching/images/export_images.gif' />
+
+The 3 algorithms available for now are:
+
+ * use minimum counts
+ * use maximum counts
+ * use mean counts
+ 
+ **Use minimum counts** will take the pixel of lower intensity in the overlap region
+ 
+ **Use maximum counts** will take the pixel of higher intensity
+ 
+ **Use mean counts** will take the average of the two pixels
+
+Once you click **OK**, you will need to select where your want to create the output folder. The name of the folder that
+the program is going to create will be based on the input folder name and the name of the algorithm selected.
+
+For example:
+
+ * top parent folder: *raw_normalized_sorted_by_cycle*
+ * algorithm selected: *minimum counts*
+ * output folder will be *raw_normalized_sorted_by_cycle_panoramic_minimum_counts*
+ 
