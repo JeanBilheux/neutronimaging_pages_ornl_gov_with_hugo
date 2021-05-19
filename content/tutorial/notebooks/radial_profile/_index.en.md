@@ -83,6 +83,14 @@ It's possible to change the settings of **the grid** (usefull when color of imag
 
 <img src='/tutorial/notebooks/radial_profile/images/grid_settings.gif' />
 
+## Maximum Radius
+
+By default, the entire range of pixels from the center to the side of the image is used. But it's possible
+to narrow down that range to a given number of pixels using that tool. Turn on the **Max radius** option. Play
+with the slider to set the size of the pixel range. 
+
+<img src='/tutorial/notebooks/radial_profile/images/max_radius.gif' />
+
 ## Calculate Radial Profiles
 
 Jump to the **Profile** tab and click the **Calculate Profiles** to calculate the radial profile of each image loaded.
