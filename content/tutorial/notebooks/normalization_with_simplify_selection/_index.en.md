@@ -36,6 +36,8 @@ Check the full tutorial [here]({{%relref "/tutorial/notebooks/select_ipts/_index
 
 ### Selecting the Sample Images
 
+<img src='/tutorial/notebooks/normalization_with_simplify_selection/images/sample_ob_df_list_files.png' />
+
 Simply navigate to the folder containing all the data your want to normalize. The program will then list the
 files with the most dominant extension, for example, if you have a folder with 10 tiff images and 2 fits, only the 10
 tiff images will be used. All the sample images will be grouped according to the following criteria:
@@ -47,8 +49,6 @@ tiff images will be used. All the sample images will be grouped according to the
 The notebook will then retrieve all the OB and DF of the same IPTS by looking into the **/raw/ob** and **/raw/df** folders
 respectively of your IPTS folder. The OB and DF that match the sample criteria will then be associated to their
 sample data.
-
-<img src='/tutorial/notebooks/normalization_with_simplify_selection/images/sample_ob_df_list_files.png' />
 
 At that point, **you have the power** to finalize the selection:
 
