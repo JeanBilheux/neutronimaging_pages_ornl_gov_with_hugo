@@ -10,14 +10,14 @@ pre: "- "
 ## Description
 
 This notebook normalized the imaging data (tiff or fits) by removing the background and fixing the fluctuations of the
-neutron beam. You will need:
+neutron beam. You will need to follow these steps:
 
  * select your sample images folder
- * Keep default option of using all open beam (OB) and dark field (DF) images from the same IPTS or select a different time frame
+ * Select the OB from the list proposed 
  * select output folder where the normalized images will be saved
 
-The big improvement of this notebook compared to the old *normalization* notebook is that now, the notebook will take
-care of finding all the OB and DF for you, and will match them to your sample data by making sure that:
+The big improvement of this notebook compared to the old *normalization* notebook is that now, the notebook takes
+care of finding all the OB and DF for you, and matches them with your sample data by making sure that:
 
  * the slits have the same position
  * the acquisition time is identical
@@ -44,18 +44,37 @@ tiff images will be used. All the sample images will be grouped according to the
  * slits positions
  * detector type
 
-The notebook will then retrieve all the OB and DF of the same IPTS by looking into the /raw/ob and /raw/df folders
+The notebook will then retrieve all the OB and DF of the same IPTS by looking into the **/raw/ob** and **/raw/df** folders
 respectively of your IPTS folder. The OB and DF that match the sample criteria will then be associated to their
 sample data.
 
 <img src='/tutorial/notebooks/normalization_with_simplify_selection/images/sample_ob_df_list_files.png' />
 
+At that point, **you have the power** to finalize the selection:
+
+ * For each configuration, you can reject it from normalization by **turning off** the switch named **Normalize this 
+configuration**
+
+<img src='/tutorial/notebooks/normalization_with_simplify_selection/images/turn_off_normalization.png' />
+
+ * The list of OB proposed include **ALL** the OBs found with matching metadata (see above) in the corresponding IPTS,
+no matter how long before or after they were acquired. By default they are all selected in the list widget. Feel free
+to narrow down that selection by manually selecting them (see next animation).
+
+<img src='/tutorial/notebooks/normalization_with_simplify_selection/images/manual_selection_of_obs.gif' />
+
+ * You can also narrow down that selection by setting up yourself a time range before and after the sample data runs 
+ (see the next animation)
+
+<img src='/tutorial/notebooks/normalization_with_simplify_selection/images/custom_time_range.gif' />
+
 ### Normalization workflow
 
 This table will summarizes the data reduction that is about to take place. If a config has no OB, the table will let you
-know that this config won't be normalized unless you provide at least one OB.  
+know that this config won't be normalized unless you provide at least one OB. Also, if you decided to turn off the
+normalization of any particular config, you will see it in that table.
 
-<img src='/tutorial/notebooks/normalization_with_simplify_selection/images/recap.png' />
+<img src='/tutorial/notebooks/normalization_with_simplify_selection/images/recap2.png' />
  
 ### Select Output Folder
 
@@ -69,9 +88,3 @@ to learn how to use the folder selector tool.
 {{% /notice %}}
 
 <img src='/tutorial/notebooks/normalization_with_simplify_selection/images/output_message.png' />
-
-
-
-
-
-

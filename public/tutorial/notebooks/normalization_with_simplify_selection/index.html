@@ -12,20 +12,20 @@
     <title>Normalization with Simplify Selection :: Documentation for Hugo Learn Theme</title>
 
     
-    <link href="/css/nucleus.css?1621434625" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1621434625" rel="stylesheet">
-    <link href="/css/hybrid.css?1621434625" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1621434625" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1621434625" rel="stylesheet">
-    <link href="/css/auto-complete.css?1621434625" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1621434625" rel="stylesheet">
-    <link href="/css/theme.css?1621434625" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1621434625" rel="stylesheet">
+    <link href="/css/nucleus.css?1622032872" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1622032872" rel="stylesheet">
+    <link href="/css/hybrid.css?1622032872" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1622032872" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1622032872" rel="stylesheet">
+    <link href="/css/auto-complete.css?1622032872" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1622032872" rel="stylesheet">
+    <link href="/css/theme.css?1622032872" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1622032872" rel="stylesheet">
     
-      <link href="/css/theme-blue.css?1621434625" rel="stylesheet">
+      <link href="/css/theme-blue.css?1622032872" rel="stylesheet">
     
 
-    <script src="/js/jquery-3.3.1.min.js?1621434625"></script>
+    <script src="/js/jquery-3.3.1.min.js?1622032872"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -60,14 +60,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1621434625"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1621434625"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1622032872"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1622032872"></script>
 <script type="text/javascript">
     
         var baseurl = "";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1621434625"></script>
+<script type="text/javascript" src="/js/search.js?1622032872"></script>
 
     
   </div>
@@ -2279,16 +2279,16 @@
 <h2 id="description">Description</h2>
 
 <p>This notebook normalized the imaging data (tiff or fits) by removing the background and fixing the fluctuations of the
-neutron beam. You will need:</p>
+neutron beam. You will need to follow these steps:</p>
 
 <ul>
 <li>select your sample images folder</li>
-<li>Keep default option of using all open beam (OB) and dark field (DF) images from the same IPTS or select a different time frame</li>
+<li>Select the OB from the list proposed</li>
 <li>select output folder where the normalized images will be saved</li>
 </ul>
 
-<p>The big improvement of this notebook compared to the old <em>normalization</em> notebook is that now, the notebook will take
-care of finding all the OB and DF for you, and will match them to your sample data by making sure that:</p>
+<p>The big improvement of this notebook compared to the old <em>normalization</em> notebook is that now, the notebook takes
+care of finding all the OB and DF for you, and matches them with your sample data by making sure that:</p>
 
 <ul>
 <li>the slits have the same position</li>
@@ -2319,18 +2319,43 @@ tiff images will be used. All the sample images will be grouped according to the
 <li>detector type</li>
 </ul>
 
-<p>The notebook will then retrieve all the OB and DF of the same IPTS by looking into the /raw/ob and /raw/df folders
+<p>The notebook will then retrieve all the OB and DF of the same IPTS by looking into the <strong>/raw/ob</strong> and <strong>/raw/df</strong> folders
 respectively of your IPTS folder. The OB and DF that match the sample criteria will then be associated to their
 sample data.</p>
 
 <p><img src='/tutorial/notebooks/normalization_with_simplify_selection/images/sample_ob_df_list_files.png' /></p>
 
+<p>At that point, <strong>you have the power</strong> to finalize the selection:</p>
+
+<ul>
+<li>For each configuration, you can reject it from normalization by <strong>turning off</strong> the switch named <strong>Normalize this
+configuration</strong></li>
+</ul>
+
+<p><img src='/tutorial/notebooks/normalization_with_simplify_selection/images/turn_off_normalization.png' /></p>
+
+<ul>
+<li>The list of OB proposed include <strong>ALL</strong> the OBs found with matching metadata (see above) in the corresponding IPTS,
+no matter how long before or after they were acquired. By default they are all selected in the list widget. Feel free
+to narrow down that selection by manually selecting them (see next animation).</li>
+</ul>
+
+<p><img src='/tutorial/notebooks/normalization_with_simplify_selection/images/manual_selection_of_obs.gif' /></p>
+
+<ul>
+<li>You can also narrow down that selection by setting up yourself a time range before and after the sample data runs
+(see the next animation)</li>
+</ul>
+
+<p><img src='/tutorial/notebooks/normalization_with_simplify_selection/images/custom_time_range.gif' /></p>
+
 <h3 id="normalization-workflow">Normalization workflow</h3>
 
 <p>This table will summarizes the data reduction that is about to take place. If a config has no OB, the table will let you
-know that this config won&rsquo;t be normalized unless you provide at least one OB.</p>
+know that this config won&rsquo;t be normalized unless you provide at least one OB. Also, if you decided to turn off the
+normalization of any particular config, you will see it in that table.</p>
 
-<p><img src='/tutorial/notebooks/normalization_with_simplify_selection/images/recap.png' /></p>
+<p><img src='/tutorial/notebooks/normalization_with_simplify_selection/images/recap2.png' /></p>
 
 <h3 id="select-output-folder">Select Output Folder</h3>
 
@@ -3671,19 +3696,19 @@ to learn how to use the folder selector tool.
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1621434625"></script>
-    <script src="/js/perfect-scrollbar.min.js?1621434625"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1621434625"></script>
-    <script src="/js/jquery.sticky.js?1621434625"></script>
-    <script src="/js/featherlight.min.js?1621434625"></script>
-    <script src="/js/highlight.pack.js?1621434625"></script>
+    <script src="/js/clipboard.min.js?1622032872"></script>
+    <script src="/js/perfect-scrollbar.min.js?1622032872"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1622032872"></script>
+    <script src="/js/jquery.sticky.js?1622032872"></script>
+    <script src="/js/featherlight.min.js?1622032872"></script>
+    <script src="/js/highlight.pack.js?1622032872"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1621434625"></script>
-    <script src="/js/learn.js?1621434625"></script>
-    <script src="/js/hugo-learn.js?1621434625"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1622032872"></script>
+    <script src="/js/learn.js?1622032872"></script>
+    <script src="/js/hugo-learn.js?1622032872"></script>
 
-    <link href="/mermaid/mermaid.css?1621434625" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1621434625"></script>
+    <link href="/mermaid/mermaid.css?1622032872" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1622032872"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>

@@ -37,16 +37,16 @@ Z
 <h3 id='b'>B</h3>
 <li>[bin_images]({{%relref "/tutorial/notebooks/bin_images/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
 <li>[bragg_edge_signal_vs_powder_peaks]({{%relref "/tutorial/notebooks/bragg_edge_signal_vs_powder_peaks/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i></li>
-<li>[bragg_edge_normalization]({{%relref "/tutorial/notebooks/bragg_edge_normalization/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> <i class='fa fa-bell'></i></li>
-<li>[bragg_edge_profile]({{%relref "/tutorial/notebooks/bragg_edge_profile/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> <i class='fa fa-bell'></i></li>
+<li>[bragg_edge_normalization]({{%relref "/tutorial/notebooks/bragg_edge_normalization/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
+<li>[bragg_edge_profile]({{%relref "/tutorial/notebooks/bragg_edge_profile/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
 
 <h3 id='c'>C</h3>
 <li>[calibrated_transmission]({{%relref "/tutorial/notebooks/calibrated_transmission/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i></li>
-<li>[circular_profile_of_a_ring]({{%relref "/tutorial/notebooks/circular_profile_of_a_ring/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> <i class='fa fa-bell'></i></li>
+<li>[circular_profile_of_a_ring]({{%relref "/tutorial/notebooks/circular_profile_of_a_ring/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
 <li>[combine_folders]({{%relref "/tutorial/notebooks/combine_folders/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
 <li>[combine_all_images_selected]({{%relref "/tutorial/notebooks/combine_all_images_selected/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
 <li>[combine_images_n_by_n]({{%relref "/tutorial/notebooks/combine_images_n_by_n/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i></li>
-<li>[combine_images_without_outliers]({{%relref "/tutorial/notebooks/combine_images_without_outliers/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> <i class='fa fa-bell'></i></li>
+<li>[combine_images_without_outliers]({{%relref "/tutorial/notebooks/combine_images_without_outliers/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
 <li>[create_list_of_file_name_vs_time_stamp]({{%relref "/tutorial/notebooks/create_list_of_file_name_vs_time_stamp/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i></li>
 <li>[cylindrical_geometry_correction]({{%relref "/tutorial/notebooks/cylindrical_geometry_correction/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
 
@@ -57,11 +57,11 @@ Z
 <li>[display_counts_of_region_vs_stack]({{%relref "/tutorial/notebooks/display_counts_of_region_vs_stack/_index.md#activate-search" %}}) <i class='fa fa-battery-half'></i> </li>
 <li>[display_file_names_vs_time_stamp]({{%relref "/tutorial/notebooks/display_file_names_vs_time_stamp/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
 <li>[display_integrated_stack_of_images]({{%relref "/tutorial/notebooks/display_integrated_stack_of_images/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
-<li>[dual_energy]({{%relref "/tutorial/notebooks/dual_energy/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> <i class='fa fa-bell'></i> </li>
+<li>[dual_energy]({{%relref "/tutorial/notebooks/dual_energy/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
 
 <h3 id='e'>E</h3>
 <li>[extract_evenly_spaced_files]({{%relref "/tutorial/notebooks/extract_evenly_spaced_files/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
-<li>[extract_nexus_daslogs]({{%relref "/tutorial/notebooks/extract_nexus_daslogs/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> <i class='fa fa-bell'></i> </li>
+<li>[extract_nexus_daslogs]({{%relref "/tutorial/notebooks/extract_nexus_daslogs/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
 
 <h3 id='f'>F</h3>
 <li>[file_name_and_metadata_vs_time_stamp]({{%relref "/tutorial/notebooks/file_name_and_metadata_vs_time_stamp/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
@@ -72,10 +72,10 @@ Z
 
 <h3 id='g'>G</h3>
 <li>[gamma_filtering_tool]({{%relref "/tutorial/notebooks/gamma_filtering_tool/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
-<li>[group_images_by_cycle_for_panoramic_stitching]({{%relref "/tutorial/notebooks/group_images_by_cycle_for_panoramic_stitching/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> <i class='fa fa-bell'></i></li>
+<li>[group_images_by_cycle_for_panoramic_stitching]({{%relref "/tutorial/notebooks/group_images_by_cycle_for_panoramic_stitching/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
 
 <h3 id='h'>H</h3>
-<li>[hfir_reactor_element_analysis]({{%relref "/tutorial/notebooks/hfir_reactor_element_analysis/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> <i class='fa fa-bell'></i></li>
+<li>[hfir_reactor_element_analysis]({{%relref "/tutorial/notebooks/hfir_reactor_element_analysis/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
 
 <h3 id='i'>I</h3>
 <li>[images_and_metadata_extrapolation_matcher]({{%relref "/tutorial/notebooks/images_and_metadata_extrapolation_matcher/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
@@ -87,7 +87,7 @@ Z
 <li>[list_tiff_metadata]({{%relref "/tutorial/notebooks/list_tiff_metadata/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i></li>
 
 <h3 id='m'>M</h3>
-<li>[mcp_chips_corrector]({{%relref "/tutorial/notebooks/mcp_chips_corrector/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> <i class='fa fa-bell'></i></li>
+<li>[mcp_chips_corrector]({{%relref "/tutorial/notebooks/mcp_chips_corrector/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
 <li>[metadata_ascii_parser]({{%relref "/tutorial/notebooks/metadata_ascii_parser/_index.md#activate-search" %}}) <i class='fa fa-battery-full'> </i> </li>
 <li>[metadata_overlapping_images]({{%relref "/tutorial/notebooks/metadata_overlapping_images/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
 
@@ -99,8 +99,8 @@ Z
 <li>[overlay_images]({{%relref "/tutorial/notebooks/overlay_images/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> <i class='fa fa-bell'></i></li>
 
 <h3 id='p'>P</h3>
-<li>[panoramic_stitching]({{%relref "/tutorial/notebooks/panoramic_stitching/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> <i class='fa fa-bell'></i></li>
-<li>[panoramic_stitching_for_tof]({{%relref "/tutorial/notebooks/panoramic_stitching_for_tof/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> <i class='fa fa-bell'></i></li>
+<li>[panoramic_stitching]({{%relref "/tutorial/notebooks/panoramic_stitching/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
+<li>[panoramic_stitching_for_tof]({{%relref "/tutorial/notebooks/panoramic_stitching_for_tof/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
 <li>[profile]({{%relref "/tutorial/notebooks/profile/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i></li>
 
 <h3 id='r'>R</h3>
@@ -127,7 +127,7 @@ Z
 
 ## Extra
 
-<li>[extract_sans_reductionlog_metadata]({{%relref "/tutorial/notebooks/extract_sans_reductionlog_metadata/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> <i class='fa fa-bell'></i></li>
+<li>[extract_sans_reductionlog_metadata]({{%relref "/tutorial/notebooks/extract_sans_reductionlog_metadata/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
 
 <hr>
 
