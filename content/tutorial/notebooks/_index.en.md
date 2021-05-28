@@ -119,11 +119,12 @@ Z
 
 <h3 id='w'>W</h3>
 <li>[water_intake_profile_calculator]({{%relref "/tutorial/notebooks/water_intake_profile_calculator/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i></li>
+<li>[wave_front_dynamics]({{%relref "/tutorial/notebooks/wave_front_dynamics/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i></li>
 
 ## Tools
 
 <li>[File Selector]({{%relref "/tutorial/notebooks/file_selector/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i></li>
-<li>[Select IPTS]({{%relref "/tutorial/notebooks/select_ipts/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i></li>
+<li>[Select IPTS]({{%relref "/tutorial/notebooks/select_ipts/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> <i class='fa fa-bell'></i></li>
 
 ## Extra
 
