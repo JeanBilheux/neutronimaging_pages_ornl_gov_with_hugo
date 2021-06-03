@@ -9,23 +9,23 @@
 
     <link rel="icon" href="/images/favicon.png" type="image/png">
 
-    <title>How to use the notebooks in your computer :: Documentation for Hugo Learn Theme</title>
+    <title>How to use the notebooks locally on your computer :: Documentation for Hugo Learn Theme</title>
 
     
-    <link href="/css/nucleus.css?1622220488" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1622220488" rel="stylesheet">
-    <link href="/css/hybrid.css?1622220488" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1622220488" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1622220488" rel="stylesheet">
-    <link href="/css/auto-complete.css?1622220488" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1622220488" rel="stylesheet">
-    <link href="/css/theme.css?1622220488" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1622220488" rel="stylesheet">
+    <link href="/css/nucleus.css?1622746701" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1622746701" rel="stylesheet">
+    <link href="/css/hybrid.css?1622746701" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1622746701" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1622746701" rel="stylesheet">
+    <link href="/css/auto-complete.css?1622746701" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1622746701" rel="stylesheet">
+    <link href="/css/theme.css?1622746701" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1622746701" rel="stylesheet">
     
-      <link href="/css/theme-blue.css?1622220488" rel="stylesheet">
+      <link href="/css/theme-blue.css?1622746701" rel="stylesheet">
     
 
-    <script src="/js/jquery-3.3.1.min.js?1622220488"></script>
+    <script src="/js/jquery-3.3.1.min.js?1622746701"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -60,14 +60,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1622220488"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1622220488"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1622746701"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1622746701"></script>
 <script type="text/javascript">
     
         var baseurl = "";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1622220488"></script>
+<script type="text/javascript" src="/js/search.js?1622746701"></script>
 
     
   </div>
@@ -558,13 +558,13 @@
  
   
     
-    <li data-nav-id="/tutorial/how_to_use_notebooks_locally/" title="How to use the notebooks in your computer" class="dd-item 
+    <li data-nav-id="/tutorial/how_to_use_notebooks_locally/" title="How to use the notebooks locally on your computer" class="dd-item 
         parent
         active
         
         ">
       <a href="/tutorial/how_to_use_notebooks_locally/">
-          <b>5.10 </b>How to use the notebooks in your computer
+          <b>5.10 </b>How to use the notebooks locally on your computer
           
             <i class="fas fa-check read-icon"></i>
           
@@ -2239,7 +2239,7 @@
             
           
           
-            <a href='/'>Neutron Imaging</a> > <a href='/tutorial/'>Tutorials</a> > How to use the notebooks in your computer
+            <a href='/'>Neutron Imaging</a> > <a href='/tutorial/'>Tutorials</a> > How to use the notebooks locally on your computer
           
          
           
@@ -2258,9 +2258,13 @@
 <ul>
 <li><a href="#instructions">Instructions</a>
 <ul>
-<li><a href="#a-href-top-class-fa-fa-arrow-up-a-easy-way-docker"><a href='#top' class='fa fa-arrow-up'></a> Easy way - Docker</a>
+<li><a href="#a-href-top-class-fa-fa-arrow-up-a-easy-way-anaconda"><a href='#top' class='fa fa-arrow-up'></a> Easy way - Anaconda</a>
 <ul>
-<li><a href="#step-1-download-and-install-docker">Step 1 - Download and install Docker</a></li>
+<li><a href="#step-1-download-and-install-anaconda-navigator">Step 1 - Download and install Anaconda Navigator</a></li>
+<li><a href="#step2-download-the-notebooks">Step2 - Download the notebooks</a></li>
+<li><a href="#step-3-create-conda-environment">Step 3 - Create conda environment</a></li>
+<li><a href="#step-4-select-the-environment">Step 4 - Select the environment</a></li>
+<li><a href="#step5-run-the-notebooks">Step5 - Run the notebooks</a></li>
 </ul></li>
 <li><a href="#a-href-top-class-fa-fa-arrow-up-a-geeky-hard-fancy-way-command-line"><a href='#top' class='fa fa-arrow-up'></a> Geeky/hard/fancy way - Command line</a></li>
 <li><a href="#a-href-top-class-fa-fa-arrow-up-a-for-mac"><a href='#top' class='fa fa-arrow-up'></a> for Mac</a>
@@ -2297,7 +2301,7 @@
           
             <h1>
               
-              How to use the notebooks in your computer
+              How to use the notebooks locally on your computer
             </h1>
           
 
@@ -2319,27 +2323,83 @@ set up your python environment to get all the right libraries.</p>
 
 <h2 id="instructions">Instructions</h2>
 
-<p>You have to way to install and get you up and running, the <strong>geeky way</strong> and the <strong>easy way</strong>. The geeky way
-will give you more power but you will have to use the command line, so it&rsquo;s more for advanced users. If you just want
-to double click (mostly), choose the <strong>easy way</strong></p>
+<p>We provide here <strong>two</strong> ways to install the notebooks on your computer. The <strong>easy way</strong> using Anaconda Navigator,
+and the <strong>hard way</strong> using command line and terminal, in case you don&rsquo;t want to use anaconda.</p>
 
 <ul>
-<li><a href='#easy_way'>Easy way - Docker</a></li>
+<li><a href='#easy_way'>Easy way - Anaconda Navigator</a></li>
 <li><a href='#geeky_way'>Geeky/hard/fancy way - Command line</a></li>
 </ul>
 
 <p><h1 id='easy_way'></h1></p>
 
-<h3 id="a-href-top-class-fa-fa-arrow-up-a-easy-way-docker"><a href='#top' class='fa fa-arrow-up'></a> Easy way - Docker</h3>
+<h3 id="a-href-top-class-fa-fa-arrow-up-a-easy-way-anaconda"><a href='#top' class='fa fa-arrow-up'></a> Easy way - Anaconda</h3>
 
-<h4 id="step-1-download-and-install-docker">Step 1 - Download and install Docker</h4>
+<h4 id="step-1-download-and-install-anaconda-navigator">Step 1 - Download and install Anaconda Navigator</h4>
 
-<p>Download the <a href="https://www.docker.com/get-started">desktop docker</a> and install it by double clicking it once the
-download is completed.</p>
+<p>Download and install the <a href="https://docs.anaconda.com/anaconda/install/">Anaconda Navigator</a> by selecting the right
+version according to your operating system (OS) and following the instructions found in their web page.</p>
 
-<p><img src='/tutorial/how_to_use_notebooks_locally/images/docker_download.png' /></p>
+<h4 id="step2-download-the-notebooks">Step2 - Download the notebooks</h4>
 
-<p>TO BE CONTINUED!</p>
+<p>Go to the GitHub page (<a href="https://github.com/neutronimaging/python_notebooks">https://github.com/neutronimaging/python_notebooks</a>)
+and click the green switch called <strong>Code</strong> and select <strong>Download ZIP</strong></p>
+
+<p><img src='/tutorial/how_to_use_notebooks_locally/images/download_repo.png' /></p>
+
+<p>Once the download is done, navigate to the folder where the zip file has been created and simply double click to
+unzip the file. From there feel free to move that folder to its final location on your hard drive. For example,
+in my case, I moved it to <strong>/Users/j35/git/</strong>.</p>
+
+<h4 id="step-3-create-conda-environment">Step 3 - Create conda environment</h4>
+
+<ul>
+<li>Start the <strong>Anaconda Navigator</strong> application.
+<br /></li>
+</ul>
+
+<p><img src='/tutorial/how_to_use_notebooks_locally/images/anaconda_navigator.png' /></p>
+
+<ul>
+<li>From there, navigate to <strong>Environments</strong></li>
+</ul>
+
+<p><img src='/tutorial/how_to_use_notebooks_locally/images/environments.png' /></p>
+
+<p>This is where you will import the <em>environment.yml</em> file from the <strong>python notebook</strong> folder you just downloaded and
+ unzipped.</p>
+
+<ul>
+<li>Click <strong>Import</strong></li>
+<li>No need to enter any text in the <strong>name</strong> field. This field will be populated automatically once you have selected the file (see next line).</li>
+<li>Click the <strong>folder icon</strong> and navigate to the <strong>python notebooks</strong> folder and select the file <strong>environment.yml</strong>.<br /></li>
+</ul>
+
+<p><img src='/tutorial/how_to_use_notebooks_locally/images/import_new_environment.png' /></p>
+
+<p>The following animation shows you those steps</p>
+
+<p><img src='/tutorial/how_to_use_notebooks_locally/images/importing_environment.gif' /></p>
+
+<h4 id="step-4-select-the-environment">Step 4 - Select the environment</h4>
+
+<p>The new environment created, named <strong>neutron-imaging</strong>, should be selected by default. If not, activate it by clicking
+it.</p>
+
+<p><img src='/tutorial/how_to_use_notebooks_locally/images/check_environment_selected.png' /></p>
+
+<h4 id="step5-run-the-notebooks">Step5 - Run the notebooks</h4>
+
+<p>All you have to do then is launch the <strong>jupyter notebook engine</strong>. Go to the <strong>Home</strong> page and click the
+LAUNCH button in the <strong>jupyter notebook</strong> box.</p>
+
+<p><img src='/tutorial/how_to_use_notebooks_locally/images/launching_jupyter.png' /></p>
+
+<p>A browser window will show up with a list of all your files and folders. Navigate to the jupyter notebook folder
+you downloaded and unzip from github and go in the <strong>notebooks</strong> folder. From there, feel free to start any of the
+ notebook!</p>
+
+<p><img src='/tutorial/how_to_use_notebooks_locally/images/running_notebooks.gif' /></p>
 
 <p><h1 id='geeky_way'></h1></p>
 
@@ -2406,7 +2466,7 @@ with whatever name makes more sense to you.</p>
 
 <h4 id="step-4-set-up-environment">Step 4 - Set up environment</h4>
 
-<p>Final step, we need to install all the librairies used by the notebooks. To do so, in your terminal, navigate to
+<p>Final step, we need to install all the libraries used by the notebooks. To do so, in your terminal, navigate to
 the notebooks folder your downloaded (tag version)</p>
 
 <pre><code>cd ~/git/python_notebooks-0.1.0
@@ -3886,19 +3946,19 @@ $ jupyter lab build
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1622220488"></script>
-    <script src="/js/perfect-scrollbar.min.js?1622220488"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1622220488"></script>
-    <script src="/js/jquery.sticky.js?1622220488"></script>
-    <script src="/js/featherlight.min.js?1622220488"></script>
-    <script src="/js/highlight.pack.js?1622220488"></script>
+    <script src="/js/clipboard.min.js?1622746701"></script>
+    <script src="/js/perfect-scrollbar.min.js?1622746701"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1622746701"></script>
+    <script src="/js/jquery.sticky.js?1622746701"></script>
+    <script src="/js/featherlight.min.js?1622746701"></script>
+    <script src="/js/highlight.pack.js?1622746701"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1622220488"></script>
-    <script src="/js/learn.js?1622220488"></script>
-    <script src="/js/hugo-learn.js?1622220488"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1622746701"></script>
+    <script src="/js/learn.js?1622746701"></script>
+    <script src="/js/hugo-learn.js?1622746701"></script>
 
-    <link href="/mermaid/mermaid.css?1622220488" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1622220488"></script>
+    <link href="/mermaid/mermaid.css?1622746701" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1622746701"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>

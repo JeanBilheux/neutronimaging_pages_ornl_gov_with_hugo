@@ -55,7 +55,7 @@ in my case, I moved it to **/Users/j35/git/**.
  unzipped. 
 
  * Click **Import**
- * enter any string in the field **Name** (this won't be used)
+ * No need to enter any text in the **name** field. This field will be populated automatically once you have selected the file (see next line).
  * Click the **folder icon** and navigate to the **python notebooks** folder and select the file **environment.yml**.  
  
 <img src='/tutorial/how_to_use_notebooks_locally/images/import_new_environment.png' />
@@ -147,7 +147,7 @@ $ conda activate neutron_imaging
 
 #### Step 4 - Set up environment
 
-Final step, we need to install all the librairies used by the notebooks. To do so, in your terminal, navigate to 
+Final step, we need to install all the libraries used by the notebooks. To do so, in your terminal, navigate to 
 the notebooks folder your downloaded (tag version)
 
 ```
