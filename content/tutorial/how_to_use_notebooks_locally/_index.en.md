@@ -1,5 +1,5 @@
 ---
-title: How to use the notebooks in your computer
+title: How to use the notebooks locally on your computer
 weight: 950
 pre: "<b>5.10 </b>"
 
@@ -16,24 +16,73 @@ set up your python environment to get all the right libraries.
 
 ## Instructions
 
-You have to way to install and get you up and running, the **geeky way** and the **easy way**. The geeky way
-will give you more power but you will have to use the command line, so it's more for advanced users. If you just want
-to double click (mostly), choose the **easy way**
+We provide here **two** ways to install the notebooks on your computer. The **easy way** using Anaconda Navigator, 
+and the **hard way** using command line and terminal, in case you don't want to use anaconda.
 
-* <a href='#easy_way'>Easy way - Docker</a>
+* <a href='#easy_way'>Easy way - Anaconda Navigator</a>
 * <a href='#geeky_way'>Geeky/hard/fancy way - Command line</a>
 
 <h1 id='easy_way'></h1>
-### <a href='#top' class='fa fa-arrow-up'></a> Easy way - Docker
+### <a href='#top' class='fa fa-arrow-up'></a> Easy way - Anaconda 
 
-#### Step 1 - Download and install Docker
+#### Step 1 - Download and install Anaconda Navigator
 
-Download the [desktop docker](https://www.docker.com/get-started) and install it by double clicking it once the
-download is completed. 
+Download and install the [Anaconda Navigator](https://docs.anaconda.com/anaconda/install/) by selecting the right 
+version according to your operating system (OS) and following the instructions found in their web page.
 
-<img src='/tutorial/how_to_use_notebooks_locally/images/docker_download.png' />
+#### Step2 - Download the notebooks
 
-TO BE CONTINUED!
+Go to the GitHub page ([https://github.com/neutronimaging/python_notebooks](https://github.com/neutronimaging/python_notebooks)) 
+and click the green switch called **Code** and select **Download ZIP**
+
+<img src='/tutorial/how_to_use_notebooks_locally/images/download_repo.png' />
+
+Once the download is done, navigate to the folder where the zip file has been created and simply double click to 
+unzip the file. From there feel free to move that folder to its final location on your hard drive. For example,
+in my case, I moved it to **/Users/j35/git/**.
+
+#### Step 3 - Create conda environment
+
+ * Start the **Anaconda Navigator** application.
+   
+<img src='/tutorial/how_to_use_notebooks_locally/images/anaconda_navigator.png' />
+
+ * From there, navigate to **Environments**
+
+<img src='/tutorial/how_to_use_notebooks_locally/images/environments.png' />
+
+ This is where you will import the *environment.yml* file from the **python notebook** folder you just downloaded and
+ unzipped. 
+
+ * Click **Import**
+ * enter any string in the field **Name** (this won't be used)
+ * Click the **folder icon** and navigate to the **python notebooks** folder and select the file **environment.yml**.  
+ 
+<img src='/tutorial/how_to_use_notebooks_locally/images/import_new_environment.png' />
+
+The following animation shows you those steps
+
+<img src='/tutorial/how_to_use_notebooks_locally/images/importing_environment.gif' />
+
+#### Step 4 - Select the environment
+
+The new environment created, named **neutron-imaging**, should be selected by default. If not, activate it by clicking
+it.
+
+<img src='/tutorial/how_to_use_notebooks_locally/images/check_environment_selected.png' />
+
+#### Step5 - Run the notebooks
+
+All you have to do then is launch the **jupyter notebook engine**. Go to the **Home** page and click the 
+LAUNCH button in the **jupyter notebook** box. 
+
+<img src='/tutorial/how_to_use_notebooks_locally/images/launching_jupyter.png' />
+
+A browser window will show up with a list of all your files and folders. Navigate to the jupyter notebook folder
+you downloaded and unzip from github and go in the **notebooks** folder. From there, feel free to start any of the
+ notebook!
+ 
+<img src='/tutorial/how_to_use_notebooks_locally/images/running_notebooks.gif' />
 
 <h1 id='geeky_way'></h1>
 ### <a href='#top' class='fa fa-arrow-up'></a> Geeky/hard/fancy way - Command line
