@@ -1,8 +1,7 @@
 ---
-title: Metatadata Overlapping Images
+title: Metadata Overlapping Images
 post: "<i class='fa fa-battery-full'></i> "
 pre: "- "
-
 ---
 
 **Notebook name**: metadata_overlapping_images.ipynb
@@ -83,6 +82,30 @@ Then define the first and last part of the string to remove
 <img src='/tutorial/notebooks/metadata_overlapping_images/images/string_filter_2.png' />
 {{% /notice %}}
 
+#### Graph
+
+### Advanced feature
+
+The **Advanced Table ...** button brings a new window that allows you to perform linear operation on various
+metadata at the same time and display the result of this operation.
+
+<img src='/tutorial/notebooks/metadata_overlapping_images/images/ui_advanced.png' />
+
+In order to define a new complex formula:
+ 
+ * select a metadata to use via the top combo box
+ * click **+** button to add it to the **math table**
+ * change the coefficient in front of the new metadata if needed (default value is 1)
+ * keep adding new metadata the same way
+ 
+If a metadata needs to be removed from the equation, select the column and click **-**
+
+Click **OK** to validate the equation and to return to main interface. 
+
+The following animation demo how the advanced feature works.
+
+<img src='/tutorial/notebooks/metadata_overlapping_images/images/advanced_feature_demo.gif' />
+
 ### Export
 
 **NB: Your application will look a little bit different from this animation**
@@ -92,6 +115,3 @@ You can now export all your images. The PNG files created will be a copy of the 
 <img src='/tutorial/notebooks/metadata_overlapping_images/images/export.gif' />
 
 <img src='/tutorial/notebooks/metadata_overlapping_images/images/exported_images.png' />
-
-
-
