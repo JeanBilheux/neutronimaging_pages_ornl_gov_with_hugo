@@ -9,9 +9,13 @@ pre: "- "
 
 ## Description
 
-This notebook will allow you to correct individual MCP chips by applying an offset as shown here.
+This notebook can perform the following correction:
 
+ * apply an offset on the intensity of all the pixels of a given chip
 <img src='/tutorial/notebooks/mcp_chips_corrector/images/before_after.png' />
+
+ * fix the gap between the chips
+<img src='/tutorial/notebooks/mcp_chips_corrector/images/raw_alignment_corrected.png' />
 
 ## Start the notebook
 
@@ -39,46 +43,50 @@ Need help using the [File Selector]({{%relref "/tutorial/notebooks/file_selector
 
 <img src='/tutorial/notebooks/mcp_chips_corrector/images/ui_preview_1.png' />
 <img src='/tutorial/notebooks/mcp_chips_corrector/images/ui_preview_2.png' />
+<img src='/tutorial/notebooks/mcp_chips_corrector/images/ui_preview_3.png' />
+<img src='/tutorial/notebooks/mcp_chips_corrector/images/ui_preview_4.png' />
 
 ## How Does it Work ?
 
-The first tab **Setup** allows to define the chips that needs to be corrected. The image displayed is the integrated
-signal of all the images selected. A profile region, that can be
-resized and reoriented, allows to calculate automatically the average counts on either side of a chip gap. The
-difference of average counts leads to the calculation of a corrector coefficient that is applied to the
-working chips (red framing around it). The second tab **with correction** displays the resulting correction applied
-to the integrated image. 
+The UI is composed of 3 main tabs. The first tab allows you to **apply an offset on any of the chip**, the second tab
+to **correct the geometrical gap between the chips and, if you want, fill the gap with interpolated value**, and the
+final tab display the result of those corrections combined into the integrated stack of images selected.
 
 ### Step by Step
 
-#### Step 1 - Select the profile to use
+#### Step 1 - Apply Contrast Correction
 
-In this first step, you need to define a region, either vertically or horizontally, that overlap the working
-chip and another chip to estimate the correction to apply. If the profile selected is horizontally for example, the 
-program will integrate all the pixels in the vertical direction within the profile region. The profile is then
-displayed on the right side of the UI with the average counts for either side of the gap, gap highlighted as a 
-green vertical line. 
+If you want to correct the intensity of any of the chips, click the **Apply contrast correction** check box.
 
+You can correct the intensity of the chips selected in the **chips index to correct** box in 2 ways:
+
+ * manual mode
+ * automatic mode
+ 
+ **Manual mode**
+ 
+ Enter a **coefficient corrector** value in the field (bottom right) and hit ENTER.
+ 
+ **Automatic mode**
+ 
+ Use selection box in the left preview to overlap the chip to correct with a chip next to it. The program will
+ automatically match the average intensity of the 2 regions and calculate the **coefficient corrector** that bring
+ those two values together.
+ 
 <img src='/tutorial/notebooks/mcp_chips_corrector/images/profile.gif' />
 
-The profile region can be resized using the 2 handles as shown here.
+#### Step 2 - Alignment
 
-<img src='/tutorial/notebooks/mcp_chips_corrector/images/profile_handles.gif' />
+This tab allows to correct the gap between the chips using pre-defined parameters. If you activate the 
+alignment, the right chips will be offset to the right by 2 pixels, and the bottom chips by 3 pixels. 
 
-#### Step 2 - Select working chip and position profile
+Then if you activate the **auto-fill gaps** switch, the gap between the chips will be filled by the interpolated
+pixel intensity on either side of the gap. 
 
-Using bottom widgets, select the chip you want to correct. The **working** chip will be highlighted by a red
-contour in the display window. Then move, and resize if needed, the profile to make sure it covers either the 
-**working** chip and another chip to use as reference counts. Ideally, try to profile a common feature on either 
-side of the chip gap. 
+<img src='/tutorial/notebooks/mcp_chips_corrector/images/alignment.gif' />
 
-<img src='/tutorial/notebooks/mcp_chips_corrector/images/bad_and_good_profiles.png' />
+#### Step 3 - RESULT and export
 
-#### Step 3 - Visualize correction and repeat correction on all images
+This tab will apply all the selected corrections and display the result on the integrated image.
 
-Jump to the second tab called **with correction** to visualize the correction on the integrated image. 
-
- * If correction seems to work, click bottom switch to select output folder where all the images will be corrected.
- * if correction still seems to be off, you can define a manual correction value in the bottom right widget. 
- 
-<img src='/tutorial/notebooks/mcp_chips_corrector/images/export.gif' />
+Click the **Correct and Export all Images...** to select an output folder and export those images in fits format.
