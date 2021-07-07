@@ -75,6 +75,19 @@ What algorithm do you want to use to combine them:
 Not seeing the algorithm you want to use? Please let me know and I will add it (<a href="/en/credits#jean_bilheux">Jean Bilheux</a>)
 {{% /notice %}}
 
+### Do you want to copy over extra files (.txt)
+
+Folders created using the MCP detector contains extra files such as 
+ 
+ * **###_Spectra.txt**
+ * **###_ShutterTimes.txt** 
+ * **###_ShutterCount.txt**
+ 
+ If you want to conserve those files, make sure the option is turned on. The program will use 
+the extra files found in the first folder selected.
+
+<img src='/tutorial/notebooks/combine_folders/images/extra_files.png' />
+
 ### Select output folder
 
 Using the [folder selection tool]({{%relref "/tutorial/notebooks/file_selector/_index.md#activate-search" %}}), select 
