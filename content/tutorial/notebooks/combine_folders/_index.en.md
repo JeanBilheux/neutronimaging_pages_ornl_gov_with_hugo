@@ -48,7 +48,7 @@ If they do, you will see the following **green message**
 But if they don't, you will quickly see that something is wrong when
 you see the **red message**
 
-<img src='/tutorial/notebooks/combine_folders/images/not_same_number_of_files.png' />
+<img src='/tutorial/notebooks/combine_folders/images/not_same_number_of_files_new_message.png' />
 
 The only requirement of this notebook is that the folders **must contain the same number of images**.
 
@@ -69,7 +69,7 @@ What algorithm do you want to use to combine them:
  * **mean**
  * **median**
 
-<img src='/tutorial/notebooks/combine_folders/images/combine_algorithm.png' />
+<img src='/tutorial/notebooks/combine_folders/images/combine_3algorithms.png' />
 
 {{% notice info %}}
 Not seeing the algorithm you want to use? Please let me know and I will add it (<a href="/en/credits#jean_bilheux">Jean Bilheux</a>)
