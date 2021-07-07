@@ -32,13 +32,14 @@ Need help using the [IPTS selector]({{%relref "/tutorial/notebooks/select_ipts/_
 
 ### Select the Input Folders
 
-Using the [folder selection tool]({{%relref "/tutorial/notebooks/file_selector/_index.md#activate-search" %}}), select 
-the folders you want to combine. 
+Using the [folder selection tool]({{%relref "/tutorial/notebooks/file_selector/_index.md#activate-search" %}}), you
+select all the folders you want to combine. You can interrupt this selection at any time, after having selected at 
+least **2 folders**, by pressing **the  button** named 
+**<html><span style="font-size: 20px; color:green">Click me when done selecting folders!</span></html>.**
 
-<img src='/tutorial/notebooks/combine_folders/images/selection_of_files.gif' />
+<img src='/tutorial/notebooks/combine_folders/images/select_folders.gif' />
 
-The program will then automatically check that the input folders have
-the same number of files. 
+The program will then automatically check that the input folders have the same number of files. 
 
 If they do, you will see the following **green message**
 
@@ -49,8 +50,7 @@ you see the **red message**
 
 <img src='/tutorial/notebooks/combine_folders/images/not_same_number_of_files.png' />
 
-The only requirement of this notebook is that the folders **must contain
-the same number of images**.
+The only requirement of this notebook is that the folders **must contain the same number of images**.
 
 ### How many folders do you want to combine together?
 
@@ -63,7 +63,11 @@ the 4th folder won't be used.
 
 ### How do you want to combine the folders
 
-What algorithm do you want to use to combine them. You have the option to **add** or to **mean** those images.
+What algorithm do you want to use to combine them:
+ 
+ * **add**
+ * **mean**
+ * **median**
 
 <img src='/tutorial/notebooks/combine_folders/images/combine_algorithm.png' />
 
