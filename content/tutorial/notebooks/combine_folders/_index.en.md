@@ -41,7 +41,8 @@ least **2 folders**, by pressing **the  button** named
 
 The program will then automatically check that the input folders have the same number of files. 
 
-If they do, you will see the following **green message**
+If they do, you will see the following **<html><span style="color:green">green message</span></html>**, as well
+as the list of folders you selected.
 
 <img src='/tutorial/notebooks/combine_folders/images/same_number_of_files.png' />
 
