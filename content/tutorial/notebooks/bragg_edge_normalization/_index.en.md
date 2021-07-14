@@ -22,11 +22,18 @@ notebooks](/en/tutorial/how_to_start_notebooks) tutorial.
 
 Check the full tutorial [here]({{%relref "/tutorial/notebooks/select_ipts/_index.md#activate-search" %}})</i>
 
-### Select Sample Folder
+### Prepare UI Engine
+
+{{% notice warning %}}
+Make sure you don't forget to run this cell (**Prepare UI engine**) if you want to select a region of interest later 
+in the notebook.
+{{% /notice %}}
+
+### Select Raw Data Input Folder
 
 Select the **sample folder** using the file selector. If the **time spectra** file is part of the folder, it will 
-be automatically loaded, if **not**, you will have the option to select the **time spectra** file next, or just ignore 
-it and click the button **dot not select any time spectra**
+be automatically loaded, if **not**, you will have the option to manually select the **time spectra** file next, 
+or just ignore it and click the button **dot not select any time spectra**
 
 {{% notice info %}}
 Check the [file selection tool tutorial]({{%relref "/tutorial/notebooks/file_selector/_index.md#folder_navigation" %}})
@@ -41,9 +48,48 @@ the next step that is usually the extraction of the Bragg edges versus lambda/TO
 
 <img src='/tutorial/notebooks/bragg_edge_normalization/images/load_data.gif' />
 
-The sample data will be automatically loaded.
+The sample data will be automatically loaded and a message will inform you of the number of files loaded and
+the status of the time spectra file.
 
-### Select OB Folder
+### Select mode of normalization
+
+You will have now the option to perform the normalization using two modes:
+
+ * using **open beam**
+ * using **background region of sample**
+
+#### With open beam
+
+<img src='/tutorial/notebooks/bragg_edge_normalization/images/with_ob_preview.png' />
+
+ * Select first the **OB** folder by clicking **Select OB ...**
+ * The slider defines the number of images to use in the preview to select the ROI. The higher the number of images,
+ the better the contrast, but the slower the loading.
+ * OPTIONAL: Select a **region of interest (ROI)**
+ 
+{{% notice warning %}}
+Select a region away from the sample
+{{% /notice %}}
+ 
+<img src='/tutorial/notebooks/bragg_edge_normalization/images/with_ob_demo.gif' /> 
+
+#### Without open beam
+
+<img src='/tutorial/notebooks/bragg_edge_normalization/images/without_ob_preview.png' />
+ 
+ * The slider defines the number of images to use in the preview to select the ROI. The higher the number of images,
+ the better the contrast, but the slower the loading.
+ * MANDATORY: Select a **region of interest (ROI)**
+
+{{% notice warning %}}
+Select a region away from the sample
+{{% /notice %}}
+
+<img src='/tutorial/notebooks/bragg_edge_normalization/images/without_ob_demo.gif' /> 
+
+
+
+
 
 Just like you did for the sample data, select the folder containing the open beam (OB) data. Once you selected this
 folder the data will be automatically loaded.
@@ -67,17 +113,8 @@ region(s) is/are away from the sample. If the sample covers the entire image, do
 
 <img src='/tutorial/notebooks/bragg_edge_normalization/images/select_sample_roi.gif' />
 
-### Perform normalization
+### Export Normalized Data and Time Spectra File
 
-Just run this cell to run the normalization algorithm. 
+After running this cell, you will be asked to select the output folder to use to create the normalized images.
 
-### Export normalized data
-
-Select where you want to export all the normalized images. You have the option to create a folder if needed. The
-notebook will create a folder inside the output folder location you selected. The folder will be named after the
-input sample folder name. If input folder is *test_data*, the normalized folder will be *test_data_normalized*
-
-<img src='/tutorial/notebooks/bragg_edge_normalization/images/export_data.gif' />
-
-If you selected, or if the program automatically found, a **time spectra file**, this file will be copied into the output 
-folder. 
+<img src='/tutorial/notebooks/bragg_edge_normalization/images/export.gif' />

@@ -86,4 +86,4 @@ Select the output folder
 
 and then an ASCII file will be automatically created using the sample input folder as based name.
 
-<img src='/tutorial/notebooks/bragg_edge_normalization_and_profile_extractor/images/output_file_message.png' />
+<img src='/tutorial/notebooks/bragg_edge_profile/images/output_example.png' />
