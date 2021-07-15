@@ -64,6 +64,8 @@ reference by clicking **Auto Registration**
 
 <img src='/tutorial/notebooks/registration/images/auto_registration.gif' />
 
+
+
 <h2 id='manual'></h2>
 ### Manual Registration
 
@@ -71,6 +73,11 @@ If you choose to manually align the images (except the reference image), click t
 button. Then move manually the images selected using the **manual registration tool widgets**. 
 
 <img src='/tutorial/notebooks/registration/images/manual_registration.gif' />
+
+If you want to manually define the **xoffset** and/or **yoffset**, you have the option to edit any of the cell then use
+the **copy/paste** feature of the table (**right click**) as shown here.
+
+<img src='/tutorial/notebooks/registration/images/copy_paste.gif' />
 
 <h2 id='marker'></h2>
 ### Registration using Markers

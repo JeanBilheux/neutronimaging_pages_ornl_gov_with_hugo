@@ -14,7 +14,7 @@ This notebook is dedicated to the normalization of data set taken at the SNS.
 ## Start the notebook
 
 If you need help accessing this notebook, check the [How To > Start the python
-notebooks](/en/tutorial/how_to_start_notebooks) tutorial.
+notebooks](/tutorial/how_to_start_notebooks) tutorial.
 
 ## How to Use It?
 
@@ -65,9 +65,9 @@ You will have now the option to perform the normalization using two modes:
  * Select first the **OB** folder by clicking **Select OB ...**
  * The slider defines the number of images to use in the preview to select the ROI. The higher the number of images,
  the better the contrast, but the slower the loading.
- * OPTIONAL: Select a **region of interest (ROI)**
- 
-{{% notice warning %}}
+ * OPTIONAL: Select a **region of interest (ROI)** ([ROI selection tool tutorial here](/tutorial/notebooks/roi_selection_tool/))
+
+ {{% notice warning %}}
 Select a region away from the sample
 {{% /notice %}}
  
@@ -79,39 +79,13 @@ Select a region away from the sample
  
  * The slider defines the number of images to use in the preview to select the ROI. The higher the number of images,
  the better the contrast, but the slower the loading.
- * MANDATORY: Select a **region of interest (ROI)**
+ * MANDATORY: Select a **region of interest (ROI)** ([ROI selection tool tutorial here](/tutorial/notebooks/roi_selection_tool/))
 
 {{% notice warning %}}
 Select a region away from the sample
 {{% /notice %}}
 
 <img src='/tutorial/notebooks/bragg_edge_normalization/images/without_ob_demo.gif' /> 
-
-
-
-
-
-Just like you did for the sample data, select the folder containing the open beam (OB) data. Once you selected this
-folder the data will be automatically loaded.
-
-### Selection of background region in the image
-
-You have the option to define a region of your image that **is background** for sure. This will improve the normalization.
-
-To do so, you first need to specify how many random images you want to use to help the selection. The more images
-you select, the higher resolution your image will have but the longer it will take to display it. Usually the 
-default number of images provided is a good compromise. If you can not see your sample in the image, just close the UI and 
-increase the number of images to use.
-
-Once the **ROI selection tool UI** show up, you can select, or not, 1 or more regions. You need to make sure that/those 
-region(s) is/are away from the sample. If the sample covers the entire image, do not select any region!
- Once you are done, **click OK** to close the UI.
-
-**Remember** The more images you want to load, the longer it will take. 
-
-<img src='/tutorial/notebooks/bragg_edge_normalization/images/how_many_images.png' />
-
-<img src='/tutorial/notebooks/bragg_edge_normalization/images/select_sample_roi.gif' />
 
 ### Export Normalized Data and Time Spectra File
 

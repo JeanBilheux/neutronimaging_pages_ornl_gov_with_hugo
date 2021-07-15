@@ -12,20 +12,20 @@
     <title>Bragg Edge Normalization :: Documentation for Hugo Learn Theme</title>
 
     
-    <link href="/css/nucleus.css?1626272427" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1626272427" rel="stylesheet">
-    <link href="/css/hybrid.css?1626272427" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1626272427" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1626272427" rel="stylesheet">
-    <link href="/css/auto-complete.css?1626272427" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1626272427" rel="stylesheet">
-    <link href="/css/theme.css?1626272427" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1626272427" rel="stylesheet">
+    <link href="/css/nucleus.css?1626361740" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1626361740" rel="stylesheet">
+    <link href="/css/hybrid.css?1626361740" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1626361740" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1626361740" rel="stylesheet">
+    <link href="/css/auto-complete.css?1626361740" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1626361740" rel="stylesheet">
+    <link href="/css/theme.css?1626361740" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1626361740" rel="stylesheet">
     
-      <link href="/css/theme-blue.css?1626272427" rel="stylesheet">
+      <link href="/css/theme-blue.css?1626361740" rel="stylesheet">
     
 
-    <script src="/js/jquery-3.3.1.min.js?1626272427"></script>
+    <script src="/js/jquery-3.3.1.min.js?1626361740"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -60,14 +60,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1626272427"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1626272427"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1626361740"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1626361740"></script>
 <script type="text/javascript">
     
         var baseurl = "";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1626272427"></script>
+<script type="text/javascript" src="/js/search.js?1626361740"></script>
 
     
   </div>
@@ -1991,6 +1991,32 @@
  
   
     
+    <li data-nav-id="/tutorial/notebooks/roi_selection_tool/" title="Roi Selection Tool" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/tutorial/notebooks/roi_selection_tool/">
+          - Roi Selection Tool <i class='fa fa-battery-full'></i>
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
     <li data-nav-id="/tutorial/notebooks/rotate_and_crop_images/" title="Rotate and Crop Images" class="dd-item 
         
         
@@ -2274,7 +2300,6 @@
 <li><a href="#with-open-beam">With open beam</a></li>
 <li><a href="#without-open-beam">Without open beam</a></li>
 </ul></li>
-<li><a href="#selection-of-background-region-in-the-image">Selection of background region in the image</a></li>
 <li><a href="#export-normalized-data-and-time-spectra-file">Export Normalized Data and Time Spectra File</a></li>
 </ul></li>
 </ul></li>
@@ -2314,7 +2339,7 @@
 
 <h2 id="start-the-notebook">Start the notebook</h2>
 
-<p>If you need help accessing this notebook, check the <a href="/en/tutorial/how_to_start_notebooks">How To &gt; Start the python
+<p>If you need help accessing this notebook, check the <a href="/tutorial/how_to_start_notebooks">How To &gt; Start the python
 notebooks</a> tutorial.</p>
 
 <h2 id="how-to-use-it">How to Use It?</h2>
@@ -2372,7 +2397,7 @@ the status of the time spectra file.</p>
 <li>Select first the <strong>OB</strong> folder by clicking <strong>Select OB &hellip;</strong></li>
 <li>The slider defines the number of images to use in the preview to select the ROI. The higher the number of images,
 the better the contrast, but the slower the loading.</li>
-<li>OPTIONAL: Select a <strong>region of interest (ROI)</strong></li>
+<li>OPTIONAL: Select a <strong>region of interest (ROI)</strong> (<a href="/tutorial/notebooks/roi_selection_tool/">ROI selection tool tutorial here</a>)</li>
 </ul>
 
 
@@ -2389,7 +2414,7 @@ the better the contrast, but the slower the loading.</li>
 <ul>
 <li>The slider defines the number of images to use in the preview to select the ROI. The higher the number of images,
 the better the contrast, but the slower the loading.</li>
-<li>MANDATORY: Select a <strong>region of interest (ROI)</strong></li>
+<li>MANDATORY: Select a <strong>region of interest (ROI)</strong> (<a href="/tutorial/notebooks/roi_selection_tool/">ROI selection tool tutorial here</a>)</li>
 </ul>
 
 
@@ -2398,28 +2423,6 @@ the better the contrast, but the slower the loading.</li>
 
 
 <p><img src='/tutorial/notebooks/bragg_edge_normalization/images/without_ob_demo.gif' /></p>
-
-<p>Just like you did for the sample data, select the folder containing the open beam (OB) data. Once you selected this
-folder the data will be automatically loaded.</p>
-
-<h3 id="selection-of-background-region-in-the-image">Selection of background region in the image</h3>
-
-<p>You have the option to define a region of your image that <strong>is background</strong> for sure. This will improve the normalization.</p>
-
-<p>To do so, you first need to specify how many random images you want to use to help the selection. The more images
-you select, the higher resolution your image will have but the longer it will take to display it. Usually the
-default number of images provided is a good compromise. If you can not see your sample in the image, just close the UI and
-increase the number of images to use.</p>
-
-<p>Once the <strong>ROI selection tool UI</strong> show up, you can select, or not, 1 or more regions. You need to make sure that/those
-region(s) is/are away from the sample. If the sample covers the entire image, do not select any region!
- Once you are done, <strong>click OK</strong> to close the UI.</p>
-
-<p><strong>Remember</strong> The more images you want to load, the longer it will take.</p>
-
-<p><img src='/tutorial/notebooks/bragg_edge_normalization/images/how_many_images.png' /></p>
-
-<p><img src='/tutorial/notebooks/bragg_edge_normalization/images/select_sample_roi.gif' /></p>
 
 <h3 id="export-normalized-data-and-time-spectra-file">Export Normalized Data and Time Spectra File</h3>
 
@@ -3740,6 +3743,22 @@ region(s) is/are away from the sample. If the sample covers the entire image, do
             
         
                     
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
             
         
                     
@@ -3768,19 +3787,19 @@ region(s) is/are away from the sample. If the sample covers the entire image, do
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1626272427"></script>
-    <script src="/js/perfect-scrollbar.min.js?1626272427"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1626272427"></script>
-    <script src="/js/jquery.sticky.js?1626272427"></script>
-    <script src="/js/featherlight.min.js?1626272427"></script>
-    <script src="/js/highlight.pack.js?1626272427"></script>
+    <script src="/js/clipboard.min.js?1626361740"></script>
+    <script src="/js/perfect-scrollbar.min.js?1626361740"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1626361740"></script>
+    <script src="/js/jquery.sticky.js?1626361740"></script>
+    <script src="/js/featherlight.min.js?1626361740"></script>
+    <script src="/js/highlight.pack.js?1626361740"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1626272427"></script>
-    <script src="/js/learn.js?1626272427"></script>
-    <script src="/js/hugo-learn.js?1626272427"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1626361740"></script>
+    <script src="/js/learn.js?1626361740"></script>
+    <script src="/js/hugo-learn.js?1626361740"></script>
 
-    <link href="/mermaid/mermaid.css?1626272427" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1626272427"></script>
+    <link href="/mermaid/mermaid.css?1626361740" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1626361740"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
