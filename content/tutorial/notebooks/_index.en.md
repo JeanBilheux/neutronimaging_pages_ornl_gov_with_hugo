@@ -60,7 +60,7 @@ Z
 <li>[dual_energy]({{%relref "/tutorial/notebooks/dual_energy/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
 
 <h3 id='e'>E</h3>
-<li>[extract_evenly_spaced_files]({{%relref "/tutorial/notebooks/extract_evenly_spaced_files/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
+<li>[extract_evenly_spaced_files]({{%relref "/tutorial/notebooks/extract_evenly_spaced_files/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i>  <i class='fa fa-bell'></i></li>
 <li>[extract_nexus_daslogs]({{%relref "/tutorial/notebooks/extract_nexus_daslogs/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
 
 <h3 id='f'>F</h3>

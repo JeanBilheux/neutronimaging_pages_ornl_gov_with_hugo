@@ -10,8 +10,9 @@ pre: "- "
 ## Description
 
 This notebook allows you to copy into a new folder (extract) 1 every n files from the source folder. You
-will need to provide the **skipping** factor **n** in the notebook. You will also have the option to rename
-those files, as they are copied, in order to keep a linear increasing index starting at index 0.
+will need to provide the **skipping** factor **n** in the notebook. A new feature of the notebook allows you to 
+review the files to extract and manually replace or remove them from the final process. You will also have the 
+option to rename those files, as they are copied, in order to keep a linear increasing index starting at index 0.
 
 **Example:**
 
@@ -80,6 +81,40 @@ extracted.
 
 <img src='/tutorial/notebooks/extract_evenly_spaced_files/images/extraction_method.png' />
 
+### Manual review of selected files
+
+<img src='/tutorial/notebooks/extract_evenly_spaced_files/images/interface_1.png' />
+<img src='/tutorial/notebooks/extract_evenly_spaced_files/images/interface_2.png' />
+
+This interface gives a preview of the file selected and give a change to the user to **remove** or **replace** any
+of the image with any of the neighbor files. 
+
+The bottom part of the user interface display the **mean square error** of two consecutive images. Algorithm can
+be found [here](https://www.pyimagesearch.com/2014/09/15/python-compare-two-images/). By default, the 
+**max threshold** is equal to the maximum mean square error. Moving the threshold around will highlight in the 
+list of files widget the images that are outside the new threshold.
+
+<img src='/tutorial/notebooks/extract_evenly_spaced_files/images/moving_threshold_around.gif' />
+
+#### Remove or Replace files
+
+Right click in the list of files widget to either **remove** the selected file, or **to access a new user 
+interface** that will allow you to replace the selected image with any neighbor image not already part of the selection.
+
+ * **Remove** selected file
+ 
+ Right click on the file you want to remove and click **remove**
+ 
+<img src='/tutorial/notebooks/extract_evenly_spaced_files/images/remove_file.gif' />
+ 
+ * **Replace with** selected file
+ 
+ Right click on the file you want **to replace**. In the new UI, select any of the file listed in the widget
+ on the right of the UI. The list of files is determined using the initial list of files "surrounding" the current
+ selected file, but that are not already in the list of files to extract.
+ 
+<img src='/tutorial/notebooks/extract_evenly_spaced_files/images/replace_with_file.gif' />
+ 
 ### Rename or not Files
 
 This is where you have the option to rename of not the output files.
@@ -99,5 +134,3 @@ Once the output folder has been selected, the files will be automatically extrac
 Then a message will let you know when the process is done and where you can find the files copied.
 
 <img src='/tutorial/notebooks/extract_evenly_spaced_files/images/result_of_notebook.png' />
-
-
