@@ -27,7 +27,7 @@ Check the full tutorial [here]({{%relref "/tutorial/notebooks/select_ipts/_index
 Select the folder containing the full sample tof data. The program will automatically try to locate the time
 spectra file in this folder. If not found, you will need to locate it next.
 
-<img src='/tutorial/notebooks/bragg_edge_sample_and_powder/images/select_raw_data_input_folder.gif' />
+<img src='/tutorial/notebooks/bragg_edge_raw_sample_and_powder/images/select_raw_data_input_folder.gif' />
 
 ### Select Open Beam Input Folder
 
@@ -75,7 +75,7 @@ This is based on a library we developped called [BraggEdge](http://ornlneutronim
 To enter more than 1 element, use a colon to separate them. Run the next cell to check if the element is part of the
 list.
 
-<img src='/tutorial/notebooks/bragg_edge_sample_and_powder/images/list_of_elements.png' />
+<img src='/tutorial/notebooks/bragg_edge_raw_sample_and_powder/images/list_of_elements.png' />
 
 ### Define Experiment Setup
 
@@ -90,8 +90,8 @@ with the unstrained, powder, Bragg edges.
 
 Sample signal and unstrained Bragg edges of elements selected will be displayed on the same plot.
 
-<img src='/tutorial/notebooks/bragg_edge_signal_vs_powder_peaks/images/bragg_edges_vs_signal.png' />
+<img src='/tutorial/notebooks/bragg_edge_normalized_sample_and_powder/images/bragg_edges_vs_signal.png' />
 
 Feel free to play with the **iPlot** widgets (above the plot) to zoom, pan, ... etc
 
-<img src='/tutorial/notebooks/bragg_edge_signal_vs_powder_peaks/images/iplot_interaction.png' />
+<img src='/tutorial/notebooks/bragg_edge_normalized_sample_and_powder/images/iplot_interaction.png' />
