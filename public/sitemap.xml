@@ -98,7 +98,7 @@
   </url>
   
   <url>
-    <loc>/tutorial/notebooks/bragg_edge_signal_vs_powder_peaks/</loc>
+    <loc>/tutorial/notebooks/bragg_edge_normalized_sample_and_powder/</loc>
   </url>
   
   <url>
@@ -107,6 +107,10 @@
   
   <url>
     <loc>/tutorial/notebooks/bragg_edge_profile/</loc>
+  </url>
+  
+  <url>
+    <loc>/tutorial/notebooks/bragg_edge_raw_sample_and_powder/</loc>
   </url>
   
   <url>

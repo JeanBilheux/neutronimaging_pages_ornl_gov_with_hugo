@@ -60,7 +60,6 @@ to learn how to use the file selector tool.
 **SHIFT + ENTER** to run the cell. A new User Interface (UI) will come to life. If you can not see the UI, check
 behind the notebook window.
 
-
 {{% notice info %}}
 In order to speed up the display of the data, the notebook randomly select **5%** of the stack of sample image 
 selected. If you want to change that coefficient, edit the **config.py** file found in the *__code* folder and change

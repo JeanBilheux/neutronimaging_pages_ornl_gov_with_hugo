@@ -1,11 +1,11 @@
 ---
-title: Bragg Edge - Signal vs Powder Peaks
+title: Bragg Edge - Normalized Sample and Powder
 post: "<i class='fa fa-battery-full'></i> "
 pre: "- "
 
 ---
 
-**Notebook name**: bragg_edge_signal_vs_powder_peaks.ipynb
+**Notebook name**: bragg_edge_normalized_sample_and_powder.ipynb
 
 ## Description
 

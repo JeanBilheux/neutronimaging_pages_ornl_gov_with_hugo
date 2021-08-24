@@ -36,9 +36,10 @@ Z
 
 <h3 id='b'>B</h3>
 <li>[bin_images]({{%relref "/tutorial/notebooks/bin_images/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
-<li>[bragg_edge_signal_vs_powder_peaks]({{%relref "/tutorial/notebooks/bragg_edge_signal_vs_powder_peaks/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i></li>
+<li>[bragg_edge_raw_sample_and_powder]({{%relref "/tutorial/notebooks/bragg_edge_raw_sample_and_powder/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i></li>
 <li>[bragg_edge_normalization]({{%relref "/tutorial/notebooks/bragg_edge_normalization/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
 <li>[bragg_edge_profile]({{%relref "/tutorial/notebooks/bragg_edge_profile/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
+<li>[bragg_edge_normalized_sample_and_powder]({{%relref "/tutorial/notebooks/bragg_edge_normalized_sample_and_powder/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> <i class='fa fa-bell'></i></li>
 
 <h3 id='c'>C</h3>
 <li>[calibrated_transmission]({{%relref "/tutorial/notebooks/calibrated_transmission/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i></li>
