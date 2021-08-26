@@ -12,20 +12,20 @@
     <title>Bragg Edge Raw Sample and Powder :: Documentation for Hugo Learn Theme</title>
 
     
-    <link href="/css/nucleus.css?1629892167" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1629892167" rel="stylesheet">
-    <link href="/css/hybrid.css?1629892167" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1629892167" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1629892167" rel="stylesheet">
-    <link href="/css/auto-complete.css?1629892167" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1629892167" rel="stylesheet">
-    <link href="/css/theme.css?1629892167" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1629892167" rel="stylesheet">
+    <link href="/css/nucleus.css?1629993316" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1629993316" rel="stylesheet">
+    <link href="/css/hybrid.css?1629993316" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1629993316" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1629993316" rel="stylesheet">
+    <link href="/css/auto-complete.css?1629993316" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1629993316" rel="stylesheet">
+    <link href="/css/theme.css?1629993316" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1629993316" rel="stylesheet">
     
-      <link href="/css/theme-blue.css?1629892167" rel="stylesheet">
+      <link href="/css/theme-blue.css?1629993316" rel="stylesheet">
     
 
-    <script src="/js/jquery-3.3.1.min.js?1629892167"></script>
+    <script src="/js/jquery-3.3.1.min.js?1629993316"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -60,14 +60,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1629892167"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1629892167"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1629993316"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1629993316"></script>
 <script type="text/javascript">
     
         var baseurl = "";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1629892167"></script>
+<script type="text/javascript" src="/js/search.js?1629993316"></script>
 
     
   </div>
@@ -2321,16 +2321,22 @@
 <li><a href="#select-your-ipts">Select your IPTS</a></li>
 <li><a href="#select-raw-data-input-folder">Select Raw Data Input Folder</a></li>
 <li><a href="#select-open-beam-input-folder">Select Open Beam Input Folder</a></li>
-<li><a href="#select-roi-of-sample">Select ROI of sample</a>
+<li><a href="#select-background-region">Select Background Region</a>
 <ul>
-<li><a href="#select-how-many-random-files-to-use-to-select-sample-position">Select how many random files to use to select sample position</a></li>
-<li><a href="#select-location-of-sample-in-integrated-image">Select location of sample in integrated image</a></li>
+<li><a href="#select-how-many-random-files-to-use-to-select-roi">Select how many random files to use to select ROI</a></li>
+<li><a href="#select-background-region-in-integrated-image">Select background region in integrated image</a></li>
 </ul></li>
 <li><a href="#normalize-data">Normalize Data</a></li>
-<li><a href="#powder-element">Powder element</a></li>
+<li><a href="#powder-element-s-to-use-to-compare-the-bragg-edges">Powder element(s) to use to compare the Bragg edges</a></li>
+<li><a href="#select-sample-roi">Select Sample ROI</a></li>
 <li><a href="#define-experiment-setup">Define Experiment Setup</a></li>
 <li><a href="#calculate-bragg-edge-data">Calculate Bragg Edge Data</a></li>
 <li><a href="#display-bragg-edges-vs-signal">Display Bragg Edges vs Signal</a></li>
+<li><a href="#export-data">Export Data</a>
+<ul>
+<li><a href="#transmission-versus-lambda">Transmission versus Lambda</a></li>
+<li><a href="#power-bragg-edge-table">Power Bragg edge table</a></li>
+</ul></li>
 </ul></li>
 </ul></li>
 </ul>
@@ -2388,27 +2394,29 @@ spectra file in this folder. If not found, you will need to locate it next.</p>
 <p>Just like it was done for the sample data, select the open beam folder. The notebook will let you know if the <strong>sample</strong>
 and <strong>ob</strong> folders have the same number of files.</p>
 
-<h3 id="select-roi-of-sample">Select ROI of sample</h3>
+<h3 id="select-background-region">Select Background Region</h3>
 
-<p>You need to define the position of the sample in the view.</p>
+<p>In order to improve the normalization, you have the option to select a region of interest (ROI) in the
+radiographs of the sample. Make sure that if you select a region, this region is away from the sample, and only
+contain the background.</p>
 
-<h4 id="select-how-many-random-files-to-use-to-select-sample-position">Select how many random files to use to select sample position</h4>
+<h4 id="select-how-many-random-files-to-use-to-select-roi">Select how many random files to use to select ROI</h4>
 
 <p>The first widget allows you to select how many images to use
 (those will be summed into a single view) to define that region of interest. The higher the number of images used,
 the longer the next user interface will take to show up. Usually the default value is a good compromise and is high
 enough to get a good idea of the position of the sample.</p>
 
-<h4 id="select-location-of-sample-in-integrated-image">Select location of sample in integrated image</h4>
+<h4 id="select-background-region-in-integrated-image">Select background region in integrated image</h4>
 
 <p>Check the <a href="/tutorial/notebooks/roi_selection_tool/#activate-search">ROI selection tool tutorial</a>
 to learn how to use that tool.</p>
 
 <h3 id="normalize-data">Normalize Data</h3>
 
-<p>The program will use the <strong>sample</strong> and <strong>ob</strong> loaded to normalized the data.</p>
+<p>The program will use the <strong>sample</strong> and <strong>ob</strong> loaded, and the optional background ROI, to normalized the data.</p>
 
-<h3 id="powder-element">Powder element</h3>
+<h3 id="powder-element-s-to-use-to-compare-the-bragg-edges">Powder element(s) to use to compare the Bragg edges</h3>
 
 <p>This is where you can define one, or more element to use to compare the Bragg edges with.</p>
 
@@ -2424,31 +2432,68 @@ to learn how to use that tool.</p>
     &lsquo;BaTiO3&rsquo; &lsquo;SrTiO3&rsquo; &lsquo;CaTiO3&rsquo; &lsquo;PbTiO3&rsquo; &lsquo;EuTiO3&rsquo; &lsquo;SrVO3&rsquo; &lsquo;CaVO3&rsquo; &lsquo;BaMnO3&rsquo;
     &lsquo;CaMnO3&rsquo; &lsquo;SrRuO3&rsquo; &lsquo;YAlO3&rsquo;</p>
 
-<p>This is based on a library we developped called <a href="http://ornlneutronimaging.github.io/BraggEdge/demo.html#metadata-of-elements">BraggEdge</a>.</p>
+<p>This is based on a library we developed called <a href="http://ornlneutronimaging.github.io/BraggEdge/demo.html#metadata-of-elements">BraggEdge</a>.</p>
 
 <p>To enter more than 1 element, use a colon to separate them. Run the next cell to check if the element is part of the
 list.</p>
 
 <p><img src='/tutorial/notebooks/bragg_edge_raw_sample_and_powder/images/list_of_elements.png' /></p>
 
+<h3 id="select-sample-roi">Select Sample ROI</h3>
+
+<p>This is where you define the position (ROI) of your sample on the radiographs. Only the counts within that region
+will be used in the rest of the notebook.</p>
+
+<p>Check the <a href="/tutorial/notebooks/roi_selection_tool/#activate-search">ROI selection tool tutorial</a>
+to learn how to use that tool.</p>
+
 <h3 id="define-experiment-setup">Define Experiment Setup</h3>
 
-<p>Those information will be needed to convert the time of flight values into lambda.</p>
+<p>Those information will be needed to convert the time of flight values into lambda. Make sure you used the right
+units</p>
+
+<ul>
+<li>dSD (distance source detector) in meters</li>
+<li>detector offset in micro seconds</li>
+</ul>
 
 <h3 id="calculate-bragg-edge-data">Calculate Bragg Edge Data</h3>
 
 <p>Just run this cell to let the notebook convert TOF information into lambda and prepare the data to compare them
-with the unstrained, powder, Bragg edges.</p>
+with the un-strained, powder, Bragg edges.</p>
 
 <h3 id="display-bragg-edges-vs-signal">Display Bragg Edges vs Signal</h3>
 
-<p>Sample signal and unstrained Bragg edges of elements selected will be displayed on the same plot.</p>
+<p>Sample signal and un-strained Bragg edges of elements selected will be displayed on the same plot.</p>
 
 <p><img src='/tutorial/notebooks/bragg_edge_normalized_sample_and_powder/images/bragg_edges_vs_signal.png' /></p>
 
 <p>Feel free to play with the <strong>iPlot</strong> widgets (above the plot) to zoom, pan, &hellip; etc</p>
 
 <p><img src='/tutorial/notebooks/bragg_edge_normalized_sample_and_powder/images/iplot_interaction.png' /></p>
+
+<h3 id="export-data">Export Data</h3>
+
+<h4 id="transmission-versus-lambda">Transmission versus Lambda</h4>
+
+<p>You can now export into an ascii file the <strong>average transmission vs Lambda (and tof)</strong>
+The ascii file created will have the following format</p>
+
+<pre><code class="language-ascii">  #  input sample folder
+  #  list of region of interest used to define sample position
+  #  list of region of interest used to define background position
+  #
+  #  tof (micros), lambda (Angstroms), Average transmission
+  #  all data in 3 columns format
+</code></pre>
+
+<p><img src='/tutorial/notebooks/bragg_edge_raw_sample_and_powder/images/export_data.png' /></p>
+
+<h4 id="power-bragg-edge-table">Power Bragg edge table</h4>
+
+<p>You can also export the Bragg edges values of the various elements you selected</p>
+
+<p><img src='/tutorial/notebooks/bragg_edge_raw_sample_and_powder/images/bragg_edge_powder.png' /></p>
 
 
 
@@ -3823,19 +3868,19 @@ with the unstrained, powder, Bragg edges.</p>
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1629892167"></script>
-    <script src="/js/perfect-scrollbar.min.js?1629892167"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1629892167"></script>
-    <script src="/js/jquery.sticky.js?1629892167"></script>
-    <script src="/js/featherlight.min.js?1629892167"></script>
-    <script src="/js/highlight.pack.js?1629892167"></script>
+    <script src="/js/clipboard.min.js?1629993316"></script>
+    <script src="/js/perfect-scrollbar.min.js?1629993316"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1629993316"></script>
+    <script src="/js/jquery.sticky.js?1629993316"></script>
+    <script src="/js/featherlight.min.js?1629993316"></script>
+    <script src="/js/highlight.pack.js?1629993316"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1629892167"></script>
-    <script src="/js/learn.js?1629892167"></script>
-    <script src="/js/hugo-learn.js?1629892167"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1629993316"></script>
+    <script src="/js/learn.js?1629993316"></script>
+    <script src="/js/hugo-learn.js?1629993316"></script>
 
-    <link href="/mermaid/mermaid.css?1629892167" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1629892167"></script>
+    <link href="/mermaid/mermaid.css?1629993316" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1629993316"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
