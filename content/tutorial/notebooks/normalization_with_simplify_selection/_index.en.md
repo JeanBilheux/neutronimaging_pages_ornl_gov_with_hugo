@@ -26,7 +26,7 @@ care of finding all the OB and DF for you, and matches them with your sample dat
 ## Start the notebook
 
 If you need help accessing this notebook, check the [How To > Start the python
-notebooks](/en/tutorial/how_to_start_notebooks) tutorial.
+notebooks](/tutorial/how_to_start_notebooks) tutorial.
 
 ## How to Use It?
 

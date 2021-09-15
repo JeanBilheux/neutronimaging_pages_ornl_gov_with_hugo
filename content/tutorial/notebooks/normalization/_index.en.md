@@ -22,7 +22,7 @@ neutron beam. You will need:
 ## Start the notebook
 
 If you need help accessing this notebook, check the [How To > Start the python
-notebooks](/en/tutorial/how_to_start_notebooks) tutorial.
+notebooks](/tutorial/how_to_start_notebooks) tutorial.
 
 ## How to Use It?
 

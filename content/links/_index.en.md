@@ -30,6 +30,10 @@ Go to the <a href='https://snsapp1.sns.ornl.gov/xprod/f?p=100'>Proposal System</
 <a href='https://user.ornl.gov'>https://user.ornl.gov</a>
 <img src='/links/images/guess_portal.png' />
 {{% /expand%}}
+{{%expand "XCAMS finder" %}}
+<a href='https://snsapp1.sns.ornl.gov/xprod/f?p=101:1:117433510822142:'>XWHOS</a>
+<img src='/links/images/xcams_finder.png' />
+{{% /expand%}}
 
 ## Analysis Tools
 
