@@ -36,6 +36,7 @@ Z
 
 <h3 id='b'>B</h3>
 <li>[bin_images]({{%relref "/tutorial/notebooks/bin_images/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
+<li>[bragg_edge_peak_fitting_evaluation]({{%relref "/tutorial/notebooks/bragg_edge_peak_fitting_evaluation/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> <i class='fa fa-bell'></i> </li>
 <li>[bragg_edge_raw_sample_and_powder]({{%relref "/tutorial/notebooks/bragg_edge_raw_sample_and_powder/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i></li>
 <li>[bragg_edge_normalization]({{%relref "/tutorial/notebooks/bragg_edge_normalization/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
 <li>[bragg_edge_profile]({{%relref "/tutorial/notebooks/bragg_edge_profile/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
