@@ -12,20 +12,20 @@
     <title>Combine Images n by n :: Documentation for Hugo Learn Theme</title>
 
     
-    <link href="/css/nucleus.css?1631715846" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1631715846" rel="stylesheet">
-    <link href="/css/hybrid.css?1631715846" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1631715846" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1631715846" rel="stylesheet">
-    <link href="/css/auto-complete.css?1631715846" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1631715846" rel="stylesheet">
-    <link href="/css/theme.css?1631715846" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1631715846" rel="stylesheet">
+    <link href="/css/nucleus.css?1633624092" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1633624092" rel="stylesheet">
+    <link href="/css/hybrid.css?1633624092" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1633624092" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1633624092" rel="stylesheet">
+    <link href="/css/auto-complete.css?1633624092" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1633624092" rel="stylesheet">
+    <link href="/css/theme.css?1633624092" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1633624092" rel="stylesheet">
     
-      <link href="/css/theme-blue.css?1631715846" rel="stylesheet">
+      <link href="/css/theme-blue.css?1633624092" rel="stylesheet">
     
 
-    <script src="/js/jquery-3.3.1.min.js?1631715846"></script>
+    <script src="/js/jquery-3.3.1.min.js?1633624092"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -60,14 +60,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1631715846"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1631715846"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1633624092"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1633624092"></script>
 <script type="text/javascript">
     
         var baseurl = "";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1631715846"></script>
+<script type="text/javascript" src="/js/search.js?1633624092"></script>
 
     
   </div>
@@ -724,6 +724,32 @@
         ">
       <a href="/tutorial/notebooks/bragg_edge_normalization/">
           - Bragg Edge Normalization<i class='fa fa-battery-full'></i> 
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/tutorial/notebooks/bragg_edge_peak_fitting_evaluation/" title="Bragg Edge Peak Fitting Peak Evaluation" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/tutorial/notebooks/bragg_edge_peak_fitting_evaluation/">
+          - Bragg Edge Peak Fitting Peak Evaluation<i class='fa fa-battery-half'></i> 
           
             <i class="fas fa-check read-icon"></i>
           
@@ -2321,6 +2347,7 @@
 <li><a href="#select-the-folder-containing-the-images-to-merge-combine">Select the folder containing the images to merge/combine</a></li>
 <li><a href="#merging-method">Merging method</a></li>
 <li><a href="#how-do-you-want-to-combine-those-images">How do you want to combine those images</a></li>
+<li><a href="#preview-of-how-the-files-will-be-combined-and-renamed">Preview of how the files will be combined and renamed</a></li>
 <li><a href="#select-output-location">Select output location</a></li>
 <li><a href="#merging">Merging</a></li>
 <li><a href="#working-with-tof-data">Working with TOF data</a></li>
@@ -2373,7 +2400,9 @@
 <p><img src='/tutorial/notebooks/combine_images_n_by_n/images/geometric_mean.png' /></p>
 
 <ul>
-<li>Add</li>
+<li><p>Add</p></li>
+
+<li><p>Median</p></li>
 </ul>
 
 
@@ -2388,46 +2417,58 @@
 <p><strong>Input</strong></p>
 
 <ul>
-<li>image001.fits<br /></li>
-<li>image002.fits</li>
-<li>image003.fits</li>
-<li>image004.fits</li>
-<li>image005.fits</li>
-<li>image006.fits</li>
-<li>image007.fits</li>
-<li>image008.fits</li>
-<li>image009.fits</li>
-<li>image010.fits<br /></li>
-<li>image011.fits</li>
-<li>image012.fits</li>
-<li>image013.fits</li>
-<li>image014.fits</li>
-<li>image015.fits</li>
-<li>image016.fits</li>
-<li>image017.fits</li>
-<li>image018.fits</li>
-<li>image019.fits</li>
-<li>image020.fits</li>
-<li>image021.fits</li>
+<li>data_000_010_000.fits<br /></li>
+<li>data_000_010_001.fits</li>
+<li>data_000_010_002.fits</li>
+<li>data_000_010_003.fits</li>
+<li>data_000_020_004.fits</li>
+<li>data_000_020_005.fits</li>
+<li>data_000_020_006.fits</li>
+<li>data_000_020_007.fits</li>
+<li>data_000_030_008.fits</li>
+<li>data_000_030_009.fits<br /></li>
+<li>data_000_030_010.fits</li>
+<li>data_000_030_011.fits</li>
+<li>data_000_040_012.fits</li>
+<li>data_000_040_013.fits</li>
+<li>data_000_040_014.fits</li>
+<li>data_000_040_015.fits</li>
+<li>data_000_050_016.fits</li>
+<li>data_000_050_017.fits</li>
+<li>data_000_050_018.fits</li>
+<li>data_000_050_019.fits</li>
+<li>data_000_060_020.fits</li>
 </ul>
 
 <p>and you decided to combine the first <strong>4</strong> images, then the following 4, and so on</p>
 
 <p><img src='/tutorial/notebooks/combine_images_n_by_n/images/how_to_combine_images.png' /></p>
 
-<p>This will produce 5 files</p>
+<p>This will produce 5 files, for which you will have the option to named based on their initial file name, or not.</p>
+
+<p><strong>Option 1</strong> using their base name</p>
 
 <ul>
-<li>4_files_combined_0001.tif</li>
-<li>4_files_combined_0002.tif</li>
-<li>4_files_combined_0003.tif</li>
-<li>4_files_combined_0004.tif</li>
-<li>4_files_combined_0005.tif</li>
+<li>data_000_010_000.tif</li>
+<li>data_000_020_001.tif</li>
+<li>data_000_030_002.tif</li>
+<li>data_000_040_003.tif</li>
+<li>data_000_050_004.tif</li>
 </ul>
 
-<p>where the first one will be the combination of image001.fits, image002.fits, image003.fits and image004.fits</p>
+<p>or <strong>Option 2</strong>, using new names</p>
 
-<p><strong>NB:</strong> Because there were 21 images to start with, the last image was dropped (image021.fits) as 21 can not be evenly
+<ul>
+<li>image_000.tif</li>
+<li>image_001.tif</li>
+<li>image_002.tif</li>
+<li>image_003.tif</li>
+<li>image_004.tif</li>
+</ul>
+
+<p>where the first one will be the combination of data_000_010_000.fits, data_000_010_001.fits, data_000_010_002.fits and data_000_010_003.fits</p>
+
+<p><strong>NB:</strong> Because there were 21 images to start with, the last image was dropped (data_000_060_020.fits) as 21 can not be evenly
 divided by 4!</p>
 
 <h2 id="how-does-the-notebook-work">How does the notebook work?</h2>
@@ -2458,6 +2499,29 @@ the next 2, and so on.
 If the number of images can not be evenly divided by this coefficient, then the last images won&rsquo;t be used.</p>
 
 <p><img src='/tutorial/notebooks/combine_images_n_by_n/images/how_to_combine_images.png' /></p>
+
+<h3 id="preview-of-how-the-files-will-be-combined-and-renamed">Preview of how the files will be combined and renamed</h3>
+
+<p>This is where you can check that the files are correctly grouped. You can also choose to rename the new files or
+use the base file name of the input data sets. In this case the program will conserve the common string of the file name
+up to the previous &ldquo;_&rdquo; (underscore) file separator.</p>
+
+<ul>
+<li><p>For example if the two following files are combined</p>
+
+<ul>
+<li>/Volumes/G-DRIVE/IPTS/IPTS-12345/CT/20210505_1C30_150_tomo_0010_002_000_015.tif</li>
+<li>/Volumes/G-DRIVE/IPTS/IPTS-12345/CT/20210505_1C30_150_tomo_0010_002_000_016.tif</li>
+</ul></li>
+</ul>
+
+<p>the resulting base name of the output file will look like</p>
+
+<ul>
+<li>20210505_1C30_150_tomo_0010_002_000.001.tif</li>
+</ul>
+
+<p><img src='/tutorial/notebooks/combine_images_n_by_n/images/preview_result.gif' /></p>
 
 <h3 id="select-output-location">Select output location</h3>
 
@@ -2874,6 +2938,22 @@ notebook</p>
                     
                         
                         
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
                     
                 
                 
@@ -3862,19 +3942,19 @@ notebook</p>
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1631715846"></script>
-    <script src="/js/perfect-scrollbar.min.js?1631715846"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1631715846"></script>
-    <script src="/js/jquery.sticky.js?1631715846"></script>
-    <script src="/js/featherlight.min.js?1631715846"></script>
-    <script src="/js/highlight.pack.js?1631715846"></script>
+    <script src="/js/clipboard.min.js?1633624092"></script>
+    <script src="/js/perfect-scrollbar.min.js?1633624092"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1633624092"></script>
+    <script src="/js/jquery.sticky.js?1633624092"></script>
+    <script src="/js/featherlight.min.js?1633624092"></script>
+    <script src="/js/highlight.pack.js?1633624092"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1631715846"></script>
-    <script src="/js/learn.js?1631715846"></script>
-    <script src="/js/hugo-learn.js?1631715846"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1633624092"></script>
+    <script src="/js/learn.js?1633624092"></script>
+    <script src="/js/hugo-learn.js?1633624092"></script>
 
-    <link href="/mermaid/mermaid.css?1631715846" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1631715846"></script>
+    <link href="/mermaid/mermaid.css?1633624092" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1633624092"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>

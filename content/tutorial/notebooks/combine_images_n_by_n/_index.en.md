@@ -21,6 +21,8 @@ This notebook allows you to combine the images contain in the folder you selecte
 
  * Add
  
+ * Median
+ 
 {{% notice info %}}
 Not seeing the algorithm you want to use? Please let me know and I will add it (<a href="/en/credits#jean_bilheux">Jean Bilheux</a>)
 {{% /notice %}}
@@ -31,43 +33,53 @@ let's pretend you selected a folder containing the following 21 images
 
 **Input**
 
- * image001.fits      
- * image002.fits
- * image003.fits
- * image004.fits
- * image005.fits
- * image006.fits
- * image007.fits
- * image008.fits
- * image009.fits
- * image010.fits      
- * image011.fits
- * image012.fits
- * image013.fits
- * image014.fits
- * image015.fits
- * image016.fits
- * image017.fits
- * image018.fits
- * image019.fits
- * image020.fits
- * image021.fits
+ * data_000_010_000.fits      
+ * data_000_010_001.fits
+ * data_000_010_002.fits
+ * data_000_010_003.fits
+ * data_000_020_004.fits
+ * data_000_020_005.fits
+ * data_000_020_006.fits
+ * data_000_020_007.fits
+ * data_000_030_008.fits
+ * data_000_030_009.fits      
+ * data_000_030_010.fits
+ * data_000_030_011.fits
+ * data_000_040_012.fits
+ * data_000_040_013.fits
+ * data_000_040_014.fits
+ * data_000_040_015.fits
+ * data_000_050_016.fits
+ * data_000_050_017.fits
+ * data_000_050_018.fits
+ * data_000_050_019.fits
+ * data_000_060_020.fits
 
 and you decided to combine the first **4** images, then the following 4, and so on
 
 <img src='/tutorial/notebooks/combine_images_n_by_n/images/how_to_combine_images.png' />
 
-This will produce 5 files 
+This will produce 5 files, for which you will have the option to named based on their initial file name, or not.
 
- * 4_files_combined_0001.tif
- * 4_files_combined_0002.tif
- * 4_files_combined_0003.tif
- * 4_files_combined_0004.tif
- * 4_files_combined_0005.tif
+**Option 1** using their base name
+
+ * data_000_010_000.tif
+ * data_000_020_001.tif
+ * data_000_030_002.tif
+ * data_000_040_003.tif
+ * data_000_050_004.tif
  
-where the first one will be the combination of image001.fits, image002.fits, image003.fits and image004.fits
+ or **Option 2**, using new names
+ 
+ * image_000.tif
+ * image_001.tif
+ * image_002.tif
+ * image_003.tif
+ * image_004.tif
+ 
+where the first one will be the combination of data_000_010_000.fits, data_000_010_001.fits, data_000_010_002.fits and data_000_010_003.fits
 
-**NB:** Because there were 21 images to start with, the last image was dropped (image021.fits) as 21 can not be evenly
+**NB:** Because there were 21 images to start with, the last image was dropped (data_000_060_020.fits) as 21 can not be evenly
 divided by 4!
 
 ## How does the notebook work?
@@ -98,6 +110,23 @@ If the number of images can not be evenly divided by this coefficient, then the 
 
 <img src='/tutorial/notebooks/combine_images_n_by_n/images/how_to_combine_images.png' />
 
+### Preview of how the files will be combined and renamed 
+
+This is where you can check that the files are correctly grouped. You can also choose to rename the new files or
+use the base file name of the input data sets. In this case the program will conserve the common string of the file name
+up to the previous "_" (underscore) file separator. 
+
+* For example if the two following files are combined
+
+ - /Volumes/G-DRIVE/IPTS/IPTS-12345/CT/20210505_1C30_150_tomo_0010_002_000_015.tif
+ - /Volumes/G-DRIVE/IPTS/IPTS-12345/CT/20210505_1C30_150_tomo_0010_002_000_016.tif
+
+the resulting base name of the output file will look like
+
+- 20210505_1C30_150_tomo_0010_002_000.001.tif
+
+<img src='/tutorial/notebooks/combine_images_n_by_n/images/preview_result.gif' />
+ 
 ### Select output location
 
 Using the [folder selection tool]({{%relref "/tutorial/notebooks/file_selector/_index.md#activate-search" %}}), select 
