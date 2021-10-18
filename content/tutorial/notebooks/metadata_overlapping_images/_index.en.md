@@ -58,7 +58,6 @@ on to the next cell.
 
 <img src='/tutorial/notebooks/metadata_overlapping_images/images/scale_ui.png' />
 
-
 Select the **scale** option to add a dimension marker on top of the images. You can define:
 
  * orientation of the scale
@@ -142,3 +141,11 @@ You can now export all your images. The PNG files created will be a copy of the 
 **Export Images ...** at the bottom right and select the location where you want to create the images.
 
 <img src='/tutorial/notebooks/metadata_overlapping_images/images/exported_images.png' />
+
+{{% notice info %}}
+**Use relative time as metadata.**
+Some of the metadata do not have a meaningful name. For example the acquisition time is recorded in linux format and can 
+be found here (see screenshot). To get the relative time of each image, remove the acquisition time of the first image via the 
+linear equation.
+<img src='/tutorial/notebooks/metadata_overlapping_images/images/use_relative_time.gif' />
+{{% /notice %}}
