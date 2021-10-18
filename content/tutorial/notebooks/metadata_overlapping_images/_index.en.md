@@ -42,6 +42,12 @@ stamp and the images will be automatically loaded. Wait for the progress bar to 
 Need help using the [File Selector]({{%relref "/tutorial/notebooks/file_selector/_index.md#activate-search" %}})?
 {{% /notice %}}
 
+{{% notice info %}}
+A progress bar will show you the loading progress. Make sure you wait for the busy signal to goes away before moving
+on to the next cell.
+<img src='/tutorial/notebooks/metadata_overlapping_images/images/progress_bar.gif' />
+{{% /notice %}}
+
 ## Profile UI Presentation
 
 <img src='/tutorial/notebooks/metadata_overlapping_images/images/ui_presentation.png' />
@@ -49,6 +55,9 @@ Need help using the [File Selector]({{%relref "/tutorial/notebooks/file_selector
 ## How Does it Work ?
 
 ### Scale
+
+<img src='/tutorial/notebooks/metadata_overlapping_images/images/scale_ui.png' />
+
 
 Select the **scale** option to add a dimension marker on top of the images. You can define:
 
@@ -62,56 +71,74 @@ Select the **scale** option to add a dimension marker on top of the images. You 
 
 ### Metadata
 
-When using **metadata**, you can display the current metadata as a string. But if you chose to, you can
-also display a graph showing the current file metadata position over the entire set of images metadata.
-
-#### Text
-
-If you are working with a TIFF image, you will have the option of selecting one of the metadata available. Feel free
-to change the label of this one if needed.
-You can also define your own metadata by editing the table, or loading a file_vs_metadata file created by a notebook
-specially dedicated to this purpose (WORK IN PROGRESS).
-
-<img src='/tutorial/notebooks/metadata_overlapping_images/images/metadata_text.gif' />
-
-{{% notice info %}}
-It's sometimes necessary to format the default metadata value (especially if you want to display the graph). To do so,
-right click in the right column of the table to reach the **metadata string parser (string filter)**.
-<img src='/tutorial/notebooks/metadata_overlapping_images/images/string_filter_1.png' />
-Then define the first and last part of the string to remove
-<img src='/tutorial/notebooks/metadata_overlapping_images/images/string_filter_2.png' />
-{{% /notice %}}
-
-#### Graph
-
-### Advanced feature
-
-The **Advanced Table ...** button brings a new window that allows you to perform linear operation on various
-metadata at the same time and display the result of this operation.
-
-<img src='/tutorial/notebooks/metadata_overlapping_images/images/ui_advanced.png' />
-
-In order to define a new complex formula:
+When using **metadata**, two features are offered:
+ * you can display and personalize 1 or 2 metadata values on top of the plot
+ * you can also plot a metadata versus file index, or versus another metadata
  
- * select a metadata to use via the top combo box
- * click **+** button to add it to the **math table**
- * change the coefficient in front of the new metadata if needed (default value is 1)
- * keep adding new metadata the same way
- 
-If a metadata needs to be removed from the equation, select the column and click **-**
+We are going to review each of those features one by one as they each come up with many settings to you define.
 
-Click **OK** to validate the equation and to return to main interface. 
+#### Displaying metadata in image
 
-The following animation demo how the advanced feature works.
+<img src='/tutorial/notebooks/metadata_overlapping_images/images/metadata_text_demo.gif' />
 
-<img src='/tutorial/notebooks/metadata_overlapping_images/images/advanced_feature_demo.gif' />
+If you want to display on each image 1 or 2 metadata values, use this feature. **RIGHT CLICK** inside the table and 
+click **Select Metadata ...**. 
+
+<img src='/tutorial/notebooks/metadata_overlapping_images/images/right_click.png' />
+
+This will bring the **Select Metadata Toolbox**. 
+
+<img src='/tutorial/notebooks/metadata_overlapping_images/images/select_metadata_toolbox.png' />
+
+Select first the metadata you want to use. Some of the metadata only have a value, others have a string attached
+to the value. You can either use the metadata as it is, or if you want to remove part of the string, use the 
+**String cleaning** widgets to remove some text. 
+
+<img src='/tutorial/notebooks/metadata_overlapping_images/images/string_cleaning.gif' />
+
+If the metadata, before or after cleaning, can be converted to a float, you have access to widgets that allow you
+to perform up to 2 linear operations on it. If any equation has been defined, this equation will be applied to this metadata
+for every single file selected and will be displayed in the final table once you click SELECT. 
+
+<img src='/tutorial/notebooks/metadata_overlapping_images/images/linear_operation.gif' />
+
+##### Settings
+
+<img src='/tutorial/notebooks/metadata_overlapping_images/images/settings_metadata_1.png' />
+
+In order to customize the text, you can:
+ * move it inside the image
+ * change the size of the font
+ * add a string BEFORE (prefix) and/or AFTER (suffix)
+
+<img src='/tutorial/notebooks/metadata_overlapping_images/images/settings_metadata_1.gif' />
+
+#### Plot metadata in image
+
+This plot is used to see the value of the current file metadata over the entire stack of images selected. For 
+example, in the case of a sample where the Temperature changes over time, this plot will show the current 
+temperature of the image as well as the temperature of all the images. 
+
+<img src='/tutorial/notebooks/metadata_overlapping_images/images/plot_data_demo.gif' />
+
+It's possible to change the default x-axis (file index) to any of the 2 metadata. RIGHT CLICK and click 
+X-AXIS or Y-AXIS. 
+
+<img src='/tutorial/notebooks/metadata_overlapping_images/images/change_x_y_axis.gif' />
+
+You can define the legend of each axis using the settings widgets. 
+
+<img src='/tutorial/notebooks/metadata_overlapping_images/images/plot_graph_legend.png' />
+
+### Export Table
+
+You can export the table into an ascii file. Click **Export Table ...** and select the output folder. 
+
+<img src='/tutorial/notebooks/metadata_overlapping_images/images/export_table.png' />
 
 ### Export
 
-**NB: Your application will look a little bit different from this animation**
-
-You can now export all your images. The PNG files created will be a copy of the current UI image preview.
-
-<img src='/tutorial/notebooks/metadata_overlapping_images/images/export.gif' />
+You can now export all your images. The PNG files created will be a copy of the current UI image preview. Click
+**Export Images ...** at the bottom right and select the location where you want to create the images.
 
 <img src='/tutorial/notebooks/metadata_overlapping_images/images/exported_images.png' />

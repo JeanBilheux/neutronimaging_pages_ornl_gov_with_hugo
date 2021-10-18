@@ -91,7 +91,7 @@ Z
 <h3 id='m'>M</h3>
 <li>[mcp_chips_corrector]({{%relref "/tutorial/notebooks/mcp_chips_corrector/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
 <li>[metadata_ascii_parser]({{%relref "/tutorial/notebooks/metadata_ascii_parser/_index.md#activate-search" %}}) <i class='fa fa-battery-full'> </i> </li>
-<li>[metadata_overlapping_images]({{%relref "/tutorial/notebooks/metadata_overlapping_images/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
+<li>[metadata_overlapping_images]({{%relref "/tutorial/notebooks/metadata_overlapping_images/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> <i class='fa fa-bell'></i> </li>
 
 <h3 id='n'>N</h3>
 <li>[normalization]({{%relref "/tutorial/notebooks/normalization/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
@@ -110,7 +110,7 @@ Z
 <li>[registration]({{%relref "/tutorial/notebooks/registration/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i></li>
 <li>[rename_files]({{%relref "/tutorial/notebooks/rename_files/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i></li>
 <li>[resonance_imaging_experiment_vs_theory]({{%relref "/tutorial/notebooks/resonance_imaging_experiment_vs_theory/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
-<li>[roi_selection_tool]({{%relref "/tutorial/notebooks/roi_selection_tool/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> <i class='fa fa-bell'></i></li>
+<li>[roi_selection_tool]({{%relref "/tutorial/notebooks/roi_selection_tool/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
 <li>[rotate_and_crop_images]({{%relref "/tutorial/notebooks/rotate_and_crop_images/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
 
 <h3 id='s'>S</h3>
