@@ -12,20 +12,20 @@
     <title>Metadata Overlapping Images :: Documentation for Hugo Learn Theme</title>
 
     
-    <link href="/css/nucleus.css?1633624092" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1633624092" rel="stylesheet">
-    <link href="/css/hybrid.css?1633624092" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1633624092" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1633624092" rel="stylesheet">
-    <link href="/css/auto-complete.css?1633624092" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1633624092" rel="stylesheet">
-    <link href="/css/theme.css?1633624092" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1633624092" rel="stylesheet">
+    <link href="/css/nucleus.css?1634579726" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1634579726" rel="stylesheet">
+    <link href="/css/hybrid.css?1634579726" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1634579726" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1634579726" rel="stylesheet">
+    <link href="/css/auto-complete.css?1634579726" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1634579726" rel="stylesheet">
+    <link href="/css/theme.css?1634579726" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1634579726" rel="stylesheet">
     
-      <link href="/css/theme-blue.css?1633624092" rel="stylesheet">
+      <link href="/css/theme-blue.css?1634579726" rel="stylesheet">
     
 
-    <script src="/js/jquery-3.3.1.min.js?1633624092"></script>
+    <script src="/js/jquery-3.3.1.min.js?1634579726"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -60,14 +60,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1633624092"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1633624092"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1634579726"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1634579726"></script>
 <script type="text/javascript">
     
         var baseurl = "";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1633624092"></script>
+<script type="text/javascript" src="/js/search.js?1634579726"></script>
 
     
   </div>
@@ -2353,10 +2353,13 @@
 <li><a href="#scale">Scale</a></li>
 <li><a href="#metadata">Metadata</a>
 <ul>
-<li><a href="#text">Text</a></li>
-<li><a href="#graph">Graph</a></li>
+<li><a href="#displaying-metadata-in-image">Displaying metadata in image</a>
+<ul>
+<li><a href="#settings">Settings</a></li>
 </ul></li>
-<li><a href="#advanced-feature">Advanced feature</a></li>
+<li><a href="#plot-metadata-in-image">Plot metadata in image</a></li>
+</ul></li>
+<li><a href="#export-table">Export Table</a></li>
 <li><a href="#export">Export</a></li>
 </ul></li>
 </ul></li>
@@ -2429,6 +2432,13 @@ stamp and the images will be automatically loaded. Wait for the progress bar to 
 </div>
 
 
+
+<div class="notices info" ><p>A progress bar will show you the loading progress. Make sure you wait for the busy signal to goes away before moving
+on to the next cell.
+<img src='/tutorial/notebooks/metadata_overlapping_images/images/progress_bar.gif' /></p>
+</div>
+
+
 <h2 id="profile-ui-presentation">Profile UI Presentation</h2>
 
 <p><img src='/tutorial/notebooks/metadata_overlapping_images/images/ui_presentation.png' /></p>
@@ -2436,6 +2446,8 @@ stamp and the images will be automatically loaded. Wait for the progress bar to 
 <h2 id="how-does-it-work">How Does it Work ?</h2>
 
 <h3 id="scale">Scale</h3>
+
+<p><img src='/tutorial/notebooks/metadata_overlapping_images/images/scale_ui.png' /></p>
 
 <p>Select the <strong>scale</strong> option to add a dimension marker on top of the images. You can define:</p>
 
@@ -2451,60 +2463,75 @@ stamp and the images will be automatically loaded. Wait for the progress bar to 
 
 <h3 id="metadata">Metadata</h3>
 
-<p>When using <strong>metadata</strong>, you can display the current metadata as a string. But if you chose to, you can
-also display a graph showing the current file metadata position over the entire set of images metadata.</p>
+<p>When using <strong>metadata</strong>, two features are offered:
+ * you can display and personalize 1 or 2 metadata values on top of the plot
+ * you can also plot a metadata versus file index, or versus another metadata</p>
 
-<h4 id="text">Text</h4>
+<p>We are going to review each of those features one by one as they each come up with many settings to you define.</p>
 
-<p>If you are working with a TIFF image, you will have the option of selecting one of the metadata available. Feel free
-to change the label of this one if needed.
-You can also define your own metadata by editing the table, or loading a file_vs_metadata file created by a notebook
-specially dedicated to this purpose (WORK IN PROGRESS).</p>
+<h4 id="displaying-metadata-in-image">Displaying metadata in image</h4>
 
-<p><img src='/tutorial/notebooks/metadata_overlapping_images/images/metadata_text.gif' /></p>
+<p><img src='/tutorial/notebooks/metadata_overlapping_images/images/metadata_text_demo.gif' /></p>
 
+<p>If you want to display on each image 1 or 2 metadata values, use this feature. <strong>RIGHT CLICK</strong> inside the table and
+click <strong>Select Metadata &hellip;</strong>.</p>
 
-<div class="notices info" ><p>It&rsquo;s sometimes necessary to format the default metadata value (especially if you want to display the graph). To do so,
-right click in the right column of the table to reach the <strong>metadata string parser (string filter)</strong>.
-<img src='/tutorial/notebooks/metadata_overlapping_images/images/string_filter_1.png' />
-Then define the first and last part of the string to remove
-<img src='/tutorial/notebooks/metadata_overlapping_images/images/string_filter_2.png' /></p>
-</div>
+<p><img src='/tutorial/notebooks/metadata_overlapping_images/images/right_click.png' /></p>
 
+<p>This will bring the <strong>Select Metadata Toolbox</strong>.</p>
 
-<h4 id="graph">Graph</h4>
+<p><img src='/tutorial/notebooks/metadata_overlapping_images/images/select_metadata_toolbox.png' /></p>
 
-<h3 id="advanced-feature">Advanced feature</h3>
+<p>Select first the metadata you want to use. Some of the metadata only have a value, others have a string attached
+to the value. You can either use the metadata as it is, or if you want to remove part of the string, use the
+<strong>String cleaning</strong> widgets to remove some text.</p>
 
-<p>The <strong>Advanced Table &hellip;</strong> button brings a new window that allows you to perform linear operation on various
-metadata at the same time and display the result of this operation.</p>
+<p><img src='/tutorial/notebooks/metadata_overlapping_images/images/string_cleaning.gif' /></p>
 
-<p><img src='/tutorial/notebooks/metadata_overlapping_images/images/ui_advanced.png' /></p>
+<p>If the metadata, before or after cleaning, can be converted to a float, you have access to widgets that allow you
+to perform up to 2 linear operations on it. If any equation has been defined, this equation will be applied to this metadata
+for every single file selected and will be displayed in the final table once you click SELECT.</p>
 
-<p>In order to define a new complex formula:</p>
+<p><img src='/tutorial/notebooks/metadata_overlapping_images/images/linear_operation.gif' /></p>
 
-<ul>
-<li>select a metadata to use via the top combo box</li>
-<li>click <strong>+</strong> button to add it to the <strong>math table</strong></li>
-<li>change the coefficient in front of the new metadata if needed (default value is 1)</li>
-<li>keep adding new metadata the same way</li>
-</ul>
+<h5 id="settings">Settings</h5>
 
-<p>If a metadata needs to be removed from the equation, select the column and click <strong>-</strong></p>
+<p><img src='/tutorial/notebooks/metadata_overlapping_images/images/settings_metadata_1.png' /></p>
 
-<p>Click <strong>OK</strong> to validate the equation and to return to main interface.</p>
+<p>In order to customize the text, you can:
+ * move it inside the image
+ * change the size of the font
+ * add a string BEFORE (prefix) and/or AFTER (suffix)</p>
 
-<p>The following animation demo how the advanced feature works.</p>
+<p><img src='/tutorial/notebooks/metadata_overlapping_images/images/settings_metadata_1.gif' /></p>
 
-<p><img src='/tutorial/notebooks/metadata_overlapping_images/images/advanced_feature_demo.gif' /></p>
+<h4 id="plot-metadata-in-image">Plot metadata in image</h4>
+
+<p>This plot is used to see the value of the current file metadata over the entire stack of images selected. For
+example, in the case of a sample where the Temperature changes over time, this plot will show the current
+temperature of the image as well as the temperature of all the images.</p>
+
+<p><img src='/tutorial/notebooks/metadata_overlapping_images/images/plot_data_demo.gif' /></p>
+
+<p>It&rsquo;s possible to change the default x-axis (file index) to any of the 2 metadata. RIGHT CLICK and click
+X-AXIS or Y-AXIS.</p>
+
+<p><img src='/tutorial/notebooks/metadata_overlapping_images/images/change_x_y_axis.gif' /></p>
+
+<p>You can define the legend of each axis using the settings widgets.</p>
+
+<p><img src='/tutorial/notebooks/metadata_overlapping_images/images/plot_graph_legend.png' /></p>
+
+<h3 id="export-table">Export Table</h3>
+
+<p>You can export the table into an ascii file. Click <strong>Export Table &hellip;</strong> and select the output folder.</p>
+
+<p><img src='/tutorial/notebooks/metadata_overlapping_images/images/export_table.png' /></p>
 
 <h3 id="export">Export</h3>
 
-<p><strong>NB: Your application will look a little bit different from this animation</strong></p>
-
-<p>You can now export all your images. The PNG files created will be a copy of the current UI image preview.</p>
-
-<p><img src='/tutorial/notebooks/metadata_overlapping_images/images/export.gif' /></p>
+<p>You can now export all your images. The PNG files created will be a copy of the current UI image preview. Click
+<strong>Export Images &hellip;</strong> at the bottom right and select the location where you want to create the images.</p>
 
 <p><img src='/tutorial/notebooks/metadata_overlapping_images/images/exported_images.png' /></p>
 
@@ -3897,19 +3924,19 @@ metadata at the same time and display the result of this operation.</p>
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1633624092"></script>
-    <script src="/js/perfect-scrollbar.min.js?1633624092"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1633624092"></script>
-    <script src="/js/jquery.sticky.js?1633624092"></script>
-    <script src="/js/featherlight.min.js?1633624092"></script>
-    <script src="/js/highlight.pack.js?1633624092"></script>
+    <script src="/js/clipboard.min.js?1634579726"></script>
+    <script src="/js/perfect-scrollbar.min.js?1634579726"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1634579726"></script>
+    <script src="/js/jquery.sticky.js?1634579726"></script>
+    <script src="/js/featherlight.min.js?1634579726"></script>
+    <script src="/js/highlight.pack.js?1634579726"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1633624092"></script>
-    <script src="/js/learn.js?1633624092"></script>
-    <script src="/js/hugo-learn.js?1633624092"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1634579726"></script>
+    <script src="/js/learn.js?1634579726"></script>
+    <script src="/js/hugo-learn.js?1634579726"></script>
 
-    <link href="/mermaid/mermaid.css?1633624092" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1633624092"></script>
+    <link href="/mermaid/mermaid.css?1634579726" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1634579726"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
