@@ -52,15 +52,9 @@ of the files that belong to the group and the corresponding metadata.
  
 Running the cell will allow you to select how your want to sort the files within each group/cycle.  
 
-For example, if you define **MotLiftTable** as your first variable, the program will sort the files by their
-**MotLiftTable** metadata, then will move to the second parameter to sort the files having an identical **MotLiftTable**.
-
-The following sketches illustrates how this work when **ascending** is selected for both cases. Selecting **descending**
-will reverse the images for that given PV. 
-
+For example, if you define **MotLiftTable** as your first variable, the files will be sorted as illustrated here.
 <img src='/tutorial/notebooks/group_images_by_cycle_for_panoramic_stitching/images/MotLiftAxis.png' />
-<img src='/tutorial/notebooks/group_images_by_cycle_for_panoramic_stitching/images/MotLongAxis.png' />
- 
+
 The bottom widgets allows you to browse through the groups and see how the files will be sorted and renamed.
 
 <img src='/tutorial/notebooks/group_images_by_cycle_for_panoramic_stitching/images/sort_files.png' />
