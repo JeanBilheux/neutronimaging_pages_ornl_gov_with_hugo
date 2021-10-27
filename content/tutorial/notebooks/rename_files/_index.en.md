@@ -111,11 +111,11 @@ _Example:_
 
 <img src='/tutorial/notebooks/rename_files/images/new_file_name.gif' />
 
-#### Result
+#### Checking new names
 
-The bottom part of the cell will show the result of the naming on the first image selected.
+Running this cell will display the old file names and the new file names.
 
-If the new name shows an **Error**, checks your **pre index separator**.
+<img src='/tutorial/notebooks/rename_files/images/checking_new_names.png' />
 
 ### Output folder
 
@@ -123,5 +123,3 @@ You simply need to select where the new renamed file will be created. Then the p
 and renamed them in the folder you selected.
 
 <img src='/tutorial/notebooks/rename_files/images/output_result.gif' />
-
-Feel free to check the dropdown list that shows the old name versus the new name of each file.
