@@ -9,7 +9,6 @@ title: Contacts
 | ![Shawn](/images/contacts/shawn.png) | <ul><li>**Yuxuan Zhang (Shawn)** - Instrument Scientist</li><li>Expertise: Resonance Imaging</li><li><i class='fa fa-envelope-open'></i> zhangy6@ornl.gov</li></ul> |
 | <h2 id='jean_bilheux'></h2> ![Jean Bilheux](/images/contacts/jean.png) | <ul><li>**Jean Bilheux** - Computer Instrument Scientist</li><li>Expertise: Python Notebooks and Data Analysis</li><li><i class='fa fa-envelope-open'></i> bilheuxjm@ornl.gov</li><li><i class='fa fa-mobile'></i> (865) 406 - 1704</li><li><i class='fa fa-external-link'></i> <a href='https://jeanbilheux.wordpress.com/'>jeanbilheux.wordpress.com</a></li><li><i class='fa fa-external-link'></i><ul> |
 | ![Erik Stringfellow](/images/contacts/erik.jpg) | <ul><li>**Erik Stringfellow** - Scientific Associate </li><li><i class='fa fa-envelope-open'></i> stringfellde@ornl.gov</li><li><i class='fa fa-phone'></i> (865) 576-6432</li></ul>  |
-| ![Brianne Beers](/images/contacts/brianne.png) | <ul><li>**Brianne Beers** - Graduate Student</li></ul> |
 
 
 <!-- <img src="/images/contacts/2018_group_photo.png" /> -->
@@ -18,6 +17,7 @@ title: Contacts
 ### Past Team Members
 
 <ul>
+<li>Brianne Beers, UT Graduate Student</li>
 <li>Paris Cornwell, ORNL</li>
 <li>Keita DeCarlo, Princeton Univ.</li>
 <li>Indu Dhiman</li>
