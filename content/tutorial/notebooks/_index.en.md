@@ -73,7 +73,6 @@ Z
 <li>[from_dsc_time_info_to_ascii_file_vs_time]({{%relref "/tutorial/notebooks/from_dsc_time_info_to_ascii_file_vs_time/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i></li>
 
 <h3 id='g'>G</h3>
-<li>[gamma_filtering_tool]({{%relref "/tutorial/notebooks/gamma_filtering_tool/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
 <li>[group_images_by_cycle_for_panoramic_stitching]({{%relref "/tutorial/notebooks/group_images_by_cycle_for_panoramic_stitching/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
 
 <h3 id='h'>H</h3>
@@ -98,7 +97,8 @@ Z
 <li>[normalization_with_simplify_selection]({{%relref "/tutorial/notebooks/normalization_with_simplify_selection/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> <i class='fa fa-bell'></i></li>
 
 <h3 id='o'>O</h3>
-<li>[overlay_images]({{%relref "/tutorial/notebooks/overlay_images/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> <i class='fa fa-bell'></i></li>
+<li>[outliers_filtering_tool]({{%relref "/tutorial/notebooks/outliers_filtering_tool/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> <i class='fa fa-bell'></i> </li>
+<li>[overlay_images]({{%relref "/tutorial/notebooks/overlay_images/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
 
 <h3 id='p'>P</h3>
 <li>[panoramic_stitching]({{%relref "/tutorial/notebooks/panoramic_stitching/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>

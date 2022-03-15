@@ -82,6 +82,10 @@
   </url>
   
   <url>
+    <loc>/tutorial/how_to_use_pymbir_ui/</loc>
+  </url>
+  
+  <url>
     <loc>/tutorial/how_to_other/</loc>
   </url>
   
@@ -230,10 +234,6 @@
   </url>
   
   <url>
-    <loc>/tutorial/notebooks/gamma_filtering_tool/</loc>
-  </url>
-  
-  <url>
     <loc>/github/</loc>
   </url>
   
@@ -291,6 +291,10 @@
   
   <url>
     <loc>/tutorial/notebooks/normalization_with_simplify_selection/</loc>
+  </url>
+  
+  <url>
+    <loc>/tutorial/notebooks/outliers_filtering_tool/</loc>
   </url>
   
   <url>

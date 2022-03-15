@@ -279,6 +279,20 @@ The reconstruction is launched in the background and you can check if any new fi
 
 #### Output 
 
+This tab displays either the selected reconstructed image (using the slider) or the latest reconstructed slice if the
+**always display the last reconstructed slice** switch is checked. 
+
 <h1 id="advanced_settings"></h1>
 
 ### Advanced Settings
+
+You can access the **advanced settings** window via the file menu  **Help > Advanced Settings ...** or by using the shortcut 
+ **COMMAND** + **A**.
+
+Access to the advanced settings is password protected in order to only access to super user because some changes
+in those options can affect the output results. Please contact Venkat if you think you need to get access to it. 
+
+<img src='/tutorial/how_to_use_pyMBIR_UI/images/password_of_advanced_settings.png' />
+
+<img src='/tutorial/how_to_use_pyMBIR_UI/images/advanced_settings_window.png' />
+
