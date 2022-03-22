@@ -76,6 +76,21 @@ right of the GUI and move/resize the ROI using the mouse, or the table values.
 
 <img src='/tutorial/notebooks/normalization/images/roi_selection_2.gif' />
 
+### Settings
+
+This is where you specify if you want to combine the OBs, and how they will be combined.
+
+Depending on the number of sample and OB you loaded, the widgets will adapt. 
+
+ * if the number of samples and OBs do not match, the OBs will be automatically combined using the algorithm you select
+ here, **mean** or **median**. 
+ * if the number of samples and OBs match, you have the option to use 1 OB for each sample (match will be done via
+ alphabetical order), or to combine all the OBs. Again, you can select **mean** or **median**.
+
+A table, the last tab of the accordion widget, will summarize how the OBs will be combined in the next cell.
+
+<img src='/tutorial/notebooks/normalization/images/settings.gif' />
+
 ### Normalization
 
 This cell runs the normalization and let you know the progress of the calculation via a progress bar.
