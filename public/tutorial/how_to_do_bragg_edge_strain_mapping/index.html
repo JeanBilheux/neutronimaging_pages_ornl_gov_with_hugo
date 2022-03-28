@@ -9,7 +9,7 @@
 
     <link rel="icon" href="/images/favicon.png" type="image/png">
 
-    <title>Tutorials :: Documentation for Hugo Learn Theme</title>
+    <title>Bragg Edge Strain Mapping :: Documentation for Hugo Learn Theme</title>
 
     
     <link href="/css/nucleus.css?1648469183" rel="stylesheet">
@@ -36,7 +36,7 @@
     
 
   </head>
-  <body class="" data-url="/tutorial/">
+  <body class="" data-url="/tutorial/how_to_do_bragg_edge_strain_mapping/">
     <nav id="sidebar" class="showVisitedLinks">
 
 
@@ -298,7 +298,7 @@
     
     <li data-nav-id="/tutorial/" title="Tutorials" class="dd-item 
         parent
-        active
+        
         
         ">
       <a href="/tutorial/">
@@ -482,8 +482,8 @@
   
     
     <li data-nav-id="/tutorial/how_to_do_bragg_edge_strain_mapping/" title="Bragg Edge Strain Mapping" class="dd-item 
-        
-        
+        parent
+        active
         
         ">
       <a href="/tutorial/how_to_do_bragg_edge_strain_mapping/">
@@ -2380,6 +2380,8 @@
                         </a>
                     </span>
                   
+                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
+                  
                   <span class="links">
                  
                  
@@ -2390,7 +2392,13 @@
             
           
           
-            <a href='/'>Neutron Imaging</a> > Tutorials
+            
+            
+          
+          
+            <a href='/'>Neutron Imaging</a> > <a href='/tutorial/'>Tutorials</a> > Bragg Edge Strain Mapping
+          
+         
           
          
           
@@ -2399,6 +2407,54 @@
                   </span>
                 </div>
                 
+                    <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#how-to-install-ibeatles">How to Install iBeatles</a>
+<ul>
+<li>
+<ul>
+<li><a href="#install-conda">Install Conda</a></li>
+<li><a href="#create-and-activate-conda-environment">Create and Activate Conda environment</a></li>
+<li><a href="#installation-of-ibeatles-via-conda">Installation of iBeatles via conda</a></li>
+<li><a href="#installation-of-dependencies">Installation of dependencies</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#how-to-launch-ibeatles">How to Launch iBeatles</a></li>
+<li><a href="#input-requirements">Input Requirements</a>
+<ul>
+<li><a href="#files">Files</a></li>
+</ul></li>
+<li><a href="#overview-of-the-application">Overview of the Application</a>
+<ul>
+<li><a href="#steps">Steps</a></li>
+<li><a href="#working-with-sessions">Working with Sessions</a></li>
+<li><a href="#log-book">Log Book</a></li>
+</ul></li>
+<li><a href="#step-by-step-tutorial">Step by Step Tutorial</a>
+<ul>
+<li><a href="#load-the-data">Load the Data</a></li>
+<li><a href="#normalized-the-data">Normalized the Data</a></li>
+<li><a href="#load-normalized-data">Load Normalized Data</a></li>
+<li><a href="#rotate">Rotate</a></li>
+<li><a href="#select-bins">Select Bins</a></li>
+<li><a href="#bragg-edge-fitting">Bragg Edge Fitting</a>
+<ul>
+<li><a href="#march-dollase-algorithm">March-Dollase Algorithm</a></li>
+<li><a href="#kropff-algorithm">Kropff Algorithm</a></li>
+</ul></li>
+<li><a href="#strain-mapping">Strain Mapping</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+    </div>
+</div>
+
+                
               </div>
             </div>
             
@@ -2406,9 +2462,12 @@
         
         </div>
         
-          <div id="chapter">
-        
         <div id="body-inner">
+          
+            <h1>
+              
+              Bragg Edge Strain Mapping
+            </h1>
           
 
         
@@ -2416,16 +2475,126 @@
 
 
 
-	<p>You will find here various step by step tutorial showing you:</p>
+	
+
+<p>The following tutorial will guide, step by step, in a full Bragg Edge Strain Mapping using the in-house program
+called <strong>iBeatles</strong> (Imaging Bragg Edge Analysis Tools for Engineering Structure).</p>
+
+<p><img src='/tutorial/how_to_do_bragg_edge_strain_mapping/images/a_ibeatles.png' /></p>
+
+<h2 id="how-to-install-ibeatles">How to Install iBeatles</h2>
+
+
+<div class="notices info" ><p>iBeatles has been developed on a Mac and is then, for now, optimized for Mac OS, but should also work on Linux and
+Windows OS. The easy-installation process is right now only working on Mac. Linux and Windows users will require
+to install the library iBeatles from source (repository) and installed the various dependencies libraries themselves.
+Please contact <a href="/credits#jean_bilheux">Jean Bilheux</a> if you need help.</p>
+</div>
+
+
+<h4 id="install-conda">Install Conda</h4>
+
+<p>iBeatles is available as conda package for Mac only right now (testing phase). In order to install iBeatles, you
+need to have <a href="https://docs.conda.io/projects/conda/en/latest/user-guide/install/macos.html"><strong>conda</strong></a>
+installed on your mac. You can either download and installed the full version, Anaconda, or
+the light version, miniconda.</p>
+
+<h4 id="create-and-activate-conda-environment">Create and Activate Conda environment</h4>
+
+<p>We need to create a conda environment in order to not interfere with any python version you have running on your machine.
+Open a <strong>terminal</strong> and type the command</p>
+
+<pre><code class="language-linux">conda create -n testing_ibeatles_38 python=3.8
+</code></pre>
+
+<p>We now need to activate this environment</p>
+
+<pre><code class="language-linux">conda activate testing_ibeatles_38
+</code></pre>
+
+<h4 id="installation-of-ibeatles-via-conda">Installation of iBeatles via conda</h4>
+
+<p>Because <a href="https://anaconda.org/neutronimaging/ibeatles">iBeatles is available as conda package</a>, its installation is
+very easy, just type</p>
+
+<pre><code class="language-commandline">conda install -c neutronimaging ibeatles
+</code></pre>
+
+<h4 id="installation-of-dependencies">Installation of dependencies</h4>
+
+<p>iBeatles uses the following packages currently not available as conda packages, so you need to install them manually
+via pip</p>
+
+<pre><code class="language-commandline">pip install neutronbraggedge changepy NeuNorm
+</code></pre>
+
+<h2 id="how-to-launch-ibeatles">How to Launch iBeatles</h2>
+
+<pre><code class="language-commandline">python -m ibeatles
+</code></pre>
+
+<hr>
+
+<h2 id="input-requirements">Input Requirements</h2>
+
+<h3 id="files">Files</h3>
+
+<p>The current version of the application will required the following input files to work</p>
 
 <ul>
-<li>how to access your data</li>
-<li>how to use our analysis computer</li>
-<li>how to run the analysis software</li>
-<li>etc.</li>
+<li>set of images (tiff or fits). If not already normalized, you will need to provide the <strong>open beam (OB)</strong> files as
+well.</li>
+<li>a 2 columns <strong>time spectra</strong> ascii file. First column being the time offset of the corresponding image index. The
+second column is ignored.</li>
 </ul>
 
-<p><img src='/images/tutorial/how_to.png' /></p>
+<p>### Settings</p>
+
+<ul>
+<li>detector offset</li>
+<li>distance sample to source</li>
+</ul>
+
+<p>Those will be used to convert the time offset into lambda.</p>
+
+<hr>
+
+<h2 id="overview-of-the-application">Overview of the Application</h2>
+
+<h3 id="steps">Steps</h3>
+
+<h3 id="working-with-sessions">Working with Sessions</h3>
+
+<h3 id="log-book">Log Book</h3>
+
+<hr>
+
+<h2 id="step-by-step-tutorial">Step by Step Tutorial</h2>
+
+<p>This tutorial is going to take you the various steps required to perform a full strain mapping analysis.</p>
+
+<ul>
+<li>working with raw data</li>
+<li>working with normalized data</li>
+</ul>
+
+<h3 id="load-the-data">Load the Data</h3>
+
+<h3 id="normalized-the-data">Normalized the Data</h3>
+
+<h3 id="load-normalized-data">Load Normalized Data</h3>
+
+<h3 id="rotate">Rotate</h3>
+
+<h3 id="select-bins">Select Bins</h3>
+
+<h3 id="bragg-edge-fitting">Bragg Edge Fitting</h3>
+
+<h4 id="march-dollase-algorithm">March-Dollase Algorithm</h4>
+
+<h4 id="kropff-algorithm">Kropff Algorithm</h4>
+
+<h3 id="strain-mapping">Strain Mapping</h3>
 
 
 
@@ -2435,8 +2604,6 @@
 	
 </footer>
 
-        
-            </div> 
         
         </div>
         
@@ -2716,6 +2883,7 @@
             
                 
                     
+                    
                 
                 
 
@@ -2731,6 +2899,9 @@
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -3845,10 +4016,10 @@
 	 
 	 
 		
-			<a class="nav nav-prev" href="/links/" title="Links"> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="/tutorial/how_to_do_bragg_edge_modeling/" title="Bragg Edge Modeling"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="/tutorial/how_to_access_data/" title="Access your data" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="/tutorial/how_to_run_mcp_detector_correction/" title="MCP Det. Corr." style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>

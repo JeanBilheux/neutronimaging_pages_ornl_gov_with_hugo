@@ -1,7 +1,7 @@
 ---
 title: Bragg Edge Modeling
 weight: 600
-pre: "<b>5.6 </b>"
+pre: "<b>5.6.1 </b>"
 ---
 
 The following tutorial will guide, step by step, in a full Bragg Edge Modeling
