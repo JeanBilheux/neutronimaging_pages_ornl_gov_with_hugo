@@ -69,6 +69,15 @@ or if you decide to rename them
 Need help using the [IPTS selector]({{%relref "/tutorial/notebooks/select_ipts/_index.md#activate-search" %}})?
 {{% /notice %}}
 
+### How to sort the data
+
+You have here the option to select how you want to sort the data:
+ 
+ * **name** 
+ * **time stamp** 
+ 
+<img src='/tutorial/notebooks/extract_evenly_spaced_files/images/how_to_sort_the_data.png' />
+
 ### Select the folder containing the images to extract
 
 Using the [file selection tool]({{%relref "/tutorial/notebooks/file_selector/_index.md#activate-search" %}}), select 
