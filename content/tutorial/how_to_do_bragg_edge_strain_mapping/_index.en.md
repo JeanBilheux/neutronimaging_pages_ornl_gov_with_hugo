@@ -9,6 +9,15 @@ called **iBeatles** (Imaging Bragg Edge Analysis Tools for Engineering Structure
 
 <img src='/tutorial/how_to_do_bragg_edge_strain_mapping/images/a_ibeatles.png' />
 
+{{% notice warning %}}
+## for the beta tester
+
+If you found any issue or would like to request a new feature, please edit the following [ticket #108](https://github.com/ornlneutronimaging/iBeatles/issues/108) in the iBeatles
+repository
+<img src='/tutorial/how_to_do_bragg_edge_strain_mapping/images/ticket_108.png' />
+
+{{% /notice %}}
+
 ## How to Install iBeatles
 
 {{% notice info %}}
