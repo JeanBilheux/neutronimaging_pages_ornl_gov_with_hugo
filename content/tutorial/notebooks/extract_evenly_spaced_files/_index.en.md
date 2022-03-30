@@ -126,7 +126,8 @@ interface** that will allow you to replace the selected image with any neighbor 
  
 ### Rename or not Files
 
-This is where you have the option to rename of not the output files.
+This is where you have the option to rename of not the output files. If you do choose to rename the images, you have
+the option to add a prefix to the new file name.
 
 <img src='/tutorial/notebooks/extract_evenly_spaced_files/images/rename_files.gif' />
 
