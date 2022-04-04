@@ -33,4 +33,5 @@ web site, and always **welcome your comments** to improve it (contact
 {{% /notice %}}
 
 <hr>
-<p align="center">Last updated: March 24th, 2022</p>
+<p align="center">Last updated: April 4th, 2022</p>
+<p align="center">latest updated pages: [Normalization with simplify selection]({{%relref "/tutorial/notebooks/normalization_with_simplify_selection/_index.md#activate-search" %}})

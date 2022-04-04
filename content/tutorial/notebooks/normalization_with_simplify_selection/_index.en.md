@@ -36,7 +36,7 @@ Check the full tutorial [here]({{%relref "/tutorial/notebooks/select_ipts/_index
 
 ### Selecting the Sample Images
 
-<img src='/tutorial/notebooks/normalization_with_simplify_selection/images/sample_ob_df_list_files.png' />
+<img src='/tutorial/notebooks/normalization_with_simplify_selection/images/selection_of_data.gif' />
 
 Simply navigate to the folder containing all the data your want to normalize. The program will then list the
 files with the most dominant extension, for example, if you have a folder with 10 tiff images and 2 fits, only the 10
@@ -67,6 +67,21 @@ to narrow down that selection by manually selecting them (see next animation).
  (see the next animation)
 
 <img src='/tutorial/notebooks/normalization_with_simplify_selection/images/custom_time_range.gif' />
+
+ * According to the number of sample and open beams loaded, you may have the option to combine the open beams or not,
+ and to provide the algorithm to use to combine them.
+ 
+ *Here are the possible scenario:*
+  
+ * there is as many **sample** and **ob** data. You can either **combine** the **OBs** or not. If you choose not
+    to combine them, each sample will use 1 OB.
+ 
+ * the number of **sample** and **ob** is different, you don't have the choice to combine or not, but you can select 
+    how the **OBs** will be combine, either **median** and **mean**.
+
+ A table below the **DF** list will summarize the state of that normalization. 
+ 
+<img src='/tutorial/notebooks/normalization_with_simplify_selection/images/how_to_combine.png' />
 
 ### Normalization workflow
 

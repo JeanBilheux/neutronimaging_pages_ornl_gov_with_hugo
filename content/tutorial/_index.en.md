@@ -13,7 +13,3 @@ You will find here various step by step tutorial showing you:
   * etc.
 
 <img src='/images/tutorial/how_to.png' />
-
-
-
-
