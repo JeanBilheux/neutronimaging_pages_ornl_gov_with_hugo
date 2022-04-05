@@ -79,9 +79,24 @@ to narrow down that selection by manually selecting them (see next animation).
  * the number of **sample** and **ob** is different, you don't have the choice to combine or not, but you can select 
     how the **OBs** will be combine, either **median** and **mean**.
 
- A table below the **DF** list will summarize the state of that normalization. 
+ A table at the bottom of the cell will summarize the state of that normalization. 
  
 <img src='/tutorial/notebooks/normalization_with_simplify_selection/images/how_to_combine.png' />
+
+### ROI selection
+
+In order to improve the normalization, you have the option to select a region of interest (ROI). This ROI must be
+a region of background only in your sample image. The algorithm will then use the difference of intensity in the
+background of the sample and the same region in the open beam to get a coefficient that will be apply to the normalization.  
+
+To do so, click the **Selection of region of interest (ROI) - OPTIONAL** button. Use the user interface that just
+popped up to make your selection, or just close it if you changed your mind. 
+
+{{% notice info %}}
+If you need help using the ROI selection tool, [check this tutorial]({{%relref "/tutorial/notebooks/roi_selection_tool/_index.md#activate-search" %}})
+{{% /notice %}}
+
+<img src='/tutorial/notebooks/normalization_with_simplify_selection/images/roi_selection.gif' />
 
 ### Normalization workflow
 

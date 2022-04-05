@@ -12,20 +12,20 @@
     <title>Normalization with Simplify Selection :: Documentation for Hugo Learn Theme</title>
 
     
-    <link href="/css/nucleus.css?1649085134" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1649085134" rel="stylesheet">
-    <link href="/css/hybrid.css?1649085134" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1649085134" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1649085134" rel="stylesheet">
-    <link href="/css/auto-complete.css?1649085134" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1649085134" rel="stylesheet">
-    <link href="/css/theme.css?1649085134" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1649085134" rel="stylesheet">
+    <link href="/css/nucleus.css?1649191112" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1649191112" rel="stylesheet">
+    <link href="/css/hybrid.css?1649191112" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1649191112" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1649191112" rel="stylesheet">
+    <link href="/css/auto-complete.css?1649191112" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1649191112" rel="stylesheet">
+    <link href="/css/theme.css?1649191112" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1649191112" rel="stylesheet">
     
-      <link href="/css/theme-blue.css?1649085134" rel="stylesheet">
+      <link href="/css/theme-blue.css?1649191112" rel="stylesheet">
     
 
-    <script src="/js/jquery-3.3.1.min.js?1649085134"></script>
+    <script src="/js/jquery-3.3.1.min.js?1649191112"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -61,14 +61,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1649085134"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1649085134"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1649191112"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1649191112"></script>
 <script type="text/javascript">
     
         var baseurl = "";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1649085134"></script>
+<script type="text/javascript" src="/js/search.js?1649191112"></script>
 
     
   </div>
@@ -2425,6 +2425,7 @@
 <ul>
 <li><a href="#select-your-ipts">Select your IPTS</a></li>
 <li><a href="#selecting-the-sample-images">Selecting the Sample Images</a></li>
+<li><a href="#roi-selection">ROI selection</a></li>
 <li><a href="#normalization-workflow">Normalization workflow</a></li>
 <li><a href="#select-output-folder">Select Output Folder</a></li>
 </ul></li>
@@ -2547,9 +2548,25 @@ to combine them, each sample will use 1 OB.</p></li>
 how the <strong>OBs</strong> will be combine, either <strong>median</strong> and <strong>mean</strong>.</p></li>
 </ul>
 
-<p>A table below the <strong>DF</strong> list will summarize the state of that normalization.</p>
+<p>A table at the bottom of the cell will summarize the state of that normalization.</p>
 
 <p><img src='/tutorial/notebooks/normalization_with_simplify_selection/images/how_to_combine.png' /></p>
+
+<h3 id="roi-selection">ROI selection</h3>
+
+<p>In order to improve the normalization, you have the option to select a region of interest (ROI). This ROI must be
+a region of background only in your sample image. The algorithm will then use the difference of intensity in the
+background of the sample and the same region in the open beam to get a coefficient that will be apply to the normalization.</p>
+
+<p>To do so, click the <strong>Selection of region of interest (ROI) - OPTIONAL</strong> button. Use the user interface that just
+popped up to make your selection, or just close it if you changed your mind.</p>
+
+
+<div class="notices info" ><p>If you need help using the ROI selection tool, <a href="/tutorial/notebooks/roi_selection_tool/#activate-search">check this tutorial</a></p>
+</div>
+
+
+<p><img src='/tutorial/notebooks/normalization_with_simplify_selection/images/roi_selection.gif' /></p>
 
 <h3 id="normalization-workflow">Normalization workflow</h3>
 
@@ -4010,19 +4027,19 @@ to learn how to use the folder selector tool.
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1649085134"></script>
-    <script src="/js/perfect-scrollbar.min.js?1649085134"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1649085134"></script>
-    <script src="/js/jquery.sticky.js?1649085134"></script>
-    <script src="/js/featherlight.min.js?1649085134"></script>
-    <script src="/js/highlight.pack.js?1649085134"></script>
+    <script src="/js/clipboard.min.js?1649191112"></script>
+    <script src="/js/perfect-scrollbar.min.js?1649191112"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1649191112"></script>
+    <script src="/js/jquery.sticky.js?1649191112"></script>
+    <script src="/js/featherlight.min.js?1649191112"></script>
+    <script src="/js/highlight.pack.js?1649191112"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1649085134"></script>
-    <script src="/js/learn.js?1649085134"></script>
-    <script src="/js/hugo-learn.js?1649085134"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1649191112"></script>
+    <script src="/js/learn.js?1649191112"></script>
+    <script src="/js/hugo-learn.js?1649191112"></script>
 
-    <link href="/mermaid/mermaid.css?1649085134" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1649085134"></script>
+    <link href="/mermaid/mermaid.css?1649191112" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1649191112"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
