@@ -103,3 +103,8 @@ through the filtering process. Statistics about the pixels cleaned is then displ
 
 Click the **Correct All Images...** button (bottom right) to correct all the data and create a new folder based on the
 **input folder name + _outlisers_corrected**. 
+
+{{% notice info %}}
+If the output folder already exists, the current date and time will be prefixed to the folder name to make sure
+the previous folder is not replaced!
+{{% /notice %}}

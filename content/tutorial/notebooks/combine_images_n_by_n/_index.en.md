@@ -155,4 +155,8 @@ notebook
 
 <img src='/tutorial/notebooks/combine_images_n_by_n/images/output_in_tof_mode.png' />
 
+{{% notice info %}}
+If the output folder already exists, the current date and time will be prefixed to the folder name to make sure
+the previous folder is not replaced!
+{{% /notice %}}
 

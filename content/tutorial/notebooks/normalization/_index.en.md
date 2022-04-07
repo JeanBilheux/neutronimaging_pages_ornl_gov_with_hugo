@@ -104,4 +104,8 @@ a folder name after the input data folder is created and will contain all the no
 
 <img src='/tutorial/notebooks/normalization/images/export.png' />
 
+{{% notice info %}}
+If the output folder already exists, the current date and time will be prefixed to the folder name to make sure
+the previous folder is not replaced!
+{{% /notice %}}
 

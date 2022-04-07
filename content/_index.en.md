@@ -33,5 +33,12 @@ web site, and always **welcome your comments** to improve it (contact
 {{% /notice %}}
 
 <hr>
-<p align="center">Last updated: April 5th, 2022</p>
-<p align="center">latest updated pages: [Normalization with simplify selection]({{%relref "/tutorial/notebooks/normalization_with_simplify_selection/_index.md#activate-search" %}})
+<b>latest updated pages:</b> 
+
+* [combine_images_n_by_n]({{%relref "/tutorial/notebooks/combine_images_n_by_n/_index.md" %}})
+* [Normalization]({{%relref "/tutorial/notebooks/normalization/_index.md" %}})
+* [Normalization with simplify selection]({{%relref "/tutorial/notebooks/normalization_with_simplify_selection/_index.md" %}})
+* [outliers_filtering_tool]({{%relref "/tutorial/notebooks/outliers_filtering_tool/_index.md" %}})
+
+<hr>
+<p align="center">Last updated: April 7th, 2022</p>

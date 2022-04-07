@@ -118,3 +118,8 @@ to learn how to use the folder selector tool.
 {{% /notice %}}
 
 <img src='/tutorial/notebooks/normalization_with_simplify_selection/images/output_message.png' />
+
+{{% notice info %}}
+If the output folder already exists, the current date and time will be prefixed to the folder name to make sure
+the previous folder is not replaced!
+{{% /notice %}}

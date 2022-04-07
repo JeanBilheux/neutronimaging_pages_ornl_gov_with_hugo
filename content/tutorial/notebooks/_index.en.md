@@ -36,11 +36,11 @@ Z
 
 <h3 id='b'>B</h3>
 <li>[bin_images]({{%relref "/tutorial/notebooks/bin_images/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
-<li>[bragg_edge_peak_fitting_evaluation]({{%relref "/tutorial/notebooks/bragg_edge_peak_fitting_evaluation/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> <i class='fa fa-bell'></i> </li>
+<li>[bragg_edge_peak_fitting_evaluation]({{%relref "/tutorial/notebooks/bragg_edge_peak_fitting_evaluation/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
 <li>[bragg_edge_raw_sample_and_powder]({{%relref "/tutorial/notebooks/bragg_edge_raw_sample_and_powder/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i></li>
 <li>[bragg_edge_normalization]({{%relref "/tutorial/notebooks/bragg_edge_normalization/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
 <li>[bragg_edge_profile]({{%relref "/tutorial/notebooks/bragg_edge_profile/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
-<li>[bragg_edge_normalized_sample_and_powder]({{%relref "/tutorial/notebooks/bragg_edge_normalized_sample_and_powder/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> <i class='fa fa-bell'></i></li>
+<li>[bragg_edge_normalized_sample_and_powder]({{%relref "/tutorial/notebooks/bragg_edge_normalized_sample_and_powder/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
 
 <h3 id='c'>C</h3>
 <li>[calibrated_transmission]({{%relref "/tutorial/notebooks/calibrated_transmission/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i></li>
@@ -62,7 +62,7 @@ Z
 <li>[dual_energy]({{%relref "/tutorial/notebooks/dual_energy/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
 
 <h3 id='e'>E</h3>
-<li>[extract_evenly_spaced_files]({{%relref "/tutorial/notebooks/extract_evenly_spaced_files/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i>  <i class='fa fa-bell'></i></li>
+<li>[extract_evenly_spaced_files]({{%relref "/tutorial/notebooks/extract_evenly_spaced_files/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
 <li>[extract_nexus_daslogs]({{%relref "/tutorial/notebooks/extract_nexus_daslogs/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
 
 <h3 id='f'>F</h3>
@@ -90,14 +90,14 @@ Z
 <h3 id='m'>M</h3>
 <li>[mcp_chips_corrector]({{%relref "/tutorial/notebooks/mcp_chips_corrector/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
 <li>[metadata_ascii_parser]({{%relref "/tutorial/notebooks/metadata_ascii_parser/_index.md#activate-search" %}}) <i class='fa fa-battery-full'> </i> </li>
-<li>[metadata_overlapping_images]({{%relref "/tutorial/notebooks/metadata_overlapping_images/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> <i class='fa fa-bell'></i> </li>
+<li>[metadata_overlapping_images]({{%relref "/tutorial/notebooks/metadata_overlapping_images/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i>  </li>
 
 <h3 id='n'>N</h3>
 <li>[normalization]({{%relref "/tutorial/notebooks/normalization/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
-<li>[normalization_with_simplify_selection]({{%relref "/tutorial/notebooks/normalization_with_simplify_selection/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> <i class='fa fa-bell'></i></li>
+<li>[normalization_with_simplify_selection]({{%relref "/tutorial/notebooks/normalization_with_simplify_selection/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
 
 <h3 id='o'>O</h3>
-<li>[outliers_filtering_tool]({{%relref "/tutorial/notebooks/outliers_filtering_tool/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> <i class='fa fa-bell'></i> </li>
+<li>[outliers_filtering_tool]({{%relref "/tutorial/notebooks/outliers_filtering_tool/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
 <li>[overlay_images]({{%relref "/tutorial/notebooks/overlay_images/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
 
 <h3 id='p'>P</h3>
@@ -111,7 +111,7 @@ Z
 <li>[rename_files]({{%relref "/tutorial/notebooks/rename_files/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i></li>
 <li>[resonance_imaging_experiment_vs_theory]({{%relref "/tutorial/notebooks/resonance_imaging_experiment_vs_theory/_index.md#activate-search" %}}) <i class='fa fa-battery-empty'></i></li>
 <li>[roi_selection_tool]({{%relref "/tutorial/notebooks/roi_selection_tool/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
-<li>[roi_statistics_vs_stack]({{%relref "/tutorial/notebooks/roi_statistics_vs_stack/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> <i class='fa fa-bell'></i></li>
+<li>[roi_statistics_vs_stack]({{%relref "/tutorial/notebooks/roi_statistics_vs_stack/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
 <li>[rotate_and_crop_images]({{%relref "/tutorial/notebooks/rotate_and_crop_images/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
 
 <h3 id='s'>S</h3>
@@ -128,14 +128,12 @@ Z
 ## Tools
 
 <li>[File Selector]({{%relref "/tutorial/notebooks/file_selector/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i></li>
-<li>[Select IPTS]({{%relref "/tutorial/notebooks/select_ipts/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> <i class='fa fa-bell'></i></li>
+<li>[Select IPTS]({{%relref "/tutorial/notebooks/select_ipts/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
 
 ## Extra
 
 <li>[extract_sans_reductionlog_metadata]({{%relref "/tutorial/notebooks/extract_sans_reductionlog_metadata/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
 
 <hr>
-
-<i class='fa fa-bell'></i> Recently updated
 
 <i class='fa fa-battery-empty'></i> <i class='fa fa-battery-half'></i>   <i class='fa fa-battery-full'></i> Levels of documentation
