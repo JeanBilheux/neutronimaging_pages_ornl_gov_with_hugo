@@ -9,7 +9,7 @@
 
     <link rel="icon" href="/images/favicon.png" type="image/png">
 
-    <title>Normalization :: Documentation for Hugo Learn Theme</title>
+    <title>Table of contents :: Documentation for Hugo Learn Theme</title>
 
     
     <link href="/css/nucleus.css?1649428875" rel="stylesheet">
@@ -36,7 +36,7 @@
     
 
   </head>
-  <body class="" data-url="/tutorial/notebooks/normalization/">
+  <body class="" data-url="/tutorial/notebooks/table_of_contents/">
     <nav id="sidebar" class="showVisitedLinks">
 
 
@@ -1811,8 +1811,8 @@
   
     
     <li data-nav-id="/tutorial/notebooks/normalization/" title="Normalization" class="dd-item 
-        parent
-        active
+        
+        
         
         ">
       <a href="/tutorial/notebooks/normalization/">
@@ -2201,8 +2201,8 @@
   
     
     <li data-nav-id="/tutorial/notebooks/table_of_contents/" title="Table of contents" class="dd-item 
-        
-        
+        parent
+        active
         
         ">
       <a href="/tutorial/notebooks/table_of_contents/">
@@ -2400,7 +2400,7 @@
             
           
           
-            <a href='/'>Neutron Imaging</a> > <a href='/tutorial/'>Tutorials</a> > <a href='/tutorial/notebooks/'>Notebooks Tutorials</a> > Normalization
+            <a href='/'>Neutron Imaging</a> > <a href='/tutorial/'>Tutorials</a> > <a href='/tutorial/notebooks/'>Notebooks Tutorials</a> > Table of contents
           
          
           
@@ -2420,15 +2420,12 @@
 <li>
 <ul>
 <li><a href="#description">Description</a></li>
-<li><a href="#start-the-notebook">Start the notebook</a></li>
-<li><a href="#how-to-use-it">How to Use It?</a>
+<li><a href="#super-user">Super User</a>
 <ul>
-<li><a href="#select-your-ipts">Select your IPTS</a></li>
-<li><a href="#loading-the-images">loading the Images</a></li>
-<li><a href="#select-background-region">Select Background Region</a></li>
-<li><a href="#settings">Settings</a></li>
-<li><a href="#normalization">Normalization</a></li>
-<li><a href="#export">Export</a></li>
+<li><a href="#debugging-mode">Debugging mode</a></li>
+<li><a href="#list-of-folders">List of folders</a></li>
+<li><a href="#percentage-of-images-to-use">Percentage of images to use</a></li>
+<li><a href="#save-changes">Save changes</a></li>
 </ul></li>
 </ul></li>
 </ul>
@@ -2448,7 +2445,7 @@
           
             <h1>
               
-              Normalization
+              Table of contents
             </h1>
           
 
@@ -2459,116 +2456,54 @@
 
 	
 
-<p><strong>Notebook name</strong>: normalization.ipynb</p>
+<p><strong>Notebook name</strong>: A_TABLE_OF_CONTENTS.ipynb</p>
 
 <h2 id="description">Description</h2>
 
-<p>This notebook normalized the imaging data (tiff or fits) by removing the background and fixing the fluctuations of the
-neutron beam. You will need:</p>
+<p><strong>Top part</strong> of the notebook gives a quick way to access the notebooks.</p>
+
+<p><strong>Bottom part</strong> allows <strong>super users</strong> (who knows the secret access code) to edit the configuration file and changed</p>
 
 <ul>
-<li>select your images</li>
-<li>select your open beam (OB)</li>
-<li>optional - select the dark field (DF)</li>
-<li>optional - select one or more background region in your sample images</li>
-<li>run the normalization</li>
-<li>select output folder where the normalized images will be saved</li>
+<li>turn on and off <strong>debugging</strong> mode</li>
+<li>list folders to look for when working in debugging mode</li>
+<li>defined the percentage of images to use when using <a href="/tutorial/notebooks/roi_selection_tool/#activate-search">ROI selection tool</a></li>
 </ul>
 
-<h2 id="start-the-notebook">Start the notebook</h2>
+<h2 id="super-user">Super User</h2>
 
-<p>If you need help accessing this notebook, check the <a href="/tutorial/how_to_start_notebooks">How To &gt; Start the python
-notebooks</a> tutorial.</p>
+<p>Enter the <strong>secret code</strong> to enable all the widgets. To get this code, please contact <a href="/credits#jean_bilheux">Jean Bilheux</a>.</p>
 
-<h2 id="how-to-use-it">How to Use It?</h2>
+<h3 id="debugging-mode">Debugging mode</h3>
 
-<h3 id="select-your-ipts">Select your IPTS</h3>
+<p>Once activated, the notebooks won&rsquo;t start looking at the usual file structure found on our analysis machine (/HFIR/CG1D, /SNS/SNAP, /SNS/VENUS),
+but instead at the list of folders provided in the following widgets. If the first folder can be found, this folder
+will be used as the default entry point of any file dialog box. Otherwise, it moves to the next one and so on.</p>
 
-<p>Check the full tutorial <a href="/tutorial/notebooks/select_ipts/#activate-search">here</a></i></p>
+<h3 id="list-of-folders">List of folders</h3>
 
-<h3 id="loading-the-images">loading the Images</h3>
+<p>It&rsquo;s possible to <strong>remove</strong> folfers from the list or to <strong>add</strong> new ones using the widgets under the selection tool.
+To add a new folder, define the folder in the <strong>New folder</strong> field and click <strong>+</strong>. The folder is added to the list
+<strong>only if the folder path exists in the current OS</strong>.</p>
 
-<p>You need to provide the list of <strong>samples</strong>, <strong>OB</strong> and <strong>DF</strong> (if needed). To do so, just <strong>SHIFT + ENTER</strong> the
-following cell to display a <em>selection tool wizard</em>.</p>
+<h3 id="percentage-of-images-to-use">Percentage of images to use</h3>
 
-<p><img src='/tutorial/notebooks/normalization/images/loading_images_1.gif' /></p>
+<p>A few notebooks, such as the <a href="/tutorial/notebooks/normalization/#activate-search">normalization</a> and
+<a href="/tutorial/notebooks/normalization_with_simplify_selection/#activate-search">normalization_with_simplify_selection</a> notebooks,
+you may need to select a region of interest of the background in the sample data set. Instead of loading
+the entire stack of images provided, the program uses <strong>a percentage</strong>, represented by this number here, of the entire stack.
+Only that percentage of images will be combined, using mean, and used as integrated image to facilitate
+the ROI selection. Those images will be chosen randomly.</p>
 
-<p>The dialogbox will start listing the files from the IPTS folder you selected in the first cell. Feel free to navigate
-to find your data set.</p>
+<h3 id="save-changes">Save changes</h3>
 
+<p>Click the <strong>Save Changes</strong> button to validate and record your changes.</p>
 
-<div class="notices info" ><p>Check the <a href="/tutorial/notebooks/select_ipts/#activate-search">file selection tool tutorial</a>
-to learn how to use the file selector tool.
-<img src='/tutorial/how_to_run_notebooks/images/file_folder_browser.png' /></p>
-</div>
-
-
-<ul>
-<li>Select your <strong>sample images</strong></li>
-<li>click <strong>Next Step&gt;&gt;</strong></li>
-<li>Select your <strong>OB images</strong></li>
-<li>click <strong>Next Step&gt;&gt;</strong></li>
-<li><strong>OPTIONAL</strong> Select your <strong>DF images</strong></li>
-<li>click <strong>Next Step&gt;&gt;</strong> to let the program load all your images.</li>
-</ul>
-
-<p><img src='/tutorial/notebooks/normalization/images/loading_images_2.gif' /></p>
-
-<h3 id="select-background-region">Select Background Region</h3>
-
-<p><strong>SHIFT + ENTER</strong> to run the cell. A new User Interface (UI) will come to life. If you can not see the UI, check
-behind the notebook window.</p>
+<p><img src='/tutorial/notebooks/table_of_contents/images/advanced_user_demo.gif' /></p>
 
 
-<div class="notices info" ><p>In order to speed up the display of the data, the notebook randomly select <strong>5%</strong> of the stack of sample image
-selected. If you want to change that coefficient, edit the <strong>config.py</strong> file found in the <em>__code</em> folder and change
-the variable value called <strong>percentage_of_images_to_use_for_roi_selection</strong>.
-<img src='/tutorial/notebooks/normalization/images/config.png' /></p>
-</div>
-
-
-<p><img src='/tutorial/notebooks/normalization/images/roi_selection_1.gif' /></p>
-
-<p>Just click <strong>OK</strong> if you do not want to select any region of interest (ROI).</p>
-
-<p>If you want to provide one, or more, ROI, click <strong>+</strong> on the
-right of the GUI and move/resize the ROI using the mouse, or the table values.</p>
-
-<p><img src='/tutorial/notebooks/normalization/images/roi_selection_2.gif' /></p>
-
-<h3 id="settings">Settings</h3>
-
-<p>This is where you specify if you want to combine the OBs, and how they will be combined.</p>
-
-<p>Depending on the number of sample and OB you loaded, the widgets will adapt.</p>
-
-<ul>
-<li>if the number of samples and OBs do not match, the OBs will be automatically combined using the algorithm you select
-here, <strong>mean</strong> or <strong>median</strong>.</li>
-<li>if the number of samples and OBs match, you have the option to use 1 OB for each sample (match will be done via
-alphabetical order), or to combine all the OBs. Again, you can select <strong>mean</strong> or <strong>median</strong>.</li>
-</ul>
-
-<p>A table, the last tab of the accordion widget, will summarize how the OBs will be combined in the next cell.</p>
-
-<p><img src='/tutorial/notebooks/normalization/images/settings.gif' /></p>
-
-<h3 id="normalization">Normalization</h3>
-
-<p>This cell runs the normalization and let you know the progress of the calculation via a progress bar.</p>
-
-<p><img src='/tutorial/notebooks/normalization/images/normalization.png' /></p>
-
-<h3 id="export">Export</h3>
-
-<p>Select where you want to output the normalized data, then run the following cell. Once the output folder selected,
-a folder name after the input data folder is created and will contain all the normalized data.</p>
-
-<p><img src='/tutorial/notebooks/normalization/images/export.png' /></p>
-
-
-<div class="notices info" ><p>If the output folder already exists, the current date and time will be prefixed to the folder name to make sure
-the previous folder is not replaced!</p>
+<div class="notices info" ><p>If you are working from the analysis machine,
+those changes will be reset next time you restart the notebooks from the shortcut menu button.</p>
 </div>
 
 
@@ -3678,26 +3613,6 @@ the previous folder is not replaced!</p>
             
                 
                     
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                        
-                        
-                    
                 
                 
 
@@ -3937,6 +3852,26 @@ the previous folder is not replaced!</p>
             
             
                 
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
                     
                 
                 
@@ -3996,10 +3931,10 @@ the previous folder is not replaced!</p>
 	 
 	 
 		
-			<a class="nav nav-prev" href="/tutorial/notebooks/metadata_overlapping_images/" title="Metadata Overlapping Images"> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="/tutorial/notebooks/select_ipts/" title="Select IPTS"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="/tutorial/notebooks/normalization_with_simplify_selection/" title="Normalization with Simplify Selection" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="/tutorial/notebooks/template_ui/" title="Template UI Builder" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>

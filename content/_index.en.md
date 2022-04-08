@@ -39,6 +39,7 @@ web site, and always **welcome your comments** to improve it (contact
 * [Normalization]({{%relref "/tutorial/notebooks/normalization/_index.md" %}})
 * [Normalization with simplify selection]({{%relref "/tutorial/notebooks/normalization_with_simplify_selection/_index.md" %}})
 * [outliers_filtering_tool]({{%relref "/tutorial/notebooks/outliers_filtering_tool/_index.md" %}})
+* [table_of_contents]({{%relref "/tutorial/notebooks/table_of_contents/_index.md" %}})
 
 <hr>
-<p align="center">Last updated: April 7th, 2022</p>
+<p align="center">Last updated: April 8th, 2022</p>

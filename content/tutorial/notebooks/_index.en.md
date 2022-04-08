@@ -118,8 +118,8 @@ Z
 <li>[sequential_combine_images_using_metadata]({{%relref "/tutorial/notebooks/sequential_combine_images_using_metadata/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i></li>
 
 <h3 id='t'>T</h3>
+<li>[table_of_contents]({{%relref "/tutorial/notebooks/table_of_contents/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
 <li>[template_ui]({{%relref "/tutorial/notebooks/template_ui/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
-<li>[topaz_config_generator]({{%relref "/tutorial/notebooks/topaz_config_generator/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i></li>
 
 <h3 id='w'>W</h3>
 <li>[water_intake_profile_calculator]({{%relref "/tutorial/notebooks/water_intake_profile_calculator/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i></li>
