@@ -93,8 +93,15 @@ files from this notebook. Default values for all the other fields are provided.
 Any cell in <html><span style="color:red">red</span></html> is an indication that this excel will not work in 
 Angel in the current state. 
 
+**Editing the table**
+
 You can manually edit all the cells, except the *rotation* column. Once the cell has been edited, click the **button**
 below the table labeled **Checking if current table can be loaded in Angel** to check the status of the excel document.
+
+Once you modified any of the widget found inside the cell, a pop up window asks you **if you want to duplicate that change
+to all the other widgets of the same column, or not**. 
+
+<img src='/tutorial/notebooks/group_images_by_cycle_for_grating_experiment/images/duplicate_changes.png' />
 
 **Right clicking inside the table**
 
@@ -107,3 +114,20 @@ You can either
  
   * browse for a file and replace the content of the current cell
   * browse for a file and replace the content of all the cells of this column 
+
+A right click inside any of the cell also allows you to **remove the current row** or to **duplicate that row to the
+bottom of the table**.
+
+**Save as ...**
+
+Click that button, placed at the bottom right of the user interface, to export that table into an excel document.
+
+{{% notice info %}}
+Some of the cells can not be modified, such as all the cells in the the **rotation** column.
+The last 3 columns, **sample_information**, **used_environment** and **osc_pixel** are not used in Angel.
+{{% /notice %}}
+
+#### Open existing excel
+
+In this case, a file dialog will ask you to select the excel file to use and will bring the same user interface. 
+Refer to the section **Create new excel** to learn how the UI works. 
