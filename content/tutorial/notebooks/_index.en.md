@@ -74,6 +74,7 @@ Z
 
 <h3 id='g'>G</h3>
 <li>[group_images_by_cycle_for_panoramic_stitching]({{%relref "/tutorial/notebooks/group_images_by_cycle_for_panoramic_stitching/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
+<li>[group_images_by_cycle_for_grating_experiment]({{%relref "/tutorial/notebooks/group_images_by_cycle_for_grating_experiment/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
 
 <h3 id='h'>H</h3>
 <li>[hfir_reactor_element_analysis]({{%relref "/tutorial/notebooks/hfir_reactor_element_analysis/_index.md#activate-search" %}}) <i class='fa fa-battery-full'></i> </li>
