@@ -32,6 +32,13 @@ the folder containing the data to process, and then select all the images to wor
 of the entire data in the folder, allows you to have *sample* and *ob* within the same folder without compromising
 the sorting. 
 
+### Select the type of data to sort
+
+Are you working with **sample** data or with **open beam (ob)** data? The choice of the data type will allow the notebook
+to define the output folder name, and to figure out the right columns to fill up in the excel document.
+
+<img src='/tutorial/notebooks/group_images_by_cycle_for_grating_experiment/images/data_type.png' />
+
 ### Select Metadata to use for sorting
 
 <img src='/tutorial/notebooks/group_images_by_cycle_for_grating_experiment/images/select_metadata.png' />
@@ -76,12 +83,7 @@ This step is optional but will surely simplify your life if you need to normaliz
 
 The first cell (%gui qt) is necessary to bring to life the user interface in the next cell.
 
-Running the second cell will give you a few options
-
- 1. did you sort the **sample** or the **ob** data?
- This is required to be able to populate the right columns in the excel document
- 
- 2. do you want to create a **new excel** document or do you want to **load a previously created excel**?
+Do you want to create a **new excel** document or do you want to **load a previously created excel**?
  
 #### Create new Excel
 

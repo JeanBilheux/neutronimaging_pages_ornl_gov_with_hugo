@@ -42,4 +42,4 @@ web site, and always **welcome your comments** to improve it (contact
 * [table_of_contents]({{%relref "/tutorial/notebooks/table_of_contents/_index.md" %}})
 
 <hr>
-<p align="center">Last updated: April 8th, 2022</p>
+<p align="center">Last updated: May 4th, 2022</p>
